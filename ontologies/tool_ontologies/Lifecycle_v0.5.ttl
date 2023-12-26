@@ -357,34 +357,24 @@
 #################################################################
 #    Data properties
 #################################################################
+:hasLabel rdf:type owl:DatatypeProperty ;
+          rdfs:range xsd:string ;
+          <http://purl.org/dc/terms/title> "hasLabel" .
 
-###  https://w3id.org/digitalconstruction/0.5/Entities#hasLabel
-<https://w3id.org/digitalconstruction/0.5/Entities#hasLabel> rdf:type owl:DatatypeProperty ;
-                                                             rdfs:range xsd:string ;
-                                                             <http://purl.org/dc/terms/title> "hasLabel" .
-
-
-###  https://w3id.org/digitalconstruction/0.5/Lifecycle#hasGlobalID
 :hasGlobalID rdf:type owl:DatatypeProperty ;
              rdfs:range xsd:string .
 
-
-###  https://w3id.org/digitalconstruction/0.5/Lifecycle#hasPropertyName
 :hasPropertyName rdf:type owl:DatatypeProperty ;
-                 rdfs:subPropertyOf <https://w3id.org/digitalconstruction/0.5/Entities#hasLabel> ;
+                 rdfs:subPropertyOf :hasLabel ;
                  rdfs:range xsd:string .
 
-
-###  https://w3id.org/digitalconstruction/0.5/Lifecycle#hasTag
 :hasTag rdf:type owl:DatatypeProperty ;
         rdfs:subPropertyOf :hasGlobalID ;
         rdfs:range xsd:string .
 
-
-###  https://w3id.org/digitalconstruction/0.5/Variables#hasValue
-<https://w3id.org/digitalconstruction/0.5/Variables#hasValue> rdf:type owl:DatatypeProperty ;
-                                                              rdfs:range rdfs:Literal ;
-                                                              rdfs:label "hasValue" .
+:hasValue rdf:type owl:DatatypeProperty ;
+          rdfs:range rdfs:Literal ;
+          rdfs:label "hasValue" .
 
 
 #################################################################

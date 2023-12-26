@@ -19,7 +19,7 @@ auto-format: ## Automatically formats the code
 
 .PHONY: test
 test:
-	poetry run pytest -vv -s $(SRC_PATH) ./tests --disable-pytest-warnings
+	poetry run pytest -vvv -s $(SRC_PATH) ./tests --disable-pytest-warnings
 
 .PHONY: check
 check: auto-format lint test ## Runs all code checks and tests
