@@ -1,21 +1,23 @@
-# pylint: disable=C0114
 import ifcopenshell
 from icecream import ic
 from rdflib import Graph, Literal, URIRef
-from rdflib.namespace import RDF
+from rdflib.namespace import RDF, XSD
 
-from ifc2rdftool.graph_resources import INSTANCE_NAMESPACE, LIFECYCLE_NAMESPACE
+from ifc2rdftool.graph_resources import (BOT_NAMESPACE, GEO_NAMESPACE,
+                                         INSTANCE_NAMESPACE,
+                                         LIFECYCLE_NAMESPACE)
 
 
-def _initialize_graph() -> Graph:
+def initialize_graph() -> Graph:
     instance_graph = Graph()
     instance_graph.bind("inst", INSTANCE_NAMESPACE)
     instance_graph.bind("dicl", LIFECYCLE_NAMESPACE)
+    instance_graph.bind("bot", BOT_NAMESPACE)
+    instance_graph.bind("geo", GEO_NAMESPACE)
     return instance_graph
 
 
-def _add_project_info_to_graph(ifc_file, graph: Graph):
-    ic(type(ifc_file))
+def add_project_info_to_graph(ifc_file, graph: Graph):
     projects = ifc_file.by_type("IfcProject")
     for project in projects:
         graph.add(
@@ -46,14 +48,75 @@ def _add_units_info_to_graph(ifc):
     ic(units[0].get_info())
 
 
-def _add_site_info_to_graph():
-    pass
+def _tuple_to_decimal_latitude_or_longitude(coordinate_tuple: tuple) -> float:
+    degrees, minutes, seconds, fractional_part = coordinate_tuple
+    decimal_coordinate = (
+        degrees
+        + (minutes / 60)
+        + (seconds / 3600)
+        + (fractional_part / (3600 * 1000000))
+    )
+    return decimal_coordinate
+
+
+def add_site_info_to_graph(ifc_file, graph: Graph):
+    sites = ifc_file.by_type("IfcSite")
+    for site in sites:
+        graph.add(
+            (
+                URIRef(f"{INSTANCE_NAMESPACE}{site.GlobalId}"),
+                RDF.type,
+                BOT_NAMESPACE.Site,
+            )
+        )
+        graph.add(
+            (
+                URIRef(f"{INSTANCE_NAMESPACE}{site.GlobalId}"),
+                LIFECYCLE_NAMESPACE.hasGlobalID,
+                Literal(f"{site.GlobalId}"),
+            )
+        )
+        graph.add(
+            (
+                URIRef(f"{INSTANCE_NAMESPACE}{site.GlobalId}"),
+                LIFECYCLE_NAMESPACE.hasLabel,
+                Literal(f"{site.Name}"),
+            )
+        )
+        graph.add(
+            (
+                URIRef(f"{INSTANCE_NAMESPACE}{site.GlobalId}"),
+                GEO_NAMESPACE.lat,
+                Literal(
+                    f"{_tuple_to_decimal_latitude_or_longitude(site.RefLatitude)}",
+                    datatype=XSD.float,
+                ),
+            )
+        )
+        graph.add(
+            (
+                URIRef(f"{INSTANCE_NAMESPACE}{site.GlobalId}"),
+                GEO_NAMESPACE.long,
+                Literal(
+                    f"{_tuple_to_decimal_latitude_or_longitude(site.RefLongitude)}",
+                    datatype=XSD.float,
+                ),
+            )
+        )
+        graph.add(
+            (
+                URIRef(f"{INSTANCE_NAMESPACE}{site.GlobalId}"),
+                GEO_NAMESPACE.alt,
+                Literal(f"{site.RefElevation}", datatype=XSD.float),
+            )
+        )
 
 
 def _create_rdf_graph_from_ifc(ifc_file):
     ifc_model = ifcopenshell.open(ifc_file)
-    rdf_model = _initialize_graph()
-    _add_project_info_to_graph(ifc_model, rdf_model)
+    rdf_model = initialize_graph()
+    add_project_info_to_graph(ifc_model, rdf_model)
+    add_site_info_to_graph(ifc_model, rdf_model)
 
 
 if __name__ == "__main__":

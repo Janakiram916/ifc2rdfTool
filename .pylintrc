@@ -1,0 +1,13 @@
+[pylint]
+
+[MASTER]
+# Specify which errors or warnings to disable
+disable=C0114,
+        C0115,
+        C0116,
+        R0903,
+        R0801,
+ignore-patterns=.*_pb2.*
+
+# Specify the maximum line length
+max-line-length=120
