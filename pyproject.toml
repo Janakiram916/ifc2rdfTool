@@ -8,6 +8,13 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = ">=3.10,<3.12"
 ifcopenshell = "^0.7.0.231218"
+pytest = "^7.4.3"
+black = "^23.12.1"
+isort = "^5.13.2"
+pylint = "^3.0.3"
+lark = "^1.1.8"
+pyshacl = "^0.25.0"
+rdflib = "^7.0.0"
 
 
 [build-system]

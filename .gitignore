@@ -1,2 +1,11 @@
 # IDE files
 .idea/
+
+# protege addons
+**/*.xml
+**/*.properties
+
+#pytest cache
+.pytest_cache/
+__pycache__/
+tests/__pycache__/
