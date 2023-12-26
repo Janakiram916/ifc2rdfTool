@@ -1,0 +1,25 @@
+
+
+/******************************************************************************************
+* ReadStepFile diagnostics.
+* Date:                           Fri Nov 06 14:19:36 2020
+* Produced by:                    The EXPRESS Data Manager Version 5.02.0100.07 : 28 Aug 2013
+* Module:                         EDMstepFileFactory/EDMstandAlone
+* Host:                           BCI14
+* Database:                       C:\Users\s8531176\AppData\Local\Temp\{FD856051-936E-4706-A09E-BF5EAECA7036}\ifc
+* Database version:               5507
+* Database creation date:         Fri Nov 06 14:19:36 2020
+* Model to populate:              DataRepository.ifcimport
+* Header model to populate:       
+* Step file name:                 Demonstration_Model_V1_2x3.ifc
+* EDMuser:                        sdai-user
+* EDMgroup:                       sdai-group
+* License ID and type:            5605 : Permanent license. Expiry date: 
+* EDMstepFileFactory options:     010201000002
+******************************************************************************************/
+
+
+------------------------------------------------------------------------------------------------
+ Operation terminated successfully.
+------------------------------------------------------------------------------------------------
+

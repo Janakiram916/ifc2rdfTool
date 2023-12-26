@@ -1,0 +1,505 @@
+@prefix : <https://w3id.org/digitalconstruction/0.5/Lifecycle#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <https://w3id.org/digitalconstruction/0.5/Lifecycle> .
+
+<https://w3id.org/digitalconstruction/0.5/Lifecycle> rdf:type owl:Ontology ;
+                                                      <http://purl.org/dc/terms/creator> "Janakiram Karlapudi (janakiram.karlapudi@tu-dresden.de)" ,
+                                                                                         "Prathap Valluru (prathap.valluru@tu-dresden.de)" ;
+                                                      <http://purl.org/dc/terms/date> "2021-05-05T12:00:00"^^xsd:dateTime ;
+                                                      <http://purl.org/dc/terms/title> "Digital Construction Lifecycle" ;
+                                                      <http://purl.org/vocab/vann/preferredNamespacePrefix> "dicl" ;
+                                                      rdfs:comment "An ontology to represent the enhancement of building data throughout the construction lifecycle stages" ;
+                                                      rdfs:seeAlso "https://digitalconstruction.github.io/v/0.5/index.html" ;
+                                                      owl:versionInfo 0.5 .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://purl.org/dc/terms/creator
+<http://purl.org/dc/terms/creator> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/date
+<http://purl.org/dc/terms/date> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/description
+<http://purl.org/dc/terms/description> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/title
+<http://purl.org/dc/terms/title> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/vocab/vann/preferredNamespacePrefix
+<http://purl.org/vocab/vann/preferredNamespacePrefix> rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  https://w3id.org/digitalconstruction/0.5/Agents#hasAgent
+<https://w3id.org/digitalconstruction/0.5/Agents#hasAgent> rdf:type owl:ObjectProperty ;
+                                                           owl:inverseOf <https://w3id.org/digitalconstruction/0.5/Agents#isAgentIn> ;
+                                                           rdfs:domain <https://w3id.org/digitalconstruction/0.5/Processes#Activity> ;
+                                                           rdfs:range <https://w3id.org/digitalconstruction/0.5/Agents#Agent> ;
+                                                           rdfs:label "hasAgent"^^xsd:string .
+
+
+###  https://w3id.org/digitalconstruction/0.5/Agents#isAgentIn
+<https://w3id.org/digitalconstruction/0.5/Agents#isAgentIn> rdf:type owl:ObjectProperty ;
+                                                            rdfs:domain <https://w3id.org/digitalconstruction/0.5/Agents#Agent> ;
+                                                            rdfs:range <https://w3id.org/digitalconstruction/0.5/Processes#Activity> ;
+                                                            rdfs:label "isAgentIn"^^xsd:string .
+
+
+###  https://w3id.org/digitalconstruction/0.5/Contexts#hasContext
+<https://w3id.org/digitalconstruction/0.5/Contexts#hasContext> rdf:type owl:ObjectProperty .
+
+
+###  https://w3id.org/digitalconstruction/0.5/Contexts#hasSubContext
+<https://w3id.org/digitalconstruction/0.5/Contexts#hasSubContext> rdf:type owl:ObjectProperty .
+
+
+###  https://w3id.org/digitalconstruction/0.5/Contexts#isContextOf
+<https://w3id.org/digitalconstruction/0.5/Contexts#isContextOf> rdf:type owl:ObjectProperty .
+
+
+###  https://w3id.org/digitalconstruction/0.5/Contexts#isSubContextOf
+<https://w3id.org/digitalconstruction/0.5/Contexts#isSubContextOf> rdf:type owl:ObjectProperty .
+
+
+###  https://w3id.org/digitalconstruction/0.5/Contexts#nextContext
+<https://w3id.org/digitalconstruction/0.5/Contexts#nextContext> rdf:type owl:ObjectProperty .
+
+
+###  https://w3id.org/digitalconstruction/0.5/Contexts#previousContext
+<https://w3id.org/digitalconstruction/0.5/Contexts#previousContext> rdf:type owl:ObjectProperty .
+
+
+###  https://w3id.org/digitalconstruction/0.5/Entities#hasRole
+<https://w3id.org/digitalconstruction/0.5/Entities#hasRole> rdf:type owl:ObjectProperty ;
+                                                            owl:inverseOf <https://w3id.org/digitalconstruction/0.5/Entities#isRoleOf> ;
+                                                            rdfs:domain <https://w3id.org/digitalconstruction/0.5/Agents#Agent> ;
+                                                            rdfs:range <https://w3id.org/digitalconstruction/0.5/Entities#Role> ;
+                                                            rdfs:label "hasRole" .
+
+
+###  https://w3id.org/digitalconstruction/0.5/Entities#isRoleOf
+<https://w3id.org/digitalconstruction/0.5/Entities#isRoleOf> rdf:type owl:ObjectProperty ;
+                                                             rdfs:domain <https://w3id.org/digitalconstruction/0.5/Entities#Role> ;
+                                                             rdfs:range <https://w3id.org/digitalconstruction/0.5/Agents#Agent> ;
+                                                             rdfs:label "isRoleOf" .
+
+
+###  https://w3id.org/digitalconstruction/0.5/Lifecycle#consumesFrom
+:consumesFrom rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf <https://w3id.org/digitalconstruction/0.5/Agents#isAgentIn> ;
+              rdfs:comment "Describes the agent who consumes the information coming from the activity" ;
+              rdfs:label "consumesFrom" .
+
+
+###  https://w3id.org/digitalconstruction/0.5/Lifecycle#hasActivity
+:hasActivity rdf:type owl:ObjectProperty ;
+             owl:inverseOf :isActivityIn ;
+             rdfs:domain :BLStage ;
+             rdfs:range <https://w3id.org/digitalconstruction/0.5/Processes#Activity> ;
+             rdfs:label "hasActivity"^^xsd:string .
+
+
+###  https://w3id.org/digitalconstruction/0.5/Lifecycle#hasLODLevel
+:hasLODLevel rdf:type owl:ObjectProperty ;
+             owl:inverseOf :isLODLevelOf ;
+             rdfs:range :LODLevel ;
+             <http://purl.org/dc/terms/description> "Describes the property values and their level of detail regarding to the specific LOD Framework" ;
+             rdfs:comment "Relationship between property state and level of detail." ;
+             rdfs:label "hasLODLevel" .
+
+
+###  https://w3id.org/digitalconstruction/0.5/Lifecycle#hasLevel
+:hasLevel rdf:type owl:ObjectProperty ;
+          rdfs:subPropertyOf <https://w3id.org/digitalconstruction/0.5/Contexts#hasContext> ;
+          owl:inverseOf :isLevelOf ;
+          rdfs:domain :LODFramework ;
+          rdfs:range :LODLevel ;
+          owl:propertyChainAxiom ( :hasLevel
+                                   :hasSubLevel
+                                 ) ;
+          <http://purl.org/dc/terms/description> "Enables the connection betweendifferent levels to its framework" ;
+          rdfs:label "hasLevel" .
+
+
+###  https://w3id.org/digitalconstruction/0.5/Lifecycle#hasNextLevel
+:hasNextLevel rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf <https://w3id.org/digitalconstruction/0.5/Contexts#nextContext> ;
+              owl:inverseOf :hasPreviousLevel ;
+              rdf:type owl:TransitiveProperty ;
+              rdfs:domain :LODLevel ;
+              rdfs:range :LODLevel ;
+              <http://purl.org/dc/terms/description> "Indicates the sequence of levels." ;
+              rdfs:label "hasNextLevel" .
+
+
+###  https://w3id.org/digitalconstruction/0.5/Lifecycle#hasNextStage
+:hasNextStage rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf <https://w3id.org/digitalconstruction/0.5/Contexts#nextContext> ;
+              owl:inverseOf :hasPreviousStage ;
+              rdf:type owl:TransitiveProperty ;
+              rdfs:domain :BLStage ;
+              rdfs:range :BLStage ;
+              owl:propertyChainAxiom ( :hasNextStage
+                                       :hasSubStage
+                                     ) ;
+              <http://purl.org/dc/terms/description> "Enables the relation between the stages and defines the sequence of the stages." ;
+              rdfs:label "hasNextStage" .
+
+
+###  https://w3id.org/digitalconstruction/0.5/Lifecycle#hasPreviousLevel
+:hasPreviousLevel rdf:type owl:ObjectProperty ;
+                  rdfs:subPropertyOf <https://w3id.org/digitalconstruction/0.5/Contexts#previousContext> ;
+                  rdf:type owl:TransitiveProperty ;
+                  rdfs:domain :LODLevel ;
+                  rdfs:range :LODLevel ;
+                  <http://purl.org/dc/terms/description> "Indicates the sequence of levels." ;
+                  rdfs:label "hasPreviousLevel" .
+
+
+###  https://w3id.org/digitalconstruction/0.5/Lifecycle#hasPreviousStage
+:hasPreviousStage rdf:type owl:ObjectProperty ;
+                  rdfs:subPropertyOf <https://w3id.org/digitalconstruction/0.5/Contexts#previousContext> ;
+                  rdf:type owl:TransitiveProperty ;
+                  rdfs:domain :BLStage ;
+                  rdfs:range :BLStage ;
+                  owl:propertyChainAxiom ( :hasPreviousStage :hasSubStage ) ;
+                  <http://purl.org/dc/terms/description> "Enables the relation between the stages and defines the sequence of the stages." ;
+                  rdfs:label "hasPreviousStage" .
+
+
+###  https://w3id.org/digitalconstruction/0.5/Lifecycle#hasRepresents
+:hasRepresents rdf:type owl:ObjectProperty ;
+               owl:inverseOf :isRepresentedIn ;
+               rdfs:domain :InformationalUsecase ;
+               rdfs:range <https://w3id.org/digitalconstruction/0.5/Processes#Activity> ;
+               <http://purl.org/dc/terms/title> "hasRepresents"^^xsd:string .
+
+
+###  https://w3id.org/digitalconstruction/0.5/Lifecycle#hasStage
+:hasStage rdf:type owl:ObjectProperty ;
+          rdfs:subPropertyOf <https://w3id.org/digitalconstruction/0.5/Contexts#hasContext> ;
+          owl:inverseOf :isStageOf ;
+          rdfs:domain :BLSFramework ;
+          rdfs:range :BLStage ;
+          owl:propertyChainAxiom ( :hasStage
+                                   :hasSubStage
+                                 ) ;
+          <http://purl.org/dc/terms/description> "Enables the relationship between the BLCS framework and different stages involved in it." ;
+          rdfs:label "hasStage" .
+
+
+###  https://w3id.org/digitalconstruction/0.5/Lifecycle#hasSubLevel
+:hasSubLevel rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf <https://w3id.org/digitalconstruction/0.5/Contexts#hasSubContext> ;
+             owl:inverseOf :hasSuperLevel ;
+             rdf:type owl:TransitiveProperty ;
+             rdfs:domain :LODLevel ;
+             rdfs:range :LODLevel ;
+             <http://purl.org/dc/terms/description> "Represents the relation between Upper levels and its sub level" ;
+             rdfs:label "hasSubLevel" .
+
+
+###  https://w3id.org/digitalconstruction/0.5/Lifecycle#hasSubStage
+:hasSubStage rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf <https://w3id.org/digitalconstruction/0.5/Contexts#hasSubContext> ;
+             owl:inverseOf :hasSuperStage ;
+             rdf:type owl:TransitiveProperty ;
+             rdfs:domain :BLStage ;
+             rdfs:range :BLStage ;
+             <http://purl.org/dc/terms/description> "Describe the relationship between main and its sub stages involved in a specific BLCS framework." ;
+             rdfs:label "hasSubStage" .
+
+
+###  https://w3id.org/digitalconstruction/0.5/Lifecycle#hasSuperLevel
+:hasSuperLevel rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf <https://w3id.org/digitalconstruction/0.5/Contexts#isSubContextOf> ;
+               rdf:type owl:TransitiveProperty ;
+               rdfs:domain :LODLevel ;
+               rdfs:range :LODLevel ;
+               rdfs:comment "Represents the relation between Upper levels and its sub level" ;
+               rdfs:label "hasSuperLevel" .
+
+
+###  https://w3id.org/digitalconstruction/0.5/Lifecycle#hasSuperStage
+:hasSuperStage rdf:type owl:ObjectProperty ;
+               rdfs:subPropertyOf <https://w3id.org/digitalconstruction/0.5/Contexts#isSubContextOf> ;
+               rdf:type owl:TransitiveProperty ;
+               rdfs:domain :BLStage ;
+               rdfs:range :BLStage ;
+               rdfs:comment "Describe the relationship between main and its sub stages involved in a specific BLCS framework." ;
+               rdfs:label "hasSuperStage" .
+
+
+###  https://w3id.org/digitalconstruction/0.5/Lifecycle#isActivityIn
+:isActivityIn rdf:type owl:ObjectProperty ;
+              rdfs:domain <https://w3id.org/digitalconstruction/0.5/Processes#Activity> ;
+              rdfs:range :BLStage ;
+              rdfs:label "isActivityIn"^^xsd:string .
+
+
+###  https://w3id.org/digitalconstruction/0.5/Lifecycle#isDerivedFrom
+:isDerivedFrom rdf:type owl:ObjectProperty ;
+               rdfs:range <https://w3id.org/digitalconstruction/0.5/Information#InformationContainer> .
+
+
+###  https://w3id.org/digitalconstruction/0.5/Lifecycle#isLODLevelOf
+:isLODLevelOf rdf:type owl:ObjectProperty ;
+              rdfs:domain :LODLevel ;
+              rdfs:label "isLODLevelOf"^^xsd:string .
+
+
+###  https://w3id.org/digitalconstruction/0.5/Lifecycle#isLevelOf
+:isLevelOf rdf:type owl:ObjectProperty ;
+           rdfs:subPropertyOf <https://w3id.org/digitalconstruction/0.5/Contexts#isContextOf> ;
+           rdfs:domain :LODLevel ;
+           rdfs:range :LODFramework ;
+           rdfs:label "isLevelOf" .
+
+
+###  https://w3id.org/digitalconstruction/0.5/Lifecycle#isRelaventWith
+:isRelaventWith rdf:type owl:ObjectProperty ,
+                         owl:SymmetricProperty ;
+                rdfs:domain :BLStage ;
+                rdfs:range :BLStage ;
+                <http://purl.org/dc/terms/description> "Enables to provide the mapping between the stages from different Building Lifecycle frameworks"^^xsd:string ;
+                rdfs:label "isRelaventWith"^^xsd:string .
+
+
+###  https://w3id.org/digitalconstruction/0.5/Lifecycle#isRepresentedIn
+:isRepresentedIn rdf:type owl:ObjectProperty ;
+                 rdfs:domain <https://w3id.org/digitalconstruction/0.5/Processes#Activity> ;
+                 rdfs:range :InformationalUsecase ;
+                 <http://purl.org/dc/terms/title> "isRepresentedIn"^^xsd:string .
+
+
+###  https://w3id.org/digitalconstruction/0.5/Lifecycle#isStageOf
+:isStageOf rdf:type owl:ObjectProperty ;
+           rdfs:subPropertyOf <https://w3id.org/digitalconstruction/0.5/Contexts#isContextOf> ;
+           rdfs:domain :BLStage ;
+           rdfs:range :BLSFramework ;
+           rdfs:label "isStageOf" .
+
+
+###  https://w3id.org/digitalconstruction/0.5/Lifecycle#processFrom
+:processFrom rdf:type owl:ObjectProperty ;
+             rdfs:subPropertyOf <https://w3id.org/digitalconstruction/0.5/Agents#isAgentIn> ;
+             rdfs:comment "Describes the agent who process and updates the information to activity." ;
+             rdfs:label "processFrom" .
+
+
+###  https://w3id.org/digitalconstruction/0.5/Lifecycle#providesTo
+:providesTo rdf:type owl:ObjectProperty ;
+            rdfs:subPropertyOf <https://w3id.org/digitalconstruction/0.5/Agents#isAgentIn> ;
+            rdfs:comment "Describes the agent who provides the information coming from the activity." ;
+            rdfs:label "providesTo" .
+
+
+###  https://w3id.org/digitalconstruction/0.5/Processes#hasObject
+<https://w3id.org/digitalconstruction/0.5/Processes#hasObject> rdf:type owl:ObjectProperty ;
+                                                               owl:inverseOf <https://w3id.org/digitalconstruction/0.5/Processes#isObjectIn> ;
+                                                               rdfs:domain <https://w3id.org/digitalconstruction/0.5/Processes#Activity> ;
+                                                               rdfs:label "hasObject"^^xsd:string .
+
+
+###  https://w3id.org/digitalconstruction/0.5/Processes#isObjectIn
+<https://w3id.org/digitalconstruction/0.5/Processes#isObjectIn> rdf:type owl:ObjectProperty ;
+                                                                rdfs:range <https://w3id.org/digitalconstruction/0.5/Processes#Activity> ;
+                                                                rdfs:label "isObjectIn"^^xsd:string .
+
+
+###  https://w3id.org/digitalconstruction/0.5/Variables#hasProperty
+<https://w3id.org/digitalconstruction/0.5/Variables#hasProperty> rdf:type owl:ObjectProperty ;
+                                                                 owl:inverseOf <https://w3id.org/digitalconstruction/0.5/Variables#isPropertyOf> ;
+                                                                 rdfs:domain <https://w3id.org/digitalconstruction/0.5/Variables#Subject> ;
+                                                                 rdfs:range <https://w3id.org/digitalconstruction/0.5/Variables#Property> .
+
+
+###  https://w3id.org/digitalconstruction/0.5/Variables#hasPropertyState
+<https://w3id.org/digitalconstruction/0.5/Variables#hasPropertyState> rdf:type owl:ObjectProperty ;
+                                                                      rdfs:domain <https://w3id.org/digitalconstruction/0.5/Variables#Property> ;
+                                                                      rdfs:range <https://w3id.org/digitalconstruction/0.5/Variables#PropertyState> ;
+                                                                      rdfs:label "hasPropertyState"^^xsd:string .
+
+
+###  https://w3id.org/digitalconstruction/0.5/Variables#hasUnit
+<https://w3id.org/digitalconstruction/0.5/Variables#hasUnit> rdf:type owl:ObjectProperty ;
+                                                             rdfs:domain [ rdf:type owl:Class ;
+                                                                           owl:unionOf ( <https://w3id.org/digitalconstruction/0.5/Variables#Property>
+                                                                                         <https://w3id.org/digitalconstruction/0.5/Variables#PropertyState>
+                                                                                       )
+                                                                         ] ;
+                                                             rdfs:range <https://w3id.org/digitalconstruction/0.5/Variables#Unit> ;
+                                                             rdfs:label "hasUnit"^^xsd:string .
+
+
+###  https://w3id.org/digitalconstruction/0.5/Variables#isPropertyOf
+<https://w3id.org/digitalconstruction/0.5/Variables#isPropertyOf> rdf:type owl:ObjectProperty ;
+                                                                  rdfs:domain <https://w3id.org/digitalconstruction/0.5/Variables#Property> ;
+                                                                  rdfs:range <https://w3id.org/digitalconstruction/0.5/Variables#Subject> .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  https://w3id.org/digitalconstruction/0.5/Entities#hasLabel
+<https://w3id.org/digitalconstruction/0.5/Entities#hasLabel> rdf:type owl:DatatypeProperty ;
+                                                             rdfs:range xsd:string ;
+                                                             <http://purl.org/dc/terms/title> "hasLabel" .
+
+
+###  https://w3id.org/digitalconstruction/0.5/Lifecycle#hasID
+:hasID rdf:type owl:DatatypeProperty ;
+       rdfs:range xsd:string .
+
+
+###  https://w3id.org/digitalconstruction/0.5/Lifecycle#hasPropertyName
+:hasPropertyName rdf:type owl:DatatypeProperty ;
+                 rdfs:subPropertyOf <https://w3id.org/digitalconstruction/0.5/Entities#hasLabel> ;
+                 rdfs:range xsd:string .
+
+
+###  https://w3id.org/digitalconstruction/0.5/Lifecycle#hasTag
+:hasTag rdf:type owl:DatatypeProperty ;
+        rdfs:subPropertyOf :hasID ;
+        rdfs:range xsd:string .
+
+
+###  https://w3id.org/digitalconstruction/0.5/Variables#hasValue
+<https://w3id.org/digitalconstruction/0.5/Variables#hasValue> rdf:type owl:DatatypeProperty ;
+                                                              rdfs:range rdfs:Literal ;
+                                                              rdfs:label "hasValue"^^xsd:string .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  https://w3id.org/digitalconstruction/0.5/Agents#Agent
+<https://w3id.org/digitalconstruction/0.5/Agents#Agent> rdf:type owl:Class ;
+                                                        rdfs:comment "Agents are actors or stakeholders associated with construction lifecycles" ;
+                                                        rdfs:label "Agent" .
+
+
+###  https://w3id.org/digitalconstruction/0.5/Contexts#Context
+<https://w3id.org/digitalconstruction/0.5/Contexts#Context> rdf:type owl:Class .
+
+
+###  https://w3id.org/digitalconstruction/0.5/Contexts#ContextFramework
+<https://w3id.org/digitalconstruction/0.5/Contexts#ContextFramework> rdf:type owl:Class .
+
+
+###  https://w3id.org/digitalconstruction/0.5/Entities#BuildingObject
+<https://w3id.org/digitalconstruction/0.5/Entities#BuildingObject> rdf:type owl:Class ;
+                                                                   rdfs:subClassOf <https://w3id.org/digitalconstruction/0.5/Variables#Subject> .
+
+
+###  https://w3id.org/digitalconstruction/0.5/Entities#Role
+<https://w3id.org/digitalconstruction/0.5/Entities#Role> rdf:type owl:Class .
+
+
+###  https://w3id.org/digitalconstruction/0.5/Information#InformationContainer
+<https://w3id.org/digitalconstruction/0.5/Information#InformationContainer> rdf:type owl:Class ;
+                                                                            rdfs:subClassOf <https://w3id.org/digitalconstruction/0.5/Contexts#Context> .
+
+
+###  https://w3id.org/digitalconstruction/0.5/Lifecycle#BLSFramework
+:BLSFramework rdf:type owl:Class ;
+              rdfs:subClassOf <https://w3id.org/digitalconstruction/0.5/Contexts#ContextFramework> ;
+              <http://purl.org/dc/terms/description> "Introduces the different Building Life-cycle stage framework" ;
+              rdfs:label "Building Lifecycle Framework"^^xsd:string .
+
+
+###  https://w3id.org/digitalconstruction/0.5/Lifecycle#BLStage
+:BLStage rdf:type owl:Class ;
+         rdfs:subClassOf <https://w3id.org/digitalconstruction/0.5/Contexts#Context> ;
+         <http://purl.org/dc/terms/description> "Introduces different stages involved in building's life-cycle"^^xsd:string ;
+         rdfs:label "Building Lifecycle Stage" .
+
+
+###  https://w3id.org/digitalconstruction/0.5/Lifecycle#InformationConsumer
+:InformationConsumer rdf:type owl:Class ;
+                     rdfs:subClassOf :InformationFlowRole ;
+                     rdfs:comment "Agent who consumes and uses information (models, drawings, other datasets) from activity." ;
+                     rdfs:label "InformationConsumer" .
+
+
+###  https://w3id.org/digitalconstruction/0.5/Lifecycle#InformationFlowRole
+:InformationFlowRole rdf:type owl:Class ;
+                     rdfs:subClassOf <https://w3id.org/digitalconstruction/0.5/Entities#Role> ;
+                     rdfs:label "InformationFlowRole" .
+
+
+###  https://w3id.org/digitalconstruction/0.5/Lifecycle#InformationProcessor
+:InformationProcessor rdf:type owl:Class ;
+                      rdfs:subClassOf :InformationFlowRole ;
+                      rdfs:comment "Agent who process, updates and manges information (models, drawings, other datasets) to/for activity." ;
+                      rdfs:label "InformationProcessor" .
+
+
+###  https://w3id.org/digitalconstruction/0.5/Lifecycle#InformationProvider
+:InformationProvider rdf:type owl:Class ;
+                     rdfs:subClassOf :InformationFlowRole ;
+                     rdfs:comment "Agent who provides information (models, drawings, other datasets) to/for activity." ;
+                     rdfs:label "InformationProvider" .
+
+
+###  https://w3id.org/digitalconstruction/0.5/Lifecycle#InformationalUsecase
+:InformationalUsecase rdf:type owl:Class ;
+                      <http://purl.org/dc/terms/title> "Informational Usecase"^^xsd:string ;
+                      rdfs:comment "Each usecase defines the specific process, for example, energy efficiency assessment, indoor air quality and comfort, equipment and material parameters, acoustics, building performance and cost, etc."^^xsd:string .
+
+
+###  https://w3id.org/digitalconstruction/0.5/Lifecycle#LODFramework
+:LODFramework rdf:type owl:Class ;
+              rdfs:subClassOf <https://w3id.org/digitalconstruction/0.5/Contexts#ContextFramework> ;
+              <http://purl.org/dc/terms/description> "Represents the defined frameworks according to National or International standards" ;
+              rdfs:label "LOD Level Framework" .
+
+
+###  https://w3id.org/digitalconstruction/0.5/Lifecycle#LODLevel
+:LODLevel rdf:type owl:Class ;
+          rdfs:subClassOf <https://w3id.org/digitalconstruction/0.5/Contexts#Context> ;
+          <http://purl.org/dc/terms/description> "Describes different LOD levels according to various LOD systems" ;
+          rdfs:label "LOD Level" .
+
+
+###  https://w3id.org/digitalconstruction/0.5/Processes#Activity
+<https://w3id.org/digitalconstruction/0.5/Processes#Activity> rdf:type owl:Class ;
+                                                              rdfs:comment "Def: A process that is intentionally performed by an agent." ;
+                                                              rdfs:label "Activity" .
+
+
+###  https://w3id.org/digitalconstruction/0.5/Variables#Property
+<https://w3id.org/digitalconstruction/0.5/Variables#Property> rdf:type owl:Class ;
+                                                              owl:disjointWith <https://w3id.org/digitalconstruction/0.5/Variables#PropertyState> .
+
+
+###  https://w3id.org/digitalconstruction/0.5/Variables#PropertyState
+<https://w3id.org/digitalconstruction/0.5/Variables#PropertyState> rdf:type owl:Class .
+
+
+###  https://w3id.org/digitalconstruction/0.5/Variables#Subject
+<https://w3id.org/digitalconstruction/0.5/Variables#Subject> rdf:type owl:Class .
+
+
+###  https://w3id.org/digitalconstruction/0.5/Variables#Unit
+<https://w3id.org/digitalconstruction/0.5/Variables#Unit> rdf:type owl:Class ;
+                                                          rdfs:label "Unit" .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
