@@ -103,11 +103,30 @@ def add_site_info_to_graph(ifc_file, graph: Graph):
                 ),
             )
         )
+
+
+def add_building_info_to_graph(ifc_file, graph: Graph):
+    buildings = ifc_file.by_type("IfcBuilding")
+    for building in buildings:
         graph.add(
             (
-                URIRef(f"{INSTANCE_NAMESPACE}{site.GlobalId}"),
-                GEO_NAMESPACE.alt,
-                Literal(f"{site.RefElevation}", datatype=XSD.float),
+                URIRef(f"{INSTANCE_NAMESPACE}{building.GlobalId}"),
+                RDF.type,
+                BOT_NAMESPACE.Building,
+            )
+        )
+        graph.add(
+            (
+                URIRef(f"{INSTANCE_NAMESPACE}{building.GlobalId}"),
+                LIFECYCLE_NAMESPACE.hasGlobalID,
+                Literal(f"{building.GlobalId}"),
+            )
+        )
+        graph.add(
+            (
+                URIRef(f"{INSTANCE_NAMESPACE}{building.GlobalId}"),
+                LIFECYCLE_NAMESPACE.hasLabel,
+                Literal(f"{building.Name}"),
             )
         )
 
