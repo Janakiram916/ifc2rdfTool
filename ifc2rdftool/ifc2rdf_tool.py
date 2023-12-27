@@ -131,12 +131,37 @@ def add_building_info_to_graph(ifc_file, graph: Graph):
         )
 
 
+def add_storey_info_to_graph(ifc_file, graph: Graph):
+    storeys = ifc_file.by_type("IfcBuildingStorey")
+    for storey in storeys:
+        graph.add(
+            (
+                URIRef(f"{INSTANCE_NAMESPACE}{storey.GlobalId}"),
+                RDF.type,
+                BOT_NAMESPACE.Storey,
+            )
+        )
+        graph.add(
+            (
+                URIRef(f"{INSTANCE_NAMESPACE}{storey.GlobalId}"),
+                LIFECYCLE_NAMESPACE.hasGlobalID,
+                Literal(f"{storey.GlobalId}"),
+            )
+        )
+        graph.add(
+            (
+                URIRef(f"{INSTANCE_NAMESPACE}{storey.GlobalId}"),
+                LIFECYCLE_NAMESPACE.hasLabel,
+                Literal(f"{storey.Name}"),
+            )
+        )
+
+
 def _create_rdf_graph_from_ifc(ifc_file):
     ifc_model = ifcopenshell.open(ifc_file)
     rdf_model = initialize_graph()
     add_project_info_to_graph(ifc_model, rdf_model)
     add_site_info_to_graph(ifc_model, rdf_model)
-
-
-if __name__ == "__main__":
-    pass
+    add_building_info_to_graph(ifc_model, rdf_model)
+    add_storey_info_to_graph(ifc_model, rdf_model)
+    return rdf_model

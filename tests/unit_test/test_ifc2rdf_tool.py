@@ -5,7 +5,9 @@ from rdflib.compare import isomorphic
 from ifc2rdftool.graph_resources import PREFIXES
 from ifc2rdftool.ifc2rdf_tool import (add_building_info_to_graph,
                                       add_project_info_to_graph,
-                                      add_site_info_to_graph, initialize_graph,
+                                      add_site_info_to_graph,
+                                      add_storey_info_to_graph,
+                                      initialize_graph,
                                       tuple_to_decimal_latitude_or_longitude)
 
 _TEST_IFC_FILE_PATH = "tests/test_resources/Demonstration_Model_V1_DTV_4.ifc"
@@ -36,7 +38,6 @@ def test_should_return_graph_with_site_data_when_ifc_file_is_inputted() -> None:
     add_site_info_to_graph(_TEST_IFC_FILE, test_graph)
     expected_graph_str = f"""
         {PREFIXES}
-    
         inst:04XCdhzWXDtBhVSPPuhCyX a bot:Site ;
             dicl:hasGlobalID "04XCdhzWXDtBhVSPPuhCyX" ;
             dicl:hasLabel "Default" ;
@@ -60,10 +61,17 @@ def test_should_return_building_data_when_ifc_file_is_inputted() -> None:
     add_building_info_to_graph(_TEST_IFC_FILE, test_graph)
     expected_graph_str = f"""
         {PREFIXES}
-
         inst:04XCdhzWXDtBhVSPPuhCyY a bot:Building ;
             dicl:hasGlobalID "04XCdhzWXDtBhVSPPuhCyY" ;
             dicl:hasLabel "CIB" .
         """
     expected_graph = Graph().parse(data=expected_graph_str, format="turtle")
+    assert isomorphic(test_graph, expected_graph)
+
+
+def test_should_return_graph_with_storey_data_when_ifc_file_is_inputted() -> None:
+    test_graph = initialize_graph()
+    add_storey_info_to_graph(_TEST_IFC_FILE, test_graph)
+    expected_graph_path = "tests/test_resources/test_storey.ttl"
+    expected_graph = Graph().parse(source=expected_graph_path, format="turtle")
     assert isomorphic(test_graph, expected_graph)
