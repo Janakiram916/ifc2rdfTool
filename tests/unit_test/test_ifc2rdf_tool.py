@@ -4,7 +4,7 @@ from rdflib.compare import isomorphic
 
 from ifc2rdftool.graph_resources import PREFIXES
 from ifc2rdftool.ifc2rdf_tool import (add_project_info_to_graph,
-                                      add_site_info_to_graph, initialize_graph)
+                                      add_site_info_to_graph, initialize_graph, tuple_to_decimal_latitude_or_longitude)
 
 _TEST_IFC_FILE_PATH = "tests/test_resources/Demonstration_Model_V1_DTV_4.ifc"
 _TEST_IFC_FILE = ifcopenshell.open(_TEST_IFC_FILE_PATH)
@@ -47,4 +47,8 @@ def test_should_return_graph_with_site_data_when_ifc_file_is_inputted() -> None:
 
 
 def test_should_return_longitude_decimal_when_longitude_tuple_inputted():
+    test_latitude = (13, 43, 19, 0)
+    expected_latitude = 13.721944444444444
+    actual_latitude = tuple_to_decimal_latitude_or_longitude(test_latitude)
+    assert actual_latitude == expected_latitude
     pass

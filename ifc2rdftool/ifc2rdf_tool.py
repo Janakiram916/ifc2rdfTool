@@ -48,7 +48,7 @@ def _add_units_info_to_graph(ifc):
     ic(units[0].get_info())
 
 
-def _tuple_to_decimal_latitude_or_longitude(coordinate_tuple: tuple) -> float:
+def tuple_to_decimal_latitude_or_longitude(coordinate_tuple: tuple) -> float:
     degrees, minutes, seconds, fractional_part = coordinate_tuple
     decimal_coordinate = (
         degrees
@@ -88,7 +88,7 @@ def add_site_info_to_graph(ifc_file, graph: Graph):
                 URIRef(f"{INSTANCE_NAMESPACE}{site.GlobalId}"),
                 GEO_NAMESPACE.lat,
                 Literal(
-                    f"{_tuple_to_decimal_latitude_or_longitude(site.RefLatitude)}",
+                    f"{tuple_to_decimal_latitude_or_longitude(site.RefLatitude)}",
                     datatype=XSD.float,
                 ),
             )
@@ -98,7 +98,7 @@ def add_site_info_to_graph(ifc_file, graph: Graph):
                 URIRef(f"{INSTANCE_NAMESPACE}{site.GlobalId}"),
                 GEO_NAMESPACE.long,
                 Literal(
-                    f"{_tuple_to_decimal_latitude_or_longitude(site.RefLongitude)}",
+                    f"{tuple_to_decimal_latitude_or_longitude(site.RefLongitude)}",
                     datatype=XSD.float,
                 ),
             )
