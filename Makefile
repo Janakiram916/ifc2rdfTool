@@ -17,9 +17,16 @@ auto-format: ## Automatically formats the code
 	poetry run black $(SRC_PATH) ./tests
 	poetry run isort $(SRC_PATH) ./tests
 
+.PHONY: unit-test
+unit-test:
+	poetry run pytest -vvv -s $(SRC_PATH) ./tests/unit_test --disable-pytest-warnings
+
+.PHONY: integration-test
+integration-test:
+	poetry run pytest -vvv -s $(SRC_PATH) ./tests/integration_test --disable-pytest-warnings
+
 .PHONY: test
-test:
-	poetry run pytest -vvv -s $(SRC_PATH) ./tests --disable-pytest-warnings
+test: unit-test integration-test ## Runs all tests
 
 .PHONY: check
 check: auto-format lint test ## Runs all code checks and tests
