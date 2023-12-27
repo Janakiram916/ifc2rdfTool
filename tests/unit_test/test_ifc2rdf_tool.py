@@ -4,7 +4,8 @@ from rdflib.compare import isomorphic
 
 from ifc2rdftool.graph_resources import PREFIXES
 from ifc2rdftool.ifc2rdf_tool import (add_project_info_to_graph,
-                                      add_site_info_to_graph, initialize_graph, tuple_to_decimal_latitude_or_longitude)
+                                      add_site_info_to_graph, initialize_graph,
+                                      tuple_to_decimal_latitude_or_longitude)
 
 _TEST_IFC_FILE_PATH = "tests/test_resources/Demonstration_Model_V1_DTV_4.ifc"
 _TEST_IFC_FILE = ifcopenshell.open(_TEST_IFC_FILE_PATH)
