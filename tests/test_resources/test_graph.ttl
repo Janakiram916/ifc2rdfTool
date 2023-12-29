@@ -1,0 +1,590 @@
+@prefix bot: <https://w3id.org/bot#> .
+@prefix core: <https://w3id.org/digitalconstruction/core#> .
+@prefix geo1: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix inst: <https://w3id.org/digitalconstruction/instance#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/digitalconstruction/instance#03tkq$Dnf8jOaNsHm9RsT2> core:hasGlobalID "03tkq$Dnf8jOaNsHm9RsT2" ;
+    core:hasLabel "4" ;
+    core:hasName "Elevator @ Level1" .
+
+<https://w3id.org/digitalconstruction/instance#03tkq$Dnf8jOaNsHm9RsTO> core:hasGlobalID "03tkq$Dnf8jOaNsHm9RsTO" ;
+    core:hasLabel "1" ;
+    core:hasName "Entrence and Entertainment Space" .
+
+<https://w3id.org/digitalconstruction/instance#03tkq$Dnf8jOaNsHm9RsTS> core:hasGlobalID "03tkq$Dnf8jOaNsHm9RsTS" ;
+    core:hasLabel "3" ;
+    core:hasName "Laboratory Space" .
+
+<https://w3id.org/digitalconstruction/instance#03tkq$Dnf8jOaNsHm9RsTU> core:hasGlobalID "03tkq$Dnf8jOaNsHm9RsTU" ;
+    core:hasLabel "2" ;
+    core:hasName "Seminar Hall Space" .
+
+inst:04XCdhzWXDtBhVSPPuhCyZ a core:Project ;
+    core:hasGlobalID "04XCdhzWXDtBhVSPPuhCyZ" ;
+    core:hasLabel "0001" ;
+    core:hasName "Project Name" ;
+    core:hasSite inst:04XCdhzWXDtBhVSPPuhCyX .
+
+<https://w3id.org/digitalconstruction/instance#0Cm08F7HTE2R5zilQC$IpH> core:hasGlobalID "0Cm08F7HTE2R5zilQC$IpH" ;
+    core:hasLabel "Railing:900mm Pipe:305663" .
+
+inst:0LSOwspUv6Hvv0yaNWYYRn core:hasGlobalID "0LSOwspUv6Hvv0yaNWYYRn" ;
+    core:hasLabel "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster:262580" .
+
+<https://w3id.org/digitalconstruction/instance#0NETAEud13PQlR7K7gJ4$E> core:hasGlobalID "0NETAEud13PQlR7K7gJ4$E" ;
+    core:hasLabel "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster:280043" .
+
+inst:0NETAEud13PQlR7K7gJ4n_ core:hasGlobalID "0NETAEud13PQlR7K7gJ4n_" ;
+    core:hasLabel "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster:280155" .
+
+inst:0NETAEud13PQlR7K7gJ4ov core:hasGlobalID "0NETAEud13PQlR7K7gJ4ov" ;
+    core:hasLabel "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster:280220" .
+
+inst:0NETAEud13PQlR7K7gJ4sy core:hasGlobalID "0NETAEud13PQlR7K7gJ4sy" ;
+    core:hasLabel "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster:280473" .
+
+inst:0beXDTXl5DD8T_Ld2qzYG7 core:hasGlobalID "0beXDTXl5DD8T_Ld2qzYG7" ;
+    core:hasLabel "8" ;
+    core:hasName "Elevator @ Level2" .
+
+inst:0beXDTXl5DD8T_Ld2qzYI6 core:hasGlobalID "0beXDTXl5DD8T_Ld2qzYI6" ;
+    core:hasLabel "12" ;
+    core:hasName "Elevator @ Level3" .
+
+inst:0beXDTXl5DD8T_Ld2qzYIV core:hasGlobalID "0beXDTXl5DD8T_Ld2qzYIV" ;
+    core:hasLabel "13" ;
+    core:hasName "Elevator @ Level4" .
+
+inst:0f_jxKQ1L7TQHBpe0ltUIh core:hasGlobalID "0f_jxKQ1L7TQHBpe0ltUIh" ;
+    core:hasLabel "Basic Roof:Roof - 155mm Insulation + Membrane + 150mm Concrete+ 50mm Cavity + 12.5mm Plaster board:275237" .
+
+inst:0f_jxKQ1L7TQHBpe8ltUIh core:hasGlobalID "0f_jxKQ1L7TQHBpe8ltUIh" ;
+    core:hasLabel "Basic Roof:Roof - 155mm Insulation + Membrane + 150mm Concrete+ 50mm Cavity + 12.5mm Plaster board:275237" .
+
+<https://w3id.org/digitalconstruction/instance#0f_jxKQ1L7TQHBpe8ltV$s> core:hasGlobalID "0f_jxKQ1L7TQHBpe8ltV$s" ;
+    core:hasLabel "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster:272504" .
+
+inst:0f_jxKQ1L7TQHBpe8ltV6X core:hasGlobalID "0f_jxKQ1L7TQHBpe8ltV6X" ;
+    core:hasLabel "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster:271919" .
+
+inst:0f_jxKQ1L7TQHBpe8ltV8r core:hasGlobalID "0f_jxKQ1L7TQHBpe8ltV8r" ;
+    core:hasLabel "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster:271803" .
+
+inst:0f_jxKQ1L7TQHBpe8ltV9w core:hasGlobalID "0f_jxKQ1L7TQHBpe8ltV9w" ;
+    core:hasLabel "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster:271860" .
+
+inst:0f_jxKQ1L7TQHBpe8ltVim core:hasGlobalID "0f_jxKQ1L7TQHBpe8ltVim" ;
+    core:hasLabel "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster:273598" .
+
+inst:0f_jxKQ1L7TQHBpe8ltVlN core:hasGlobalID "0f_jxKQ1L7TQHBpe8ltVlN" ;
+    core:hasLabel "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster:273497" .
+
+inst:0f_jxKQ1L7TQHBpe8ltVwM core:hasGlobalID "0f_jxKQ1L7TQHBpe8ltVwM" ;
+    core:hasLabel "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster:272664" .
+
+inst:0f_jxKQ1L7TQHBpe8ltVya core:hasGlobalID "0f_jxKQ1L7TQHBpe8ltVya" ;
+    core:hasLabel "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster:272554" .
+
+inst:0mhevRo9r5X8JNSuTZMdK6 core:hasGlobalID "0mhevRo9r5X8JNSuTZMdK6" ;
+    core:hasLabel "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster:262251" .
+
+inst:0mhevRo9r5X8JNSuTZMdNm core:hasGlobalID "0mhevRo9r5X8JNSuTZMdNm" ;
+    core:hasLabel "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster:262301" .
+
+inst:0mhevRo9r5X8JNSuTZNOZH core:hasGlobalID "0mhevRo9r5X8JNSuTZNOZH" ;
+    core:hasLabel "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster:261564" .
+
+inst:0mhevRo9r5X8JNSuTZNOfV core:hasGlobalID "0mhevRo9r5X8JNSuTZNOfV" ;
+    core:hasLabel "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster:261938" .
+
+inst:0mhevRo9r5X8JNSuTZNOgs core:hasGlobalID "0mhevRo9r5X8JNSuTZNOgs" ;
+    core:hasLabel "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster:262107" .
+
+inst:0mhevRo9r5X8JNSuTZNOhA core:hasGlobalID "0mhevRo9r5X8JNSuTZNOhA" ;
+    core:hasLabel "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster:262055" .
+
+inst:0mhevRo9r5X8JNSuTZNOiX core:hasGlobalID "0mhevRo9r5X8JNSuTZNOiX" ;
+    core:hasLabel "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster:261708" .
+
+<https://w3id.org/digitalconstruction/instance#0mhevRo9r5X8JNSuTZNOj$> core:hasGlobalID "0mhevRo9r5X8JNSuTZNOj$" ;
+    core:hasLabel "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster:261650" .
+
+inst:0mhevRo9r5X8JNSuTZNOkK core:hasGlobalID "0mhevRo9r5X8JNSuTZNOkK" ;
+    core:hasLabel "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster:261881" .
+
+inst:0mhevRo9r5X8JNSuTZNOlU core:hasGlobalID "0mhevRo9r5X8JNSuTZNOlU" ;
+    core:hasLabel "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster:261811" .
+
+<https://w3id.org/digitalconstruction/instance#0uUHcDv$52GPXRv8oFn40F> core:hasGlobalID "0uUHcDv$52GPXRv8oFn40F" ;
+    core:hasLabel "M_Door-Single-Panel:750 x 2000mm:304627" .
+
+<https://w3id.org/digitalconstruction/instance#0uUHcDv$52GPXRv8oFn4AT> core:hasGlobalID "0uUHcDv$52GPXRv8oFn4AT" ;
+    core:hasLabel "Fenstertür 1-flg - Sprossen:63.5 x 2.135:304993" .
+
+<https://w3id.org/digitalconstruction/instance#0uUHcDv$52GPXRv8oFn4BP> core:hasGlobalID "0uUHcDv$52GPXRv8oFn4BP" ;
+    core:hasLabel "Fenstertür 1-flg - Sprossen:63.5 x 2.135:304933" .
+
+<https://w3id.org/digitalconstruction/instance#0uUHcDv$52GPXRv8oFn4C4> core:hasGlobalID "0uUHcDv$52GPXRv8oFn4C4" ;
+    core:hasLabel "Fenstertür 1-flg - Sprossen:63.5 x 2.135:304888" .
+
+<https://w3id.org/digitalconstruction/instance#0uUHcDv$52GPXRv8oFn4DC> core:hasGlobalID "0uUHcDv$52GPXRv8oFn4DC" ;
+    core:hasLabel "Fenstertür 1-flg - Sprossen:63.5 x 2.135:304816" .
+
+<https://w3id.org/digitalconstruction/instance#0uUHcDv$52GPXRv8oFn4E0> core:hasGlobalID "0uUHcDv$52GPXRv8oFn4E0" ;
+    core:hasLabel "Fenstertür 1-flg - Sprossen:63.5 x 2.135:304764" .
+
+<https://w3id.org/digitalconstruction/instance#0uUHcDv$52GPXRv8oFn4Ee> core:hasGlobalID "0uUHcDv$52GPXRv8oFn4Ee" ;
+    core:hasLabel "M_Door-Single-Panel:750 x 2000mm:304724" .
+
+<https://w3id.org/digitalconstruction/instance#0uUHcDv$52GPXRv8oFn4Fe> core:hasGlobalID "0uUHcDv$52GPXRv8oFn4Fe" ;
+    core:hasLabel "M_Door-Single-Panel:750 x 2000mm:304660" .
+
+<https://w3id.org/digitalconstruction/instance#0uUHcDv$52GPXRv8oFn4ox> core:hasGlobalID "0uUHcDv$52GPXRv8oFn4ox" ;
+    core:hasLabel "Fenstertür 1-flg - Sprossen:63.5 x 2.135:305479" .
+
+<https://w3id.org/digitalconstruction/instance#0uUHcDv$52GPXRv8oFn4pH> core:hasGlobalID "0uUHcDv$52GPXRv8oFn4pH" ;
+    core:hasLabel "Fenstertür 1-flg - Sprossen:63.5 x 2.135:305453" .
+
+<https://w3id.org/digitalconstruction/instance#0uUHcDv$52GPXRv8oFn4qj> core:hasGlobalID "0uUHcDv$52GPXRv8oFn4qj" ;
+    core:hasLabel "Fenstertür 1-flg - Sprossen:63.5 x 2.135:305361" .
+
+<https://w3id.org/digitalconstruction/instance#0uUHcDv$52GPXRv8oFn4ri> core:hasGlobalID "0uUHcDv$52GPXRv8oFn4ri" ;
+    core:hasLabel "Fenstertür 1-flg - Sprossen:63.5 x 2.135:305296" .
+
+<https://w3id.org/digitalconstruction/instance#0uUHcDv$52GPXRv8oFn4sm> core:hasGlobalID "0uUHcDv$52GPXRv8oFn4sm" ;
+    core:hasLabel "Fenstertür 1-flg - Sprossen:63.5 x 2.135:305228" .
+
+<https://w3id.org/digitalconstruction/instance#0uUHcDv$52GPXRv8oFn4tt> core:hasGlobalID "0uUHcDv$52GPXRv8oFn4tt" ;
+    core:hasLabel "Fenstertür 1-flg - Sprossen:63.5 x 2.135:305163" .
+
+<https://w3id.org/digitalconstruction/instance#0uUHcDv$52GPXRv9_Fn40F> core:hasGlobalID "0uUHcDv$52GPXRv9_Fn40F" ;
+    core:hasLabel "M_Door-Single-Panel:750 x 2000mm:304627:1" .
+
+<https://w3id.org/digitalconstruction/instance#0uUHcDv$52GPXRv9_Fn4AT> core:hasGlobalID "0uUHcDv$52GPXRv9_Fn4AT" ;
+    core:hasLabel "Fenstertür 1-flg - Sprossen:63.5 x 2.135:304993:1" .
+
+<https://w3id.org/digitalconstruction/instance#0uUHcDv$52GPXRv9_Fn4BP> core:hasGlobalID "0uUHcDv$52GPXRv9_Fn4BP" ;
+    core:hasLabel "Fenstertür 1-flg - Sprossen:63.5 x 2.135:304933:1" .
+
+<https://w3id.org/digitalconstruction/instance#0uUHcDv$52GPXRv9_Fn4C4> core:hasGlobalID "0uUHcDv$52GPXRv9_Fn4C4" ;
+    core:hasLabel "Fenstertür 1-flg - Sprossen:63.5 x 2.135:304888:1" .
+
+<https://w3id.org/digitalconstruction/instance#0uUHcDv$52GPXRv9_Fn4DC> core:hasGlobalID "0uUHcDv$52GPXRv9_Fn4DC" ;
+    core:hasLabel "Fenstertür 1-flg - Sprossen:63.5 x 2.135:304816:1" .
+
+<https://w3id.org/digitalconstruction/instance#0uUHcDv$52GPXRv9_Fn4E0> core:hasGlobalID "0uUHcDv$52GPXRv9_Fn4E0" ;
+    core:hasLabel "Fenstertür 1-flg - Sprossen:63.5 x 2.135:304764:1" .
+
+<https://w3id.org/digitalconstruction/instance#0uUHcDv$52GPXRv9_Fn4Ee> core:hasGlobalID "0uUHcDv$52GPXRv9_Fn4Ee" ;
+    core:hasLabel "M_Door-Single-Panel:750 x 2000mm:304724:1" .
+
+<https://w3id.org/digitalconstruction/instance#0uUHcDv$52GPXRv9_Fn4Fe> core:hasGlobalID "0uUHcDv$52GPXRv9_Fn4Fe" ;
+    core:hasLabel "M_Door-Single-Panel:750 x 2000mm:304660:1" .
+
+<https://w3id.org/digitalconstruction/instance#0uUHcDv$52GPXRv9_Fn4ox> core:hasGlobalID "0uUHcDv$52GPXRv9_Fn4ox" ;
+    core:hasLabel "Fenstertür 1-flg - Sprossen:63.5 x 2.135:305479:1" .
+
+<https://w3id.org/digitalconstruction/instance#0uUHcDv$52GPXRv9_Fn4pH> core:hasGlobalID "0uUHcDv$52GPXRv9_Fn4pH" ;
+    core:hasLabel "Fenstertür 1-flg - Sprossen:63.5 x 2.135:305453:1" .
+
+<https://w3id.org/digitalconstruction/instance#0uUHcDv$52GPXRv9_Fn4qj> core:hasGlobalID "0uUHcDv$52GPXRv9_Fn4qj" ;
+    core:hasLabel "Fenstertür 1-flg - Sprossen:63.5 x 2.135:305361:1" .
+
+<https://w3id.org/digitalconstruction/instance#0uUHcDv$52GPXRv9_Fn4ri> core:hasGlobalID "0uUHcDv$52GPXRv9_Fn4ri" ;
+    core:hasLabel "Fenstertür 1-flg - Sprossen:63.5 x 2.135:305296:1" .
+
+<https://w3id.org/digitalconstruction/instance#0uUHcDv$52GPXRv9_Fn4sm> core:hasGlobalID "0uUHcDv$52GPXRv9_Fn4sm" ;
+    core:hasLabel "Fenstertür 1-flg - Sprossen:63.5 x 2.135:305228:1" .
+
+<https://w3id.org/digitalconstruction/instance#0uUHcDv$52GPXRv9_Fn4tt> core:hasGlobalID "0uUHcDv$52GPXRv9_Fn4tt" ;
+    core:hasLabel "Fenstertür 1-flg - Sprossen:63.5 x 2.135:305163:1" .
+
+inst:1RUXumxMXEpBDqH_kH6PrD core:hasGlobalID "1RUXumxMXEpBDqH_kH6PrD" ;
+    core:hasLabel "10" ;
+    core:hasName "Dance Floor Space" .
+
+inst:1RUXumxMXEpBDqH_kH6PrF core:hasGlobalID "1RUXumxMXEpBDqH_kH6PrF" ;
+    core:hasLabel "11" ;
+    core:hasName "Movie Space" .
+
+inst:1RUXumxMXEpBDqH_kH6Prm core:hasGlobalID "1RUXumxMXEpBDqH_kH6Prm" ;
+    core:hasLabel "9" ;
+    core:hasName "Yoga or Auditorium Space" .
+
+inst:1RUXumxMXEpBDqH_kH6Prq core:hasGlobalID "1RUXumxMXEpBDqH_kH6Prq" ;
+    core:hasLabel "7" ;
+    core:hasName "Student Room Space" .
+
+inst:1RUXumxMXEpBDqH_kH6Prv core:hasGlobalID "1RUXumxMXEpBDqH_kH6Prv" ;
+    core:hasLabel "5" ;
+    core:hasName "Lecture Hall Space" .
+
+inst:1RUXumxMXEpBDqH_kH6Prw core:hasGlobalID "1RUXumxMXEpBDqH_kH6Prw" ;
+    core:hasLabel "6" ;
+    core:hasName "Study Hall Space" .
+
+inst:1sOXIRzk52Wx5umJCTNJmK core:hasGlobalID "1sOXIRzk52Wx5umJCTNJmK" ;
+    core:hasLabel "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster:278962" .
+
+inst:1sOXIRzk52Wx5umJCTNJop core:hasGlobalID "1sOXIRzk52Wx5umJCTNJop" ;
+    core:hasLabel "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster:278805" .
+
+inst:1sOXIRzk52Wx5umJCTNJpL core:hasGlobalID "1sOXIRzk52Wx5umJCTNJpL" ;
+    core:hasLabel "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster:278899" .
+
+<https://w3id.org/digitalconstruction/instance#2a$_lJKf9C38$j063RW0KD> core:hasGlobalID "2a$_lJKf9C38$j063RW0KD" ;
+    core:hasLabel "Floor:Slab - 12.5mm Plaster Board + 200mm Concrete + 12.5mm Damp Proofing:270332" .
+
+inst:2nzBOJCJX6VxFvqeGy5Gxo core:hasGlobalID "2nzBOJCJX6VxFvqeGy5Gxo" ;
+    core:hasLabel "Fenstertür 1-flg - Sprossen:63.5 x 2.135:305558" .
+
+inst:2nzBOJCJX6VxFvqfSy5Gxo core:hasGlobalID "2nzBOJCJX6VxFvqfSy5Gxo" ;
+    core:hasLabel "Fenstertür 1-flg - Sprossen:63.5 x 2.135:305558:1" .
+
+inst:2rvVZuy3X0l9ATwUENTX_E core:hasGlobalID "2rvVZuy3X0l9ATwUENTX_E" ;
+    core:hasLabel "Fenstertür 1-flg - Sprossen:63.5 x 2.135:303565" .
+
+inst:2rvVZuy3X0l9ATwUENTX_n core:hasGlobalID "2rvVZuy3X0l9ATwUENTX_n" ;
+    core:hasLabel "Fenstertür 1-flg - Sprossen:63.5 x 2.135:303602" .
+
+inst:2rvVZuy3X0l9ATwUENTXeJ core:hasGlobalID "2rvVZuy3X0l9ATwUENTXeJ" ;
+    core:hasLabel "Fenstertür 1-flg - Sprossen:63.5 x 2.135:304208" .
+
+inst:2rvVZuy3X0l9ATwUENTXfh core:hasGlobalID "2rvVZuy3X0l9ATwUENTXfh" ;
+    core:hasLabel "Fenstertür 1-flg - Sprossen:63.5 x 2.135:304168" .
+
+inst:2rvVZuy3X0l9ATwUENTXgf core:hasGlobalID "2rvVZuy3X0l9ATwUENTXgf" ;
+    core:hasLabel "Fenstertür 1-flg - Sprossen:63.5 x 2.135:304362" .
+
+inst:2rvVZuy3X0l9ATwUENTXhZ core:hasGlobalID "2rvVZuy3X0l9ATwUENTXhZ" ;
+    core:hasLabel "Fenstertür 1-flg - Sprossen:63.5 x 2.135:304288" .
+
+inst:2rvVZuy3X0l9ATwUENTXix core:hasGlobalID "2rvVZuy3X0l9ATwUENTXix" ;
+    core:hasLabel "Fenstertür 1-flg - Sprossen:63.5 x 2.135:304504" .
+
+inst:2rvVZuy3X0l9ATwUENTXjw core:hasGlobalID "2rvVZuy3X0l9ATwUENTXjw" ;
+    core:hasLabel "Fenstertür 1-flg - Sprossen:63.5 x 2.135:304441" .
+
+inst:2rvVZuy3X0l9ATwUENTXmp core:hasGlobalID "2rvVZuy3X0l9ATwUENTXmp" ;
+    core:hasLabel "M_Door-Single-Panel:750 x 2000mm:303728" .
+
+inst:2rvVZuy3X0l9ATwUENTXni core:hasGlobalID "2rvVZuy3X0l9ATwUENTXni" ;
+    core:hasLabel "M_Door-Single-Panel:750 x 2000mm:303663" .
+
+inst:2rvVZuy3X0l9ATwUENTXob core:hasGlobalID "2rvVZuy3X0l9ATwUENTXob" ;
+    core:hasLabel "M_Door-Single-Panel:750 x 2000mm:303846" .
+
+inst:2rvVZuy3X0l9ATwUENTXqt core:hasGlobalID "2rvVZuy3X0l9ATwUENTXqt" ;
+    core:hasLabel "Fenstertür 1-flg - Sprossen:63.5 x 2.135:303988" .
+
+inst:2rvVZuy3X0l9ATwUENTXr6 core:hasGlobalID "2rvVZuy3X0l9ATwUENTXr6" ;
+    core:hasLabel "M_Door-Single-Panel:750 x 2000mm:303877" .
+
+inst:2rvVZuy3X0l9ATwUENTXrw core:hasGlobalID "2rvVZuy3X0l9ATwUENTXrw" ;
+    core:hasLabel "Fenstertür 1-flg - Sprossen:63.5 x 2.135:303929" .
+
+inst:2rvVZuy3X0l9ATwUENTXsO core:hasGlobalID "2rvVZuy3X0l9ATwUENTXsO" ;
+    core:hasLabel "Fenstertür 1-flg - Sprossen:63.5 x 2.135:304091" .
+
+inst:2rvVZuy3X0l9ATwUENTXtm core:hasGlobalID "2rvVZuy3X0l9ATwUENTXtm" ;
+    core:hasLabel "Fenstertür 1-flg - Sprossen:63.5 x 2.135:304051" .
+
+inst:2rvVZuy3X0l9ATwUENTYHE core:hasGlobalID "2rvVZuy3X0l9ATwUENTYHE" ;
+    core:hasLabel "Fenstertür 2-flg - Sprossen:Fenstertür 2-flg - Sprossen:301581" .
+
+inst:2rvVZuy3X0l9ATwUENTYQY core:hasGlobalID "2rvVZuy3X0l9ATwUENTYQY" ;
+    core:hasLabel "Fenstertür 2-flg - Sprossen:Fenstertür 2-flg - Sprossen:301281" .
+
+inst:2rvVZuy3X0l9ATwUENTYSe core:hasGlobalID "2rvVZuy3X0l9ATwUENTYSe" ;
+    core:hasLabel "Fenstertür 2-flg - Sprossen:Fenstertür 2-flg - Sprossen:301419" .
+
+inst:2rvVZuy3X0l9ATwUENTZ4X core:hasGlobalID "2rvVZuy3X0l9ATwUENTZ4X" ;
+    core:hasLabel "M_Door-Single-Panel:750 x 2000mm:298850" .
+
+inst:2rvVZuy3X0l9ATwUENTZ7Z core:hasGlobalID "2rvVZuy3X0l9ATwUENTZ7Z" ;
+    core:hasLabel "M_Door-Single-Panel:750 x 2000mm:298912" .
+
+inst:2rvVZuy3X0l9ATwUENTZiw core:hasGlobalID "2rvVZuy3X0l9ATwUENTZiw" ;
+    core:hasLabel "M_Door-Exterior-Single-Entry-Half Flat Glass-Wood_Clad:900 x 2400mm:296313" .
+
+<https://w3id.org/digitalconstruction/instance#2rvVZuy3X0l9ATwUENTZl$> core:hasGlobalID "2rvVZuy3X0l9ATwUENTZl$" ;
+    core:hasLabel "M_Door-Exterior-Single-Entry-Half Flat Glass-Wood_Clad:900 x 2400mm:296380" .
+
+inst:2rvVZuy3X0l9ATwUENTiYj core:hasGlobalID "2rvVZuy3X0l9ATwUENTiYj" ;
+    core:hasLabel "M_Door-Interior-Double-Full Glass-Wood:1800 x 2000mm:292590" .
+
+inst:2rvVZuy3X0l9ATwUENTibB core:hasGlobalID "2rvVZuy3X0l9ATwUENTibB" ;
+    core:hasLabel "M_Door-Interior-Double-Full Glass-Wood:1800 x 2000mm:292616" .
+
+inst:2rvVZuy3X0l9ATwUENTjYJ core:hasGlobalID "2rvVZuy3X0l9ATwUENTjYJ" ;
+    core:hasLabel "M_Door-Passage-Double-Flush:1700 x 2000mm:288464" .
+
+inst:2rvVZuy3X0l9ATwUENTjb6 core:hasGlobalID "2rvVZuy3X0l9ATwUENTjb6" ;
+    core:hasLabel "M_Door-Passage-Double-Flush:1700 x 2000mm:288517" .
+
+inst:2rvVZuy3X0l9ATwUENTjbQ core:hasGlobalID "2rvVZuy3X0l9ATwUENTjbQ" ;
+    core:hasLabel "M_Door-Passage-Double-Flush:1700 x 2000mm:288537" .
+
+inst:2rvVZuy3X0l9ATwUENTjbi core:hasGlobalID "2rvVZuy3X0l9ATwUENTjbi" ;
+    core:hasLabel "M_Door-Passage-Double-Flush:1700 x 2000mm:288559" .
+
+inst:2rvVZuy3X0l9ATwV2NTX_E core:hasGlobalID "2rvVZuy3X0l9ATwV2NTX_E" ;
+    core:hasLabel "Fenstertür 1-flg - Sprossen:63.5 x 2.135:303565:1" .
+
+inst:2rvVZuy3X0l9ATwV2NTX_n core:hasGlobalID "2rvVZuy3X0l9ATwV2NTX_n" ;
+    core:hasLabel "Fenstertür 1-flg - Sprossen:63.5 x 2.135:303602:1" .
+
+inst:2rvVZuy3X0l9ATwV2NTXeJ core:hasGlobalID "2rvVZuy3X0l9ATwV2NTXeJ" ;
+    core:hasLabel "Fenstertür 1-flg - Sprossen:63.5 x 2.135:304208:1" .
+
+inst:2rvVZuy3X0l9ATwV2NTXfh core:hasGlobalID "2rvVZuy3X0l9ATwV2NTXfh" ;
+    core:hasLabel "Fenstertür 1-flg - Sprossen:63.5 x 2.135:304168:1" .
+
+inst:2rvVZuy3X0l9ATwV2NTXgf core:hasGlobalID "2rvVZuy3X0l9ATwV2NTXgf" ;
+    core:hasLabel "Fenstertür 1-flg - Sprossen:63.5 x 2.135:304362:1" .
+
+inst:2rvVZuy3X0l9ATwV2NTXhZ core:hasGlobalID "2rvVZuy3X0l9ATwV2NTXhZ" ;
+    core:hasLabel "Fenstertür 1-flg - Sprossen:63.5 x 2.135:304288:1" .
+
+inst:2rvVZuy3X0l9ATwV2NTXix core:hasGlobalID "2rvVZuy3X0l9ATwV2NTXix" ;
+    core:hasLabel "Fenstertür 1-flg - Sprossen:63.5 x 2.135:304504:1" .
+
+inst:2rvVZuy3X0l9ATwV2NTXjw core:hasGlobalID "2rvVZuy3X0l9ATwV2NTXjw" ;
+    core:hasLabel "Fenstertür 1-flg - Sprossen:63.5 x 2.135:304441:1" .
+
+inst:2rvVZuy3X0l9ATwV2NTXmp core:hasGlobalID "2rvVZuy3X0l9ATwV2NTXmp" ;
+    core:hasLabel "M_Door-Single-Panel:750 x 2000mm:303728:1" .
+
+inst:2rvVZuy3X0l9ATwV2NTXni core:hasGlobalID "2rvVZuy3X0l9ATwV2NTXni" ;
+    core:hasLabel "M_Door-Single-Panel:750 x 2000mm:303663:1" .
+
+inst:2rvVZuy3X0l9ATwV2NTXob core:hasGlobalID "2rvVZuy3X0l9ATwV2NTXob" ;
+    core:hasLabel "M_Door-Single-Panel:750 x 2000mm:303846:1" .
+
+inst:2rvVZuy3X0l9ATwV2NTXqt core:hasGlobalID "2rvVZuy3X0l9ATwV2NTXqt" ;
+    core:hasLabel "Fenstertür 1-flg - Sprossen:63.5 x 2.135:303988:1" .
+
+inst:2rvVZuy3X0l9ATwV2NTXr6 core:hasGlobalID "2rvVZuy3X0l9ATwV2NTXr6" ;
+    core:hasLabel "M_Door-Single-Panel:750 x 2000mm:303877:1" .
+
+inst:2rvVZuy3X0l9ATwV2NTXrw core:hasGlobalID "2rvVZuy3X0l9ATwV2NTXrw" ;
+    core:hasLabel "Fenstertür 1-flg - Sprossen:63.5 x 2.135:303929:1" .
+
+inst:2rvVZuy3X0l9ATwV2NTXsO core:hasGlobalID "2rvVZuy3X0l9ATwV2NTXsO" ;
+    core:hasLabel "Fenstertür 1-flg - Sprossen:63.5 x 2.135:304091:1" .
+
+inst:2rvVZuy3X0l9ATwV2NTXtm core:hasGlobalID "2rvVZuy3X0l9ATwV2NTXtm" ;
+    core:hasLabel "Fenstertür 1-flg - Sprossen:63.5 x 2.135:304051:1" .
+
+inst:2rvVZuy3X0l9ATwV2NTYHE core:hasGlobalID "2rvVZuy3X0l9ATwV2NTYHE" ;
+    core:hasLabel "Fenstertür 2-flg - Sprossen:Fenstertür 2-flg - Sprossen:301581:1" .
+
+inst:2rvVZuy3X0l9ATwV2NTYQY core:hasGlobalID "2rvVZuy3X0l9ATwV2NTYQY" ;
+    core:hasLabel "Fenstertür 2-flg - Sprossen:Fenstertür 2-flg - Sprossen:301281:1" .
+
+inst:2rvVZuy3X0l9ATwV2NTYSe core:hasGlobalID "2rvVZuy3X0l9ATwV2NTYSe" ;
+    core:hasLabel "Fenstertür 2-flg - Sprossen:Fenstertür 2-flg - Sprossen:301419:1" .
+
+inst:2rvVZuy3X0l9ATwV2NTZ4X core:hasGlobalID "2rvVZuy3X0l9ATwV2NTZ4X" ;
+    core:hasLabel "M_Door-Single-Panel:750 x 2000mm:298850:1" .
+
+inst:2rvVZuy3X0l9ATwV2NTZ7Z core:hasGlobalID "2rvVZuy3X0l9ATwV2NTZ7Z" ;
+    core:hasLabel "M_Door-Single-Panel:750 x 2000mm:298912:1" .
+
+inst:2rvVZuy3X0l9ATwV2NTZiw core:hasGlobalID "2rvVZuy3X0l9ATwV2NTZiw" ;
+    core:hasLabel "M_Door-Exterior-Single-Entry-Half Flat Glass-Wood_Clad:900 x 2400mm:296313:1" .
+
+<https://w3id.org/digitalconstruction/instance#2rvVZuy3X0l9ATwV2NTZl$> core:hasGlobalID "2rvVZuy3X0l9ATwV2NTZl$" ;
+    core:hasLabel "M_Door-Exterior-Single-Entry-Half Flat Glass-Wood_Clad:900 x 2400mm:296380:1" .
+
+inst:2rvVZuy3X0l9ATwV2NTiYj core:hasGlobalID "2rvVZuy3X0l9ATwV2NTiYj" ;
+    core:hasLabel "M_Door-Interior-Double-Full Glass-Wood:1800 x 2000mm:292590:1" .
+
+inst:2rvVZuy3X0l9ATwV2NTibB core:hasGlobalID "2rvVZuy3X0l9ATwV2NTibB" ;
+    core:hasLabel "M_Door-Interior-Double-Full Glass-Wood:1800 x 2000mm:292616:1" .
+
+inst:2rvVZuy3X0l9ATwV2NTjYJ core:hasGlobalID "2rvVZuy3X0l9ATwV2NTjYJ" ;
+    core:hasLabel "M_Door-Passage-Double-Flush:1700 x 2000mm:288464:1" .
+
+inst:2rvVZuy3X0l9ATwV2NTjb6 core:hasGlobalID "2rvVZuy3X0l9ATwV2NTjb6" ;
+    core:hasLabel "M_Door-Passage-Double-Flush:1700 x 2000mm:288517:1" .
+
+inst:2rvVZuy3X0l9ATwV2NTjbQ core:hasGlobalID "2rvVZuy3X0l9ATwV2NTjbQ" ;
+    core:hasLabel "M_Door-Passage-Double-Flush:1700 x 2000mm:288537:1" .
+
+inst:2rvVZuy3X0l9ATwV2NTjbi core:hasGlobalID "2rvVZuy3X0l9ATwV2NTjbi" ;
+    core:hasLabel "M_Door-Passage-Double-Flush:1700 x 2000mm:288559:1" .
+
+<https://w3id.org/digitalconstruction/instance#3IgqlyNZb9CR1JNQVbt$eA> core:hasGlobalID "3IgqlyNZb9CR1JNQVbt$eA" ;
+    core:hasLabel "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster:267224" .
+
+<https://w3id.org/digitalconstruction/instance#3IgqlyNZb9CR1JNQVbt$kz> core:hasGlobalID "3IgqlyNZb9CR1JNQVbt$kz" ;
+    core:hasLabel "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster:266863" .
+
+<https://w3id.org/digitalconstruction/instance#3IgqlyNZb9CR1JNQVbt$sg> core:hasGlobalID "3IgqlyNZb9CR1JNQVbt$sg" ;
+    core:hasLabel "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster:267384" .
+
+inst:3IgqlyNZb9CR1JNQVbt_5i core:hasGlobalID "3IgqlyNZb9CR1JNQVbt_5i" ;
+    core:hasLabel "Floor:Slab - 12.5mm Plaster Board + 200mm Concrete + 12.5mm Damp Proofing:264382" .
+
+inst:3IgqlyNZb9CR1JNQVbt_6H core:hasGlobalID "3IgqlyNZb9CR1JNQVbt_6H" ;
+    core:hasLabel "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster:264259" .
+
+inst:3IgqlyNZb9CR1JNQVbt_6L core:hasGlobalID "3IgqlyNZb9CR1JNQVbt_6L" ;
+    core:hasLabel "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster:264263" .
+
+inst:3IgqlyNZb9CR1JNQVbt_7A core:hasGlobalID "3IgqlyNZb9CR1JNQVbt_7A" ;
+    core:hasLabel "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster:264216" .
+
+inst:3IgqlyNZb9CR1JNQVbt_7X core:hasGlobalID "3IgqlyNZb9CR1JNQVbt_7X" ;
+    core:hasLabel "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster:264243" .
+
+inst:3IgqlyNZb9CR1JNQVbt_7b core:hasGlobalID "3IgqlyNZb9CR1JNQVbt_7b" ;
+    core:hasLabel "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster:264247" .
+
+inst:3IgqlyNZb9CR1JNQVbt_7f core:hasGlobalID "3IgqlyNZb9CR1JNQVbt_7f" ;
+    core:hasLabel "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster:264251" .
+
+inst:3IgqlyNZb9CR1JNQVbt_7j core:hasGlobalID "3IgqlyNZb9CR1JNQVbt_7j" ;
+    core:hasLabel "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster:264255" .
+
+inst:3IgqlyNZb9CR1JNQVbt_7n core:hasGlobalID "3IgqlyNZb9CR1JNQVbt_7n" ;
+    core:hasLabel "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster:264227" .
+
+inst:3IgqlyNZb9CR1JNQVbt_7r core:hasGlobalID "3IgqlyNZb9CR1JNQVbt_7r" ;
+    core:hasLabel "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster:264231" .
+
+inst:3IgqlyNZb9CR1JNQVbt_7z core:hasGlobalID "3IgqlyNZb9CR1JNQVbt_7z" ;
+    core:hasLabel "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster:264239" .
+
+inst:3IgqlyNZb9CR1JNQVbt_lX core:hasGlobalID "3IgqlyNZb9CR1JNQVbt_lX" ;
+    core:hasLabel "Floor:Floor - 200mm Sand + 200mm Concrete + 12.5mm Dampproofing:262707" .
+
+<https://w3id.org/digitalconstruction/instance#3LC5bzgVD3Kg2ks$jx6OWD> core:hasGlobalID "3LC5bzgVD3Kg2ks$jx6OWD" ;
+    core:hasLabel "Basic Wall:Internal Wall _ 15mm Plaster Board + 40mm Cavity + 15mm Plaster Board:284191" .
+
+<https://w3id.org/digitalconstruction/instance#3LC5bzgVD3Kg2ks$jx6OXZ> core:hasGlobalID "3LC5bzgVD3Kg2ks$jx6OXZ" ;
+    core:hasLabel "Basic Wall:Internal Wall _ 15mm Plaster Board + 40mm Cavity + 15mm Plaster Board:284273" .
+
+<https://w3id.org/digitalconstruction/instance#3LC5bzgVD3Kg2ks$jx6OY4> core:hasGlobalID "3LC5bzgVD3Kg2ks$jx6OY4" ;
+    core:hasLabel "Basic Wall:Internal Wall _ 15mm Plaster Board + 40mm Cavity + 15mm Plaster Board:284310" .
+
+<https://w3id.org/digitalconstruction/instance#3LC5bzgVD3Kg2ks$jx6OZ3> core:hasGlobalID "3LC5bzgVD3Kg2ks$jx6OZ3" ;
+    core:hasLabel "Basic Wall:Internal Wall _ 15mm Plaster Board + 40mm Cavity + 15mm Plaster Board:284369" .
+
+<https://w3id.org/digitalconstruction/instance#3LC5bzgVD3Kg2ks$jx6OaH> core:hasGlobalID "3LC5bzgVD3Kg2ks$jx6OaH" ;
+    core:hasLabel "Basic Wall:Internal Wall _ 15mm Plaster Board + 40mm Cavity + 15mm Plaster Board:284419" .
+
+<https://w3id.org/digitalconstruction/instance#3LC5bzgVD3Kg2ks$jx6Oal> core:hasGlobalID "3LC5bzgVD3Kg2ks$jx6Oal" ;
+    core:hasLabel "Basic Wall:Internal Wall _ 15mm Plaster Board + 40mm Cavity + 15mm Plaster Board:284477" .
+
+<https://w3id.org/digitalconstruction/instance#3Tn8vdAOX0QxqbKYoVvs$b> core:hasGlobalID "3Tn8vdAOX0QxqbKYoVvs$b" ;
+    core:hasLabel "Basic Wall:Parapet Wal _ 90mm Brickl:281193" .
+
+inst:3Tn8vdAOX0QxqbKYoVvsY3 core:hasGlobalID "3Tn8vdAOX0QxqbKYoVvsY3" ;
+    core:hasLabel "Basic Wall:Parapet Wal _ 90mm Brickl:281871" .
+
+inst:3Tn8vdAOX0QxqbKYoVvsZJ core:hasGlobalID "3Tn8vdAOX0QxqbKYoVvsZJ" ;
+    core:hasLabel "Basic Wall:Parapet Wal _ 90mm Brickl:281951" .
+
+inst:3Tn8vdAOX0QxqbKYoVvs_C core:hasGlobalID "3Tn8vdAOX0QxqbKYoVvs_C" ;
+    core:hasLabel "Basic Wall:Parapet Wal _ 90mm Brickl:281088" .
+
+inst:3Tn8vdAOX0QxqbKYoVvs_X core:hasGlobalID "3Tn8vdAOX0QxqbKYoVvs_X" ;
+    core:hasLabel "Basic Wall:Parapet Wal _ 90mm Brickl:281133" .
+
+inst:3Tn8vdAOX0QxqbKYoVvsan core:hasGlobalID "3Tn8vdAOX0QxqbKYoVvsan" ;
+    core:hasLabel "Basic Wall:Parapet Wal _ 90mm Brickl:281789" .
+
+inst:3Tn8vdAOX0QxqbKYoVvscY core:hasGlobalID "3Tn8vdAOX0QxqbKYoVvscY" ;
+    core:hasLabel "Basic Wall:Parapet Wal _ 90mm Brickl:281646" .
+
+inst:3Tn8vdAOX0QxqbKYoVvsdx core:hasGlobalID "3Tn8vdAOX0QxqbKYoVvsdx" ;
+    core:hasLabel "Basic Wall:Parapet Wal _ 90mm Brickl:281719" .
+
+inst:3Tn8vdAOX0QxqbKYoVvsfp core:hasGlobalID "3Tn8vdAOX0QxqbKYoVvsfp" ;
+    core:hasLabel "Basic Wall:Internal Wall _ 15mm Plaster Board + 40mm Cavity + 15mm Plaster Board:282623" .
+
+inst:3Tn8vdAOX0QxqbKYoVvsmp core:hasGlobalID "3Tn8vdAOX0QxqbKYoVvsmp" ;
+    core:hasLabel "Basic Wall:Parapet Wal _ 90mm Brickl:281023" .
+
+inst:3Tn8vdAOX0QxqbKYoVvsqi core:hasGlobalID "3Tn8vdAOX0QxqbKYoVvsqi" ;
+    core:hasLabel "Basic Roof:Generic Roof - 300mm:280736" .
+
+inst:3Tn8vdAOX0QxqbKYoVvsxQ core:hasGlobalID "3Tn8vdAOX0QxqbKYoVvsxQ" ;
+    core:hasLabel "Basic Wall:Parapet Wal _ 90mm Brickl:281430" .
+
+inst:3Tn8vdAOX0QxqbKYoVvsyc core:hasGlobalID "3Tn8vdAOX0QxqbKYoVvsyc" ;
+    core:hasLabel "Basic Wall:Parapet Wal _ 90mm Brickl:281258" .
+
+inst:3Tn8vdAOX0QxqbKYoVvt6G core:hasGlobalID "3Tn8vdAOX0QxqbKYoVvt6G" ;
+    core:hasLabel "Basic Wall:Internal Wall _ 15mm Plaster Board + 40mm Cavity + 15mm Plaster Board:283676" .
+
+inst:3Tn8vdAOX0QxqbKYoVvtGG core:hasGlobalID "3Tn8vdAOX0QxqbKYoVvtGG" ;
+    core:hasLabel "Basic Wall:Internal Wall _ 15mm Plaster Board + 40mm Cavity + 15mm Plaster Board:283036" .
+
+inst:3Tn8vdAOX0QxqbKYoVvtIS core:hasGlobalID "3Tn8vdAOX0QxqbKYoVvtIS" ;
+    core:hasLabel "Basic Wall:Internal Wall _ 15mm Plaster Board + 40mm Cavity + 15mm Plaster Board:282896" .
+
+inst:3Tn8vdAOX0QxqbKYoVvtMt core:hasGlobalID "3Tn8vdAOX0QxqbKYoVvtMt" ;
+    core:hasLabel "Basic Wall:Internal Wall _ 15mm Plaster Board + 40mm Cavity + 15mm Plaster Board:282683" .
+
+inst:3Tn8vdAOX0QxqbKYoVvtPR core:hasGlobalID "3Tn8vdAOX0QxqbKYoVvtPR" ;
+    core:hasLabel "Basic Wall:Internal Wall _ 15mm Plaster Board + 40mm Cavity + 15mm Plaster Board:283607" .
+
+inst:3Tn8vdAOX0QxqbKYoVvtQm core:hasGlobalID "3Tn8vdAOX0QxqbKYoVvtQm" ;
+    core:hasLabel "Basic Wall:Internal Wall _ 15mm Plaster Board + 40mm Cavity + 15mm Plaster Board:283452" .
+
+inst:3Tn8vdAOX0QxqbKYoVvtUL core:hasGlobalID "3Tn8vdAOX0QxqbKYoVvtUL" ;
+    core:hasLabel "Basic Wall:Internal Wall _ 15mm Plaster Board + 40mm Cavity + 15mm Plaster Board:283161" .
+
+inst:3Tn8vdAOX0QxqbKYoVvtV2 core:hasGlobalID "3Tn8vdAOX0QxqbKYoVvtV2" ;
+    core:hasLabel "Basic Wall:Internal Wall _ 15mm Plaster Board + 40mm Cavity + 15mm Plaster Board:283214" .
+
+inst:3Tn8vdAOX0QxqbKYwVvsqi core:hasGlobalID "3Tn8vdAOX0QxqbKYwVvsqi" ;
+    core:hasLabel "Basic Roof:Generic Roof - 300mm:280736" .
+
+inst:04XCdhzWXDtBhVSPPuhCyX a bot:Site ;
+    geo1:lat "51.034439086666666"^^xsd:float ;
+    geo1:long "13.72202587111111"^^xsd:float ;
+    bot:hasBuilding inst:04XCdhzWXDtBhVSPPuhCyY ;
+    core:hasGlobalID "04XCdhzWXDtBhVSPPuhCyX" ;
+    core:hasLabel "Default" ;
+    core:hasName "None" .
+
+inst:04XCdhzWXDtBhVSPPuhCyY a bot:Building ;
+    bot:hasStorey inst:04XCdhzWXDtBhVSPQ7KoGO,
+        inst:04XCdhzWXDtBhVSPQ7KoGx,
+        inst:04XCdhzWXDtBhVSPQ7KoNL,
+        inst:04XCdhzWXDtBhVSPQ7KoNt,
+        inst:04XCdhzWXDtBhVSPQ7KpcK ;
+    core:hasGlobalID "04XCdhzWXDtBhVSPPuhCyY" ;
+    core:hasLabel "CIB" ;
+    core:hasName "CIB" .
+
+inst:04XCdhzWXDtBhVSPQ7KoGO a bot:Storey ;
+    core:hasGlobalID "04XCdhzWXDtBhVSPQ7KoGO" ;
+    core:hasLabel "Level 4" ;
+    core:hasName "Level 4" .
+
+inst:04XCdhzWXDtBhVSPQ7KoGx a bot:Storey ;
+    core:hasGlobalID "04XCdhzWXDtBhVSPQ7KoGx" ;
+    core:hasLabel "Level 3" ;
+    core:hasName "Level 3" .
+
+inst:04XCdhzWXDtBhVSPQ7KoNL a bot:Storey ;
+    core:hasGlobalID "04XCdhzWXDtBhVSPQ7KoNL" ;
+    core:hasLabel "Level 2" ;
+    core:hasName "Level 2" .
+
+inst:04XCdhzWXDtBhVSPQ7KoNt a bot:Storey ;
+    core:hasGlobalID "04XCdhzWXDtBhVSPQ7KoNt" ;
+    core:hasLabel "Level 1" ;
+    core:hasName "Level 1" .
+
+inst:04XCdhzWXDtBhVSPQ7KpcK a bot:Storey ;
+    core:hasGlobalID "04XCdhzWXDtBhVSPQ7KpcK" ;
+    core:hasLabel "Level 6" ;
+    core:hasName "Level 6" .
+

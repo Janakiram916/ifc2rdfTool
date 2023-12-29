@@ -1,28 +1,24 @@
 @prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
-@prefix dicl: <https://w3id.org/digitalconstruction/0.5/Lifecycle#> .
+@prefix core: <https://w3id.org/digitalconstruction/core#> .
 @prefix inst: <https://w3id.org/digitalconstruction/instance#> .
 @prefix bot:  <https://w3id.org/bot#> .
 @prefix geo:  <http://www.w3.org/2003/01/geo/wgs84_pos#> .
 
 
-inst:04XCdhzWXDtBhVSPQ7KoNt a bot:Storey ;
-                dicl:hasGlobalID "04XCdhzWXDtBhVSPQ7KoNt" ;
-                dicl:hasLabel "Level 1" .
+inst:04XCdhzWXDtBhVSPQ7KoNt a bot:Storey .
 
-inst:04XCdhzWXDtBhVSPQ7KoNL a bot:Storey ;
-    dicl:hasGlobalID "04XCdhzWXDtBhVSPQ7KoNL" ;
-    dicl:hasLabel "Level 2" .
+inst:04XCdhzWXDtBhVSPQ7KoNL a bot:Storey .
 
-inst:04XCdhzWXDtBhVSPQ7KoGx a bot:Storey ;
-    dicl:hasGlobalID "04XCdhzWXDtBhVSPQ7KoGx" ;
-    dicl:hasLabel "Level 3" .
+inst:04XCdhzWXDtBhVSPQ7KoGx a bot:Storey .
 
-inst:04XCdhzWXDtBhVSPQ7KoGO a bot:Storey ;
-    dicl:hasGlobalID "04XCdhzWXDtBhVSPQ7KoGO" ;
-    dicl:hasLabel "Level 4" .
+inst:04XCdhzWXDtBhVSPQ7KoGO a bot:Storey .
 
-inst:04XCdhzWXDtBhVSPQ7KpcK a bot:Storey ;
-    dicl:hasGlobalID "04XCdhzWXDtBhVSPQ7KpcK" ;
-    dicl:hasLabel "Level 6" .
+inst:04XCdhzWXDtBhVSPQ7KpcK a bot:Storey .
+
+inst:04XCdhzWXDtBhVSPPuhCyY bot:hasStorey inst:04XCdhzWXDtBhVSPQ7KoGO,
+            inst:04XCdhzWXDtBhVSPQ7KoGx,
+            inst:04XCdhzWXDtBhVSPQ7KoNL,
+            inst:04XCdhzWXDtBhVSPQ7KoNt,
+            inst:04XCdhzWXDtBhVSPQ7KpcK .
