@@ -1,5 +1,9 @@
-from ifc2rdftool.ifc2rdf_tool import create_rdf_graph_from_ifc
-from tests.unit_test.test_ifc2rdf_tool import TEST_IFC_FILE_PATH
+from icecream import ic
+
+from ifc2rdftool.ifc2rdf_tool import (add_entity_info_to_graph,
+                                      create_rdf_graph_from_ifc,
+                                      initialize_graph)
+from tests.unit_test.test_ifc2rdf_tool import TEST_IFC_FILE, TEST_IFC_FILE_PATH
 
 
 def test_should_return_complete_graph_from_ifc_data() -> None:

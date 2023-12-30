@@ -1,12 +1,14 @@
 from unittest import mock
 
+from icecream import ic
 from rdflib import Graph
 from rdflib.compare import isomorphic
 
 from ifc2rdftool.graph_resources import PREFIXES
 from ifc2rdftool.ifc2rdf_tool import initialize_graph
 from ifc2rdftool.wall_info import (add_wall_info_to_graph,
-                                   get_element_layer_info)
+                                   get_element_layer_info, get_multiple_guids,
+                                   get_valid_guid)
 from tests.unit_test.test_ifc2rdf_tool import TEST_IFC_FILE
 
 
@@ -31,6 +33,20 @@ def test_should_return_graph_with_wall_data_when_entity_type_is_ifc_wall(
     mock_layers_function.assert_called_once_with(test_building_entity, test_graph)
 
 
+def test_should_return_valid_guid() -> None:
+    test_guid = get_valid_guid()
+    assert "&" not in test_guid
+    assert len(test_guid) == 22
+
+
+def test_should_return_valid_list_of_guids() -> None:
+    no_of_guids = 4
+    test_guid_list = get_multiple_guids(no_of_guids)
+    assert len(test_guid_list) == no_of_guids
+    for guid in test_guid_list:
+        assert "&" not in guid
+
+
 @mock.patch(
     "ifc2rdftool.wall_info.get_multiple_guids",
     return_value=[
@@ -39,9 +55,11 @@ def test_should_return_graph_with_wall_data_when_entity_type_is_ifc_wall(
         "213gwkWvf7bv0837WjMTfN",
     ],
 )
-@mock.patch("ifc2rdftool.wall_info.LAYER_SET_GUID", new="2rvVZuy3X0l9ATwV2NTibB")
+@mock.patch(
+    "ifc2rdftool.wall_info.get_valid_guid", return_value="2rvVZuy3X0l9ATwV2NTibB"
+)
 def test_should_return_graph_with_wall_layer_data_when_entity_type_is_ifc_wall(
-    mocked_layers_guid,
+    mocked_layers_guid, mocker_layer_set_guid
 ) -> None:
     test_graph = initialize_graph()
     test_building_entity = TEST_IFC_FILE.by_type("IfcWall")[0]
@@ -76,3 +94,4 @@ def test_should_return_graph_with_wall_layer_data_when_entity_type_is_ifc_wall(
     expected_graph = Graph().parse(data=expected_graph_str, format="turtle")
     assert isomorphic(test_graph, expected_graph)
     mocked_layers_guid.assert_called_once()
+    mocker_layer_set_guid.assert_called_once()
