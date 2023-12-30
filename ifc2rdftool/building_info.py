@@ -14,10 +14,11 @@ def add_building_info_to_graph(building_entity, graph: Graph):
         )
     )
     decomposition = ifcopenshell.util.element.get_aggregate(building_entity)
-    graph.add(
-        (
-            URIRef(f"{INSTANCE_NAMESPACE}{decomposition.GlobalId}"),
-            BOT_NAMESPACE.hasBuilding,
-            URIRef(f"{INSTANCE_NAMESPACE}{building_entity.GlobalId}"),
+    if decomposition:
+        graph.add(
+            (
+                URIRef(f"{INSTANCE_NAMESPACE}{decomposition.GlobalId}"),
+                BOT_NAMESPACE.hasBuilding,
+                URIRef(f"{INSTANCE_NAMESPACE}{building_entity.GlobalId}"),
+            )
         )
-    )

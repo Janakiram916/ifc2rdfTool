@@ -14,10 +14,11 @@ def add_storey_info_to_graph(storey_entity, graph: Graph):
         )
     )
     decomposition = ifcopenshell.util.element.get_aggregate(storey_entity)
-    graph.add(
-        (
-            URIRef(f"{INSTANCE_NAMESPACE}{decomposition.GlobalId}"),
-            BOT_NAMESPACE.hasStorey,
-            URIRef(f"{INSTANCE_NAMESPACE}{storey_entity.GlobalId}"),
+    if decomposition:
+        graph.add(
+            (
+                URIRef(f"{INSTANCE_NAMESPACE}{decomposition.GlobalId}"),
+                BOT_NAMESPACE.hasStorey,
+                URIRef(f"{INSTANCE_NAMESPACE}{storey_entity.GlobalId}"),
+            )
         )
-    )

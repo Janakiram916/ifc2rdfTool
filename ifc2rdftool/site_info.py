@@ -47,10 +47,11 @@ def add_site_info_to_graph(site_entity, graph: Graph):
         )
     )
     decomposition = ifcopenshell.util.element.get_aggregate(site_entity)
-    graph.add(
-        (
-            URIRef(f"{INSTANCE_NAMESPACE}{decomposition.GlobalId}"),
-            CORE_NAMESPACE.hasSite,
-            URIRef(f"{INSTANCE_NAMESPACE}{site_entity.GlobalId}"),
+    if decomposition:
+        graph.add(
+            (
+                URIRef(f"{INSTANCE_NAMESPACE}{decomposition.GlobalId}"),
+                CORE_NAMESPACE.hasSite,
+                URIRef(f"{INSTANCE_NAMESPACE}{site_entity.GlobalId}"),
+            )
         )
-    )
