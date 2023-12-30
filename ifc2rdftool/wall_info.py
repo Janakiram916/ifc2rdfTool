@@ -6,14 +6,24 @@ from ifc2rdftool.graph_resources import (BEO_NAMESPACE, BOT_NAMESPACE,
                                          CORE_NAMESPACE, DICM_NAMESPACE,
                                          INSTANCE_NAMESPACE)
 
-LAYER_SET_GUID = ifcopenshell.guid.new()
+
+def get_valid_guid() -> str:
+    new_id = ifcopenshell.guid.new()
+    while "$" in new_id:
+        new_id = ifcopenshell.guid.new()
+    return new_id
 
 
-def get_multiple_guids(number_of_layers):
-    return [ifcopenshell.guid.new() for _ in range(number_of_layers)]
+def get_multiple_guids(required_guids: int) -> list:
+    guid_list = []
+    for _ in range(required_guids):
+        guid = get_valid_guid()
+        guid_list.append(guid)
+    return guid_list
 
 
 def get_element_layer_info(element, graph_model):
+    layer_set_guid = get_valid_guid()
     layer_set_usage = ifcopenshell.util.element.get_material(element).get_info()
     if layer_set_usage:
         layer_set = layer_set_usage["ForLayerSet"]
@@ -22,19 +32,19 @@ def get_element_layer_info(element, graph_model):
                 (
                     URIRef(f"{INSTANCE_NAMESPACE}{element.GlobalId}"),
                     DICM_NAMESPACE.hasLayerSet,
-                    URIRef(f"{INSTANCE_NAMESPACE}{LAYER_SET_GUID}"),
+                    URIRef(f"{INSTANCE_NAMESPACE}{layer_set_guid}"),
                 )
             )
             graph_model.add(
                 (
-                    URIRef(f"{INSTANCE_NAMESPACE}{LAYER_SET_GUID}"),
+                    URIRef(f"{INSTANCE_NAMESPACE}{layer_set_guid}"),
                     RDF.type,
                     DICM_NAMESPACE.LayerSet,
                 )
             )
             graph_model.add(
                 (
-                    URIRef(f"{INSTANCE_NAMESPACE}{LAYER_SET_GUID}"),
+                    URIRef(f"{INSTANCE_NAMESPACE}{layer_set_guid}"),
                     CORE_NAMESPACE.hasName,
                     Literal(layer_set.get_info()["LayerSetName"]),
                 )
@@ -43,7 +53,7 @@ def get_element_layer_info(element, graph_model):
             if layers:
                 graph_model.add(
                     (
-                        URIRef(f"{INSTANCE_NAMESPACE}{LAYER_SET_GUID}"),
+                        URIRef(f"{INSTANCE_NAMESPACE}{layer_set_guid}"),
                         DICM_NAMESPACE.NumberOfLayers,
                         Literal(len(layers), datatype=XSD.integer),
                     )
@@ -52,7 +62,7 @@ def get_element_layer_info(element, graph_model):
                 for i in range(len(layers)):
                     graph_model.add(
                         (
-                            URIRef(f"{INSTANCE_NAMESPACE}{LAYER_SET_GUID}"),
+                            URIRef(f"{INSTANCE_NAMESPACE}{layer_set_guid}"),
                             DICM_NAMESPACE.hasLayer,
                             URIRef(f"{INSTANCE_NAMESPACE}{layers_guid[i]}"),
                         )
