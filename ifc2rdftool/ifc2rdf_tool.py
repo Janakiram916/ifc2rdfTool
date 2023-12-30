@@ -7,7 +7,8 @@ from rdflib.namespace import RDF
 from ifc2rdftool.building_info import add_building_info_to_graph
 from ifc2rdftool.graph_resources import (BEO_NAMESPACE, BOT_NAMESPACE,
                                          CORE_NAMESPACE, DICM_NAMESPACE,
-                                         GEO_NAMESPACE, INSTANCE_NAMESPACE)
+                                         DICV_NAMESPACE, GEO_NAMESPACE,
+                                         INSTANCE_NAMESPACE)
 from ifc2rdftool.site_info import add_site_info_to_graph
 from ifc2rdftool.storey_info import add_storey_info_to_graph
 from ifc2rdftool.wall_info import add_wall_info_to_graph
@@ -21,6 +22,7 @@ def initialize_graph() -> Graph:
     instance_graph.bind("geo", GEO_NAMESPACE)
     instance_graph.bind("dicm", DICM_NAMESPACE)
     instance_graph.bind("beo", BEO_NAMESPACE)
+    instance_graph.bind("dicv", DICV_NAMESPACE)
     return instance_graph
 
 
