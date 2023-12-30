@@ -48,7 +48,6 @@ def test_should_return_ifc_entities_involved_in_project() -> None:
         "IfcWall",
         "IfcWindow",
     }
-
     assert actual_ifc_entities == expected_ifc_entities
 
 
