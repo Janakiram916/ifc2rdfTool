@@ -22,6 +22,39 @@ def get_multiple_guids(required_guids: int) -> list:
     return guid_list
 
 
+def create_property_triple(property_type, value, element, graph):
+    property_guid = get_valid_guid()
+    property_uri = URIRef(f"{INSTANCE_NAMESPACE}{property_guid}")
+    graph.add(
+        (
+            URIRef(f"{INSTANCE_NAMESPACE}{element}"),
+            DICV_NAMESPACE.hasProperty,
+            property_uri,
+        )
+    )
+    graph.add(
+        (
+            property_uri,
+            RDF.type,
+            DICV_NAMESPACE.Property,
+        )
+    )
+    graph.add(
+        (
+            property_uri,
+            CORE_NAMESPACE.hasLabel,
+            Literal(property_type),
+        )
+    )
+    graph.add(
+        (
+            property_uri,
+            CORE_NAMESPACE.hasValue,
+            Literal(value),
+        )
+    )
+
+
 def get_element_layer_info(element, graph_model):
     layer_set_guid = get_valid_guid()
     layer_set_usage = ifcopenshell.util.element.get_material(element).get_info()
@@ -81,16 +114,23 @@ def get_element_layer_info(element, graph_model):
                             Literal(layers[i].get_info()["Name"]),
                         )
                     )
-                    graph_model.add(
-                        (
-                            URIRef(f"{INSTANCE_NAMESPACE}{layers_guid[i]}"),
-                            DICM_NAMESPACE.hasThickness,
-                            Literal(
-                                layers[i].get_info()["LayerThickness"],
-                                datatype=XSD.double,
-                            ),
-                        )
-                    )
+                    layer_property_set = layers[i].get_info()
+                    for property_name, property_value in layer_property_set.items():
+                        if property_name == "LayerThickness":
+                            create_property_triple(
+                                property_name,
+                                property_value,
+                                layers_guid[i],
+                                graph_model,
+                            )
+                        # if property_name == "Material":
+                        #     graph_model.add(
+                        #         (
+                        #             URIRef(f"{INSTANCE_NAMESPACE}{layers_guid[i]}"),
+                        #             DICM_NAMESPACE.hasMaterial,
+                        #             Literal(layers[i].Material.get_info()["Name"]),
+                        #         )
+                        #     )
                     if layers[i].Material:
                         graph_model.add(
                             (
@@ -101,83 +141,51 @@ def get_element_layer_info(element, graph_model):
                         )
 
 
-def create_property_triple(property_type, value, element, graph):
-    property_guid = get_valid_guid()
-    property_uri = URIRef(f"{INSTANCE_NAMESPACE}{property_guid}")
-    graph.add(
-        (
-            URIRef(f"{INSTANCE_NAMESPACE}{element.GlobalId}"),
-            DICV_NAMESPACE.hasProperty,
-            property_uri,
-        )
-    )
-    graph.add(
-        (
-            property_uri,
-            RDF.type,
-            DICV_NAMESPACE.Property,
-        )
-    )
-    graph.add(
-        (
-            property_uri,
-            CORE_NAMESPACE.hasLabel,
-            Literal(property_type),
-        )
-    )
-    graph.add(
-        (
-            property_uri,
-            CORE_NAMESPACE.hasValue,
-            Literal(value),
-        )
-    )
-
-
 def get_wall_properties(wall_element, rdf_graph):
     psets_and_qtos = ifcopenshell.util.element.get_psets(wall_element)
+    wall_element_guid = wall_element.GlobalId
     for property_set_key, property_key in psets_and_qtos.items():
         if property_set_key == "Pset_WallCommon":
             for property_name, property_value in property_key.items():
                 if property_name == "ThermalTransmittance":
                     create_property_triple(
-                        property_name, property_value, wall_element, rdf_graph
+                        property_name, property_value, wall_element_guid, rdf_graph
                     )
                 elif property_name == "IsExternal":
                     create_property_triple(
-                        property_name, property_value, wall_element, rdf_graph
+                        property_name, property_value, wall_element_guid, rdf_graph
                     )
         elif property_set_key == "Qto_WallBaseQuantities":
             for property_name, property_value in property_key.items():
                 if property_name == "Length":
                     create_property_triple(
-                        property_name, property_value, wall_element, rdf_graph
+                        property_name, property_value, wall_element_guid, rdf_graph
                     )
                 elif property_name == "Height":
                     create_property_triple(
-                        property_name, property_value, wall_element, rdf_graph
+                        property_name, property_value, wall_element_guid, rdf_graph
                     )
                 elif property_name == "Width":
                     create_property_triple(
-                        property_name, property_value, wall_element, rdf_graph
+                        property_name, property_value, wall_element_guid, rdf_graph
                     )
         elif property_set_key == "Analytical Properties":
             for property_name, property_value in property_key.items():
                 if property_name == "Absorptance":
                     create_property_triple(
-                        property_name, property_value, wall_element, rdf_graph
+                        property_name, property_value, wall_element_guid, rdf_graph
                     )
                 elif property_name == "Roughness":
                     create_property_triple(
-                        property_name, property_value, wall_element, rdf_graph
+                        property_name, property_value, wall_element_guid, rdf_graph
                     )
                 elif property_name == "Thermal Resistance (R)":
                     create_property_triple(
-                        property_name, property_value, wall_element, rdf_graph
+                        property_name, property_value, wall_element_guid, rdf_graph
                     )
                 elif property_name == "Thermal Mass":
                     create_property_triple(
-                        property_name, property_value, wall_element, rdf_graph
+                        property_name, property_value, wall_element_guid, rdf_graph
                     )
 
 
