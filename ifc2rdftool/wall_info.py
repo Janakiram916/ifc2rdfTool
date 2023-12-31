@@ -55,6 +55,32 @@ def create_property_triple(property_type, value, element, graph):
     )
 
 
+def get_material_triples(element, material, graph_model):
+    material_guid = get_valid_guid()
+    material_uri = URIRef(f"{INSTANCE_NAMESPACE}{material_guid}")
+    graph_model.add(
+        (
+            URIRef(f"{INSTANCE_NAMESPACE}{element}"),
+            DICM_NAMESPACE.hasMaterial,
+            material_uri,
+        )
+    )
+    graph_model.add(
+        (
+            material_uri,
+            RDF.type,
+            DICM_NAMESPACE.Material,
+        )
+    )
+    graph_model.add(
+        (
+            material_uri,
+            CORE_NAMESPACE.hasLabel,
+            Literal(material.get_info()["Name"]),
+        )
+    )
+
+
 def get_element_layer_info(element, graph_model):
     layer_set_guid = get_valid_guid()
     layer_set_usage = ifcopenshell.util.element.get_material(element).get_info()
@@ -93,23 +119,24 @@ def get_element_layer_info(element, graph_model):
                 )
                 layers_guid = get_multiple_guids(len(layers))
                 for i in range(len(layers)):
+                    layer_guid = layers_guid[i]
                     graph_model.add(
                         (
                             URIRef(f"{INSTANCE_NAMESPACE}{layer_set_guid}"),
                             DICM_NAMESPACE.hasLayer,
-                            URIRef(f"{INSTANCE_NAMESPACE}{layers_guid[i]}"),
+                            URIRef(f"{INSTANCE_NAMESPACE}{layer_guid}"),
                         )
                     )
                     graph_model.add(
                         (
-                            URIRef(f"{INSTANCE_NAMESPACE}{layers_guid[i]}"),
+                            URIRef(f"{INSTANCE_NAMESPACE}{layer_guid}"),
                             RDF.type,
                             DICM_NAMESPACE.Layer,
                         )
                     )
                     graph_model.add(
                         (
-                            URIRef(f"{INSTANCE_NAMESPACE}{layers_guid[i]}"),
+                            URIRef(f"{INSTANCE_NAMESPACE}{layer_guid}"),
                             CORE_NAMESPACE.hasLabel,
                             Literal(layers[i].get_info()["Name"]),
                         )
@@ -120,25 +147,13 @@ def get_element_layer_info(element, graph_model):
                             create_property_triple(
                                 property_name,
                                 property_value,
-                                layers_guid[i],
+                                layer_guid,
                                 graph_model,
                             )
-                        # if property_name == "Material":
-                        #     graph_model.add(
-                        #         (
-                        #             URIRef(f"{INSTANCE_NAMESPACE}{layers_guid[i]}"),
-                        #             DICM_NAMESPACE.hasMaterial,
-                        #             Literal(layers[i].Material.get_info()["Name"]),
-                        #         )
-                        #     )
-                    if layers[i].Material:
-                        graph_model.add(
-                            (
-                                URIRef(f"{INSTANCE_NAMESPACE}{layers_guid[i]}"),
-                                DICM_NAMESPACE.hasMaterial,
-                                Literal(layers[i].Material.get_info()["Name"]),
+                        elif property_name == "Material":
+                            get_material_triples(
+                                layer_guid, property_value, graph_model
                             )
-                        )
 
 
 def get_wall_properties(wall_element, rdf_graph):
