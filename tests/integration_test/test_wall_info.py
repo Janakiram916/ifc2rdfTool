@@ -9,7 +9,6 @@
 # from tests.unit_test.test_ifc2rdf_tool import TEST_IFC_FILE
 
 
-
 # @mock.patch("ifc2rdftool.wall_info.get_valid_guid", side_effect=[
 #         "2rvVZuy3X0l9ATwV2NTibB",
 #         "2rvVZuy3X0l9ATwV2NTibB",
@@ -36,4 +35,4 @@
 #     expected_graph = Graph().parse(
 #         source="tests/test_resources/test_wall_graph.ttl", format="turtle"
 #     )
-    # assert isomorphic(test_graph, expected_graph)
+# assert isomorphic(test_graph, expected_graph)

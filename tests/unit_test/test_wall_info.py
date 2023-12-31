@@ -1,6 +1,6 @@
 from unittest import mock
 
-from icecream import ic
+import ifcopenshell.util.element
 from rdflib import Graph
 from rdflib.compare import isomorphic
 
@@ -8,7 +8,8 @@ from ifc2rdftool.graph_resources import PREFIXES
 from ifc2rdftool.ifc2rdf_tool import initialize_graph
 from ifc2rdftool.wall_info import (add_wall_info_to_graph,
                                    create_property_triple,
-                                   get_element_layer_info, get_multiple_guids,
+                                   get_element_layer_info,
+                                   get_material_triples, get_multiple_guids,
                                    get_valid_guid, get_wall_properties)
 from tests.unit_test.test_ifc2rdf_tool import TEST_IFC_FILE
 
@@ -16,7 +17,8 @@ from tests.unit_test.test_ifc2rdf_tool import TEST_IFC_FILE
 @mock.patch("ifc2rdftool.wall_info.get_element_layer_info")
 @mock.patch("ifc2rdftool.wall_info.get_wall_properties")
 def test_should_return_graph_with_wall_data_when_entity_type_is_ifc_wall(
-    mock_property_function, mock_layers_function,
+    mock_property_function,
+    mock_layers_function,
 ) -> None:
     test_graph = initialize_graph()
     test_building_entity = TEST_IFC_FILE.by_type("IfcWall")[0]
@@ -59,7 +61,16 @@ def test_should_return_valid_list_of_guids() -> None:
     ],
 )
 @mock.patch(
-    "ifc2rdftool.wall_info.get_valid_guid", return_value="2rvVZuy3X0l9ATwV2NTibB"
+    "ifc2rdftool.wall_info.get_valid_guid",
+    side_effect=[
+        "2rvVZuy3X0l9ATwV2NTibB",
+        "29m76ZKSP4n8xpWQ5lKvUQ",
+        "1XVbyL0DzCVOyewmt2whMj",
+        "1vYs0UNEb6LB1yYXDqLDIH",
+        "1InbJU1uf1NgTLNghGHC45",
+        "1InbJU1uf1NgTLNghGHC46",
+        "1InbJU1uf1NgTLNghGHC47",
+    ],
 )
 def test_should_return_graph_with_wall_layer_data_when_entity_type_is_ifc_wall(
     mocked_layers_guid, mocker_layer_set_guid
@@ -67,36 +78,11 @@ def test_should_return_graph_with_wall_layer_data_when_entity_type_is_ifc_wall(
     test_graph = initialize_graph()
     test_building_entity = TEST_IFC_FILE.by_type("IfcWall")[0]
     get_element_layer_info(test_building_entity, test_graph)
-    expected_graph_str = f"""
-        {PREFIXES}
-        
-        inst:0mhevRo9r5X8JNSuTZNOZH dicm:hasLayerSet inst:2rvVZuy3X0l9ATwV2NTibB .
-        
-        inst:1JiIoLE5XAvx1zVHUdIyGn a dicm:Layer ;
-            dicm:hasMaterial "Concrete, Lightweight" ;
-            dicm:hasThickness 2.032e+02 ;
-            core:hasLabel "Concrete, Lightweight" .
-            
-        inst:1a8Aef4WT5O95P1duyJUJM a dicm:Layer ;
-            dicm:hasMaterial "Brick, Common" ;
-            dicm:hasThickness 1.016e+02 ;
-            core:hasLabel "Brick, Common" .
-
-        inst:213gwkWvf7bv0837WjMTfN a dicm:Layer ;
-            dicm:hasMaterial "Gypsum Wall Board" ;
-            dicm:hasThickness 1.27e+01 ;
-            core:hasLabel "Gypsum Wall Board" .
-
-        inst:2rvVZuy3X0l9ATwV2NTibB a dicm:LayerSet ;
-            dicm:NumberOfLayers 3 ;
-            dicm:hasLayer inst:1JiIoLE5XAvx1zVHUdIyGn ,
-                inst:1a8Aef4WT5O95P1duyJUJM ,
-                inst:213gwkWvf7bv0837WjMTfN ;
-            core:hasName "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster" .
-    """
-    expected_graph = Graph().parse(data=expected_graph_str, format="turtle")
+    expected_graph = Graph().parse(
+        source="tests/test_resources/test_wall_layer.ttl", format="turtle"
+    )
     assert isomorphic(test_graph, expected_graph)
-    mocked_layers_guid.assert_called_once()
+    mocked_layers_guid.assert_called()
     mocker_layer_set_guid.assert_called_once()
 
 
@@ -144,7 +130,9 @@ def test_should_return_wall_properties(mock_guid, mock_psets) -> None:
 def test_should_return_property_triple(mock_guid) -> None:
     test_graph = initialize_graph()
     test_wall_entity = TEST_IFC_FILE.by_type("IfcWall")[0]
-    create_property_triple("test_property", "test_value", test_wall_entity, test_graph)
+    create_property_triple(
+        "test_property", "test_value", test_wall_entity.GlobalId, test_graph
+    )
     expected_graph_str = f"""
         {PREFIXES}
         
@@ -156,3 +144,23 @@ def test_should_return_property_triple(mock_guid) -> None:
     expected_graph = Graph().parse(data=expected_graph_str, format="turtle")
     assert isomorphic(test_graph, expected_graph)
     mock_guid.assert_called_once()
+
+
+@mock.patch(
+    "ifc2rdftool.wall_info.get_valid_guid", return_value="1InbJU1uf1NgTLNghGHCBy"
+)
+def test_should_return_material_data(mock_guid) -> None:
+    test_graph = initialize_graph()
+    test_layer_guid = "2rvVZuy3X0l9ATwV2NTibB"
+    test_wall_entity = TEST_IFC_FILE.by_type("IfcWall")[0]
+    test_material_entity = ifcopenshell.util.element.get_materials(test_wall_entity)[0]
+    get_material_triples(test_layer_guid, test_material_entity, test_graph)
+    expected_graph_str = f"""
+        {PREFIXES}
+        
+        inst:2rvVZuy3X0l9ATwV2NTibB dicm:hasMaterial inst:1InbJU1uf1NgTLNghGHCBy .
+        inst:1InbJU1uf1NgTLNghGHCBy a dicm:Material ;
+            core:hasLabel "Brick, Common" .
+    """
+    expected_graph = Graph().parse(data=expected_graph_str, format="turtle")
+    assert isomorphic(test_graph, expected_graph)
