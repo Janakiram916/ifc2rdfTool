@@ -1,0 +1,5645 @@
+@prefix beo: <https://pi.pauwel.be/voc/buildingelement#> .
+@prefix bot: <https://w3id.org/bot#> .
+@prefix core: <https://w3id.org/digitalconstruction/core#> .
+@prefix dicm: <https://w3id.org/digitalconstruction/0.5/Materials#> .
+@prefix dicv: <https://w3id.org/digitalconstruction/0.5/Variables#> .
+@prefix geo1: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix inst: <https://w3id.org/digitalconstruction/instance#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+inst:04XCdhzWXDtBhVSPPuhCyZ a core:Project ;
+    core:hasGlobalID "04XCdhzWXDtBhVSPPuhCyZ" ;
+    core:hasLabel "0001" ;
+    core:hasName "Project Name" ;
+    core:hasSite inst:04XCdhzWXDtBhVSPPuhCyX .
+
+inst:00aSX8OETCcQbPeW5rAN_l a dicv:Property ;
+    core:hasLabel "Width" ;
+    core:hasValue 7e+01 .
+
+inst:00lKUy4oXCqRANowUwVyz9 a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 4e+01 .
+
+inst:00u3iteeLECeSrUiqkTRb5 a dicv:Property ;
+    core:hasLabel "Roughness" ;
+    core:hasValue 3 .
+
+inst:01lR9lnSv2e8YxsgnagRRt a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 1.27e+01 .
+
+inst:025INBupLA4BIe4EWqe8jo a dicm:Layer ;
+    dicm:hasMaterial inst:0D_1KafHD1kxrdjTvgZ0d1 ;
+    dicv:hasProperty inst:2RhihnyDDBsAiswgHh8xDZ ;
+    core:hasLabel "Brick, Common" .
+
+inst:02CubTch15eQpKfQ4X_tnb a dicm:Material ;
+    core:hasLabel "Gypsum Wall Board" .
+
+inst:02rB8QTDHCyhR1dDVqmimO a dicv:Property ;
+    core:hasLabel "Thermal Resistance (R)" ;
+    core:hasValue 1.179935e+00 .
+
+inst:0337hVjoj6Uuph3kT7GmYd a dicv:Property ;
+    core:hasLabel "Absorptance" ;
+    core:hasValue 7e-01 .
+
+inst:036CiXIvDEE83BOe8DbhSA a dicv:Property ;
+    core:hasLabel "Width" ;
+    core:hasValue 3.175e+02 .
+
+inst:03FXlqyGT7KeNPFUpLzvkk a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 2.032e+02 .
+
+inst:03NFFT4of7PAq_1v5cN4I0 a dicm:LayerSet ;
+    dicm:NumberOfLayers 3 ;
+    dicm:hasLayer inst:1XBR1mqkDCLAt0zkBze8wl,
+        inst:2aC_vVgzPB3hK9T_XsO3hK,
+        inst:3uOciicz1F4wmL1IE73tEY ;
+    core:hasName "Basic Wall:Internal Wall _ 15mm Plaster Board + 40mm Cavity + 15mm Plaster Board" .
+
+inst:03ns52tin2mvDEnUCaC6pV a dicv:Property ;
+    core:hasLabel "Thermal Resistance (R)" ;
+    core:hasValue 1.179935e+00 .
+
+inst:04Ou0vsKf299gNsWn6KHos a dicv:Property ;
+    core:hasLabel "ThermalTransmittance" ;
+    core:hasValue 6.028369e-01 .
+
+inst:04XCdhzWXDtBhVSPPuhCyX a bot:Site ;
+    geo1:lat "51.034439086666666"^^xsd:float ;
+    geo1:long "13.72202587111111"^^xsd:float ;
+    bot:hasBuilding inst:04XCdhzWXDtBhVSPPuhCyY ;
+    core:hasGlobalID "04XCdhzWXDtBhVSPPuhCyX" ;
+    core:hasLabel "Default" ;
+    core:hasName "None" .
+
+inst:04XCdhzWXDtBhVSPPuhCyY a bot:Building ;
+    bot:hasStorey inst:04XCdhzWXDtBhVSPQ7KoGO,
+        inst:04XCdhzWXDtBhVSPQ7KoGx,
+        inst:04XCdhzWXDtBhVSPQ7KoNL,
+        inst:04XCdhzWXDtBhVSPQ7KoNt,
+        inst:04XCdhzWXDtBhVSPQ7KpcK ;
+    core:hasGlobalID "04XCdhzWXDtBhVSPPuhCyY" ;
+    core:hasLabel "CIB" ;
+    core:hasName "CIB" .
+
+inst:04XCdhzWXDtBhVSPQ7KoGO a bot:Storey ;
+    bot:containsElement <https://w3id.org/digitalconstruction/instance#0NETAEud13PQlR7K7gJ4$E>,
+        inst:0NETAEud13PQlR7K7gJ4n_,
+        inst:0NETAEud13PQlR7K7gJ4ov,
+        inst:0NETAEud13PQlR7K7gJ4sy,
+        <https://w3id.org/digitalconstruction/instance#3Tn8vdAOX0QxqbKYoVvs$b>,
+        inst:3Tn8vdAOX0QxqbKYoVvsY3,
+        inst:3Tn8vdAOX0QxqbKYoVvsZJ,
+        inst:3Tn8vdAOX0QxqbKYoVvs_C,
+        inst:3Tn8vdAOX0QxqbKYoVvs_X,
+        inst:3Tn8vdAOX0QxqbKYoVvsan,
+        inst:3Tn8vdAOX0QxqbKYoVvscY,
+        inst:3Tn8vdAOX0QxqbKYoVvsdx,
+        inst:3Tn8vdAOX0QxqbKYoVvsmp,
+        inst:3Tn8vdAOX0QxqbKYoVvsxQ,
+        inst:3Tn8vdAOX0QxqbKYoVvsyc ;
+    core:hasGlobalID "04XCdhzWXDtBhVSPQ7KoGO" ;
+    core:hasLabel "Level 4" ;
+    core:hasName "Level 4" .
+
+inst:04XCdhzWXDtBhVSPQ7KoGx a bot:Storey ;
+    bot:containsElement <https://w3id.org/digitalconstruction/instance#0f_jxKQ1L7TQHBpe8ltV$s>,
+        inst:0f_jxKQ1L7TQHBpe8ltV6X,
+        inst:0f_jxKQ1L7TQHBpe8ltV8r,
+        inst:0f_jxKQ1L7TQHBpe8ltV9w,
+        inst:0f_jxKQ1L7TQHBpe8ltVim,
+        inst:0f_jxKQ1L7TQHBpe8ltVlN,
+        inst:0f_jxKQ1L7TQHBpe8ltVwM,
+        inst:0f_jxKQ1L7TQHBpe8ltVya,
+        inst:1sOXIRzk52Wx5umJCTNJmK,
+        inst:1sOXIRzk52Wx5umJCTNJop,
+        inst:1sOXIRzk52Wx5umJCTNJpL,
+        <https://w3id.org/digitalconstruction/instance#3LC5bzgVD3Kg2ks$jx6OWD>,
+        <https://w3id.org/digitalconstruction/instance#3LC5bzgVD3Kg2ks$jx6OXZ>,
+        <https://w3id.org/digitalconstruction/instance#3LC5bzgVD3Kg2ks$jx6OY4>,
+        <https://w3id.org/digitalconstruction/instance#3LC5bzgVD3Kg2ks$jx6OZ3>,
+        <https://w3id.org/digitalconstruction/instance#3LC5bzgVD3Kg2ks$jx6OaH>,
+        <https://w3id.org/digitalconstruction/instance#3LC5bzgVD3Kg2ks$jx6Oal> ;
+    core:hasGlobalID "04XCdhzWXDtBhVSPQ7KoGx" ;
+    core:hasLabel "Level 3" ;
+    core:hasName "Level 3" .
+
+inst:04XCdhzWXDtBhVSPQ7KoNL a bot:Storey ;
+    bot:containsElement <https://w3id.org/digitalconstruction/instance#3IgqlyNZb9CR1JNQVbt$eA>,
+        <https://w3id.org/digitalconstruction/instance#3IgqlyNZb9CR1JNQVbt$kz>,
+        <https://w3id.org/digitalconstruction/instance#3IgqlyNZb9CR1JNQVbt$sg>,
+        inst:3IgqlyNZb9CR1JNQVbt_6H,
+        inst:3IgqlyNZb9CR1JNQVbt_6L,
+        inst:3IgqlyNZb9CR1JNQVbt_7A,
+        inst:3IgqlyNZb9CR1JNQVbt_7X,
+        inst:3IgqlyNZb9CR1JNQVbt_7b,
+        inst:3IgqlyNZb9CR1JNQVbt_7f,
+        inst:3IgqlyNZb9CR1JNQVbt_7j,
+        inst:3IgqlyNZb9CR1JNQVbt_7n,
+        inst:3IgqlyNZb9CR1JNQVbt_7r,
+        inst:3IgqlyNZb9CR1JNQVbt_7z,
+        inst:3Tn8vdAOX0QxqbKYoVvt6G,
+        inst:3Tn8vdAOX0QxqbKYoVvtPR,
+        inst:3Tn8vdAOX0QxqbKYoVvtQm,
+        inst:3Tn8vdAOX0QxqbKYoVvtUL,
+        inst:3Tn8vdAOX0QxqbKYoVvtV2 ;
+    core:hasGlobalID "04XCdhzWXDtBhVSPQ7KoNL" ;
+    core:hasLabel "Level 2" ;
+    core:hasName "Level 2" .
+
+inst:04XCdhzWXDtBhVSPQ7KoNt a bot:Storey ;
+    bot:containsElement inst:0LSOwspUv6Hvv0yaNWYYRn,
+        inst:0mhevRo9r5X8JNSuTZMdK6,
+        inst:0mhevRo9r5X8JNSuTZMdNm,
+        inst:0mhevRo9r5X8JNSuTZNOZH,
+        inst:0mhevRo9r5X8JNSuTZNOfV,
+        inst:0mhevRo9r5X8JNSuTZNOgs,
+        inst:0mhevRo9r5X8JNSuTZNOhA,
+        inst:0mhevRo9r5X8JNSuTZNOiX,
+        <https://w3id.org/digitalconstruction/instance#0mhevRo9r5X8JNSuTZNOj$>,
+        inst:0mhevRo9r5X8JNSuTZNOkK,
+        inst:0mhevRo9r5X8JNSuTZNOlU,
+        inst:3Tn8vdAOX0QxqbKYoVvsfp,
+        inst:3Tn8vdAOX0QxqbKYoVvtGG,
+        inst:3Tn8vdAOX0QxqbKYoVvtIS,
+        inst:3Tn8vdAOX0QxqbKYoVvtMt ;
+    core:hasGlobalID "04XCdhzWXDtBhVSPQ7KoNt" ;
+    core:hasLabel "Level 1" ;
+    core:hasName "Level 1" .
+
+inst:04XCdhzWXDtBhVSPQ7KpcK a bot:Storey ;
+    core:hasGlobalID "04XCdhzWXDtBhVSPQ7KpcK" ;
+    core:hasLabel "Level 6" ;
+    core:hasName "Level 6" .
+
+inst:04Xtmprd94JxvJlAMUDabe a dicv:Property ;
+    core:hasLabel "Width" ;
+    core:hasValue 3.175e+02 .
+
+inst:04dQaj_Z9F981grbCZ6_PW a dicv:Property ;
+    core:hasLabel "Roughness" ;
+    core:hasValue 3 .
+
+inst:04dwNk6NfFfPr19NFelgew a dicm:Material ;
+    core:hasLabel "Gypsum Wall Board" .
+
+inst:04ek82aWzBR813i94P1wvF a dicv:Property ;
+    core:hasLabel "IsExternal" ;
+    core:hasValue true .
+
+inst:04pTwD3LjB8hROrMLQmtDm a dicm:LayerSet ;
+    dicm:NumberOfLayers 1 ;
+    dicm:hasLayer inst:0VsDe44o54F8zQpZJrDo2X ;
+    core:hasName "Basic Wall:Parapet Wal _ 90mm Brickl" .
+
+inst:050MYx0Hr1MAWO2VwZnvVT a dicm:Layer ;
+    dicm:hasMaterial inst:2TuCogUAnC7x2xNPyIsWzv ;
+    dicv:hasProperty inst:2GmKbZHxrD99bOR7scl1y2 ;
+    core:hasLabel "Plaster" .
+
+inst:05YYGHztHAShwhyU4obIp7 a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 1.016e+02 .
+
+inst:05lSnxVKf5GfVxiFeauUIq a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 2.032e+02 .
+
+inst:06IUZKG0nArfDS_uCSch3H a dicv:Property ;
+    core:hasLabel "ThermalTransmittance" ;
+    core:hasValue 6.028369e-01 .
+
+inst:06MzBESXz30Q8lTnutA4nh a dicv:Property ;
+    core:hasLabel "Roughness" ;
+    core:hasValue 3 .
+
+inst:06XXfhlo5FhO_o9BwQ4hmw a dicm:LayerSet ;
+    dicm:NumberOfLayers 3 ;
+    dicm:hasLayer inst:0SUkSkjN5BZA3q1CSiADCY,
+        inst:0TRaI6uArFFeaUGWDqw_az,
+        inst:35IVOoBBrDQBCC5uAQjxJb ;
+    core:hasName "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster" .
+
+inst:06eAXGov1EQPCclwgW6fTA a dicv:Property ;
+    core:hasLabel "Height" ;
+    core:hasValue 3.5e+03 .
+
+inst:06hKOnUTDDl9z5VneOZE6b a dicv:Property ;
+    core:hasLabel "Thermal Resistance (R)" ;
+    core:hasValue 1.179935e+00 .
+
+inst:06uGsoIYb2XguQIUloGa9C a dicm:Material ;
+    core:hasLabel "Brick, Common" .
+
+inst:06zn2ESUnBQ9nNTGlnfXQK a dicm:LayerSet ;
+    dicm:NumberOfLayers 3 ;
+    dicm:hasLayer inst:0sZL2Kyt97pQcQbkFWu1RZ,
+        inst:25xoG0kKj84us4m3sRnBJe,
+        inst:3AlUt6JAvFXOUlze0X_CfM ;
+    core:hasName "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster" .
+
+inst:073eXxkLvAbB40K5elm0dX a dicm:Layer ;
+    dicm:hasMaterial inst:2cx1Vpkdj5SBfDQt_vYhDk ;
+    dicv:hasProperty inst:1shiPWjW17FwOHEnPk3VkY ;
+    core:hasLabel "Brick, Common" .
+
+inst:073ilcAHHDSBw09cYXiRsk a dicv:Property ;
+    core:hasLabel "IsExternal" ;
+    core:hasValue true .
+
+inst:0759CxWRr38QV8SJLBvirW a dicm:Material ;
+    core:hasLabel "Gypsum Wall Board" .
+
+inst:07cO4SMMbBvg_gQD7YydrW a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 1.5e+01 .
+
+inst:07pUBHMZr5qefXvgF5g1SR a dicm:LayerSet ;
+    dicm:NumberOfLayers 3 ;
+    dicm:hasLayer inst:073eXxkLvAbB40K5elm0dX,
+        inst:2p8raD3ND7URLhWDKOJVTB,
+        inst:3_BFhraq5EsxKQuJHBgjYE ;
+    core:hasName "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster" .
+
+inst:080iCQhXv3CPzQF_4XPmyL a dicv:Property ;
+    core:hasLabel "Length" ;
+    core:hasValue 2.6825e+03 .
+
+inst:08HEfZPW9E3AEWx1mzL6En a dicm:Layer ;
+    dicm:hasMaterial inst:3A4Vv8zhLDLBQveBeTZX06 ;
+    dicv:hasProperty inst:2LLrcIUU920fr58b_lS2UK ;
+    core:hasLabel "Brick, Common" .
+
+inst:08IV1dNXDEufiIgXlupBX1 a dicm:Material ;
+    core:hasLabel "Brick, Common" .
+
+inst:08MrtFwov8TPnlBDJET5m9 a dicv:Property ;
+    core:hasLabel "Thermal Resistance (R)" ;
+    core:hasValue 1.179935e+00 .
+
+inst:08aBTbuf54hwLvuOWhSrEM a dicm:Layer ;
+    dicm:hasMaterial inst:2g_1uTLhD1ruKrtvYkbULo ;
+    dicv:hasProperty inst:37lbz4ZjzBsxZdpRQPCDpx ;
+    core:hasLabel "Plaster" .
+
+inst:08gYNMBDT8DAVQIb7hqUx2 a dicm:Material ;
+    core:hasLabel "Concrete, Lightweight" .
+
+inst:08rwf5a517hOhs2i51uLnf a dicv:Property ;
+    core:hasLabel "Length" ;
+    core:hasValue 1e+04 .
+
+inst:08y7cotA50G9BtnUAd8XYF a dicv:Property ;
+    core:hasLabel "ThermalTransmittance" ;
+    core:hasValue 6e+00 .
+
+inst:09FVkRq4HA_9aF9dE6NKRo a dicm:Material ;
+    core:hasLabel "Plaster" .
+
+inst:09ynajs6v4jB2uAonnXwbU a dicm:Material ;
+    core:hasLabel "Concrete, Lightweight" .
+
+inst:0AKACMQnjC8vZJy2c_lKMT a dicm:Material ;
+    core:hasLabel "Plaster" .
+
+inst:0APxm28w57GOHdAErh1PE1 a dicv:Property ;
+    core:hasLabel "Roughness" ;
+    core:hasValue 3 .
+
+inst:0AsOd0vu9548uBe9xEWk2p a dicv:Property ;
+    core:hasLabel "Width" ;
+    core:hasValue 3.175e+02 .
+
+inst:0BNcS2IKHCWRknGugiWCHI a dicv:Property ;
+    core:hasLabel "Roughness" ;
+    core:hasValue 3 .
+
+inst:0Bcnrls4bBsQkKabMUhOZ8 a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 9e+01 .
+
+inst:0Bd9Fql3nE7AV1zvngMwvK a dicm:Layer ;
+    dicm:hasMaterial inst:0TQn2vkuP0FQjInxdHhXYS ;
+    dicv:hasProperty inst:1AYHd84MvA3v9Gw7rMUTsT ;
+    core:hasLabel "Concrete, Lightweight" .
+
+inst:0BfCiQi7z6gQr6a8OSVwac a dicv:Property ;
+    core:hasLabel "Absorptance" ;
+    core:hasValue 7e-01 .
+
+inst:0By0QjyRP2eOiSm2EJ07xD a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 1.016e+02 .
+
+inst:0C5OgmvKjFW8aqkNahiDHo a dicm:LayerSet ;
+    dicm:NumberOfLayers 3 ;
+    dicm:hasLayer inst:08aBTbuf54hwLvuOWhSrEM,
+        inst:0IjqkbFn1DLBx3yVcnRikT,
+        inst:19IH8i7vv8AObkGLSQHw7b ;
+    core:hasName "Basic Wall:Internal Wall _ 15mm Plaster Board + 40mm Cavity + 15mm Plaster Board" .
+
+inst:0CJ0Iuxlj8kQwz45ppXDwH a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 4e+01 .
+
+inst:0CfU_eVqP1fAWSfKUk8ZpQ a dicv:Property ;
+    core:hasLabel "ThermalTransmittance" ;
+    core:hasValue 6e+00 .
+
+inst:0ClQjN3HT2Xuk2zgMpNesp a dicm:Layer ;
+    dicm:hasMaterial inst:2mhGr1VTj81PR7GHg0lLAV ;
+    dicv:hasProperty inst:3aOtG7agH8B8pDUSnVog28 ;
+    core:hasLabel "Brick, Common" .
+
+inst:0CzFngaML8ROzHf1A3hnwT a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 2.032e+02 .
+
+inst:0DYnmcdn91RhjfBX4pLkcv a dicm:Material ;
+    core:hasLabel "Brick, Common" .
+
+inst:0D_1KafHD1kxrdjTvgZ0d1 a dicm:Material ;
+    core:hasLabel "Brick, Common" .
+
+inst:0DhXzajTb3VuWvorKLsHyY a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 4e+01 .
+
+inst:0DvhlLY4jDR8Zobwf6DjXv a dicv:Property ;
+    core:hasLabel "Absorptance" ;
+    core:hasValue 7e-01 .
+
+inst:0F8rBnNq97XeXgikpLY2Un a dicm:Layer ;
+    dicm:hasMaterial inst:3UPQa_9f588RWPOCa0ULFE ;
+    dicv:hasProperty inst:2OoOcTlwn0pfAflR8rJVyf ;
+    core:hasLabel "Concrete, Lightweight" .
+
+inst:0FMDnHlsH6AO23bHFTAaGW a dicv:Property ;
+    core:hasLabel "IsExternal" ;
+    core:hasValue false .
+
+inst:0Flz3tN8rCERdVDBuYOxZc a dicm:Material ;
+    core:hasLabel "Gypsum Wall Board" .
+
+inst:0Fqti9jdn52hSndjzV00Xu a dicv:Property ;
+    core:hasLabel "Roughness" ;
+    core:hasValue 3 .
+
+inst:0GDOvJPbP4gQeYOtjDv6fw a dicv:Property ;
+    core:hasLabel "Thermal Resistance (R)" ;
+    core:hasValue 1.179935e+00 .
+
+inst:0GRLbAGhH5A83NmIIYbW53 a dicv:Property ;
+    core:hasLabel "Roughness" ;
+    core:hasValue 3 .
+
+inst:0GRa0iseH4_gH_ZqVv1S4I a dicv:Property ;
+    core:hasLabel "Roughness" ;
+    core:hasValue 3 .
+
+inst:0G_plzVmD3Suz5ikW7LRe1 a dicv:Property ;
+    core:hasLabel "Thermal Resistance (R)" ;
+    core:hasValue 1.658824e+00 .
+
+inst:0HMWKbfBv6F9Q20hEwJOYG a dicv:Property ;
+    core:hasLabel "Height" ;
+    core:hasValue 3.1325e+03 .
+
+inst:0HOH2P7djCzepZ9DYlfaZh a dicm:Layer ;
+    dicm:hasMaterial inst:15OQEIF8H3qQSKQq8toKIN ;
+    dicv:hasProperty inst:0_Zcm7bTLC4QsCZ55O3Dmh ;
+    core:hasLabel "Concrete, Lightweight" .
+
+inst:0HPf2RkH97mwzLNuUARidG a dicv:Property ;
+    core:hasLabel "Roughness" ;
+    core:hasValue 3 .
+
+inst:0HZqwL0_f3NQmy8kutfqyK a dicv:Property ;
+    core:hasLabel "Width" ;
+    core:hasValue 7e+01 .
+
+inst:0HloQDtw1CIRJdWzUTETao a dicv:Property ;
+    core:hasLabel "IsExternal" ;
+    core:hasValue true .
+
+inst:0HugjSk7j6Xe7_bafAGYxV a dicv:Property ;
+    core:hasLabel "Absorptance" ;
+    core:hasValue 7e-01 .
+
+inst:0IB6AT6hb0wuYkIIeCUDpB a dicv:Property ;
+    core:hasLabel "ThermalTransmittance" ;
+    core:hasValue 8.47504e-01 .
+
+inst:0IjqkbFn1DLBx3yVcnRikT a dicm:Layer ;
+    dicm:hasMaterial inst:3FNXK3V4L9tfCqZoVCypW5 ;
+    dicv:hasProperty inst:0bhePhxFz6PBrhCC27HWkz ;
+    core:hasLabel "Air" .
+
+inst:0J3MTAzUDCxAczJ4pD0bWE a dicv:Property ;
+    core:hasLabel "IsExternal" ;
+    core:hasValue false .
+
+inst:0J6IB7RdnEX9QO0v4clp9w a dicm:Material ;
+    core:hasLabel "Concrete, Lightweight" .
+
+inst:0J6JjWQUn5VvBWqc3cCJKF a dicm:Layer ;
+    dicm:hasMaterial inst:310pCoYy13n8GvGpUBHMZ8 ;
+    dicv:hasProperty inst:31vyY2nOH75PijckV_nKaN ;
+    core:hasLabel "Brick, Common" .
+
+inst:0JN1EgOy9EXuJ9Xc_2mksP a dicm:Material ;
+    core:hasLabel "Brick, Common" .
+
+inst:0JWyYiO45D3fvjX4qdfA42 a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 2.032e+02 .
+
+inst:0Jb9LST4LFMRmQD3b6K0QC a dicv:Property ;
+    core:hasLabel "Length" ;
+    core:hasValue 3.80625e+03 .
+
+inst:0Jd7J4rvn6e9j2mbVSyyA9 a dicv:Property ;
+    core:hasLabel "ThermalTransmittance" ;
+    core:hasValue 8.47504e-01 .
+
+inst:0JgwLeukj968cCw8EtYIqp a dicv:Property ;
+    core:hasLabel "Roughness" ;
+    core:hasValue 3 .
+
+inst:0Jp4Gq9iP7M8dlvV5VIKgZ a dicv:Property ;
+    core:hasLabel "IsExternal" ;
+    core:hasValue true .
+
+inst:0KTBLdCAnFlAK9Z749fpTg a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 1.27e+01 .
+
+inst:0Kh9igOofBEwJReB2A6mVY a dicv:Property ;
+    core:hasLabel "Roughness" ;
+    core:hasValue 3 .
+
+inst:0KjwS919T9mer9sMMLwtDe a dicv:Property ;
+    core:hasLabel "Roughness" ;
+    core:hasValue 3 .
+
+inst:0KwxmDPu5EyQRhT7Zt10p1 a dicm:Layer ;
+    dicm:hasMaterial inst:22OJGuX7X16QMG4ESkREXB ;
+    dicv:hasProperty inst:19y_4JB3zCoelQPb0A7y0J ;
+    core:hasLabel "Gypsum Wall Board" .
+
+inst:0L1Sv_ZuX8w9qvRG0fRUEN a dicm:Layer ;
+    dicm:hasMaterial inst:16jzXEyLz3ZOhlfYipTBP3 ;
+    dicv:hasProperty inst:0S_JdOK6XFXueaQUayuDjv ;
+    core:hasLabel "Air" .
+
+inst:0L9w1xcWfCAuxmf5U_5gLZ a dicv:Property ;
+    core:hasLabel "Roughness" ;
+    core:hasValue 3 .
+
+inst:0LFLbA9DP0TgtV580mZbcg a dicm:LayerSet ;
+    dicm:NumberOfLayers 3 ;
+    dicm:hasLayer inst:0_OWGZYs1E8wbivexN4UGv,
+        inst:2qEduHnObEFh0pCwWr_Ab9,
+        inst:2vOmCZlXb1WwB_vlrO71Bt ;
+    core:hasName "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster" .
+
+inst:0LSOwspUv6Hvv0yaNWYYRn a beo:Wall ;
+    bot:containsElement inst:2rvVZuy3X0l9ATwUENTX_E,
+        inst:2rvVZuy3X0l9ATwUENTX_n,
+        inst:2rvVZuy3X0l9ATwUENTZiw,
+        <https://w3id.org/digitalconstruction/instance#2rvVZuy3X0l9ATwUENTZl$>,
+        inst:2rvVZuy3X0l9ATwV2NTX_E,
+        inst:2rvVZuy3X0l9ATwV2NTX_n,
+        inst:2rvVZuy3X0l9ATwV2NTZiw,
+        <https://w3id.org/digitalconstruction/instance#2rvVZuy3X0l9ATwV2NTZl$> ;
+    dicm:hasLayerSet inst:2jGpQE3FD9dQDfS_AqZOWn ;
+    dicv:hasProperty inst:0GRLbAGhH5A83NmIIYbW53,
+        inst:1XvvlMjcH53RJ9wU0_8JqW,
+        inst:1dk0juf6HAJw9Tg_5Zk4Mi,
+        inst:22ZZDAk_rAEOaW2ymOEtmF,
+        inst:2Te_X00Un8AwcYLt6wGAzW,
+        inst:3BGnTg3m5FTu456I72RjQ4,
+        inst:3QQm1bWEvBqem28mKN3U07,
+        inst:3hdxRK8AX26uVqM75_D6Ho ;
+    core:hasGlobalID "0LSOwspUv6Hvv0yaNWYYRn" ;
+    core:hasLabel "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster:262580" .
+
+inst:0Lp0rGQMnFOfjS3fSHDzRR a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 1.27e+01 .
+
+inst:0LuW9XN5X8xhCN1BEowmbR a dicv:Property ;
+    core:hasLabel "ThermalTransmittance" ;
+    core:hasValue 8.47504e-01 .
+
+inst:0Lw69RsGn28P5cW_I7LrWF a dicm:Layer ;
+    dicm:hasMaterial inst:1ZEAg5SzP5XBg1GklN3j2Y ;
+    dicv:hasProperty inst:2mDIKJ48T8_gTI_dfQXPJu ;
+    core:hasLabel "Air" .
+
+inst:0MNMuSBdH9jeRgUUao95H2 a dicm:LayerSet ;
+    dicm:NumberOfLayers 3 ;
+    dicm:hasLayer inst:0L1Sv_ZuX8w9qvRG0fRUEN,
+        inst:0hqOJKeHH5fffU0gmHOzgn,
+        inst:39qgxwUf93xQI8nVVv6eOU ;
+    core:hasName "Basic Wall:Internal Wall _ 15mm Plaster Board + 40mm Cavity + 15mm Plaster Board" .
+
+inst:0N23H2m0v2MPmhvmfmKUfB a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 9e+01 .
+
+inst:0N6pG8AQL5ehTSZKIiuJfe a dicv:Property ;
+    core:hasLabel "Height" ;
+    core:hasValue 3.775e+03 .
+
+<https://w3id.org/digitalconstruction/instance#0NETAEud13PQlR7K7gJ4$E> a beo:Wall ;
+    dicm:hasLayerSet inst:3844th_dr05xEW45XT3gir ;
+    dicv:hasProperty inst:0BfCiQi7z6gQr6a8OSVwac,
+        inst:0nKPZN2_H3avvIc5tlLyoo,
+        inst:1PYfV__Hz8Ce7_U7S1Dzhp,
+        inst:2QU2pRYPT3IOIoCfhgaYFA,
+        inst:2WySt5vuPAZOURWY2HttIx,
+        inst:3hsE1QoQL6tBmx6RBNanPb,
+        inst:3o5o6OCDD7Iht4docf2rMt,
+        inst:3teF6mO8v5ShlH0eKg3c6N ;
+    core:hasGlobalID "0NETAEud13PQlR7K7gJ4$E" ;
+    core:hasLabel "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster:280043" .
+
+inst:0NETAEud13PQlR7K7gJ4n_ a beo:Wall ;
+    bot:containsElement inst:2rvVZuy3X0l9ATwUENTjbi,
+        inst:2rvVZuy3X0l9ATwV2NTjbi ;
+    dicm:hasLayerSet inst:0ZvxZk14DEMwDjuiKRXxAf ;
+    dicv:hasProperty inst:0APxm28w57GOHdAErh1PE1,
+        inst:0HMWKbfBv6F9Q20hEwJOYG,
+        inst:1Fh2l9g4DE4v7WJsvE6jbk,
+        inst:2HFhwitcT87wTSeefUicmD,
+        inst:2QNGM17An1J99jWmxIS7bM,
+        inst:2V_SkPjZPAbwWBtgIKekyO,
+        inst:313q8McaD91QzvZjI2c7cx,
+        inst:3Ar4c4ijHDv9EPpPL5_2kn ;
+    core:hasGlobalID "0NETAEud13PQlR7K7gJ4n_" ;
+    core:hasLabel "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster:280155" .
+
+inst:0NETAEud13PQlR7K7gJ4ov a beo:Wall ;
+    dicm:hasLayerSet inst:32bibI4WT7euV2AtObXE9T ;
+    dicv:hasProperty inst:0doDWlwNL95uvKGTNTnjxW,
+        inst:1CqOM_w4L7VBe3OdeDghAG,
+        inst:1Rhrj0g8P1NADsrtECyuDv,
+        inst:1vqklAqC130eliko6ZwDQ1,
+        inst:2BY1uNjtr44vJS0SwAxodV,
+        inst:2BYBUgvTXEVQYQES8yn1Yy,
+        inst:2BlAnBpOT3eReOtyeZFz_2,
+        inst:3WbzhI2B5D6Q7mvD8h6s4N ;
+    core:hasGlobalID "0NETAEud13PQlR7K7gJ4ov" ;
+    core:hasLabel "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster:280220" .
+
+inst:0NETAEud13PQlR7K7gJ4sy a beo:Wall ;
+    dicm:hasLayerSet inst:1YzsICxD5AEOdUYP3FpHLg ;
+    dicv:hasProperty inst:0PIUJpu098ffRMhriBKt9Z,
+        inst:1BHPmLX2b4QQ5On1K81gd4,
+        inst:1abWpplk9ABOP8GvUBqmDi,
+        inst:25GDsaiwjBlR9isCp5b9XP,
+        inst:29yOvsRLPE7e7k6H2wkGmD,
+        inst:2Anbf1fvL3QuCbwlpDkywt,
+        inst:2C6z6pvZnDqv5Xa6nl_FD_,
+        inst:2zob1_jcLD2ASZT57gIeiJ ;
+    core:hasGlobalID "0NETAEud13PQlR7K7gJ4sy" ;
+    core:hasLabel "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster:280473" .
+
+inst:0N_lIvMdT7TeHejZZVpeDZ a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 1.016e+02 .
+
+inst:0O4UYJZK1AeOuuGe3h8OZ0 a dicv:Property ;
+    core:hasLabel "Width" ;
+    core:hasValue 3.175e+02 .
+
+inst:0OVOfREE9C8g03VgviWgMH a dicm:Layer ;
+    dicm:hasMaterial inst:3gxgnoP59AGg16GmG_FQ4O ;
+    dicv:hasProperty inst:3CmUt8G_95cgwoisPZosyf ;
+    core:hasLabel "Gypsum Wall Board" .
+
+inst:0OhaDoz4v6gPtpIzIrFMJF a dicm:Layer ;
+    dicm:hasMaterial inst:2d5NeylMf4XRrzoQnO_yHM ;
+    dicv:hasProperty inst:0oRH2W0759QQ735C3y1lnA ;
+    core:hasLabel "Brick, Common" .
+
+inst:0Ovku8tnP1lh4nb_HJEkDR a dicm:Layer ;
+    dicm:hasMaterial inst:1TyMl511z07gmd2inooa9a ;
+    dicv:hasProperty inst:2wboIGIDT0A9vfiEd6XWWz ;
+    core:hasLabel "Gypsum Wall Board" .
+
+inst:0OzpmvsGXAuAEsbdmZN4aV a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 1.27e+01 .
+
+inst:0P4jYpUqrFNA2_xRzWDlFa a dicv:Property ;
+    core:hasLabel "Length" ;
+    core:hasValue 2.6825e+03 .
+
+inst:0PIUJpu098ffRMhriBKt9Z a dicv:Property ;
+    core:hasLabel "Thermal Resistance (R)" ;
+    core:hasValue 1.179935e+00 .
+
+inst:0PNpv0Q39CagRSd0R_b_g3 a dicv:Property ;
+    core:hasLabel "Length" ;
+    core:hasValue 3e+03 .
+
+inst:0PeLiQWYb22AUKHWMjQ0Ja a dicv:Property ;
+    core:hasLabel "Thermal Resistance (R)" ;
+    core:hasValue 1.658824e+00 .
+
+inst:0QFt9KUXzCOvynVfOhgnqd a dicm:Layer ;
+    dicm:hasMaterial inst:24tDoidBbDxxyutW5aD9xY ;
+    dicv:hasProperty inst:0Bcnrls4bBsQkKabMUhOZ8 ;
+    core:hasLabel "Brick, Common" .
+
+inst:0QKOWm0SPDBux7Gc8YI2oN a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 1.27e+01 .
+
+inst:0QxO0O5Qn5wQIV_vs71nAs a dicv:Property ;
+    core:hasLabel "ThermalTransmittance" ;
+    core:hasValue 6e+00 .
+
+inst:0Qxbq7zVr5phGHxu9sdqNa a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 1.27e+01 .
+
+inst:0R8QLGBYDAlAFs9_cBji9z a dicv:Property ;
+    core:hasLabel "IsExternal" ;
+    core:hasValue true .
+
+inst:0RHW8X_PH21P4mAPPtZROZ a dicm:LayerSet ;
+    dicm:NumberOfLayers 1 ;
+    dicm:hasLayer inst:2_tNUMEXbC9OZNXbi6VbWM ;
+    core:hasName "Basic Wall:Parapet Wal _ 90mm Brickl" .
+
+inst:0R_LsIacD1vgvKoDhDBUo1 a dicm:Material ;
+    core:hasLabel "Concrete, Lightweight" .
+
+inst:0RawOmiFP8zecaNbZZszb5 a dicv:Property ;
+    core:hasLabel "Width" ;
+    core:hasValue 3.175e+02 .
+
+inst:0SUkSkjN5BZA3q1CSiADCY a dicm:Layer ;
+    dicm:hasMaterial inst:2scVr8qZ18FQoraRmc_QuD ;
+    dicv:hasProperty inst:0wAKOvD2zDyQ88A2aPxQKi ;
+    core:hasLabel "Brick, Common" .
+
+inst:0SYPjwObb3J9J_nq9sbZOx a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 1.27e+01 .
+
+inst:0S_JdOK6XFXueaQUayuDjv a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 4e+01 .
+
+inst:0TQn2vkuP0FQjInxdHhXYS a dicm:Material ;
+    core:hasLabel "Concrete, Lightweight" .
+
+inst:0TRaI6uArFFeaUGWDqw_az a dicm:Layer ;
+    dicm:hasMaterial inst:2BG8zuxzf8owWcCARVnyAy ;
+    dicv:hasProperty inst:0iT3PNGVn0exTMv7v3Dv6d ;
+    core:hasLabel "Gypsum Wall Board" .
+
+inst:0ThrwpO5rFoxh9vdR4lwTw a dicm:Material ;
+    core:hasLabel "Gypsum Wall Board" .
+
+inst:0TxaQ7tm96mhfW6LLwv3Pc a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 1.5e+01 .
+
+inst:0U0sCEpSLAWRaVztwMY2qq a dicv:Property ;
+    core:hasLabel "IsExternal" ;
+    core:hasValue true .
+
+inst:0U5QtMWRHF7OcQCBzz4S2z a dicv:Property ;
+    core:hasLabel "Roughness" ;
+    core:hasValue 3 .
+
+inst:0UirziJWr41g4u8MH45yQM a dicm:Material ;
+    core:hasLabel "Gypsum Wall Board" .
+
+inst:0V4DWarkT3vgeI5_kfnE5n a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 2.032e+02 .
+
+inst:0VJbxIa51AGQ2OCJe6LIYY a dicm:Layer ;
+    dicm:hasMaterial inst:1i7SmP2lD4aAQuc9iW1b5C ;
+    dicv:hasProperty inst:1KvU5Zsk97XPW4NKz_5N9N ;
+    core:hasLabel "Concrete, Lightweight" .
+
+inst:0VXZR1UEf3E8irwEh9wjyg a dicv:Property ;
+    core:hasLabel "Height" ;
+    core:hasValue 6.325e+02 .
+
+inst:0VsDe44o54F8zQpZJrDo2X a dicm:Layer ;
+    dicm:hasMaterial inst:0Zg9mHhDv1GRT0eX_ARlPD ;
+    dicv:hasProperty inst:0zHu9jXln6PhmfU7xsJq3y ;
+    core:hasLabel "Brick, Common" .
+
+inst:0Wi8jZLuf78gMm6PQpa1A7 a dicm:Layer ;
+    dicm:hasMaterial inst:3Vq_YyOLT66hE4ZqvtULH3 ;
+    dicv:hasProperty inst:2kR3C253b4CxOipRwYAUnu ;
+    core:hasLabel "Brick, Common" .
+
+inst:0Wk3p7_dzC9R6iAL12by1t a dicv:Property ;
+    core:hasLabel "IsExternal" ;
+    core:hasValue true .
+
+inst:0WpTAAgP9AoPsv70e0DncG a dicm:Layer ;
+    dicm:hasMaterial inst:0sjwsOa7nDovHHlmuUIZrU ;
+    dicv:hasProperty inst:2M8845W6PEOPvIeBY7TdkN ;
+    core:hasLabel "Brick, Common" .
+
+inst:0WpjaSXcL1Q9bPHdFIfTXZ a dicm:Layer ;
+    dicm:hasMaterial inst:34hV2Ss4H89g5jg4CEZjxL ;
+    dicv:hasProperty inst:0N_lIvMdT7TeHejZZVpeDZ ;
+    core:hasLabel "Brick, Common" .
+
+inst:0XKQV7w2nAZPbuDwIOzI3_ a dicm:Material ;
+    core:hasLabel "Concrete, Lightweight" .
+
+inst:0XUCNaCjnB_OKsKBM_C9zn a dicv:Property ;
+    core:hasLabel "Width" ;
+    core:hasValue 7e+01 .
+
+inst:0XbJCKBoz0SBn58p1F8dMf a dicm:Layer ;
+    dicm:hasMaterial inst:2foIbi47PATecz6oHaTsI0 ;
+    dicv:hasProperty inst:1czFwBH1PBAxOIjuGGYjXn ;
+    core:hasLabel "Gypsum Wall Board" .
+
+inst:0Xtexb6SL72Qr1XKb1mL60 a dicm:LayerSet ;
+    dicm:NumberOfLayers 3 ;
+    dicm:hasLayer inst:0z8UyW0ez8ROLFBchQ_s5s,
+        inst:2fGnqIH5H7zBzj6QMVXTdL,
+        inst:31DtXBLszF5vrdWUUjzLDy ;
+    core:hasName "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster" .
+
+inst:0YlAzwe3T6qP9PeDoQxz4S a dicm:Material ;
+    core:hasLabel "Plaster" .
+
+inst:0YrDv23lLCeQLdrZY2zRIG a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 2.032e+02 .
+
+inst:0ZH8iMJML2yw6gt4V_STwF a dicv:Property ;
+    core:hasLabel "ThermalTransmittance" ;
+    core:hasValue 8.47504e-01 .
+
+inst:0Zg9mHhDv1GRT0eX_ARlPD a dicm:Material ;
+    core:hasLabel "Brick, Common" .
+
+inst:0ZvxZk14DEMwDjuiKRXxAf a dicm:LayerSet ;
+    dicm:NumberOfLayers 3 ;
+    dicm:hasLayer inst:0Wi8jZLuf78gMm6PQpa1A7,
+        inst:3MPLWElRjBHgj2qXZ2Xni_,
+        inst:3TlZ2to5PCDeasITg26ucZ ;
+    core:hasName "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster" .
+
+inst:0_2S3CeoXA2vNcZNW4sS72 a dicv:Property ;
+    core:hasLabel "IsExternal" ;
+    core:hasValue false .
+
+inst:0_DjXil6H1lQiBK7UUyMby a dicv:Property ;
+    core:hasLabel "Length" ;
+    core:hasValue 3e+03 .
+
+inst:0_MjX3hyP4xgB0F33EWlKa a dicv:Property ;
+    core:hasLabel "Thermal Resistance (R)" ;
+    core:hasValue 1.179935e+00 .
+
+inst:0_OWGZYs1E8wbivexN4UGv a dicm:Layer ;
+    dicm:hasMaterial inst:3vcIy9mjT9ex_OSrRFGcEU ;
+    dicv:hasProperty inst:1ZSlseKVb0Pur1hZCWfydg ;
+    core:hasLabel "Brick, Common" .
+
+inst:0_RdUxpIH2bPXIk35eQ_U4 a dicm:Layer ;
+    dicm:hasMaterial inst:3Y4UmUMRT798wAu2Dj3Lsf ;
+    dicv:hasProperty inst:3gjaErSTbAgw_IH3z3JQNB ;
+    core:hasLabel "Plaster" .
+
+inst:0_Zcm7bTLC4QsCZ55O3Dmh a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 2.032e+02 .
+
+inst:0_szPx93j8pgY9u16MsbDZ a dicv:Property ;
+    core:hasLabel "Absorptance" ;
+    core:hasValue 7e-01 .
+
+inst:0a3NUOj41CJeBobnQ9IgOg a dicv:Property ;
+    core:hasLabel "Thermal Resistance (R)" ;
+    core:hasValue 1.179935e+00 .
+
+inst:0a5z_HgA51oO0MC9XpktkL a dicv:Property ;
+    core:hasLabel "Roughness" ;
+    core:hasValue 3 .
+
+inst:0aVU7MLfbFtxqusbT7th3t a dicv:Property ;
+    core:hasLabel "Length" ;
+    core:hasValue 2.5e+03 .
+
+inst:0b0ZzeQZnAHu7yofLwFY7l a dicv:Property ;
+    core:hasLabel "Length" ;
+    core:hasValue 1.484125e+04 .
+
+inst:0bKqR0OInEPfjExRZulf7Q a dicv:Property ;
+    core:hasLabel "ThermalTransmittance" ;
+    core:hasValue 8.47504e-01 .
+
+inst:0bhePhxFz6PBrhCC27HWkz a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 4e+01 .
+
+inst:0bqvRRGBP3HhovM1aZvjyR a dicv:Property ;
+    core:hasLabel "IsExternal" ;
+    core:hasValue true .
+
+inst:0cF0bBCm1BEhN8z0T6gwN2 a dicv:Property ;
+    core:hasLabel "Absorptance" ;
+    core:hasValue 7e-01 .
+
+inst:0cQ3x1oMD0de9ARwmSyn4E a dicv:Property ;
+    core:hasLabel "Thermal Resistance (R)" ;
+    core:hasValue 1.179935e+00 .
+
+inst:0ch91xrwH7gPHORcdT7mqm a dicv:Property ;
+    core:hasLabel "Absorptance" ;
+    core:hasValue 7e-01 .
+
+inst:0cwcpARrH1uw_dFKFifCcO a dicv:Property ;
+    core:hasLabel "Length" ;
+    core:hasValue 1e+04 .
+
+inst:0d9lAMFJ9BmRE8XNdcFqCI a dicm:LayerSet ;
+    dicm:NumberOfLayers 3 ;
+    dicm:hasLayer inst:1jVCTw7sH8_v5rOUAXY61t,
+        inst:2kv9WiPrD4aOh_rKcO0UDm,
+        inst:3aCAbIUb1BoxpRq7796DOX ;
+    core:hasName "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster" .
+
+inst:0dUKOFlh50RPwa7hOhfis6 a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 4e+01 .
+
+inst:0dhvitlNz8R9XYqJHZATj7 a dicv:Property ;
+    core:hasLabel "Height" ;
+    core:hasValue 3.775e+03 .
+
+inst:0djOb8nhLF_BZxnYTzEZW8 a dicv:Property ;
+    core:hasLabel "Width" ;
+    core:hasValue 3.175e+02 .
+
+inst:0doDWlwNL95uvKGTNTnjxW a dicv:Property ;
+    core:hasLabel "IsExternal" ;
+    core:hasValue true .
+
+inst:0euYB8hWn7wPnvi9me6oaG a dicv:Property ;
+    core:hasLabel "Thermal Resistance (R)" ;
+    core:hasValue 1.179935e+00 .
+
+inst:0fB5cJHTH79vQ_DDaxZbJQ a dicv:Property ;
+    core:hasLabel "IsExternal" ;
+    core:hasValue false .
+
+<https://w3id.org/digitalconstruction/instance#0f_jxKQ1L7TQHBpe8ltV$s> a beo:Wall ;
+    bot:containsElement <https://w3id.org/digitalconstruction/instance#0uUHcDv$52GPXRv8oFn4ox>,
+        <https://w3id.org/digitalconstruction/instance#0uUHcDv$52GPXRv8oFn4pH>,
+        <https://w3id.org/digitalconstruction/instance#0uUHcDv$52GPXRv9_Fn4ox>,
+        <https://w3id.org/digitalconstruction/instance#0uUHcDv$52GPXRv9_Fn4pH> ;
+    dicm:hasLayerSet inst:0rsOR2Rwb51ur9DsrPJnKD ;
+    dicv:hasProperty inst:176TX_GFPD8OiA7mcSfVAI,
+        inst:1jmOJbZD1EwQanV_aMLWi8,
+        inst:1n2R110CfAcRFGntlgArEv,
+        inst:2CSS4wnsj9Mugi0ocGz4wB,
+        inst:2CkTa5MaPD4vewLU4BEnl3,
+        inst:2bNRwDyKr6RBnOh3sm3Fqp,
+        inst:2cGc5vozzCUvMvbIIt3Qj9,
+        inst:2k3yHuPwT20h8plyDIfbd0 ;
+    core:hasGlobalID "0f_jxKQ1L7TQHBpe8ltV$s" ;
+    core:hasLabel "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster:272504" .
+
+inst:0f_jxKQ1L7TQHBpe8ltV6X a beo:Wall ;
+    dicm:hasLayerSet inst:20OLs5Hwr7X8Ie7mJWGgJc ;
+    dicv:hasProperty inst:0HugjSk7j6Xe7_bafAGYxV,
+        inst:0PNpv0Q39CagRSd0R_b_g3,
+        inst:0upoYCwCr5CesJq36icyTX,
+        inst:0vQYoei5H1I8u9lNgd7UzO,
+        inst:2A4A_DAxrAWhQlIkG4NWrn,
+        inst:2EoJY5dtj37RDv2csVrhCW,
+        inst:2lkz5S0mT0ueYgl9k0xFNh,
+        inst:3cj0tsMx16rREsO8Jhp2Ca ;
+    core:hasGlobalID "0f_jxKQ1L7TQHBpe8ltV6X" ;
+    core:hasLabel "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster:271919" .
+
+inst:0f_jxKQ1L7TQHBpe8ltV8r a beo:Wall ;
+    bot:containsElement <https://w3id.org/digitalconstruction/instance#0uUHcDv$52GPXRv8oFn4qj>,
+        <https://w3id.org/digitalconstruction/instance#0uUHcDv$52GPXRv8oFn4ri>,
+        <https://w3id.org/digitalconstruction/instance#0uUHcDv$52GPXRv9_Fn4qj>,
+        <https://w3id.org/digitalconstruction/instance#0uUHcDv$52GPXRv9_Fn4ri> ;
+    dicm:hasLayerSet inst:07pUBHMZr5qefXvgF5g1SR ;
+    dicv:hasProperty inst:0GDOvJPbP4gQeYOtjDv6fw,
+        inst:0R8QLGBYDAlAFs9_cBji9z,
+        inst:1l3l6iL15ARADqJeBDAB5v,
+        inst:1pYmOiucv2vx1GV8WS6XX_,
+        inst:2AzNQisu5EqgYADKQM0ryG,
+        inst:31uHlHOGD1xOUPgbVecKmX,
+        inst:3CDpBw3FnFJ9Mgap0V1en6,
+        inst:3XdVsHm958IAmaVfxLeZXi ;
+    core:hasGlobalID "0f_jxKQ1L7TQHBpe8ltV8r" ;
+    core:hasLabel "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster:271803" .
+
+inst:0f_jxKQ1L7TQHBpe8ltV9w a beo:Wall ;
+    dicm:hasLayerSet inst:3FlrjtPI9DR8nwEtsVz1e1 ;
+    dicv:hasProperty inst:0Kh9igOofBEwJReB2A6mVY,
+        inst:0ch91xrwH7gPHORcdT7mqm,
+        inst:1s7JD7DI1ByRtMnpJdJHPm,
+        inst:2q7hAeVfL2I8l5_bTAej8d,
+        inst:34UjVINMb5qALc1c6P5S0Q,
+        inst:3iI_FFURf4LexLrpLxAFEv,
+        inst:3qPWYkLkXE2816CpQTBKj2,
+        inst:3tDNrrSu125RNg7WIj3sa7 ;
+    core:hasGlobalID "0f_jxKQ1L7TQHBpe8ltV9w" ;
+    core:hasLabel "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster:271860" .
+
+inst:0f_jxKQ1L7TQHBpe8ltVim a beo:Wall ;
+    bot:containsElement <https://w3id.org/digitalconstruction/instance#0uUHcDv$52GPXRv8oFn4AT>,
+        <https://w3id.org/digitalconstruction/instance#0uUHcDv$52GPXRv8oFn4BP>,
+        <https://w3id.org/digitalconstruction/instance#0uUHcDv$52GPXRv8oFn4sm>,
+        <https://w3id.org/digitalconstruction/instance#0uUHcDv$52GPXRv8oFn4tt>,
+        <https://w3id.org/digitalconstruction/instance#0uUHcDv$52GPXRv9_Fn4AT>,
+        <https://w3id.org/digitalconstruction/instance#0uUHcDv$52GPXRv9_Fn4BP>,
+        <https://w3id.org/digitalconstruction/instance#0uUHcDv$52GPXRv9_Fn4sm>,
+        <https://w3id.org/digitalconstruction/instance#0uUHcDv$52GPXRv9_Fn4tt> ;
+    dicm:hasLayerSet inst:1hDJ2EmAb5v8vriMxqzeDm ;
+    dicv:hasProperty inst:0pQGsfUKr7yBvNFwHnbZGg,
+        inst:0wmPD0vmjFuQaeiRSXyEB7,
+        inst:1wOd5VmubCYQ2IL7MCWOm_,
+        inst:26c5aEXIT5af74SFLi31dy,
+        inst:2Mz8sRIgD0hAGOxJYbmNxG,
+        inst:3KM_7GINj6K9vd67XaKQHn,
+        inst:3XYFZBYWjAh9UulMTonwM_,
+        inst:3dlxlOrb117fLswN0lt3HR ;
+    core:hasGlobalID "0f_jxKQ1L7TQHBpe8ltVim" ;
+    core:hasLabel "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster:273598" .
+
+inst:0f_jxKQ1L7TQHBpe8ltVlN a beo:Wall ;
+    bot:containsElement <https://w3id.org/digitalconstruction/instance#0uUHcDv$52GPXRv8oFn4C4>,
+        <https://w3id.org/digitalconstruction/instance#0uUHcDv$52GPXRv8oFn4DC>,
+        <https://w3id.org/digitalconstruction/instance#0uUHcDv$52GPXRv8oFn4E0>,
+        <https://w3id.org/digitalconstruction/instance#0uUHcDv$52GPXRv9_Fn4C4>,
+        <https://w3id.org/digitalconstruction/instance#0uUHcDv$52GPXRv9_Fn4DC>,
+        <https://w3id.org/digitalconstruction/instance#0uUHcDv$52GPXRv9_Fn4E0> ;
+    dicm:hasLayerSet inst:06XXfhlo5FhO_o9BwQ4hmw ;
+    dicv:hasProperty inst:0mVrwUhor4UBWuZbWlEujm,
+        inst:10artplsPDIvC7DIj7HlHM,
+        inst:1MCUVaq0f2qhjtaisF_FCZ,
+        inst:24plyJ1jX4gQispeUCkyGw,
+        inst:2_Tkk2nrjC4R7r4ujtQGTz,
+        inst:2vZu36J6rCqOXUXVttMXoJ,
+        inst:3ACszMpJX3OgzUsTjBvCIJ,
+        inst:3Bxx6FFfb6phtuxuI4NBEl ;
+    core:hasGlobalID "0f_jxKQ1L7TQHBpe8ltVlN" ;
+    core:hasLabel "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster:273497" .
+
+inst:0f_jxKQ1L7TQHBpe8ltVwM a beo:Wall ;
+    dicm:hasLayerSet inst:3xUU9QEbT9ofygOA_gF00z ;
+    dicv:hasProperty inst:04ek82aWzBR813i94P1wvF,
+        inst:06eAXGov1EQPCclwgW6fTA,
+        inst:1Eby8edFHDvuKUbSGtIyRx,
+        inst:1W_NRtaeHDARQJ7Q1nY_aQ,
+        inst:1ZtryqzA5F3QYCMgkXGrV5,
+        inst:27eOWRiGL9dBCTC6IRVjRc,
+        inst:2thoMK_Nj8HwPuG_VcecSH,
+        inst:3crS6PmCn5Ah_y8vuc_zlf ;
+    core:hasGlobalID "0f_jxKQ1L7TQHBpe8ltVwM" ;
+    core:hasLabel "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster:272664" .
+
+inst:0f_jxKQ1L7TQHBpe8ltVya a beo:Wall ;
+    dicm:hasLayerSet inst:2u59De1Zv5D9iwO5gwmmpk ;
+    dicv:hasProperty inst:036CiXIvDEE83BOe8DbhSA,
+        inst:0cF0bBCm1BEhN8z0T6gwN2,
+        inst:1MxDWVBx58cvuvKZLEAkS7,
+        inst:1zlqacMY9AqOMGF3dt4NYJ,
+        inst:2gMV_Eyp53yvttEaqC2Gmh,
+        inst:3N0g857JTF5hWYdZJAFgM4,
+        inst:3ctucO2vz0mB9NSpSh9EYA,
+        inst:3tb6QAd7jFxBg9cgnvzthl ;
+    core:hasGlobalID "0f_jxKQ1L7TQHBpe8ltVya" ;
+    core:hasLabel "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster:272554" .
+
+inst:0fcUXb1Kb6sR8iohzM0QVr a dicv:Property ;
+    core:hasLabel "ThermalTransmittance" ;
+    core:hasValue 8.47504e-01 .
+
+inst:0glnyuu9bBwu4npHTJR9WK a dicv:Property ;
+    core:hasLabel "Width" ;
+    core:hasValue 3.175e+02 .
+
+inst:0h1mOmhQb7xPdXI22MExY4 a dicv:Property ;
+    core:hasLabel "IsExternal" ;
+    core:hasValue false .
+
+inst:0hfXQrOo5CpxUmHI0Lsx2G a dicv:Property ;
+    core:hasLabel "ThermalTransmittance" ;
+    core:hasValue 6.028369e-01 .
+
+inst:0hkkF1f7zCtODKAIHswElh a dicv:Property ;
+    core:hasLabel "IsExternal" ;
+    core:hasValue true .
+
+inst:0hq4x_kgX0CwGY7Q7sTTee a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 9e+01 .
+
+inst:0hqOJKeHH5fffU0gmHOzgn a dicm:Layer ;
+    dicm:hasMaterial inst:2iK7YwJ093uetQ2yy_WwNy ;
+    dicv:hasProperty inst:0TxaQ7tm96mhfW6LLwv3Pc ;
+    core:hasLabel "Plaster" .
+
+inst:0hzS1gXcH7lwKPc0ABUjgA a dicm:Layer ;
+    dicm:hasMaterial inst:1P8FzaXWH8WeyeRWPhNSHN ;
+    dicv:hasProperty inst:3Q1JipDP193OCyktfpIB2U ;
+    core:hasLabel "Gypsum Wall Board" .
+
+inst:0i1FeuYuLDi9MRgW5oJSps a dicm:Material ;
+    core:hasLabel "Concrete, Lightweight" .
+
+inst:0iT3PNGVn0exTMv7v3Dv6d a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 1.27e+01 .
+
+inst:0jGefeNUbD08tuG10vQZKu a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 1.27e+01 .
+
+inst:0jXSrzA5n07vGuLITwKcXx a dicv:Property ;
+    core:hasLabel "Roughness" ;
+    core:hasValue 3 .
+
+inst:0jZqNq6dbCIg5FsPBCWIbJ a dicv:Property ;
+    core:hasLabel "ThermalTransmittance" ;
+    core:hasValue 8.47504e-01 .
+
+inst:0jkWIUvGz76BhTvuEGozbV a dicv:Property ;
+    core:hasLabel "ThermalTransmittance" ;
+    core:hasValue 8.47504e-01 .
+
+inst:0kZ2RtEC5ADPB7exHBJtZa a dicm:Layer ;
+    dicm:hasMaterial inst:0JN1EgOy9EXuJ9Xc_2mksP ;
+    dicv:hasProperty inst:1AZjaf9DH0RAx7cUO0zL4_ ;
+    core:hasLabel "Brick, Common" .
+
+inst:0knUfGX1z9o981rrlRlecd a dicm:Layer ;
+    dicm:hasMaterial inst:0lFSxvASr5QP4PCtqU4TsO ;
+    dicv:hasProperty inst:1k9as3M8rFfPVC6ap1K5O0 ;
+    core:hasLabel "Air" .
+
+inst:0l12L3Gov3E94tT6CdhpjU a dicv:Property ;
+    core:hasLabel "Width" ;
+    core:hasValue 7e+01 .
+
+inst:0l14kiYIb0lvFCeFUuJh0r a dicm:Layer ;
+    dicm:hasMaterial inst:2Vh1qt1HTAlRXJ1CmtsyN3 ;
+    dicv:hasProperty inst:2Ip4r_sUHAl8hTKR3o6VCC ;
+    core:hasLabel "Plaster" .
+
+inst:0lB6pWJenEVgdFI8rv2kiv a dicv:Property ;
+    core:hasLabel "Height" ;
+    core:hasValue 6.325e+02 .
+
+inst:0lFSxvASr5QP4PCtqU4TsO a dicm:Material ;
+    core:hasLabel "Air" .
+
+inst:0llNxXnxTCoxtx09024e3u a dicm:Layer ;
+    dicm:hasMaterial inst:2LSRroPLf3Effaz6anEAFt ;
+    dicv:hasProperty inst:1WDa78l5H8hg0Q1TaTF5Ue ;
+    core:hasLabel "Brick, Common" .
+
+inst:0lzacdioH3muQh5v4LYVuF a dicm:Material ;
+    core:hasLabel "Gypsum Wall Board" .
+
+inst:0mCJmjkdT3vejlCCTiCa1r a dicm:Material ;
+    core:hasLabel "Brick, Common" .
+
+inst:0mHfcSVJzEUQ5m3renRwf6 a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 2.032e+02 .
+
+inst:0mTtN71vvCNPdfRswPOSAG a dicm:Layer ;
+    dicm:hasMaterial inst:2rSQUaDKj8WhFmBlgk8QQx ;
+    dicv:hasProperty inst:3HhEQcuIH8pBRY018jSl1B ;
+    core:hasLabel "Brick, Common" .
+
+inst:0mUyPIKzv9rgCAWiXWbwgu a dicm:Layer ;
+    dicm:hasMaterial inst:1DefrKJTP3RvCsX51Kuw8d ;
+    dicv:hasProperty inst:3s9JDShQX9HgUCcoNGNbz8 ;
+    core:hasLabel "Gypsum Wall Board" .
+
+inst:0mVrwUhor4UBWuZbWlEujm a dicv:Property ;
+    core:hasLabel "Length" ;
+    core:hasValue 1e+04 .
+
+inst:0mcygJr7T3ERjOw9yJQayC a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 4e+01 .
+
+inst:0mdkJMN45ADfmMLFoN0_YC a dicv:Property ;
+    core:hasLabel "Width" ;
+    core:hasValue 3.175e+02 .
+
+inst:0mhcwLCwr5zvYDUffW8RHp a dicm:LayerSet ;
+    dicm:NumberOfLayers 3 ;
+    dicm:hasLayer inst:0Ovku8tnP1lh4nb_HJEkDR,
+        inst:1HkPnNedj6i9gNVoUvTVUo,
+        inst:2EXGBtUgj6WxqR48fkBqE9 ;
+    core:hasName "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster" .
+
+inst:0mhevRo9r5X8JNSuTZMdK6 a beo:Wall ;
+    bot:containsElement inst:2rvVZuy3X0l9ATwUENTYQY,
+        inst:2rvVZuy3X0l9ATwV2NTYQY ;
+    dicm:hasLayerSet inst:0d9lAMFJ9BmRE8XNdcFqCI ;
+    dicv:hasProperty inst:08rwf5a517hOhs2i51uLnf,
+        inst:0KjwS919T9mer9sMMLwtDe,
+        inst:0cQ3x1oMD0de9ARwmSyn4E,
+        inst:0glnyuu9bBwu4npHTJR9WK,
+        inst:14ZQJZAFn39wYT_uWzvAGU,
+        inst:2SPthIKWDCXQgvxlSl4jeY,
+        inst:3uuN7EcoHDpfE2kNAmlc1g,
+        inst:3wbMOXJgD91QF3DLI0Krrg ;
+    core:hasGlobalID "0mhevRo9r5X8JNSuTZMdK6" ;
+    core:hasLabel "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster:262251" .
+
+inst:0mhevRo9r5X8JNSuTZMdNm a beo:Wall ;
+    bot:containsElement inst:2rvVZuy3X0l9ATwUENTYHE,
+        inst:2rvVZuy3X0l9ATwUENTiYj,
+        inst:2rvVZuy3X0l9ATwV2NTYHE,
+        inst:2rvVZuy3X0l9ATwV2NTiYj ;
+    dicm:hasLayerSet inst:0LFLbA9DP0TgtV580mZbcg ;
+    dicv:hasProperty inst:06hKOnUTDDl9z5VneOZE6b,
+        inst:0IB6AT6hb0wuYkIIeCUDpB,
+        inst:0zdgnd_11EfPlqOSBNY3B8,
+        inst:1zryPVrnjE7Bha4bIddK0M,
+        inst:2tPQkzzAb8AeB0FzgxndLz,
+        inst:3VZxs5wWT9TewerSQiZDYq,
+        inst:3dpJEmSXnE69wmOqLiAteA,
+        inst:3sasYamID5ZOP86tp8ldm5 ;
+    core:hasGlobalID "0mhevRo9r5X8JNSuTZMdNm" ;
+    core:hasLabel "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster:262301" .
+
+inst:0mhevRo9r5X8JNSuTZNOZH a beo:Wall ;
+    bot:containsElement inst:2rvVZuy3X0l9ATwUENTYSe,
+        inst:2rvVZuy3X0l9ATwUENTibB,
+        inst:2rvVZuy3X0l9ATwV2NTYSe,
+        inst:2rvVZuy3X0l9ATwV2NTibB ;
+    dicm:hasLayerSet inst:10Esm_3Bv96A3kWQ1OGh4t ;
+    dicv:hasProperty inst:0BNcS2IKHCWRknGugiWCHI,
+        inst:0U0sCEpSLAWRaVztwMY2qq,
+        inst:0djOb8nhLF_BZxnYTzEZW8,
+        inst:1T7Qwjdan7SxVhW5wiK7Ek,
+        inst:1zkHDqqRrDgRHZXULKOxWu,
+        inst:382YwFaQ9B6wbqIEUVMAs6,
+        inst:3EMSSh_xr39vD2JerJy08H,
+        inst:3QFEbXVcj7jhKq2wPD2kqT ;
+    core:hasGlobalID "0mhevRo9r5X8JNSuTZNOZH" ;
+    core:hasLabel "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster:261564" .
+
+inst:0mhevRo9r5X8JNSuTZNOfV a beo:Wall ;
+    dicm:hasLayerSet inst:30tBZtP3506Bau9TFSVUnm ;
+    dicv:hasProperty inst:0337hVjoj6Uuph3kT7GmYd,
+        inst:04dQaj_Z9F981grbCZ6_PW,
+        inst:1NCIQi03z7DviYddhF1mq8,
+        inst:1dbWRBoALEVAquIarVkf3d,
+        inst:1hxdMa3f13sQHogEqbdCzC,
+        inst:1kdHqp60z9zxp7pNqA66EZ,
+        inst:2yiqBicADFkwRcD72zhwnC,
+        inst:3_hvQ0OeT5AgXSqkZ56xNO ;
+    core:hasGlobalID "0mhevRo9r5X8JNSuTZNOfV" ;
+    core:hasLabel "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster:261938" .
+
+inst:0mhevRo9r5X8JNSuTZNOgs a beo:Wall ;
+    dicm:hasLayerSet inst:1QIUcxvgf8aQsTOYlEEvMM ;
+    dicv:hasProperty inst:0osyceVkzDUwaWksoMy0iP,
+        inst:0pLAgdlTDBEPJIUH8FfjZm,
+        inst:1RRJJYDq12wfe_5acsNZE1,
+        inst:1t2YqVrpT9bBiDmVwssk3W,
+        inst:2jFzgNzsP7KfvCuKW2WFyK,
+        inst:2pVVaflh19ueDMJVZgm70g,
+        inst:3AsTAXN8fFlOc4gO99u5J2,
+        inst:3rlPTLL3b67QWiefFDsBge ;
+    core:hasGlobalID "0mhevRo9r5X8JNSuTZNOgs" ;
+    core:hasLabel "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster:262107" .
+
+inst:0mhevRo9r5X8JNSuTZNOhA a beo:Wall ;
+    dicm:hasLayerSet inst:3f_SYUcgL4Pft9uSBqzdOI ;
+    dicv:hasProperty inst:08MrtFwov8TPnlBDJET5m9,
+        inst:0Jp4Gq9iP7M8dlvV5VIKgZ,
+        inst:0RawOmiFP8zecaNbZZszb5,
+        inst:0owsmqSv1CIRBpIlm8P5Za,
+        inst:1BJjGLAjrDJez6Ugf3cDBs,
+        inst:1ULQ0VLR11XuAwK_XQeXmt,
+        inst:1rZzvQpHXDBONsD4FJ2Cjx,
+        inst:2nLBRlNiv0D84JWYg48QGS ;
+    core:hasGlobalID "0mhevRo9r5X8JNSuTZNOhA" ;
+    core:hasLabel "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster:262055" .
+
+inst:0mhevRo9r5X8JNSuTZNOiX a beo:Wall ;
+    dicm:hasLayerSet inst:2KBsv7QV1CdfhngM2TGKtN ;
+    dicv:hasProperty inst:1BtuImdvX3iBJxHCyqPsKb,
+        inst:1QfSYQw0jD4wJ988N9r_Vu,
+        inst:1rw2FQJ01CdR33R7a0pQ6A,
+        inst:25iPbMpQnEWBQfsQMGX44U,
+        inst:3DfiFMgD90rRNrkGlDI5FE,
+        inst:3UDpq6P9rFEh4gR0xFMdIO,
+        inst:3VVBp8CmXEMhUt3lO3SXgj,
+        inst:3lnDJRgoH2ZuqgBkc48TS9 ;
+    core:hasGlobalID "0mhevRo9r5X8JNSuTZNOiX" ;
+    core:hasLabel "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster:261708" .
+
+<https://w3id.org/digitalconstruction/instance#0mhevRo9r5X8JNSuTZNOj$> a beo:Wall ;
+    dicm:hasLayerSet inst:32OOYBbPj9GvPG26Qu8Rha ;
+    dicv:hasProperty inst:04Xtmprd94JxvJlAMUDabe,
+        inst:0HloQDtw1CIRJdWzUTETao,
+        inst:1CzmFytUD1g9YTkerrSA3r,
+        inst:1WzrWyw9L3XBAuQP76KJ1G,
+        inst:1b0d7Fozz7u9pXHrGXrovH,
+        inst:32LgxPQS9DzBXicbOen3Gq,
+        inst:3YtImjqq16_QzDNa4e58O7,
+        inst:3eEuKNtBL4C9EtRpiNJoqo ;
+    core:hasGlobalID "0mhevRo9r5X8JNSuTZNOj$" ;
+    core:hasLabel "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster:261650" .
+
+inst:0mhevRo9r5X8JNSuTZNOkK a beo:Wall ;
+    bot:containsElement inst:2rvVZuy3X0l9ATwUENTjYJ,
+        inst:2rvVZuy3X0l9ATwV2NTjYJ ;
+    dicm:hasLayerSet inst:21qKn2nK12gxrXPFQQl7CC ;
+    dicv:hasProperty inst:0Jd7J4rvn6e9j2mbVSyyA9,
+        inst:0hkkF1f7zCtODKAIHswElh,
+        inst:15nO7V4xz2lQ_6BeLiTdIt,
+        inst:1N2F3VuznBufaQIckEKoJ9,
+        inst:1aN36dBDf1MBLaiM3kOLQk,
+        inst:25iq0sRZj3oPSGLDQ1rqsG,
+        inst:2MpTgA5mn9xegkrmGDraBf,
+        inst:3oVtYx3kH9Mw1GcHkoGAP9 ;
+    core:hasGlobalID "0mhevRo9r5X8JNSuTZNOkK" ;
+    core:hasLabel "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster:261881" .
+
+inst:0mhevRo9r5X8JNSuTZNOlU a beo:Wall ;
+    dicm:hasLayerSet inst:2PV66KcWn6PuHDIxieWolw ;
+    dicv:hasProperty inst:0dhvitlNz8R9XYqJHZATj7,
+        inst:1ItENVcZP85gDeSGh1tJ0a,
+        inst:1WaokL2Br3TPfQ_NYag834,
+        inst:1fG8qrSO91YAGMX975PUSr,
+        inst:1nGO6jXK58gOa74d8wbMX5,
+        inst:27JcctN0H9Bf22xZMHbXWP,
+        inst:35LALdxyf8z9rGPjZPwBq_,
+        inst:3o0lC1QvrCC9xHDE0OBmRb ;
+    core:hasGlobalID "0mhevRo9r5X8JNSuTZNOlU" ;
+    core:hasLabel "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster:261811" .
+
+inst:0nKPZN2_H3avvIc5tlLyoo a dicv:Property ;
+    core:hasLabel "ThermalTransmittance" ;
+    core:hasValue 8.47504e-01 .
+
+inst:0nO_vCiCz07AYqaczoVOj4 a dicv:Property ;
+    core:hasLabel "Length" ;
+    core:hasValue 1.082e+04 .
+
+inst:0nuICyOBn1OBWRh95HBRU_ a dicv:Property ;
+    core:hasLabel "Thermal Resistance (R)" ;
+    core:hasValue 1.179935e+00 .
+
+inst:0nyRp7XuH01B8uNtp12TAn a dicm:Material ;
+    core:hasLabel "Brick, Common" .
+
+inst:0o2bZeoxP8gxXTYj0OB89W a dicv:Property ;
+    core:hasLabel "Roughness" ;
+    core:hasValue 3 .
+
+inst:0o3DZmXsX0LwLEjhpiLjmp a dicv:Property ;
+    core:hasLabel "Thermal Resistance (R)" ;
+    core:hasValue 1.658824e+00 .
+
+inst:0oRH2W0759QQ735C3y1lnA a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 1.016e+02 .
+
+inst:0oS2gh9Rj8uPRwEeG90h5h a dicm:Layer ;
+    dicm:hasMaterial inst:2I_EuzjxHCOuYCT0hgcBEo ;
+    dicv:hasProperty inst:1f0dN5eK5FSAhomCDjkPNa ;
+    core:hasLabel "Gypsum Wall Board" .
+
+inst:0oSEW1_pL1i8aHh8RdBK8u a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 2.032e+02 .
+
+inst:0osyceVkzDUwaWksoMy0iP a dicv:Property ;
+    core:hasLabel "Height" ;
+    core:hasValue 3.775e+03 .
+
+inst:0owsmqSv1CIRBpIlm8P5Za a dicv:Property ;
+    core:hasLabel "ThermalTransmittance" ;
+    core:hasValue 8.47504e-01 .
+
+inst:0p1sDx0cv0pg5TYVww4qRL a dicv:Property ;
+    core:hasLabel "ThermalTransmittance" ;
+    core:hasValue 8.47504e-01 .
+
+inst:0pLAgdlTDBEPJIUH8FfjZm a dicv:Property ;
+    core:hasLabel "Roughness" ;
+    core:hasValue 3 .
+
+inst:0pQGsfUKr7yBvNFwHnbZGg a dicv:Property ;
+    core:hasLabel "Width" ;
+    core:hasValue 3.175e+02 .
+
+inst:0pTTn6w597oQflx5KOcOpF a dicm:Material ;
+    core:hasLabel "Plaster" .
+
+inst:0pzSPGVsz4fOnjcjiFOIP4 a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 1.27e+01 .
+
+inst:0q4hjy0tP8s8nHDyR2TLeN a dicv:Property ;
+    core:hasLabel "Roughness" ;
+    core:hasValue 3 .
+
+inst:0qFXbx2GfFfvXpT6TVelxO a dicv:Property ;
+    core:hasLabel "Thermal Resistance (R)" ;
+    core:hasValue 1.666667e-01 .
+
+inst:0q_YJ8fFv7fwIFVQoMaVfG a dicv:Property ;
+    core:hasLabel "Width" ;
+    core:hasValue 3.175e+02 .
+
+inst:0r2A9rJxnAsuDakVuFivg2 a dicm:Layer ;
+    dicm:hasMaterial inst:0sHBAa8956tx9FtG4sVSgi ;
+    dicv:hasProperty inst:0mcygJr7T3ERjOw9yJQayC ;
+    core:hasLabel "Air" .
+
+inst:0rBrmnQ3fFExJBBvl1NMOl a dicv:Property ;
+    core:hasLabel "Thermal Resistance (R)" ;
+    core:hasValue 1.658824e+00 .
+
+inst:0rNIIYwLb3XxpvUAXORBD1 a dicm:Material ;
+    core:hasLabel "Gypsum Wall Board" .
+
+inst:0rsOR2Rwb51ur9DsrPJnKD a dicm:LayerSet ;
+    dicm:NumberOfLayers 3 ;
+    dicm:hasLayer inst:1Q0H5ZLqbEwvuDBODpqTVF,
+        inst:1pFA2bY7r9WANQOwsIFyyt,
+        inst:2oN8uXgl57aAjTFF6Jt0Bw ;
+    core:hasName "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster" .
+
+inst:0rvWOVgAP5uPsQQnKI9nGy a dicm:Material ;
+    core:hasLabel "Brick, Common" .
+
+inst:0sHBAa8956tx9FtG4sVSgi a dicm:Material ;
+    core:hasLabel "Air" .
+
+inst:0sTheEp4DFjOADP1pQtENY a dicv:Property ;
+    core:hasLabel "Length" ;
+    core:hasValue 3e+03 .
+
+inst:0sZL2Kyt97pQcQbkFWu1RZ a dicm:Layer ;
+    dicm:hasMaterial inst:0ThrwpO5rFoxh9vdR4lwTw ;
+    dicv:hasProperty inst:0pzSPGVsz4fOnjcjiFOIP4 ;
+    core:hasLabel "Gypsum Wall Board" .
+
+inst:0sjwsOa7nDovHHlmuUIZrU a dicm:Material ;
+    core:hasLabel "Brick, Common" .
+
+inst:0swq2O65X9VgYWeAecOm1N a dicm:Material ;
+    core:hasLabel "Brick, Common" .
+
+inst:0upoYCwCr5CesJq36icyTX a dicv:Property ;
+    core:hasLabel "Roughness" ;
+    core:hasValue 3 .
+
+inst:0vQYoei5H1I8u9lNgd7UzO a dicv:Property ;
+    core:hasLabel "Thermal Resistance (R)" ;
+    core:hasValue 1.179935e+00 .
+
+inst:0vki46q2TBluvaoi__4pX1 a dicm:Material ;
+    core:hasLabel "Gypsum Wall Board" .
+
+inst:0vwUm5wbH1pPvuG_gcx_ZW a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 1.27e+01 .
+
+inst:0wAKOvD2zDyQ88A2aPxQKi a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 1.016e+02 .
+
+inst:0wFUboqfr7FuYq7iV_w49t a dicm:Layer ;
+    dicm:hasMaterial inst:1lBPJMncDEWBtXfQO7hobe ;
+    dicv:hasProperty inst:01lR9lnSv2e8YxsgnagRRt ;
+    core:hasLabel "Gypsum Wall Board" .
+
+inst:0wj9DM1sf1lh2K2zNMS2Op a dicm:LayerSet ;
+    dicm:NumberOfLayers 1 ;
+    dicm:hasLayer inst:3q234qRHP0NAZn7TpJE89j ;
+    core:hasName "Basic Wall:Parapet Wal _ 90mm Brickl" .
+
+inst:0wmPD0vmjFuQaeiRSXyEB7 a dicv:Property ;
+    core:hasLabel "Thermal Resistance (R)" ;
+    core:hasValue 1.179935e+00 .
+
+inst:0yg8qNQlj8neslAbGTgyGO a dicv:Property ;
+    core:hasLabel "ThermalTransmittance" ;
+    core:hasValue 6e+00 .
+
+inst:0z00E8XTf0iw2tg_UZ911n a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 1.016e+02 .
+
+inst:0z73o7lpD6Bv1ulmgheM3A a dicm:LayerSet ;
+    dicm:NumberOfLayers 3 ;
+    dicm:hasLayer inst:0OVOfREE9C8g03VgviWgMH,
+        inst:1SLYSiztL6ruDj6nZmAs6K,
+        inst:1yWvVlOyj9P9BmSMN8uTtX ;
+    core:hasName "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster" .
+
+inst:0z8UyW0ez8ROLFBchQ_s5s a dicm:Layer ;
+    dicm:hasMaterial inst:25_NIMLK97NeR_SBessalu ;
+    dicv:hasProperty inst:05YYGHztHAShwhyU4obIp7 ;
+    core:hasLabel "Brick, Common" .
+
+inst:0zHu9jXln6PhmfU7xsJq3y a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 9e+01 .
+
+inst:0zdgnd_11EfPlqOSBNY3B8 a dicv:Property ;
+    core:hasLabel "Height" ;
+    core:hasValue 3.775e+03 .
+
+inst:10Ab4cwunC8BLJHZBPrmuc a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 9e+01 .
+
+inst:10Esm_3Bv96A3kWQ1OGh4t a dicm:LayerSet ;
+    dicm:NumberOfLayers 3 ;
+    dicm:hasLayer inst:0Bd9Fql3nE7AV1zvngMwvK,
+        inst:1_WUw9GYT2ngxODljnDiDR,
+        inst:3WbJzQLtjABAbGKTbrAMcr ;
+    core:hasName "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster" .
+
+inst:10artplsPDIvC7DIj7HlHM a dicv:Property ;
+    core:hasLabel "Roughness" ;
+    core:hasValue 3 .
+
+inst:11HHI96RD97fUMEm_t21kN a dicv:Property ;
+    core:hasLabel "Height" ;
+    core:hasValue 3.5e+03 .
+
+inst:11u_cxAFvBxhKu1HK3LLt5 a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 1.27e+01 .
+
+inst:12IW68JKb9bg5EQSmXUWDD a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 4e+01 .
+
+inst:13d0X_sl5FTO0QXiTS8psZ a dicm:Layer ;
+    dicm:hasMaterial inst:3Vy8YkaEH5FAbCx6Yge7Ja ;
+    dicv:hasProperty inst:07cO4SMMbBvg_gQD7YydrW ;
+    core:hasLabel "Plaster" .
+
+inst:13tcS0LeP57PdyVtAF7arC a dicm:Material ;
+    core:hasLabel "Plaster" .
+
+inst:146frIVOj18h0miMfD6VPw a dicm:Layer ;
+    dicm:hasMaterial inst:3QVoEScjbBlxgFaaHwWSB3 ;
+    dicv:hasProperty inst:1dG0PtQJL3d9WUfj4YBoUV ;
+    core:hasLabel "Plaster" .
+
+inst:149zZP3eL0CAXLY9vRRanY a dicv:Property ;
+    core:hasLabel "Length" ;
+    core:hasValue 1.36825e+04 .
+
+inst:14Nu_5pvvEQRLyObkbBXHW a dicv:Property ;
+    core:hasLabel "Length" ;
+    core:hasValue 1.091e+04 .
+
+inst:14X1YbclT4du2W6Jdwq5Xt a dicm:Layer ;
+    dicm:hasMaterial inst:2B5gTaUfz8lQcipSXUEDrT ;
+    dicv:hasProperty inst:31pQQrojD8G9ZhV0Png6Qx ;
+    core:hasLabel "Plaster" .
+
+inst:14ZQJZAFn39wYT_uWzvAGU a dicv:Property ;
+    core:hasLabel "IsExternal" ;
+    core:hasValue true .
+
+inst:1554vhR7P4URZFXKQYgiwq a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 9e+01 .
+
+inst:15OQEIF8H3qQSKQq8toKIN a dicm:Material ;
+    core:hasLabel "Concrete, Lightweight" .
+
+inst:15VUhhLIP45QGOgx5t2Ivj a dicv:Property ;
+    core:hasLabel "Absorptance" ;
+    core:hasValue 7e-01 .
+
+inst:15XOIUGtj3Bfbypq0NS621 a dicv:Property ;
+    core:hasLabel "IsExternal" ;
+    core:hasValue true .
+
+inst:15nO7V4xz2lQ_6BeLiTdIt a dicv:Property ;
+    core:hasLabel "Roughness" ;
+    core:hasValue 3 .
+
+inst:16QeCPSdX65wkzzQO7IAZv a dicm:Material ;
+    core:hasLabel "Air" .
+
+inst:16jzXEyLz3ZOhlfYipTBP3 a dicm:Material ;
+    core:hasLabel "Air" .
+
+inst:176TX_GFPD8OiA7mcSfVAI a dicv:Property ;
+    core:hasLabel "Width" ;
+    core:hasValue 3.175e+02 .
+
+inst:17dd9tT1fEHxyK_fULNKji a dicm:Material ;
+    core:hasLabel "Concrete, Lightweight" .
+
+inst:18Jre5Jvb0CxVdYSTglys9 a dicm:Material ;
+    core:hasLabel "Brick, Common" .
+
+inst:18LU4L2JX9dfV_qYFg5850 a dicv:Property ;
+    core:hasLabel "Height" ;
+    core:hasValue 3.775e+03 .
+
+inst:18SXIK3inBRezlv5UjO_52 a dicm:Material ;
+    core:hasLabel "Concrete, Lightweight" .
+
+inst:18YK8h6pH5Qx1nZhjCA417 a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 9e+01 .
+
+inst:18bzYCwxzEvxEkF3cSlrli a dicm:Material ;
+    core:hasLabel "Plaster" .
+
+inst:18i3SyyHn6hP2kKLwf6PxM a dicm:Layer ;
+    dicm:hasMaterial inst:1_wivRLtr1dAdMMGIrVFy6 ;
+    dicv:hasProperty inst:2Ttl2KSQHDQuTvbAHK2ecY ;
+    core:hasLabel "Air" .
+
+inst:18nx0_W5X7lRsqekrwPj8_ a dicm:LayerSet ;
+    dicm:NumberOfLayers 3 ;
+    dicm:hasLayer inst:0knUfGX1z9o981rrlRlecd,
+        inst:0l14kiYIb0lvFCeFUuJh0r,
+        inst:2fcfuVDwX8sRRYTdO6FoUJ ;
+    core:hasName "Basic Wall:Internal Wall _ 15mm Plaster Board + 40mm Cavity + 15mm Plaster Board" .
+
+inst:18vrIlLYDDnvyRHR_RUzqJ a dicv:Property ;
+    core:hasLabel "IsExternal" ;
+    core:hasValue false .
+
+inst:1996j6q3j0gRCx8SQqbXpw a dicm:Layer ;
+    dicm:hasMaterial inst:2mxgUnR9X8y9IYviYz9yNh ;
+    dicv:hasProperty inst:1PD5Xbmln8XOcQVFHGhxWq ;
+    core:hasLabel "Concrete, Lightweight" .
+
+inst:19GnXSRwf9ARvJbasH9crO a dicv:Property ;
+    core:hasLabel "Absorptance" ;
+    core:hasValue 7e-01 .
+
+inst:19IH8i7vv8AObkGLSQHw7b a dicm:Layer ;
+    dicm:hasMaterial inst:1iP9uh1lnAqgDO60BakbAR ;
+    dicv:hasProperty inst:3ehxwpEbj07AozhfUxfCzt ;
+    core:hasLabel "Plaster" .
+
+inst:19SOTQVVH2VPghGThBY1RH a dicv:Property ;
+    core:hasLabel "ThermalTransmittance" ;
+    core:hasValue 8.47504e-01 .
+
+inst:19pnznNi90KRyA1UpbVKNX a dicv:Property ;
+    core:hasLabel "Absorptance" ;
+    core:hasValue 7e-01 .
+
+inst:19y_4JB3zCoelQPb0A7y0J a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 1.27e+01 .
+
+inst:1AN7IEZmLD3QLF253aFPro a dicm:Material ;
+    core:hasLabel "Gypsum Wall Board" .
+
+inst:1AXtoAXy18nROjpQWGDiiE a dicm:Layer ;
+    dicm:hasMaterial inst:0i1FeuYuLDi9MRgW5oJSps ;
+    dicv:hasProperty inst:3VUYNcUsD4IBRyWI1FjFyg ;
+    core:hasLabel "Concrete, Lightweight" .
+
+inst:1AYHd84MvA3v9Gw7rMUTsT a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 2.032e+02 .
+
+inst:1AZjaf9DH0RAx7cUO0zL4_ a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 1.016e+02 .
+
+inst:1AiLUbMyLEmQiRrYUzcAQH a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 1.27e+01 .
+
+inst:1BHPmLX2b4QQ5On1K81gd4 a dicv:Property ;
+    core:hasLabel "Roughness" ;
+    core:hasValue 3 .
+
+inst:1BJjGLAjrDJez6Ugf3cDBs a dicv:Property ;
+    core:hasLabel "Absorptance" ;
+    core:hasValue 7e-01 .
+
+inst:1BehLcWWP6Hg0qQBKc6EBs a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 1.5e+01 .
+
+inst:1BkMEKGcz3HhVyaWWCQWJW a dicm:Material ;
+    core:hasLabel "Air" .
+
+inst:1BsERK3_bE8QV4sP4MeIkn a dicv:Property ;
+    core:hasLabel "Width" ;
+    core:hasValue 3.175e+02 .
+
+inst:1BtuImdvX3iBJxHCyqPsKb a dicv:Property ;
+    core:hasLabel "ThermalTransmittance" ;
+    core:hasValue 8.47504e-01 .
+
+inst:1CTD7hqJrCVfhHJQjA2bho a dicm:Layer ;
+    dicm:hasMaterial inst:1boag0pQ91LuowG0o5WcuG ;
+    dicv:hasProperty inst:2Dr5peaUrEVua3nNuxAQIg ;
+    core:hasLabel "Gypsum Wall Board" .
+
+inst:1Ck2DdklPDEOwLlNDuR4Lg a dicv:Property ;
+    core:hasLabel "Width" ;
+    core:hasValue 3.175e+02 .
+
+inst:1CqOM_w4L7VBe3OdeDghAG a dicv:Property ;
+    core:hasLabel "ThermalTransmittance" ;
+    core:hasValue 8.47504e-01 .
+
+inst:1CzmFytUD1g9YTkerrSA3r a dicv:Property ;
+    core:hasLabel "Length" ;
+    core:hasValue 2.5e+03 .
+
+inst:1D6D4liJjAHOX1ewtUdC28 a dicm:Layer ;
+    dicm:hasMaterial inst:3j9B9LD5b11vDFxRUgoTfc ;
+    dicv:hasProperty inst:3q6WXPp918Ov6XeIvGvByG ;
+    core:hasLabel "Brick, Common" .
+
+inst:1DXr7KIEnBwhUnpDTxZczx a dicv:Property ;
+    core:hasLabel "Thermal Resistance (R)" ;
+    core:hasValue 1.666667e-01 .
+
+inst:1DefrKJTP3RvCsX51Kuw8d a dicm:Material ;
+    core:hasLabel "Gypsum Wall Board" .
+
+inst:1Dzyvoz6f67QSGIiFJkFv_ a dicv:Property ;
+    core:hasLabel "Roughness" ;
+    core:hasValue 3 .
+
+inst:1E05XYAjz2SBMOCm6XbIPl a dicm:Layer ;
+    dicm:hasMaterial inst:2LoNpxd7XAShtNZprqodu5 ;
+    dicv:hasProperty inst:3FWeAWy85BsPUMvjKYoDgR ;
+    core:hasLabel "Brick, Common" .
+
+inst:1EIdbX3Kr4fg4ovXt721i4 a dicv:Property ;
+    core:hasLabel "Length" ;
+    core:hasValue 3e+03 .
+
+inst:1EM0SVmtvEDQgecUklOtt0 a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 9e+01 .
+
+inst:1Eby8edFHDvuKUbSGtIyRx a dicv:Property ;
+    core:hasLabel "Thermal Resistance (R)" ;
+    core:hasValue 1.179935e+00 .
+
+inst:1EubNFpWTEUfKgbFQJbj2T a dicm:Layer ;
+    dicm:hasMaterial inst:3rXTHls0n7N8G14Qa9uaw7 ;
+    dicv:hasProperty inst:0DhXzajTb3VuWvorKLsHyY ;
+    core:hasLabel "Air" .
+
+inst:1Fh2l9g4DE4v7WJsvE6jbk a dicv:Property ;
+    core:hasLabel "IsExternal" ;
+    core:hasValue true .
+
+inst:1FyNzQVtLAhwvZWzIHbIYk a dicv:Property ;
+    core:hasLabel "ThermalTransmittance" ;
+    core:hasValue 6.028369e-01 .
+
+inst:1G9y8G7nb0luc5CAkkWl63 a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 2.032e+02 .
+
+inst:1GPty1lDnAzBi37KVy0q16 a dicm:Layer ;
+    dicm:hasMaterial inst:17dd9tT1fEHxyK_fULNKji ;
+    dicv:hasProperty inst:2ZqowxVJH8zP9bh8CtV3Tz ;
+    core:hasLabel "Concrete, Lightweight" .
+
+inst:1Gfx5_fA9F4R8fkDCJudt4 a dicm:Material ;
+    core:hasLabel "Plaster" .
+
+inst:1GxJ2PISX9gv8uZ3iirKqN a dicm:Layer ;
+    dicm:hasMaterial inst:2dfGUI4s9ExRxQu1B2YfwR ;
+    dicv:hasProperty inst:2YyTlxyGbC7BsWZoGxq3_g ;
+    core:hasLabel "Brick, Common" .
+
+inst:1HFrFHKH17FupKEiOYJJLt a dicv:Property ;
+    core:hasLabel "Height" ;
+    core:hasValue 3.5e+03 .
+
+inst:1HkPnNedj6i9gNVoUvTVUo a dicm:Layer ;
+    dicm:hasMaterial inst:1dqhtqGs5AluqPcP2a1Mag ;
+    dicv:hasProperty inst:1cJkcn70b7ROGfnDcs17fw ;
+    core:hasLabel "Concrete, Lightweight" .
+
+inst:1HkY5pMwP3bREuEwgHoG5W a dicv:Property ;
+    core:hasLabel "Width" ;
+    core:hasValue 3.175e+02 .
+
+inst:1HlAb7uHL9zRH9OShmB4pO a dicv:Property ;
+    core:hasLabel "Width" ;
+    core:hasValue 7e+01 .
+
+inst:1I6AIyfhT1wAP_67Uksgfu a dicm:Layer ;
+    dicm:hasMaterial inst:16QeCPSdX65wkzzQO7IAZv ;
+    dicv:hasProperty inst:00lKUy4oXCqRANowUwVyz9 ;
+    core:hasLabel "Air" .
+
+inst:1ItENVcZP85gDeSGh1tJ0a a dicv:Property ;
+    core:hasLabel "Roughness" ;
+    core:hasValue 3 .
+
+inst:1JBOkHLML4OAg1UP_y92KS a dicm:Layer ;
+    dicm:hasMaterial inst:0lzacdioH3muQh5v4LYVuF ;
+    dicv:hasProperty inst:2qHPgvylX5qvkEACOslhJx ;
+    core:hasLabel "Gypsum Wall Board" .
+
+inst:1JC9akCt18nwggoT7CbJV7 a dicv:Property ;
+    core:hasLabel "Height" ;
+    core:hasValue 6.325e+02 .
+
+inst:1JQxegblnFtQ86ISCCwWxB a dicm:Layer ;
+    dicm:hasMaterial inst:1Gfx5_fA9F4R8fkDCJudt4 ;
+    dicv:hasProperty inst:1BehLcWWP6Hg0qQBKc6EBs ;
+    core:hasLabel "Plaster" .
+
+inst:1JfsFrSwLAwOAzkfvOd40A a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 9e+01 .
+
+inst:1JpqzVFjzBfB1fiMEbX5VN a dicm:Layer ;
+    dicm:hasMaterial inst:1vYmWAkUjAtP5C7OlrMaGo ;
+    dicv:hasProperty inst:1V6dFOGIz96vAu_BIsR1xg ;
+    core:hasLabel "Concrete, Lightweight" .
+
+inst:1KlH2_H0DCzBx_02wuAgeJ a dicm:Material ;
+    core:hasLabel "Concrete, Lightweight" .
+
+inst:1KvU5Zsk97XPW4NKz_5N9N a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 2.032e+02 .
+
+inst:1Ls_U5PNr7BADypXzEtk6y a dicm:Layer ;
+    dicm:hasMaterial inst:0swq2O65X9VgYWeAecOm1N ;
+    dicv:hasProperty inst:20WRMxuzr7TPZHtMocEj7W ;
+    core:hasLabel "Brick, Common" .
+
+inst:1MCUVaq0f2qhjtaisF_FCZ a dicv:Property ;
+    core:hasLabel "ThermalTransmittance" ;
+    core:hasValue 8.47504e-01 .
+
+inst:1MqxH7ntr3dAGLQ8PtQPpQ a dicv:Property ;
+    core:hasLabel "Height" ;
+    core:hasValue 6.325e+02 .
+
+inst:1MxDWVBx58cvuvKZLEAkS7 a dicv:Property ;
+    core:hasLabel "Length" ;
+    core:hasValue 3e+03 .
+
+inst:1N2F3VuznBufaQIckEKoJ9 a dicv:Property ;
+    core:hasLabel "Height" ;
+    core:hasValue 3.775e+03 .
+
+inst:1N6eF2Bhv4j80pPhaqjZ4x a dicv:Property ;
+    core:hasLabel "Width" ;
+    core:hasValue 3.175e+02 .
+
+inst:1NCIQi03z7DviYddhF1mq8 a dicv:Property ;
+    core:hasLabel "IsExternal" ;
+    core:hasValue true .
+
+inst:1NHry9GBr1LQosFPIVH7Bu a dicm:Layer ;
+    dicm:hasMaterial inst:0nyRp7XuH01B8uNtp12TAn ;
+    dicv:hasProperty inst:1V0y0KMHH9Sw0lVRWHxUe9 ;
+    core:hasLabel "Brick, Common" .
+
+inst:1NZ5AJpUr9w8FikCOskYVf a dicv:Property ;
+    core:hasLabel "Absorptance" ;
+    core:hasValue 7e-01 .
+
+inst:1NeEAAY1T3Sw3qOM4qh0oP a dicv:Property ;
+    core:hasLabel "Thermal Resistance (R)" ;
+    core:hasValue 1.666667e-01 .
+
+inst:1O5ulAa6TCQhogC74N9RSr a dicv:Property ;
+    core:hasLabel "Thermal Resistance (R)" ;
+    core:hasValue 1.658824e+00 .
+
+inst:1O6wBM5tnEGB9KlmgGTttR a dicv:Property ;
+    core:hasLabel "Width" ;
+    core:hasValue 9e+01 .
+
+inst:1OTenvQnP6UeZFgyjBthLO a dicv:Property ;
+    core:hasLabel "Height" ;
+    core:hasValue 3.775e+03 .
+
+inst:1OV3loSO14ZPSzmtsOxxxt a dicm:Layer ;
+    dicm:hasMaterial inst:3FWFK_DP115vPSBHbPBSg1 ;
+    dicv:hasProperty inst:2Q1zZtYWb0bg05sNehohaf ;
+    core:hasLabel "Concrete, Lightweight" .
+
+inst:1ObZwVcr53GwPM6_OUwcf7 a dicv:Property ;
+    core:hasLabel "ThermalTransmittance" ;
+    core:hasValue 6e+00 .
+
+inst:1OmyQnMO98kQN8uZVT9vLR a dicm:Material ;
+    core:hasLabel "Brick, Common" .
+
+inst:1OncytmKjCkAflHX1mPy37 a dicv:Property ;
+    core:hasLabel "Length" ;
+    core:hasValue 3e+03 .
+
+inst:1P8FzaXWH8WeyeRWPhNSHN a dicm:Material ;
+    core:hasLabel "Gypsum Wall Board" .
+
+inst:1PD5Xbmln8XOcQVFHGhxWq a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 2.032e+02 .
+
+inst:1PRDMBKuLDBxSGmpaz9pVP a dicm:Material ;
+    core:hasLabel "Air" .
+
+inst:1PXAdC_ZLBf85vDwfmivek a dicm:Layer ;
+    dicm:hasMaterial inst:1ynNIMXjP5fxnzknJ5z4nz ;
+    dicv:hasProperty inst:3KeyGdiSPFAxBFIeuzVMVd ;
+    core:hasLabel "Gypsum Wall Board" .
+
+inst:1PYfV__Hz8Ce7_U7S1Dzhp a dicv:Property ;
+    core:hasLabel "Width" ;
+    core:hasValue 3.175e+02 .
+
+inst:1Q0H5ZLqbEwvuDBODpqTVF a dicm:Layer ;
+    dicm:hasMaterial inst:0rvWOVgAP5uPsQQnKI9nGy ;
+    dicv:hasProperty inst:2CNlJ02bXD48h3BAXDtc2C ;
+    core:hasLabel "Brick, Common" .
+
+inst:1QIUcxvgf8aQsTOYlEEvMM a dicm:LayerSet ;
+    dicm:NumberOfLayers 3 ;
+    dicm:hasLayer inst:0wFUboqfr7FuYq7iV_w49t,
+        inst:1mQNUKq7r2lOOIDOoGE_B5,
+        inst:1xL4KieS54bfpNvrtp8x4o ;
+    core:hasName "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster" .
+
+inst:1QfSYQw0jD4wJ988N9r_Vu a dicv:Property ;
+    core:hasLabel "Length" ;
+    core:hasValue 3e+03 .
+
+inst:1QpHeKD2r2PP8JwRhuCgrz a dicm:Layer ;
+    dicm:hasMaterial inst:3nRyz2C7515RUpvP_OzV0E ;
+    dicv:hasProperty inst:3YGlE6Stv6bOyYe_VTf19a ;
+    core:hasLabel "Gypsum Wall Board" .
+
+inst:1QwcrYqTT97AecsknkUBun a dicm:Layer ;
+    dicm:hasMaterial inst:34kGdeZlLFQP9NMNSZNn6y ;
+    dicv:hasProperty inst:2WDhMtXYzA98KoFYHq1B77 ;
+    core:hasLabel "Concrete, Lightweight" .
+
+inst:1R0iTnPsj8RPy43JToXB58 a dicm:LayerSet ;
+    dicm:NumberOfLayers 3 ;
+    dicm:hasLayer inst:0_RdUxpIH2bPXIk35eQ_U4,
+        inst:1VcsXPCM15Uu43uFhNmJEE,
+        inst:2E2QS76c52ZR2CoSACt0zl ;
+    core:hasName "Basic Wall:Internal Wall _ 15mm Plaster Board + 40mm Cavity + 15mm Plaster Board" .
+
+inst:1R9fXzy7X81R2MCGUfJPvu a dicv:Property ;
+    core:hasLabel "Roughness" ;
+    core:hasValue 3 .
+
+inst:1RBS0Ak3z30R0fTDoAohwm a dicv:Property ;
+    core:hasLabel "Absorptance" ;
+    core:hasValue 7e-01 .
+
+inst:1RRJJYDq12wfe_5acsNZE1 a dicv:Property ;
+    core:hasLabel "Length" ;
+    core:hasValue 2.5e+03 .
+
+inst:1Rc0cwAM57zR6KuYmJb9FU a dicm:Material ;
+    core:hasLabel "Concrete, Lightweight" .
+
+inst:1Rhrj0g8P1NADsrtECyuDv a dicv:Property ;
+    core:hasLabel "Roughness" ;
+    core:hasValue 3 .
+
+inst:1SHAfrvEzAsA2dNiid3YoO a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 1.016e+02 .
+
+inst:1SLYSiztL6ruDj6nZmAs6K a dicm:Layer ;
+    dicm:hasMaterial inst:2ZVDYD_xj4RB_3jNFLd4cc ;
+    dicv:hasProperty inst:3v8FWBSPv7ReAw_nnFcZXG ;
+    core:hasLabel "Concrete, Lightweight" .
+
+inst:1SN5cmOsj7DB1Kvgp1t7MX a dicv:Property ;
+    core:hasLabel "Absorptance" ;
+    core:hasValue 7e-01 .
+
+inst:1Sohv5gRT2Awfs5MNyDLa9 a dicv:Property ;
+    core:hasLabel "IsExternal" ;
+    core:hasValue true .
+
+inst:1Sq0csmsD3mQoqPHVuMgi0 a dicv:Property ;
+    core:hasLabel "Width" ;
+    core:hasValue 9e+01 .
+
+inst:1StI2isF1FbuBRtJDn4_2a a dicv:Property ;
+    core:hasLabel "Width" ;
+    core:hasValue 7e+01 .
+
+inst:1T4GxCitP6BxVOXus7EshS a dicv:Property ;
+    core:hasLabel "IsExternal" ;
+    core:hasValue true .
+
+inst:1T7Qwjdan7SxVhW5wiK7Ek a dicv:Property ;
+    core:hasLabel "Thermal Resistance (R)" ;
+    core:hasValue 1.179935e+00 .
+
+inst:1TTw2MGgP8ww1Udj4tJy3E a dicv:Property ;
+    core:hasLabel "Absorptance" ;
+    core:hasValue 7e-01 .
+
+inst:1TqtWazGrC5vv8f2XAlTYk a dicm:Layer ;
+    dicm:hasMaterial inst:1zuQQYAcbCEfAqu_BSWbMJ ;
+    dicv:hasProperty inst:2Dr8cyWLf7ZgFcTipoAhoT ;
+    core:hasLabel "Concrete, Lightweight" .
+
+inst:1Tx3ufPeLA9xUgiVd4Sakl a dicm:Layer ;
+    dicm:hasMaterial inst:2XGetK9m525gur7LORwQwN ;
+    dicv:hasProperty inst:3BrJRvBtHB099FyewnGIzh ;
+    core:hasLabel "Brick, Common" .
+
+inst:1TyMl511z07gmd2inooa9a a dicm:Material ;
+    core:hasLabel "Gypsum Wall Board" .
+
+inst:1Tzynoufr7I9Iv0u36J7M4 a dicm:Material ;
+    core:hasLabel "Brick, Common" .
+
+inst:1U6xfE1WHAduZi2ECLV6Mf a dicv:Property ;
+    core:hasLabel "Height" ;
+    core:hasValue 3.775e+03 .
+
+inst:1ULQ0VLR11XuAwK_XQeXmt a dicv:Property ;
+    core:hasLabel "Height" ;
+    core:hasValue 3.775e+03 .
+
+inst:1UY58cDD519AyolHkCdivM a dicm:Material ;
+    core:hasLabel "Plaster" .
+
+inst:1Ub0wyPKL8Zu_Krs3ks7ge a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 1.016e+02 .
+
+inst:1UbZqYAvjBuAaBlayAMPsj a dicv:Property ;
+    core:hasLabel "Width" ;
+    core:hasValue 3.175e+02 .
+
+inst:1V0y0KMHH9Sw0lVRWHxUe9 a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 1.016e+02 .
+
+inst:1V6dFOGIz96vAu_BIsR1xg a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 2.032e+02 .
+
+inst:1VcsXPCM15Uu43uFhNmJEE a dicm:Layer ;
+    dicm:hasMaterial inst:1PRDMBKuLDBxSGmpaz9pVP ;
+    dicv:hasProperty inst:12IW68JKb9bg5EQSmXUWDD ;
+    core:hasLabel "Air" .
+
+inst:1Vfs5NdorCwfHoqFaUpd2I a dicv:Property ;
+    core:hasLabel "Thermal Resistance (R)" ;
+    core:hasValue 1.658824e+00 .
+
+inst:1VisL0X893GwzQlNdbs6Ta a dicm:Layer ;
+    dicm:hasMaterial inst:1xHZwW8ODFWRImcWlYLnkh ;
+    dicv:hasProperty inst:0YrDv23lLCeQLdrZY2zRIG ;
+    core:hasLabel "Concrete, Lightweight" .
+
+inst:1Vz7YqKhf1lvahKLk03p14 a dicm:Layer ;
+    dicm:hasMaterial inst:08gYNMBDT8DAVQIb7hqUx2 ;
+    dicv:hasProperty inst:0V4DWarkT3vgeI5_kfnE5n ;
+    core:hasLabel "Concrete, Lightweight" .
+
+inst:1W5PefN_DAxheYct9w_q9r a dicm:Material ;
+    core:hasLabel "Gypsum Wall Board" .
+
+inst:1WDa78l5H8hg0Q1TaTF5Ue a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 1.016e+02 .
+
+inst:1W_NRtaeHDARQJ7Q1nY_aQ a dicv:Property ;
+    core:hasLabel "Length" ;
+    core:hasValue 2.5e+03 .
+
+inst:1WaokL2Br3TPfQ_NYag834 a dicv:Property ;
+    core:hasLabel "Width" ;
+    core:hasValue 3.175e+02 .
+
+inst:1WlFGLySfCiRP3zAmmiJ3E a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 1.016e+02 .
+
+inst:1WltxljN92ROusY8aWN_Uv a dicv:Property ;
+    core:hasLabel "Roughness" ;
+    core:hasValue 3 .
+
+inst:1WzrWyw9L3XBAuQP76KJ1G a dicv:Property ;
+    core:hasLabel "Roughness" ;
+    core:hasValue 3 .
+
+inst:1X1T1f_Iz2euV1rOV6EhGV a dicv:Property ;
+    core:hasLabel "Absorptance" ;
+    core:hasValue 7e-01 .
+
+inst:1XBR1mqkDCLAt0zkBze8wl a dicm:Layer ;
+    dicm:hasMaterial inst:18bzYCwxzEvxEkF3cSlrli ;
+    dicv:hasProperty inst:2TWjKqhoH1IBY_Xsj8GcJx ;
+    core:hasLabel "Plaster" .
+
+inst:1Xso8lUrr4FeoIfcZvpC2e a dicm:Material ;
+    core:hasLabel "Brick, Common" .
+
+inst:1XtgNbaSH5Kv5urFlIZNRB a dicv:Property ;
+    core:hasLabel "Length" ;
+    core:hasValue 5.30625e+03 .
+
+inst:1XvvlMjcH53RJ9wU0_8JqW a dicv:Property ;
+    core:hasLabel "Height" ;
+    core:hasValue 3.775e+03 .
+
+inst:1YzsICxD5AEOdUYP3FpHLg a dicm:LayerSet ;
+    dicm:NumberOfLayers 3 ;
+    dicm:hasLayer inst:0mTtN71vvCNPdfRswPOSAG,
+        inst:1CTD7hqJrCVfhHJQjA2bho,
+        inst:2te6U8dxH7CB0hGmLnMFsP ;
+    core:hasName "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster" .
+
+inst:1ZEAg5SzP5XBg1GklN3j2Y a dicm:Material ;
+    core:hasLabel "Air" .
+
+inst:1ZSlseKVb0Pur1hZCWfydg a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 1.016e+02 .
+
+inst:1ZtryqzA5F3QYCMgkXGrV5 a dicv:Property ;
+    core:hasLabel "Roughness" ;
+    core:hasValue 3 .
+
+inst:1_A0T1nrH52hC1ilI7L1hu a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 2.032e+02 .
+
+inst:1_CMLbuFPDLutOk78Oh8JY a dicv:Property ;
+    core:hasLabel "ThermalTransmittance" ;
+    core:hasValue 6.028369e-01 .
+
+inst:1_WUw9GYT2ngxODljnDiDR a dicm:Layer ;
+    dicm:hasMaterial inst:2G02Sm02bDOBynwXzKM5In ;
+    dicv:hasProperty inst:0Qxbq7zVr5phGHxu9sdqNa ;
+    core:hasLabel "Gypsum Wall Board" .
+
+inst:1__IHCq0DDtQDU28xlRY0x a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 9e+01 .
+
+inst:1_qF8XTR99Q8c8vc_hw44x a dicm:Material ;
+    core:hasLabel "Gypsum Wall Board" .
+
+inst:1_wivRLtr1dAdMMGIrVFy6 a dicm:Material ;
+    core:hasLabel "Air" .
+
+inst:1_xYo7KKv43x_IfQq24Lj2 a dicv:Property ;
+    core:hasLabel "Length" ;
+    core:hasValue 5e+02 .
+
+inst:1_yzKOpa9C4hXbT1CBZ6jI a dicm:Layer ;
+    dicm:hasMaterial inst:0pTTn6w597oQflx5KOcOpF ;
+    dicv:hasProperty inst:1fJCAZv4H8ruwxlt61JetY ;
+    core:hasLabel "Plaster" .
+
+inst:1_zC7VIi97vAXBSyjHaZFq a dicm:Material ;
+    core:hasLabel "Brick, Common" .
+
+inst:1aN36dBDf1MBLaiM3kOLQk a dicv:Property ;
+    core:hasLabel "Thermal Resistance (R)" ;
+    core:hasValue 1.179935e+00 .
+
+inst:1aXh9g25n5lxA66wzzveOQ a dicv:Property ;
+    core:hasLabel "Length" ;
+    core:hasValue 2.5e+03 .
+
+inst:1abWpplk9ABOP8GvUBqmDi a dicv:Property ;
+    core:hasLabel "Absorptance" ;
+    core:hasValue 7e-01 .
+
+inst:1alCwpYPj10Q_UdIeh0dNO a dicv:Property ;
+    core:hasLabel "Length" ;
+    core:hasValue 3e+03 .
+
+inst:1b0d7Fozz7u9pXHrGXrovH a dicv:Property ;
+    core:hasLabel "ThermalTransmittance" ;
+    core:hasValue 8.47504e-01 .
+
+inst:1bKFR91_bEQRKAJWGEBJxP a dicm:Material ;
+    core:hasLabel "Brick, Common" .
+
+inst:1bPy5BaR1DWubBhKvOqoQK a dicv:Property ;
+    core:hasLabel "ThermalTransmittance" ;
+    core:hasValue 6e+00 .
+
+inst:1boag0pQ91LuowG0o5WcuG a dicm:Material ;
+    core:hasLabel "Gypsum Wall Board" .
+
+inst:1c0L4fggj16vghjj6mlJWq a dicm:Layer ;
+    dicm:hasMaterial inst:0vki46q2TBluvaoi__4pX1 ;
+    dicv:hasProperty inst:3BXfDuv0n7MAmsoUBTK6YP ;
+    core:hasLabel "Gypsum Wall Board" .
+
+inst:1c6ZvaC198kQUMQHhQ8jG7 a dicv:Property ;
+    core:hasLabel "Thermal Resistance (R)" ;
+    core:hasValue 1.666667e-01 .
+
+inst:1cJkcn70b7ROGfnDcs17fw a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 2.032e+02 .
+
+inst:1cMGZFkcTFAxSKuDZEJ42i a dicm:Layer ;
+    dicm:hasMaterial inst:09ynajs6v4jB2uAonnXwbU ;
+    dicv:hasProperty inst:2IJuTRb118eA6_aKLgFZli ;
+    core:hasLabel "Concrete, Lightweight" .
+
+inst:1cUpv1LVbDyfIBcPAeQM1C a dicm:Material ;
+    core:hasLabel "Air" .
+
+inst:1cZgHnkZPEMuktO82YvHvR a dicm:Material ;
+    core:hasLabel "Plaster" .
+
+inst:1cjBfGDpL6OORpUBPu0zak a dicv:Property ;
+    core:hasLabel "Thermal Resistance (R)" ;
+    core:hasValue 1.666667e-01 .
+
+inst:1czFwBH1PBAxOIjuGGYjXn a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 1.27e+01 .
+
+inst:1d3l0fbxvBWg_Y2Neag229 a dicm:Material ;
+    core:hasLabel "Brick, Common" .
+
+inst:1dCP03jKL3XB0FVd8YzZN_ a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 1.27e+01 .
+
+inst:1dG0PtQJL3d9WUfj4YBoUV a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 1.5e+01 .
+
+inst:1dbWRBoALEVAquIarVkf3d a dicv:Property ;
+    core:hasLabel "Thermal Resistance (R)" ;
+    core:hasValue 1.179935e+00 .
+
+inst:1dk0juf6HAJw9Tg_5Zk4Mi a dicv:Property ;
+    core:hasLabel "Width" ;
+    core:hasValue 3.175e+02 .
+
+inst:1dqhtqGs5AluqPcP2a1Mag a dicm:Material ;
+    core:hasLabel "Concrete, Lightweight" .
+
+inst:1dslktW8zCiw4XgfDrWG4i a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 1.27e+01 .
+
+inst:1dzxCFzxjE2frLMUfNRycu a dicv:Property ;
+    core:hasLabel "Height" ;
+    core:hasValue 4e+03 .
+
+inst:1e3VV5EtfDogMDBuuf6S9i a dicv:Property ;
+    core:hasLabel "Thermal Resistance (R)" ;
+    core:hasValue 1.658824e+00 .
+
+inst:1e9wrIuUDA79cht4rc0Dot a dicm:Material ;
+    core:hasLabel "Gypsum Wall Board" .
+
+inst:1ePDw1Pnr3tQL_idVol1b0 a dicm:Layer ;
+    dicm:hasMaterial inst:3lvAArubn8H9Ih1BIaGYOc ;
+    dicv:hasProperty inst:0KTBLdCAnFlAK9Z749fpTg ;
+    core:hasLabel "Gypsum Wall Board" .
+
+inst:1eiG_3SGrCB8iyAReozqbm a dicm:Material ;
+    core:hasLabel "Gypsum Wall Board" .
+
+inst:1exTlGp1fBAfIxYJ3WoLH7 a dicm:Layer ;
+    dicm:hasMaterial inst:1AN7IEZmLD3QLF253aFPro ;
+    dicv:hasProperty inst:2O6NvhjYT1kvIOOoOe0y4q ;
+    core:hasLabel "Gypsum Wall Board" .
+
+inst:1f0dN5eK5FSAhomCDjkPNa a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 1.27e+01 .
+
+inst:1f27Ah3zjBawqofOLvxBwP a dicv:Property ;
+    core:hasLabel "IsExternal" ;
+    core:hasValue false .
+
+inst:1f80GJz5PAABOFSwBiBsP5 a dicv:Property ;
+    core:hasLabel "Thermal Resistance (R)" ;
+    core:hasValue 1.658824e+00 .
+
+inst:1fG8qrSO91YAGMX975PUSr a dicv:Property ;
+    core:hasLabel "Length" ;
+    core:hasValue 3e+03 .
+
+inst:1fJCAZv4H8ruwxlt61JetY a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 1.5e+01 .
+
+inst:1fnH6WRiH2ZQrXziY2woFN a dicm:LayerSet ;
+    dicm:NumberOfLayers 3 ;
+    dicm:hasLayer inst:0VJbxIa51AGQ2OCJe6LIYY,
+        inst:0hzS1gXcH7lwKPc0ABUjgA,
+        inst:3EQlfokEn9IhoGGr9smgBY ;
+    core:hasName "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster" .
+
+inst:1gF56NGg98nOSmSmtVgGiU a dicv:Property ;
+    core:hasLabel "ThermalTransmittance" ;
+    core:hasValue 6.028369e-01 .
+
+inst:1gW8t0mZjBdP6SnM4Un81n a dicv:Property ;
+    core:hasLabel "Height" ;
+    core:hasValue 3.775e+03 .
+
+inst:1gjieH0hXAcuNmM0ji1Nr2 a dicv:Property ;
+    core:hasLabel "Length" ;
+    core:hasValue 3e+03 .
+
+inst:1gtqa4nkb8FvdXWWaYPA4q a dicv:Property ;
+    core:hasLabel "Height" ;
+    core:hasValue 4e+03 .
+
+inst:1hDJ2EmAb5v8vriMxqzeDm a dicm:LayerSet ;
+    dicm:NumberOfLayers 3 ;
+    dicm:hasLayer inst:0WpjaSXcL1Q9bPHdFIfTXZ,
+        inst:1rCZjrDh5BARcFWvZF0M9V,
+        inst:2runGPpSr7suw5Ld0B6jFF ;
+    core:hasName "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster" .
+
+inst:1hHaUBseLD9AmE0EzjmO07 a dicv:Property ;
+    core:hasLabel "Roughness" ;
+    core:hasValue 3 .
+
+inst:1hWWxABAr38v7FvESE_7OH a dicv:Property ;
+    core:hasLabel "Absorptance" ;
+    core:hasValue 7e-01 .
+
+inst:1hxdMa3f13sQHogEqbdCzC a dicv:Property ;
+    core:hasLabel "Width" ;
+    core:hasValue 3.175e+02 .
+
+inst:1i7SmP2lD4aAQuc9iW1b5C a dicm:Material ;
+    core:hasLabel "Concrete, Lightweight" .
+
+inst:1iHPF71uv6b8ml3qw_jRY9 a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 1.016e+02 .
+
+inst:1iP9uh1lnAqgDO60BakbAR a dicm:Material ;
+    core:hasLabel "Plaster" .
+
+inst:1iUZYIdKr38OQdgoqgCvsQ a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 1.27e+01 .
+
+inst:1iy21e1cv7nuHBgTXOCOmK a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 1.5e+01 .
+
+inst:1jVCTw7sH8_v5rOUAXY61t a dicm:Layer ;
+    dicm:hasMaterial inst:0rNIIYwLb3XxpvUAXORBD1 ;
+    dicv:hasProperty inst:2p5KT3AYv65QAZvMuj_6bo ;
+    core:hasLabel "Gypsum Wall Board" .
+
+inst:1jmOJbZD1EwQanV_aMLWi8 a dicv:Property ;
+    core:hasLabel "Roughness" ;
+    core:hasValue 3 .
+
+inst:1k9as3M8rFfPVC6ap1K5O0 a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 4e+01 .
+
+inst:1kMb2QsrT5cBh1cETqhbld a dicv:Property ;
+    core:hasLabel "Length" ;
+    core:hasValue 3.87625e+03 .
+
+inst:1kbfnAo7PDTRXUpWz1IgKQ a dicv:Property ;
+    core:hasLabel "Width" ;
+    core:hasValue 9e+01 .
+
+inst:1kdHqp60z9zxp7pNqA66EZ a dicv:Property ;
+    core:hasLabel "Height" ;
+    core:hasValue 3.775e+03 .
+
+inst:1kggLtdcvE6P9Mv1YihMj9 a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 1.27e+01 .
+
+inst:1kquZ5HSbEQuaHpWGYSwJV a dicm:Material ;
+    core:hasLabel "Air" .
+
+inst:1l3l6iL15ARADqJeBDAB5v a dicv:Property ;
+    core:hasLabel "Height" ;
+    core:hasValue 3.5e+03 .
+
+inst:1lBPJMncDEWBtXfQO7hobe a dicm:Material ;
+    core:hasLabel "Gypsum Wall Board" .
+
+inst:1lQUVRnFz8svJDHY8lDla5 a dicv:Property ;
+    core:hasLabel "IsExternal" ;
+    core:hasValue true .
+
+inst:1lUEhuND10cekIWGqT3kLZ a dicv:Property ;
+    core:hasLabel "Thermal Resistance (R)" ;
+    core:hasValue 1.658824e+00 .
+
+inst:1la8Z2RK13euaSnkvutTEX a dicm:Layer ;
+    dicm:hasMaterial inst:2GK7Fm6bnF3OArFetPaV6C ;
+    dicv:hasProperty inst:3d9dcy0fP4Mezbjpftdbxp ;
+    core:hasLabel "Air" .
+
+inst:1lvrzTt7PEb8S6voG7NOTC a dicv:Property ;
+    core:hasLabel "Height" ;
+    core:hasValue 3.5e+03 .
+
+inst:1m8vDtywb8Z8P7Pq0gQkmH a dicm:Layer ;
+    dicm:hasMaterial inst:2_KnnaPjT6gAK2ovZXlNUa ;
+    dicv:hasProperty inst:1iy21e1cv7nuHBgTXOCOmK ;
+    core:hasLabel "Plaster" .
+
+inst:1mQNUKq7r2lOOIDOoGE_B5 a dicm:Layer ;
+    dicm:hasMaterial inst:3opXAWHA5FKfASYqez3sD8 ;
+    dicv:hasProperty inst:0z00E8XTf0iw2tg_UZ911n ;
+    core:hasLabel "Brick, Common" .
+
+inst:1mT9hUwlD4i8zaBmENnu2r a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 1.016e+02 .
+
+inst:1mV55mEfL3fQq9lJzeI4Wp a dicv:Property ;
+    core:hasLabel "Roughness" ;
+    core:hasValue 3 .
+
+inst:1md8Z4Asj0uenHOoc1fDow a dicm:Material ;
+    core:hasLabel "Gypsum Wall Board" .
+
+inst:1mvp8tyC1DOu62Eg_bqYij a dicm:Material ;
+    core:hasLabel "Brick, Common" .
+
+inst:1n2R110CfAcRFGntlgArEv a dicv:Property ;
+    core:hasLabel "Length" ;
+    core:hasValue 9e+03 .
+
+inst:1nGO6jXK58gOa74d8wbMX5 a dicv:Property ;
+    core:hasLabel "IsExternal" ;
+    core:hasValue true .
+
+inst:1nfRm18UnCiAkOe2RRNVDP a dicv:Property ;
+    core:hasLabel "Roughness" ;
+    core:hasValue 3 .
+
+inst:1onIuiUM53jfXnYIbde1wE a dicm:LayerSet ;
+    dicm:NumberOfLayers 1 ;
+    dicm:hasLayer inst:0QFt9KUXzCOvynVfOhgnqd ;
+    core:hasName "Basic Wall:Parapet Wal _ 90mm Brickl" .
+
+inst:1oo1Rsmn16peqC8JVtg2fs a dicv:Property ;
+    core:hasLabel "IsExternal" ;
+    core:hasValue false .
+
+inst:1pFA2bY7r9WANQOwsIFyyt a dicm:Layer ;
+    dicm:hasMaterial inst:39fN75H0nEFPAEdvaILj9i ;
+    dicv:hasProperty inst:21mrrwDeH1O8r_ILe8EXqX ;
+    core:hasLabel "Concrete, Lightweight" .
+
+inst:1pYmOiucv2vx1GV8WS6XX_ a dicv:Property ;
+    core:hasLabel "ThermalTransmittance" ;
+    core:hasValue 8.47504e-01 .
+
+inst:1pYviFs3LFQhgz169_5M8K a dicv:Property ;
+    core:hasLabel "Roughness" ;
+    core:hasValue 3 .
+
+inst:1panuB4H918R7ZleUcL7y_ a dicv:Property ;
+    core:hasLabel "Absorptance" ;
+    core:hasValue 7e-01 .
+
+inst:1pkrWQZ1PFOQsrfIDiltgi a dicv:Property ;
+    core:hasLabel "IsExternal" ;
+    core:hasValue false .
+
+inst:1psUoGPK5DLAv8gdJU0iwS a dicv:Property ;
+    core:hasLabel "Width" ;
+    core:hasValue 3.175e+02 .
+
+inst:1q7UIdD9LFSPk3eJDMMTHy a dicm:Material ;
+    core:hasLabel "Brick, Common" .
+
+inst:1qAQXW0zPCugD6pcKekfjC a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 2.032e+02 .
+
+inst:1qclu4wSP2oxaSA1MTxSFb a dicv:Property ;
+    core:hasLabel "Roughness" ;
+    core:hasValue 3 .
+
+inst:1quJLf5TnDjAdBeWho5W68 a dicv:Property ;
+    core:hasLabel "Height" ;
+    core:hasValue 4e+03 .
+
+inst:1qwnPHTK91QfuXxHjNIluZ a dicv:Property ;
+    core:hasLabel "IsExternal" ;
+    core:hasValue true .
+
+inst:1r8F8OGlL4JP0Yj78Z6NOV a dicv:Property ;
+    core:hasLabel "Thermal Resistance (R)" ;
+    core:hasValue 1.658824e+00 .
+
+inst:1rCZjrDh5BARcFWvZF0M9V a dicm:Layer ;
+    dicm:hasMaterial inst:02CubTch15eQpKfQ4X_tnb ;
+    dicv:hasProperty inst:3XcnTrssXF5xhC26jJIo4l ;
+    core:hasLabel "Gypsum Wall Board" .
+
+inst:1rCmRfzgf8l9ctHcrostUO a dicv:Property ;
+    core:hasLabel "IsExternal" ;
+    core:hasValue true .
+
+inst:1rFYL8UCX8qxVnmGbRreDw a dicm:Material ;
+    core:hasLabel "Gypsum Wall Board" .
+
+inst:1rL4XCnFvFAOVZ9Iir8Au5 a dicm:Material ;
+    core:hasLabel "Concrete, Lightweight" .
+
+inst:1rZzvQpHXDBONsD4FJ2Cjx a dicv:Property ;
+    core:hasLabel "Roughness" ;
+    core:hasValue 3 .
+
+inst:1re0TDx1D6sfbqxda2V8yA a dicv:Property ;
+    core:hasLabel "ThermalTransmittance" ;
+    core:hasValue 6.028369e-01 .
+
+inst:1ri8ffaWv9IRVRHSeq1Ug6 a dicv:Property ;
+    core:hasLabel "Absorptance" ;
+    core:hasValue 7e-01 .
+
+inst:1rmAcDQqD2Av79JQikD9xC a dicm:LayerSet ;
+    dicm:NumberOfLayers 3 ;
+    dicm:hasLayer inst:0J6JjWQUn5VvBWqc3cCJKF,
+        inst:2M_TSMbSX2qQ3ecYrqJn3Q,
+        inst:3NervUQt1AgRQQEDxSOUGf ;
+    core:hasName "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster" .
+
+inst:1rw2FQJ01CdR33R7a0pQ6A a dicv:Property ;
+    core:hasLabel "Height" ;
+    core:hasValue 3.775e+03 .
+
+inst:1s7JD7DI1ByRtMnpJdJHPm a dicv:Property ;
+    core:hasLabel "Length" ;
+    core:hasValue 2.5e+03 .
+
+inst:1sOXIRzk52Wx5umJCTNJmK a beo:Wall ;
+    dicm:hasLayerSet inst:1rmAcDQqD2Av79JQikD9xC ;
+    dicv:hasProperty inst:073ilcAHHDSBw09cYXiRsk,
+        inst:0U5QtMWRHF7OcQCBzz4S2z,
+        inst:0bKqR0OInEPfjExRZulf7Q,
+        inst:19pnznNi90KRyA1UpbVKNX,
+        inst:1HkY5pMwP3bREuEwgHoG5W,
+        inst:1lvrzTt7PEb8S6voG7NOTC,
+        inst:25jLuMxxvDwe5IcU1qrYav,
+        inst:3Ijwdp7Y1CQAZesKrRjQRx ;
+    core:hasGlobalID "1sOXIRzk52Wx5umJCTNJmK" ;
+    core:hasLabel "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster:278962" .
+
+inst:1sOXIRzk52Wx5umJCTNJop a beo:Wall ;
+    dicm:hasLayerSet inst:3phy1qF_T4WQkFWr5AGvPF ;
+    dicv:hasProperty inst:1BsERK3_bE8QV4sP4MeIkn,
+        inst:1HFrFHKH17FupKEiOYJJLt,
+        inst:1gjieH0hXAcuNmM0ji1Nr2,
+        inst:1wBWN0Vi53CRVT0XfAU4Kk,
+        inst:29Hcqu51HB9B4Q2YxwzBKa,
+        inst:2kCUgqyvzD2hILr_uoMFC9,
+        inst:2w89EHZw14Ufi6xLkimiAQ,
+        inst:3_Eyl5HR1ClOpIozcfwnRR ;
+    core:hasGlobalID "1sOXIRzk52Wx5umJCTNJop" ;
+    core:hasLabel "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster:278805" .
+
+inst:1sOXIRzk52Wx5umJCTNJpL a beo:Wall ;
+    bot:containsElement inst:2rvVZuy3X0l9ATwUENTjbQ,
+        inst:2rvVZuy3X0l9ATwV2NTjbQ ;
+    dicm:hasLayerSet inst:0Xtexb6SL72Qr1XKb1mL60 ;
+    dicv:hasProperty inst:0_szPx93j8pgY9u16MsbDZ,
+        inst:0a3NUOj41CJeBobnQ9IgOg,
+        inst:19SOTQVVH2VPghGThBY1RH,
+        inst:1alCwpYPj10Q_UdIeh0dNO,
+        inst:1rCmRfzgf8l9ctHcrostUO,
+        inst:23dyiqdM57cRFT5tKdG9VZ,
+        inst:37d0yM31z7qBWDF9bPbzVc,
+        inst:3sbpKYsgP9nwa8_NFZRldN ;
+    core:hasGlobalID "1sOXIRzk52Wx5umJCTNJpL" ;
+    core:hasLabel "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster:278899" .
+
+inst:1s_Kzvc4fFaRqtPHBJCyvY a dicm:Layer ;
+    dicm:hasMaterial inst:1KlH2_H0DCzBx_02wuAgeJ ;
+    dicv:hasProperty inst:2WM8hVPxPEaQLB_k5qXLEc ;
+    core:hasLabel "Concrete, Lightweight" .
+
+inst:1shiPWjW17FwOHEnPk3VkY a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 1.016e+02 .
+
+inst:1shsBnnHXDSeaxXmcI8zFi a dicv:Property ;
+    core:hasLabel "Height" ;
+    core:hasValue 6.325e+02 .
+
+inst:1sv3ntvqzCyBktEl6b511m a dicm:Layer ;
+    dicm:hasMaterial inst:0DYnmcdn91RhjfBX4pLkcv ;
+    dicv:hasProperty inst:1SHAfrvEzAsA2dNiid3YoO ;
+    core:hasLabel "Brick, Common" .
+
+inst:1t2YqVrpT9bBiDmVwssk3W a dicv:Property ;
+    core:hasLabel "Absorptance" ;
+    core:hasValue 7e-01 .
+
+inst:1t8oULULzF6RneVQF8yoV2 a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 4e+01 .
+
+inst:1tQQBJMo1B7hcPL7xz7vyK a dicv:Property ;
+    core:hasLabel "Absorptance" ;
+    core:hasValue 7e-01 .
+
+inst:1tRi_8Z7n3RAKO7b7TTjgE a dicv:Property ;
+    core:hasLabel "Width" ;
+    core:hasValue 7e+01 .
+
+inst:1trTGqlff1z8ID3dGDLXLn a dicv:Property ;
+    core:hasLabel "Height" ;
+    core:hasValue 4e+03 .
+
+inst:1uBodDtH15JerFxgzcI3UK a dicm:Material ;
+    core:hasLabel "Brick, Common" .
+
+inst:1uQu_DJpD5aAqNBjU8lZPe a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 1.5e+01 .
+
+inst:1v2I_w9nL30BHKojv7_ysb a dicv:Property ;
+    core:hasLabel "Absorptance" ;
+    core:hasValue 7e-01 .
+
+inst:1vEhCW0vLC4Q9O2ckotBnu a dicv:Property ;
+    core:hasLabel "IsExternal" ;
+    core:hasValue true .
+
+inst:1vJoOw3hL9gxweVzSDxlER a dicm:Material ;
+    core:hasLabel "Gypsum Wall Board" .
+
+inst:1vXxWmNGf8IONyRxpVGTtu a dicv:Property ;
+    core:hasLabel "Height" ;
+    core:hasValue 6.325e+02 .
+
+inst:1vYmWAkUjAtP5C7OlrMaGo a dicm:Material ;
+    core:hasLabel "Concrete, Lightweight" .
+
+inst:1vqklAqC130eliko6ZwDQ1 a dicv:Property ;
+    core:hasLabel "Height" ;
+    core:hasValue 3.1325e+03 .
+
+inst:1w1ie3WlH9MwLkKUJcsU9h a dicv:Property ;
+    core:hasLabel "ThermalTransmittance" ;
+    core:hasValue 6e+00 .
+
+inst:1w8yv5gST3PxDiy_G0mzYS a dicv:Property ;
+    core:hasLabel "Absorptance" ;
+    core:hasValue 7e-01 .
+
+inst:1wBWN0Vi53CRVT0XfAU4Kk a dicv:Property ;
+    core:hasLabel "Roughness" ;
+    core:hasValue 3 .
+
+inst:1wODZakDT87f7Vu1auWmoQ a dicv:Property ;
+    core:hasLabel "Length" ;
+    core:hasValue 3.87625e+03 .
+
+inst:1wOd5VmubCYQ2IL7MCWOm_ a dicv:Property ;
+    core:hasLabel "ThermalTransmittance" ;
+    core:hasValue 8.47504e-01 .
+
+inst:1xHZwW8ODFWRImcWlYLnkh a dicm:Material ;
+    core:hasLabel "Concrete, Lightweight" .
+
+inst:1xL4KieS54bfpNvrtp8x4o a dicm:Layer ;
+    dicm:hasMaterial inst:3AFhxeIL95gwPEg8EczZoN ;
+    dicv:hasProperty inst:2IZSqxwbn8gPsCkJk3D75L ;
+    core:hasLabel "Concrete, Lightweight" .
+
+inst:1yWvVlOyj9P9BmSMN8uTtX a dicm:Layer ;
+    dicm:hasMaterial inst:18Jre5Jvb0CxVdYSTglys9 ;
+    dicv:hasProperty inst:3WexkJORX1uw9S1MxnKtgm ;
+    core:hasLabel "Brick, Common" .
+
+inst:1ya2cGCKr53fTsOyXhQwo1 a dicv:Property ;
+    core:hasLabel "Height" ;
+    core:hasValue 3.775e+03 .
+
+inst:1ynNIMXjP5fxnzknJ5z4nz a dicm:Material ;
+    core:hasLabel "Gypsum Wall Board" .
+
+inst:1zEnJcZUX7uxbJO95KkgVO a dicm:LayerSet ;
+    dicm:NumberOfLayers 1 ;
+    dicm:hasLayer inst:35bYAh_gPBLP8zLHvckwUb ;
+    core:hasName "Basic Wall:Parapet Wal _ 90mm Brickl" .
+
+inst:1zkHDqqRrDgRHZXULKOxWu a dicv:Property ;
+    core:hasLabel "Absorptance" ;
+    core:hasValue 7e-01 .
+
+inst:1zlqacMY9AqOMGF3dt4NYJ a dicv:Property ;
+    core:hasLabel "Roughness" ;
+    core:hasValue 3 .
+
+inst:1zp2wbZ9zAfw3pIXuEy_zc a dicm:Layer ;
+    dicm:hasMaterial inst:3sY1__ls17evCdEAHShm9Q ;
+    dicv:hasProperty inst:1iUZYIdKr38OQdgoqgCvsQ ;
+    core:hasLabel "Gypsum Wall Board" .
+
+inst:1zryPVrnjE7Bha4bIddK0M a dicv:Property ;
+    core:hasLabel "IsExternal" ;
+    core:hasValue true .
+
+inst:1zuQQYAcbCEfAqu_BSWbMJ a dicm:Material ;
+    core:hasLabel "Concrete, Lightweight" .
+
+inst:20OLs5Hwr7X8Ie7mJWGgJc a dicm:LayerSet ;
+    dicm:NumberOfLayers 3 ;
+    dicm:hasLayer inst:1sv3ntvqzCyBktEl6b511m,
+        inst:26vE5BeKH2rAfjst2_jjmu,
+        inst:2_zGVbizHEzueSEyhYUiPH ;
+    core:hasName "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster" .
+
+inst:20Qf8yKWP9aheWmYK6Hlg6 a dicv:Property ;
+    core:hasLabel "Roughness" ;
+    core:hasValue 3 .
+
+inst:20WRMxuzr7TPZHtMocEj7W a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 1.016e+02 .
+
+inst:20b3S5qxb4mwQtqJWPho_u a dicv:Property ;
+    core:hasLabel "Length" ;
+    core:hasValue 4.1e+02 .
+
+inst:20gXoV4vr82uIZuIpOImB1 a dicv:Property ;
+    core:hasLabel "Length" ;
+    core:hasValue 1.03175e+04 .
+
+inst:20m8MAKub9_gXe4vcZfwlT a dicv:Property ;
+    core:hasLabel "Width" ;
+    core:hasValue 9e+01 .
+
+inst:20ryqHjcrB3xOkX_Ev30Xc a dicv:Property ;
+    core:hasLabel "Roughness" ;
+    core:hasValue 3 .
+
+inst:2110onXe94bPEQjuJDMlE2 a dicv:Property ;
+    core:hasLabel "Width" ;
+    core:hasValue 7e+01 .
+
+inst:212ywCMVb7lf5ci1Ma3OAv a dicv:Property ;
+    core:hasLabel "Length" ;
+    core:hasValue 5.30625e+03 .
+
+inst:21ELUzHgD378NAF4YsBUO7 a dicm:Material ;
+    core:hasLabel "Plaster" .
+
+inst:21b953BLr4bO4CA_fIx1C4 a dicv:Property ;
+    core:hasLabel "Length" ;
+    core:hasValue 3.3175e+03 .
+
+inst:21mrrwDeH1O8r_ILe8EXqX a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 2.032e+02 .
+
+inst:21qKn2nK12gxrXPFQQl7CC a dicm:LayerSet ;
+    dicm:NumberOfLayers 3 ;
+    dicm:hasLayer inst:0WpTAAgP9AoPsv70e0DncG,
+        inst:0oS2gh9Rj8uPRwEeG90h5h,
+        inst:2Y3nWmYPbFkeaBQo75i7mV ;
+    core:hasName "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster" .
+
+inst:21r42mKkL7GRKZxX9ZMSSr a dicv:Property ;
+    core:hasLabel "Width" ;
+    core:hasValue 3.175e+02 .
+
+inst:22OJGuX7X16QMG4ESkREXB a dicm:Material ;
+    core:hasLabel "Gypsum Wall Board" .
+
+inst:22WiwAbb9BPgaRPLcvZmgH a dicm:Material ;
+    core:hasLabel "Concrete, Lightweight" .
+
+inst:22XW5M9mXCTvzfSrEkhOLw a dicv:Property ;
+    core:hasLabel "Absorptance" ;
+    core:hasValue 7e-01 .
+
+inst:22ZZDAk_rAEOaW2ymOEtmF a dicv:Property ;
+    core:hasLabel "ThermalTransmittance" ;
+    core:hasValue 8.47504e-01 .
+
+inst:22ez3sGQz0vOHe6UreY8pm a dicv:Property ;
+    core:hasLabel "Roughness" ;
+    core:hasValue 3 .
+
+inst:23dyiqdM57cRFT5tKdG9VZ a dicv:Property ;
+    core:hasLabel "Roughness" ;
+    core:hasValue 3 .
+
+inst:240PFLfSL45PWADSjzS1q6 a dicv:Property ;
+    core:hasLabel "Height" ;
+    core:hasValue 3.5e+03 .
+
+inst:24bLL_EBP6kQaUv3x5FQ99 a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 2.032e+02 .
+
+inst:24plyJ1jX4gQispeUCkyGw a dicv:Property ;
+    core:hasLabel "Height" ;
+    core:hasValue 3.5e+03 .
+
+inst:24tDoidBbDxxyutW5aD9xY a dicm:Material ;
+    core:hasLabel "Brick, Common" .
+
+inst:24toduCNzFVB4osyJITrdw a dicv:Property ;
+    core:hasLabel "Roughness" ;
+    core:hasValue 3 .
+
+inst:25GDsaiwjBlR9isCp5b9XP a dicv:Property ;
+    core:hasLabel "IsExternal" ;
+    core:hasValue true .
+
+inst:25UD__2wX5KA87gEdYFddI a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 2.032e+02 .
+
+inst:25_NIMLK97NeR_SBessalu a dicm:Material ;
+    core:hasLabel "Brick, Common" .
+
+inst:25aB_Dg2H5Ahs4r2oXT4kD a dicv:Property ;
+    core:hasLabel "Roughness" ;
+    core:hasValue 3 .
+
+inst:25hL1olnrFng4DKXkQOoa8 a dicv:Property ;
+    core:hasLabel "IsExternal" ;
+    core:hasValue true .
+
+inst:25iPbMpQnEWBQfsQMGX44U a dicv:Property ;
+    core:hasLabel "IsExternal" ;
+    core:hasValue true .
+
+inst:25iq0sRZj3oPSGLDQ1rqsG a dicv:Property ;
+    core:hasLabel "Width" ;
+    core:hasValue 3.175e+02 .
+
+inst:25jLuMxxvDwe5IcU1qrYav a dicv:Property ;
+    core:hasLabel "Length" ;
+    core:hasValue 2.6825e+03 .
+
+inst:25xoG0kKj84us4m3sRnBJe a dicm:Layer ;
+    dicm:hasMaterial inst:2RjDwNJOzER9ehpOHqYdFq ;
+    dicv:hasProperty inst:3faAMFqCDA5PApu6IMSFBU ;
+    core:hasLabel "Concrete, Lightweight" .
+
+inst:2649YlllDAPAPrOr3jKabW a dicv:Property ;
+    core:hasLabel "Absorptance" ;
+    core:hasValue 7e-01 .
+
+inst:26c5aEXIT5af74SFLi31dy a dicv:Property ;
+    core:hasLabel "Height" ;
+    core:hasValue 3.5e+03 .
+
+inst:26elLQWxz3sO5m6Nq8ixtX a dicv:Property ;
+    core:hasLabel "Thermal Resistance (R)" ;
+    core:hasValue 1.179935e+00 .
+
+inst:26vE5BeKH2rAfjst2_jjmu a dicm:Layer ;
+    dicm:hasMaterial inst:2NUg7FJb12X9Etv2Z_3qYI ;
+    dicv:hasProperty inst:03FXlqyGT7KeNPFUpLzvkk ;
+    core:hasLabel "Concrete, Lightweight" .
+
+inst:26vc19Xhb8hetmCefjvBGQ a dicv:Property ;
+    core:hasLabel "Width" ;
+    core:hasValue 7e+01 .
+
+inst:27JcctN0H9Bf22xZMHbXWP a dicv:Property ;
+    core:hasLabel "Absorptance" ;
+    core:hasValue 7e-01 .
+
+inst:27PGEtHZfCPhXiFu8wdP3j a dicv:Property ;
+    core:hasLabel "Length" ;
+    core:hasValue 3e+03 .
+
+inst:27UNwEsY52P9dfDc8R2t3z a dicv:Property ;
+    core:hasLabel "Thermal Resistance (R)" ;
+    core:hasValue 1.666667e-01 .
+
+inst:27dhGaCQbBh8dkrBrBN74q a dicm:Material ;
+    core:hasLabel "Brick, Common" .
+
+inst:27eOWRiGL9dBCTC6IRVjRc a dicv:Property ;
+    core:hasLabel "Width" ;
+    core:hasValue 3.175e+02 .
+
+inst:27nCFGLQz1HQDGDnwEeouv a dicv:Property ;
+    core:hasLabel "IsExternal" ;
+    core:hasValue false .
+
+inst:27vFbYTib8sgGzcVZYRr_H a dicv:Property ;
+    core:hasLabel "Height" ;
+    core:hasValue 3.5e+03 .
+
+inst:28LWNwkTjCPeHXM7Q9kN_3 a dicv:Property ;
+    core:hasLabel "Absorptance" ;
+    core:hasValue 7e-01 .
+
+inst:28T9mxDAX11eKz5CZatYeg a dicm:Material ;
+    core:hasLabel "Plaster" .
+
+inst:28hgdPbjD8yeT5SVaj0toc a dicv:Property ;
+    core:hasLabel "Width" ;
+    core:hasValue 3.175e+02 .
+
+inst:29Hcqu51HB9B4Q2YxwzBKa a dicv:Property ;
+    core:hasLabel "Absorptance" ;
+    core:hasValue 7e-01 .
+
+inst:29UYRjymP5Xg5aPfQT_FNs a dicv:Property ;
+    core:hasLabel "IsExternal" ;
+    core:hasValue true .
+
+inst:29yOvsRLPE7e7k6H2wkGmD a dicv:Property ;
+    core:hasLabel "Height" ;
+    core:hasValue 3.5e+03 .
+
+inst:2A4A_DAxrAWhQlIkG4NWrn a dicv:Property ;
+    core:hasLabel "Height" ;
+    core:hasValue 3.5e+03 .
+
+inst:2ATAc4y_T10RXjPrpr6j8y a dicv:Property ;
+    core:hasLabel "Absorptance" ;
+    core:hasValue 7e-01 .
+
+inst:2AToQJY6187QTw3MxGnIiz a dicm:Layer ;
+    dicm:hasMaterial inst:27dhGaCQbBh8dkrBrBN74q ;
+    dicv:hasProperty inst:3efTCZyunAwhCDUQXnr5_f ;
+    core:hasLabel "Brick, Common" .
+
+inst:2Anbf1fvL3QuCbwlpDkywt a dicv:Property ;
+    core:hasLabel "ThermalTransmittance" ;
+    core:hasValue 8.47504e-01 .
+
+inst:2AzNQisu5EqgYADKQM0ryG a dicv:Property ;
+    core:hasLabel "Length" ;
+    core:hasValue 1.03175e+04 .
+
+inst:2B5gTaUfz8lQcipSXUEDrT a dicm:Material ;
+    core:hasLabel "Plaster" .
+
+inst:2BG8zuxzf8owWcCARVnyAy a dicm:Material ;
+    core:hasLabel "Gypsum Wall Board" .
+
+inst:2BY1uNjtr44vJS0SwAxodV a dicv:Property ;
+    core:hasLabel "Absorptance" ;
+    core:hasValue 7e-01 .
+
+inst:2BYBUgvTXEVQYQES8yn1Yy a dicv:Property ;
+    core:hasLabel "Length" ;
+    core:hasValue 3e+03 .
+
+inst:2BlAnBpOT3eReOtyeZFz_2 a dicv:Property ;
+    core:hasLabel "Width" ;
+    core:hasValue 3.175e+02 .
+
+inst:2BnajjXMz8RuJ01PJoHi8N a dicv:Property ;
+    core:hasLabel "Length" ;
+    core:hasValue 3.3175e+03 .
+
+inst:2Bzkwt4NrCjAm6pMbmxiNS a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 2.032e+02 .
+
+inst:2C6z6pvZnDqv5Xa6nl_FD_ a dicv:Property ;
+    core:hasLabel "Length" ;
+    core:hasValue 2.6825e+03 .
+
+inst:2CNlJ02bXD48h3BAXDtc2C a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 1.016e+02 .
+
+inst:2CSS4wnsj9Mugi0ocGz4wB a dicv:Property ;
+    core:hasLabel "Thermal Resistance (R)" ;
+    core:hasValue 1.179935e+00 .
+
+inst:2Cgm4kmLfDEeu0u6csWBFf a dicv:Property ;
+    core:hasLabel "Width" ;
+    core:hasValue 7e+01 .
+
+inst:2CkTa5MaPD4vewLU4BEnl3 a dicv:Property ;
+    core:hasLabel "IsExternal" ;
+    core:hasValue true .
+
+inst:2CpSmtiRzB_eTPPfWRFetu a dicv:Property ;
+    core:hasLabel "Absorptance" ;
+    core:hasValue 7e-01 .
+
+inst:2DIOychUL4jQADDndhEEsp a dicm:Material ;
+    core:hasLabel "Plaster" .
+
+inst:2DY6qJnGv3Gv5amX0wmw9t a dicm:Layer ;
+    dicm:hasMaterial inst:3bsTcZYFrEjxdRxDqBgwC0 ;
+    dicv:hasProperty inst:3QvKYMgTn6AAU_HT50icIG ;
+    core:hasLabel "Concrete, Lightweight" .
+
+inst:2DikFn7qPC2uHs5pDt9VLq a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 1.016e+02 .
+
+inst:2DooFP0fH8F9SFHE3xneqL a dicv:Property ;
+    core:hasLabel "IsExternal" ;
+    core:hasValue true .
+
+inst:2Dr5peaUrEVua3nNuxAQIg a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 1.27e+01 .
+
+inst:2Dr8cyWLf7ZgFcTipoAhoT a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 2.032e+02 .
+
+inst:2Dwf1OvnX5AwzDm32mstjU a dicm:Material ;
+    core:hasLabel "Gypsum Wall Board" .
+
+inst:2Dzy4jcFH2hufWWsaCbNeJ a dicv:Property ;
+    core:hasLabel "Thermal Resistance (R)" ;
+    core:hasValue 1.179935e+00 .
+
+inst:2E2QS76c52ZR2CoSACt0zl a dicm:Layer ;
+    dicm:hasMaterial inst:1cZgHnkZPEMuktO82YvHvR ;
+    dicv:hasProperty inst:2Rdvex5ab6WPtzaIBwRvfv ;
+    core:hasLabel "Plaster" .
+
+inst:2E4JlezOjB7fclUrWxorBW a dicv:Property ;
+    core:hasLabel "Absorptance" ;
+    core:hasValue 7e-01 .
+
+inst:2E7Ab9EMnEsRkRYaxDaSSd a dicm:Material ;
+    core:hasLabel "Plaster" .
+
+inst:2EXGBtUgj6WxqR48fkBqE9 a dicm:Layer ;
+    dicm:hasMaterial inst:3DYyZq7tn5ZethPQlkHICz ;
+    dicv:hasProperty inst:3OzrMGhmv7T9pfQGDzawQl ;
+    core:hasLabel "Brick, Common" .
+
+inst:2EoJY5dtj37RDv2csVrhCW a dicv:Property ;
+    core:hasLabel "ThermalTransmittance" ;
+    core:hasValue 8.47504e-01 .
+
+inst:2EpremA3f4X926_x70J_HT a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 1.5e+01 .
+
+inst:2F6edjikrELPreizzxZFwB a dicv:Property ;
+    core:hasLabel "Absorptance" ;
+    core:hasValue 7e-01 .
+
+inst:2G02Sm02bDOBynwXzKM5In a dicm:Material ;
+    core:hasLabel "Gypsum Wall Board" .
+
+inst:2G3gHKTnr1s977Wo3kZclh a dicv:Property ;
+    core:hasLabel "Length" ;
+    core:hasValue 5.87625e+03 .
+
+inst:2GK7Fm6bnF3OArFetPaV6C a dicm:Material ;
+    core:hasLabel "Air" .
+
+inst:2GPuIFfZHA8QBjMbiuzxkd a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 1.5e+01 .
+
+inst:2GmKbZHxrD99bOR7scl1y2 a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 1.5e+01 .
+
+inst:2H0vj821DCCvVEqPmy7u4T a dicm:LayerSet ;
+    dicm:NumberOfLayers 3 ;
+    dicm:hasLayer inst:146frIVOj18h0miMfD6VPw,
+        inst:1m8vDtywb8Z8P7Pq0gQkmH,
+        inst:3veInHG8nDZglzm9Oo1gBB ;
+    core:hasName "Basic Wall:Internal Wall _ 15mm Plaster Board + 40mm Cavity + 15mm Plaster Board" .
+
+inst:2HFhwitcT87wTSeefUicmD a dicv:Property ;
+    core:hasLabel "ThermalTransmittance" ;
+    core:hasValue 8.47504e-01 .
+
+inst:2HUHXiXHT4VBZRWbdZ5z5p a dicv:Property ;
+    core:hasLabel "ThermalTransmittance" ;
+    core:hasValue 8.47504e-01 .
+
+inst:2HyWl3L9vC2QHng5kOUixi a dicm:Layer ;
+    dicm:hasMaterial inst:08IV1dNXDEufiIgXlupBX1 ;
+    dicv:hasProperty inst:2mxJtPhcjA4u4EeSMtrZDT ;
+    core:hasLabel "Brick, Common" .
+
+inst:2I17LgdgTAlBXM2OVWZNY7 a dicv:Property ;
+    core:hasLabel "ThermalTransmittance" ;
+    core:hasValue 6.028369e-01 .
+
+inst:2IBzzbBIT0DRCE8yElYu2A a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 2.032e+02 .
+
+inst:2IJuTRb118eA6_aKLgFZli a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 2.032e+02 .
+
+inst:2IO3J7tRX1PwmzKCpjGsRt a dicv:Property ;
+    core:hasLabel "ThermalTransmittance" ;
+    core:hasValue 8.47504e-01 .
+
+inst:2IZSqxwbn8gPsCkJk3D75L a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 2.032e+02 .
+
+inst:2I_EuzjxHCOuYCT0hgcBEo a dicm:Material ;
+    core:hasLabel "Gypsum Wall Board" .
+
+inst:2ImkDEF714dA7JnbN_iAAC a dicm:LayerSet ;
+    dicm:NumberOfLayers 3 ;
+    dicm:hasLayer inst:13d0X_sl5FTO0QXiTS8psZ,
+        inst:1la8Z2RK13euaSnkvutTEX,
+        inst:2keLt3Lov3FxeEgkNKITjY ;
+    core:hasName "Basic Wall:Internal Wall _ 15mm Plaster Board + 40mm Cavity + 15mm Plaster Board" .
+
+inst:2Ip4r_sUHAl8hTKR3o6VCC a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 1.5e+01 .
+
+inst:2JSmQyrRbClOkAfUzXd7Ug a dicm:LayerSet ;
+    dicm:NumberOfLayers 3 ;
+    dicm:hasLayer inst:1EubNFpWTEUfKgbFQJbj2T,
+        inst:2c2_KvUGjFNP6Yxa9yXPYj,
+        inst:2cZLpGzjfEJe1ZJBmvtRbs ;
+    core:hasName "Basic Wall:Internal Wall _ 15mm Plaster Board + 40mm Cavity + 15mm Plaster Board" .
+
+inst:2JUB8mJNn9JRmu3rT2cdLj a dicm:Layer ;
+    dicm:hasMaterial inst:2UK2XaJQ1Czf3Hrdq3_oUr ;
+    dicv:hasProperty inst:18YK8h6pH5Qx1nZhjCA417 ;
+    core:hasLabel "Brick, Common" .
+
+inst:2KBsv7QV1CdfhngM2TGKtN a dicm:LayerSet ;
+    dicm:NumberOfLayers 3 ;
+    dicm:hasLayer inst:1E05XYAjz2SBMOCm6XbIPl,
+        inst:1zp2wbZ9zAfw3pIXuEy_zc,
+        inst:3XHi904jTC_OPbQYdOsqvn ;
+    core:hasName "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster" .
+
+inst:2KgfB2j6v488yjOSc8Z0AQ a dicm:Material ;
+    core:hasLabel "Air" .
+
+inst:2L3y9wHHf4vQSdJXcE3r8l a dicv:Property ;
+    core:hasLabel "Roughness" ;
+    core:hasValue 3 .
+
+inst:2L5gAe7Hr1fvXSNfRTGWRf a dicm:LayerSet ;
+    dicm:NumberOfLayers 3 ;
+    dicm:hasLayer inst:0XbJCKBoz0SBn58p1F8dMf,
+        inst:1Ls_U5PNr7BADypXzEtk6y,
+        inst:1OV3loSO14ZPSzmtsOxxxt ;
+    core:hasName "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster" .
+
+inst:2L6bHBRzn4cwVgmxiqkYJj a dicv:Property ;
+    core:hasLabel "ThermalTransmittance" ;
+    core:hasValue 6.028369e-01 .
+
+inst:2LLrcIUU920fr58b_lS2UK a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 1.016e+02 .
+
+inst:2LSRroPLf3Effaz6anEAFt a dicm:Material ;
+    core:hasLabel "Brick, Common" .
+
+inst:2LoNpxd7XAShtNZprqodu5 a dicm:Material ;
+    core:hasLabel "Brick, Common" .
+
+inst:2M8845W6PEOPvIeBY7TdkN a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 1.016e+02 .
+
+inst:2M9KSvuVP2nx2DorbPvSHp a dicv:Property ;
+    core:hasLabel "Height" ;
+    core:hasValue 4e+03 .
+
+inst:2MBvxtGtr9bfhkRM5sro69 a dicv:Property ;
+    core:hasLabel "Length" ;
+    core:hasValue 3e+03 .
+
+inst:2MDvHd1w9D1hvwcC6t3Bx0 a dicv:Property ;
+    core:hasLabel "Thermal Resistance (R)" ;
+    core:hasValue 1.666667e-01 .
+
+inst:2M_TSMbSX2qQ3ecYrqJn3Q a dicm:Layer ;
+    dicm:hasMaterial inst:22WiwAbb9BPgaRPLcvZmgH ;
+    dicv:hasProperty inst:1qAQXW0zPCugD6pcKekfjC ;
+    core:hasLabel "Concrete, Lightweight" .
+
+inst:2MjpPrxAb1yuLVGuRCZkG_ a dicm:Material ;
+    core:hasLabel "Gypsum Wall Board" .
+
+inst:2MlK9NufDDkxMdRf5U8JKH a dicm:LayerSet ;
+    dicm:NumberOfLayers 3 ;
+    dicm:hasLayer inst:1QpHeKD2r2PP8JwRhuCgrz,
+        inst:2mZSDTtXX1NAjguCUrJVuZ,
+        inst:3BAIaoLcD8AwXsNuogZz5T ;
+    core:hasName "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster" .
+
+inst:2MmaiEqLX9_Q0XDBb44Sr2 a dicm:LayerSet ;
+    dicm:NumberOfLayers 3 ;
+    dicm:hasLayer inst:2WdA5RQV98886IVSYh06Hn,
+        inst:39ypr4CCr1rhBX2ZWBn8O7,
+        inst:3KLitUFIHEuQNgmsQAI6aW ;
+    core:hasName "Basic Wall:Internal Wall _ 15mm Plaster Board + 40mm Cavity + 15mm Plaster Board" .
+
+inst:2MpTgA5mn9xegkrmGDraBf a dicv:Property ;
+    core:hasLabel "Absorptance" ;
+    core:hasValue 7e-01 .
+
+inst:2MqLrkgiPDEBd3xPlI53k1 a dicm:Material ;
+    core:hasLabel "Concrete, Lightweight" .
+
+inst:2Mz8sRIgD0hAGOxJYbmNxG a dicv:Property ;
+    core:hasLabel "Roughness" ;
+    core:hasValue 3 .
+
+inst:2N7saFsk59LeLCwsXGZLYZ a dicv:Property ;
+    core:hasLabel "IsExternal" ;
+    core:hasValue true .
+
+inst:2N8M816XrDTPuAYZeO0AUV a dicv:Property ;
+    core:hasLabel "Width" ;
+    core:hasValue 7e+01 .
+
+inst:2NSSH0o5n9AAGiTJXk3I9z a dicm:Layer ;
+    dicm:hasMaterial inst:3CTbH0nx55n9TcECf3kSld ;
+    dicv:hasProperty inst:1kggLtdcvE6P9Mv1YihMj9 ;
+    core:hasLabel "Gypsum Wall Board" .
+
+inst:2NUg7FJb12X9Etv2Z_3qYI a dicm:Material ;
+    core:hasLabel "Concrete, Lightweight" .
+
+inst:2NxnaION9ChOLuAvVOMleL a dicv:Property ;
+    core:hasLabel "IsExternal" ;
+    core:hasValue false .
+
+inst:2O0GFr75X83unLxrwlCf3S a dicm:LayerSet ;
+    dicm:NumberOfLayers 3 ;
+    dicm:hasLayer inst:14X1YbclT4du2W6Jdwq5Xt,
+        inst:3IU47h2B54hewzOk3l4KAA,
+        inst:3wExtPIuXFfhiIJhRtZg_t ;
+    core:hasName "Basic Wall:Internal Wall _ 15mm Plaster Board + 40mm Cavity + 15mm Plaster Board" .
+
+inst:2O6C7HBCnDKP7AdLu_ePB_ a dicv:Property ;
+    core:hasLabel "Absorptance" ;
+    core:hasValue 7e-01 .
+
+inst:2O6NvhjYT1kvIOOoOe0y4q a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 1.27e+01 .
+
+inst:2OBBO1Kor7RAOM01cCIkiq a dicv:Property ;
+    core:hasLabel "Roughness" ;
+    core:hasValue 3 .
+
+inst:2OEy0h8jPEpQSmnCraJ0_l a dicm:Layer ;
+    dicm:hasMaterial inst:2Qkmg84wD3C84ZujuoaqCB ;
+    dicv:hasProperty inst:0N23H2m0v2MPmhvmfmKUfB ;
+    core:hasLabel "Brick, Common" .
+
+inst:2OoOcTlwn0pfAflR8rJVyf a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 2.032e+02 .
+
+inst:2Oy8y664X12QDgO1XHKEwz a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 1.5e+01 .
+
+inst:2PMJZjmVr8XviZK1HXWzXk a dicv:Property ;
+    core:hasLabel "Thermal Resistance (R)" ;
+    core:hasValue 1.658824e+00 .
+
+inst:2PV66KcWn6PuHDIxieWolw a dicm:LayerSet ;
+    dicm:NumberOfLayers 3 ;
+    dicm:hasLayer inst:1GxJ2PISX9gv8uZ3iirKqN,
+        inst:1VisL0X893GwzQlNdbs6Ta,
+        inst:3cKsKI21LB5wBmjX7O15AA ;
+    core:hasName "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster" .
+
+inst:2PVQBO5BDAwQaFJsuPagIq a dicv:Property ;
+    core:hasLabel "IsExternal" ;
+    core:hasValue true .
+
+inst:2PeQOcN31CRQkOqCNg382v a dicm:Layer ;
+    dicm:hasMaterial inst:1_zC7VIi97vAXBSyjHaZFq ;
+    dicv:hasProperty inst:1EM0SVmtvEDQgecUklOtt0 ;
+    core:hasLabel "Brick, Common" .
+
+inst:2PpunbEW9A1QRiG0NULzzd a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 1.016e+02 .
+
+inst:2PzJxZ4Kb17glcJz8Nu3oD a dicv:Property ;
+    core:hasLabel "Roughness" ;
+    core:hasValue 3 .
+
+inst:2Q1zZtYWb0bg05sNehohaf a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 2.032e+02 .
+
+inst:2QN1N0zMT6auIEpCCRBCAY a dicm:Layer ;
+    dicm:hasMaterial inst:0YlAzwe3T6qP9PeDoQxz4S ;
+    dicv:hasProperty inst:2Oy8y664X12QDgO1XHKEwz ;
+    core:hasLabel "Plaster" .
+
+inst:2QNGM17An1J99jWmxIS7bM a dicv:Property ;
+    core:hasLabel "Absorptance" ;
+    core:hasValue 7e-01 .
+
+inst:2QU2pRYPT3IOIoCfhgaYFA a dicv:Property ;
+    core:hasLabel "Roughness" ;
+    core:hasValue 3 .
+
+inst:2Qkmg84wD3C84ZujuoaqCB a dicm:Material ;
+    core:hasLabel "Brick, Common" .
+
+inst:2Qw8uSDgDBEBGT8lgQMYSJ a dicv:Property ;
+    core:hasLabel "Roughness" ;
+    core:hasValue 3 .
+
+inst:2R1FjEioD0rRoTMn2QWyah a dicv:Property ;
+    core:hasLabel "Thermal Resistance (R)" ;
+    core:hasValue 1.658824e+00 .
+
+inst:2REXvIvMH8mPdUVPlG31zW a dicv:Property ;
+    core:hasLabel "Thermal Resistance (R)" ;
+    core:hasValue 1.179935e+00 .
+
+inst:2RUSWtcHfDIx1LVVd4z3P1 a dicv:Property ;
+    core:hasLabel "Thermal Resistance (R)" ;
+    core:hasValue 1.179935e+00 .
+
+inst:2Rdvex5ab6WPtzaIBwRvfv a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 1.5e+01 .
+
+inst:2RhihnyDDBsAiswgHh8xDZ a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 1.016e+02 .
+
+inst:2RjDwNJOzER9ehpOHqYdFq a dicm:Material ;
+    core:hasLabel "Concrete, Lightweight" .
+
+inst:2SNaK9T290HxLnUemw_ECz a dicv:Property ;
+    core:hasLabel "ThermalTransmittance" ;
+    core:hasValue 6.028369e-01 .
+
+inst:2SPthIKWDCXQgvxlSl4jeY a dicv:Property ;
+    core:hasLabel "Height" ;
+    core:hasValue 3.775e+03 .
+
+inst:2SqujWUbbDLv_nM4Aqz3CR a dicv:Property ;
+    core:hasLabel "Thermal Resistance (R)" ;
+    core:hasValue 1.666667e-01 .
+
+inst:2TWjKqhoH1IBY_Xsj8GcJx a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 1.5e+01 .
+
+inst:2TXDvZfkPEhx5TZicT3bme a dicm:LayerSet ;
+    dicm:NumberOfLayers 3 ;
+    dicm:hasLayer inst:050MYx0Hr1MAWO2VwZnvVT,
+        inst:2sNrugyZXCExzJZ9lSNTfZ,
+        inst:3wfAdNOhLEvvfpewxLS2gK ;
+    core:hasName "Basic Wall:Internal Wall _ 15mm Plaster Board + 40mm Cavity + 15mm Plaster Board" .
+
+inst:2Te_X00Un8AwcYLt6wGAzW a dicv:Property ;
+    core:hasLabel "Absorptance" ;
+    core:hasValue 7e-01 .
+
+inst:2TfegqMZr1KBLfyVtgLjVA a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 2.032e+02 .
+
+inst:2Ttl2KSQHDQuTvbAHK2ecY a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 4e+01 .
+
+inst:2TuCogUAnC7x2xNPyIsWzv a dicm:Material ;
+    core:hasLabel "Plaster" .
+
+inst:2UC1ed7AjEkxiL84IzyCyH a dicv:Property ;
+    core:hasLabel "Absorptance" ;
+    core:hasValue 7e-01 .
+
+inst:2UK2XaJQ1Czf3Hrdq3_oUr a dicm:Material ;
+    core:hasLabel "Brick, Common" .
+
+inst:2UY6M3muf8j99ajyM6w8iY a dicv:Property ;
+    core:hasLabel "Height" ;
+    core:hasValue 4e+03 .
+
+inst:2V4DzVZaD7ORN_wWrNB7hn a dicv:Property ;
+    core:hasLabel "Roughness" ;
+    core:hasValue 3 .
+
+inst:2VE63TIrf4JhQTcZQK1tPf a dicv:Property ;
+    core:hasLabel "Roughness" ;
+    core:hasValue 3 .
+
+inst:2V_SkPjZPAbwWBtgIKekyO a dicv:Property ;
+    core:hasLabel "Width" ;
+    core:hasValue 3.175e+02 .
+
+inst:2Vh1qt1HTAlRXJ1CmtsyN3 a dicm:Material ;
+    core:hasLabel "Plaster" .
+
+inst:2WDhMtXYzA98KoFYHq1B77 a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 2.032e+02 .
+
+inst:2WM8hVPxPEaQLB_k5qXLEc a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 2.032e+02 .
+
+inst:2WWeJKilH3Yv06ZbyAI3Uw a dicv:Property ;
+    core:hasLabel "Width" ;
+    core:hasValue 7e+01 .
+
+inst:2WdA5RQV98886IVSYh06Hn a dicm:Layer ;
+    dicm:hasMaterial inst:3FsgsyV215PenUZiFieqfl ;
+    dicv:hasProperty inst:2X9QtzDsn0vR5WY5ymBve5 ;
+    core:hasLabel "Plaster" .
+
+inst:2WySt5vuPAZOURWY2HttIx a dicv:Property ;
+    core:hasLabel "Thermal Resistance (R)" ;
+    core:hasValue 1.179935e+00 .
+
+inst:2X9QtzDsn0vR5WY5ymBve5 a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 1.5e+01 .
+
+inst:2XGetK9m525gur7LORwQwN a dicm:Material ;
+    core:hasLabel "Brick, Common" .
+
+inst:2XQsPnB5rCShz8wbOoPW1Q a dicm:LayerSet ;
+    dicm:NumberOfLayers 1 ;
+    dicm:hasLayer inst:2OEy0h8jPEpQSmnCraJ0_l ;
+    core:hasName "Basic Wall:Parapet Wal _ 90mm Brickl" .
+
+inst:2XltjwGDDAD8qYLPDr8kfa a dicm:Layer ;
+    dicm:hasMaterial inst:21ELUzHgD378NAF4YsBUO7 ;
+    dicv:hasProperty inst:2xpVLJv4n0WPc0auyOdYWq ;
+    core:hasLabel "Plaster" .
+
+inst:2Y3nWmYPbFkeaBQo75i7mV a dicm:Layer ;
+    dicm:hasMaterial inst:1rL4XCnFvFAOVZ9Iir8Au5 ;
+    dicv:hasProperty inst:3qKWtekGXCKuvBBN62Bcmi ;
+    core:hasLabel "Concrete, Lightweight" .
+
+inst:2Y70AdSDj1vQrJS0IzzJyV a dicv:Property ;
+    core:hasLabel "Thermal Resistance (R)" ;
+    core:hasValue 1.666667e-01 .
+
+inst:2YyTlxyGbC7BsWZoGxq3_g a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 1.016e+02 .
+
+inst:2ZVDYD_xj4RB_3jNFLd4cc a dicm:Material ;
+    core:hasLabel "Concrete, Lightweight" .
+
+inst:2ZXxOBK01EY9h8WVMN4M2L a dicm:Layer ;
+    dicm:hasMaterial inst:2vttkrVnX1dBlTh8imUdnT ;
+    dicv:hasProperty inst:1dslktW8zCiw4XgfDrWG4i ;
+    core:hasLabel "Gypsum Wall Board" .
+
+inst:2ZqowxVJH8zP9bh8CtV3Tz a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 2.032e+02 .
+
+inst:2_CI845QX1sw6a3cgB0D14 a dicv:Property ;
+    core:hasLabel "Roughness" ;
+    core:hasValue 3 .
+
+inst:2_KnnaPjT6gAK2ovZXlNUa a dicm:Material ;
+    core:hasLabel "Plaster" .
+
+inst:2_Tkk2nrjC4R7r4ujtQGTz a dicv:Property ;
+    core:hasLabel "IsExternal" ;
+    core:hasValue true .
+
+inst:2_dpmn2gn8dfTh32YQiaQ2 a dicm:LayerSet ;
+    dicm:NumberOfLayers 3 ;
+    dicm:hasLayer inst:1s_Kzvc4fFaRqtPHBJCyvY,
+        inst:2b43w01DX0CuO96tJoK0QZ,
+        inst:3Nwi_M04H5ve3FLzkixU7t ;
+    core:hasName "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster" .
+
+inst:2_tNUMEXbC9OZNXbi6VbWM a dicm:Layer ;
+    dicm:hasMaterial inst:1bKFR91_bEQRKAJWGEBJxP ;
+    dicv:hasProperty inst:10Ab4cwunC8BLJHZBPrmuc ;
+    core:hasLabel "Brick, Common" .
+
+inst:2_zGVbizHEzueSEyhYUiPH a dicm:Layer ;
+    dicm:hasMaterial inst:0759CxWRr38QV8SJLBvirW ;
+    dicv:hasProperty inst:2sF0o65lr9vxxLv1a6hsuV ;
+    core:hasLabel "Gypsum Wall Board" .
+
+inst:2aC_vVgzPB3hK9T_XsO3hK a dicm:Layer ;
+    dicm:hasMaterial inst:0AKACMQnjC8vZJy2c_lKMT ;
+    dicv:hasProperty inst:2hxtdaCRX4Nu6g7pYBqTgk ;
+    core:hasLabel "Plaster" .
+
+inst:2ac3ZbQpXFSwWgdgWYGYJK a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 1.016e+02 .
+
+inst:2agFwFvqz1Uh78_fOlLkHx a dicv:Property ;
+    core:hasLabel "IsExternal" ;
+    core:hasValue false .
+
+inst:2b43w01DX0CuO96tJoK0QZ a dicm:Layer ;
+    dicm:hasMaterial inst:2MjpPrxAb1yuLVGuRCZkG_ ;
+    dicv:hasProperty inst:3pZ_Vj6nz8BAlLx72mac0P ;
+    core:hasLabel "Gypsum Wall Board" .
+
+inst:2bBN4rbGD3aBFzryS2I1xT a dicv:Property ;
+    core:hasLabel "ThermalTransmittance" ;
+    core:hasValue 6e+00 .
+
+inst:2bDnWJHoHBWwhGOxnbmMnG a dicv:Property ;
+    core:hasLabel "IsExternal" ;
+    core:hasValue false .
+
+inst:2bNRwDyKr6RBnOh3sm3Fqp a dicv:Property ;
+    core:hasLabel "ThermalTransmittance" ;
+    core:hasValue 8.47504e-01 .
+
+inst:2bi4bFCYj4Mx56YxCxozYe a dicv:Property ;
+    core:hasLabel "Absorptance" ;
+    core:hasValue 7e-01 .
+
+inst:2c2_KvUGjFNP6Yxa9yXPYj a dicm:Layer ;
+    dicm:hasMaterial inst:3y7sxEDF52LRmHCoORK5sT ;
+    dicv:hasProperty inst:1uQu_DJpD5aAqNBjU8lZPe ;
+    core:hasLabel "Plaster" .
+
+inst:2c83_ImCD9IuKNIhRFXABP a dicm:Layer ;
+    dicm:hasMaterial inst:06uGsoIYb2XguQIUloGa9C ;
+    dicv:hasProperty inst:3lC4QdZHzBFuWQAQXVnAfR ;
+    core:hasLabel "Brick, Common" .
+
+inst:2cB6aAx0H09RkQ8CAUWmud a dicv:Property ;
+    core:hasLabel "IsExternal" ;
+    core:hasValue true .
+
+inst:2cEyWIMUPFJOKs5gdTl9hF a dicv:Property ;
+    core:hasLabel "Width" ;
+    core:hasValue 3.175e+02 .
+
+inst:2cGc5vozzCUvMvbIIt3Qj9 a dicv:Property ;
+    core:hasLabel "Absorptance" ;
+    core:hasValue 7e-01 .
+
+inst:2cOxz_EMn2lBYYgqmbBsOH a dicv:Property ;
+    core:hasLabel "ThermalTransmittance" ;
+    core:hasValue 6.028369e-01 .
+
+inst:2cZLpGzjfEJe1ZJBmvtRbs a dicm:Layer ;
+    dicm:hasMaterial inst:3KbZk2MJH0FQ6IeiS1bfsf ;
+    dicv:hasProperty inst:3tWbnowv93N95J4q2pgkNj ;
+    core:hasLabel "Plaster" .
+
+inst:2cwsYowsn3HvncKU_nPO8E a dicm:Layer ;
+    dicm:hasMaterial inst:1W5PefN_DAxheYct9w_q9r ;
+    dicv:hasProperty inst:3VbcYLjEn3pRxC1m3eEb8z ;
+    core:hasLabel "Gypsum Wall Board" .
+
+inst:2cx1Vpkdj5SBfDQt_vYhDk a dicm:Material ;
+    core:hasLabel "Brick, Common" .
+
+inst:2d5NeylMf4XRrzoQnO_yHM a dicm:Material ;
+    core:hasLabel "Brick, Common" .
+
+inst:2dfGUI4s9ExRxQu1B2YfwR a dicm:Material ;
+    core:hasLabel "Brick, Common" .
+
+inst:2dnTwSCdv0MfGADdX_bzTy a dicm:Layer ;
+    dicm:hasMaterial inst:1eiG_3SGrCB8iyAReozqbm ;
+    dicv:hasProperty inst:0Lp0rGQMnFOfjS3fSHDzRR ;
+    core:hasLabel "Gypsum Wall Board" .
+
+inst:2e6HH3Wa10DgZHYgCLb0uE a dicm:Material ;
+    core:hasLabel "Gypsum Wall Board" .
+
+inst:2eKzLen_vERge9_2G2OuG8 a dicv:Property ;
+    core:hasLabel "Roughness" ;
+    core:hasValue 3 .
+
+inst:2eSO_HtA17UBh2HFGqWEHn a dicv:Property ;
+    core:hasLabel "Height" ;
+    core:hasValue 6.325e+02 .
+
+inst:2f4HpVYn5F1QpiNj5EU_MV a dicm:LayerSet ;
+    dicm:NumberOfLayers 1 ;
+    dicm:hasLayer inst:1Tx3ufPeLA9xUgiVd4Sakl ;
+    core:hasName "Basic Wall:Parapet Wal _ 90mm Brickl" .
+
+inst:2fGnqIH5H7zBzj6QMVXTdL a dicm:Layer ;
+    dicm:hasMaterial inst:0Flz3tN8rCERdVDBuYOxZc ;
+    dicv:hasProperty inst:11u_cxAFvBxhKu1HK3LLt5 ;
+    core:hasLabel "Gypsum Wall Board" .
+
+inst:2fMKwkSm52KgN_rgcseHgk a dicm:Material ;
+    core:hasLabel "Brick, Common" .
+
+inst:2fcfuVDwX8sRRYTdO6FoUJ a dicm:Layer ;
+    dicm:hasMaterial inst:3gxeYAGCL0Lguv56dLatRh ;
+    dicv:hasProperty inst:3EVXsbJV1F5BxmqkTpPWvW ;
+    core:hasLabel "Plaster" .
+
+inst:2fg6hcLY50pPXBFlkOiJB7 a dicv:Property ;
+    core:hasLabel "ThermalTransmittance" ;
+    core:hasValue 6e+00 .
+
+inst:2foIbi47PATecz6oHaTsI0 a dicm:Material ;
+    core:hasLabel "Gypsum Wall Board" .
+
+inst:2fv3y_Djn2DAbdQMYO0RYV a dicv:Property ;
+    core:hasLabel "Thermal Resistance (R)" ;
+    core:hasValue 1.666667e-01 .
+
+inst:2gH1Hts8j0HhRApZPE3H98 a dicv:Property ;
+    core:hasLabel "Width" ;
+    core:hasValue 9e+01 .
+
+inst:2gMV_Eyp53yvttEaqC2Gmh a dicv:Property ;
+    core:hasLabel "IsExternal" ;
+    core:hasValue true .
+
+inst:2g_1uTLhD1ruKrtvYkbULo a dicm:Material ;
+    core:hasLabel "Plaster" .
+
+inst:2ghD_B6ZTBeejzqLyO023Z a dicv:Property ;
+    core:hasLabel "IsExternal" ;
+    core:hasValue true .
+
+inst:2gv8vVULzD_8wGB07H1wG_ a dicm:Layer ;
+    dicm:hasMaterial inst:3k3s8vlQzBrPYZfOu0Ahuy ;
+    dicv:hasProperty inst:0jGefeNUbD08tuG10vQZKu ;
+    core:hasLabel "Gypsum Wall Board" .
+
+inst:2hPZxtCFr6pRfxxsPKuik6 a dicm:Material ;
+    core:hasLabel "Concrete, Lightweight" .
+
+inst:2hw79Thrr0fOlCIqZrwopS a dicm:Material ;
+    core:hasLabel "Concrete, Lightweight" .
+
+inst:2hxtdaCRX4Nu6g7pYBqTgk a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 1.5e+01 .
+
+inst:2i1_sGKpXCqxNLMEbiEQ3B a dicm:Material ;
+    core:hasLabel "Plaster" .
+
+inst:2iK7YwJ093uetQ2yy_WwNy a dicm:Material ;
+    core:hasLabel "Plaster" .
+
+inst:2iYjnYqb1C0f3jOg5jSwEq a dicm:Layer ;
+    dicm:hasMaterial inst:1_qF8XTR99Q8c8vc_hw44x ;
+    dicv:hasProperty inst:0vwUm5wbH1pPvuG_gcx_ZW ;
+    core:hasLabel "Gypsum Wall Board" .
+
+inst:2jFzgNzsP7KfvCuKW2WFyK a dicv:Property ;
+    core:hasLabel "Thermal Resistance (R)" ;
+    core:hasValue 1.179935e+00 .
+
+inst:2jGAsE29bCtxPLB_Gzsz0p a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 1.27e+01 .
+
+inst:2jGpQE3FD9dQDfS_AqZOWn a dicm:LayerSet ;
+    dicm:NumberOfLayers 3 ;
+    dicm:hasLayer inst:0F8rBnNq97XeXgikpLY2Un,
+        inst:3Oln4UGoHClvGybbvS10nI,
+        inst:3fVe_RWkT02B1rlLzBgK9F ;
+    core:hasName "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster" .
+
+inst:2jRoGIbLH5iPM0XWLEee_8 a dicm:Material ;
+    core:hasLabel "Brick, Common" .
+
+inst:2k3yHuPwT20h8plyDIfbd0 a dicv:Property ;
+    core:hasLabel "Height" ;
+    core:hasValue 3.5e+03 .
+
+inst:2kCUgqyvzD2hILr_uoMFC9 a dicv:Property ;
+    core:hasLabel "IsExternal" ;
+    core:hasValue true .
+
+inst:2kPVe6xPvE8vk6HWkj1465 a dicm:Material ;
+    core:hasLabel "Concrete, Lightweight" .
+
+inst:2kR3C253b4CxOipRwYAUnu a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 1.016e+02 .
+
+inst:2keLt3Lov3FxeEgkNKITjY a dicm:Layer ;
+    dicm:hasMaterial inst:2DIOychUL4jQADDndhEEsp ;
+    dicv:hasProperty inst:3bFISVaZfC_vEE520ueYzq ;
+    core:hasLabel "Plaster" .
+
+inst:2kv9WiPrD4aOh_rKcO0UDm a dicm:Layer ;
+    dicm:hasMaterial inst:31YckA8lbBbhINBmJ2CBIw ;
+    dicv:hasProperty inst:3xp0HmoPTDfQY_c7mKMUBk ;
+    core:hasLabel "Brick, Common" .
+
+inst:2lGHBHyL5Bp8bSmvDjNsBP a dicm:LayerSet ;
+    dicm:NumberOfLayers 1 ;
+    dicm:hasLayer inst:2PeQOcN31CRQkOqCNg382v ;
+    core:hasName "Basic Wall:Parapet Wal _ 90mm Brickl" .
+
+inst:2lkz5S0mT0ueYgl9k0xFNh a dicv:Property ;
+    core:hasLabel "IsExternal" ;
+    core:hasValue true .
+
+inst:2mDIKJ48T8_gTI_dfQXPJu a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 4e+01 .
+
+inst:2mZSDTtXX1NAjguCUrJVuZ a dicm:Layer ;
+    dicm:hasMaterial inst:0R_LsIacD1vgvKoDhDBUo1 ;
+    dicv:hasProperty inst:05lSnxVKf5GfVxiFeauUIq ;
+    core:hasLabel "Concrete, Lightweight" .
+
+inst:2mhGr1VTj81PR7GHg0lLAV a dicm:Material ;
+    core:hasLabel "Brick, Common" .
+
+inst:2mhldMLTX30P6VDwsyE0gQ a dicm:Layer ;
+    dicm:hasMaterial inst:1Xso8lUrr4FeoIfcZvpC2e ;
+    dicv:hasProperty inst:1WlFGLySfCiRP3zAmmiJ3E ;
+    core:hasLabel "Brick, Common" .
+
+inst:2mxJtPhcjA4u4EeSMtrZDT a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 1.016e+02 .
+
+inst:2mxgUnR9X8y9IYviYz9yNh a dicm:Material ;
+    core:hasLabel "Concrete, Lightweight" .
+
+inst:2nBP7yEZfEqBHF2Y4MdZZk a dicv:Property ;
+    core:hasLabel "ThermalTransmittance" ;
+    core:hasValue 8.47504e-01 .
+
+inst:2nH2CiQ6DDJ8XpXYYv7FlK a dicv:Property ;
+    core:hasLabel "Height" ;
+    core:hasValue 3.5e+03 .
+
+inst:2nIfHnIin4hf02STJLAq1D a dicv:Property ;
+    core:hasLabel "Height" ;
+    core:hasValue 3.775e+03 .
+
+inst:2nLBRlNiv0D84JWYg48QGS a dicv:Property ;
+    core:hasLabel "Length" ;
+    core:hasValue 3.3175e+03 .
+
+inst:2nnA775QT8CROyKBnBnseU a dicv:Property ;
+    core:hasLabel "ThermalTransmittance" ;
+    core:hasValue 8.47504e-01 .
+
+inst:2nwI_20Sn84BeMOlBk2H2S a dicv:Property ;
+    core:hasLabel "Absorptance" ;
+    core:hasValue 7e-01 .
+
+inst:2o1E1DEov6I82ya4uBeXRN a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 2.032e+02 .
+
+inst:2oN8uXgl57aAjTFF6Jt0Bw a dicm:Layer ;
+    dicm:hasMaterial inst:1vJoOw3hL9gxweVzSDxlER ;
+    dicv:hasProperty inst:3c1M5VLtbC9fzfFK8R5sdS ;
+    core:hasLabel "Gypsum Wall Board" .
+
+inst:2p5KT3AYv65QAZvMuj_6bo a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 1.27e+01 .
+
+inst:2p8raD3ND7URLhWDKOJVTB a dicm:Layer ;
+    dicm:hasMaterial inst:2Dwf1OvnX5AwzDm32mstjU ;
+    dicv:hasProperty inst:0QKOWm0SPDBux7Gc8YI2oN ;
+    core:hasLabel "Gypsum Wall Board" .
+
+inst:2pVVaflh19ueDMJVZgm70g a dicv:Property ;
+    core:hasLabel "IsExternal" ;
+    core:hasValue true .
+
+inst:2prlpcEF90HfzK1v0YA64d a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 2.032e+02 .
+
+inst:2q7hAeVfL2I8l5_bTAej8d a dicv:Property ;
+    core:hasLabel "IsExternal" ;
+    core:hasValue true .
+
+inst:2qEduHnObEFh0pCwWr_Ab9 a dicm:Layer ;
+    dicm:hasMaterial inst:3XBwdWCmPFbAUff5vb45HR ;
+    dicv:hasProperty inst:2prlpcEF90HfzK1v0YA64d ;
+    core:hasLabel "Concrete, Lightweight" .
+
+inst:2qHPgvylX5qvkEACOslhJx a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 1.27e+01 .
+
+inst:2qNzBZ8jX99hZ09U59rtYq a dicv:Property ;
+    core:hasLabel "Absorptance" ;
+    core:hasValue 7e-01 .
+
+inst:2qdXfAKbj25w_3OYCn4wMt a dicv:Property ;
+    core:hasLabel "Absorptance" ;
+    core:hasValue 7e-01 .
+
+inst:2qgM8ehCP1GA_gmAjvucs7 a dicm:LayerSet ;
+    dicm:NumberOfLayers 3 ;
+    dicm:hasLayer inst:0r2A9rJxnAsuDakVuFivg2,
+        inst:2QN1N0zMT6auIEpCCRBCAY,
+        inst:38QJ7qpO1FZghUGUs4auFg ;
+    core:hasName "Basic Wall:Internal Wall _ 15mm Plaster Board + 40mm Cavity + 15mm Plaster Board" .
+
+inst:2qiDl1RU53Fu6GBvvE6YmF a dicv:Property ;
+    core:hasLabel "Absorptance" ;
+    core:hasValue 7e-01 .
+
+inst:2r2K592YfBeu0ua5vclvuA a dicv:Property ;
+    core:hasLabel "Roughness" ;
+    core:hasValue 3 .
+
+inst:2rJR_EACvASw2naF8U9XJn a dicv:Property ;
+    core:hasLabel "IsExternal" ;
+    core:hasValue true .
+
+inst:2rSQUaDKj8WhFmBlgk8QQx a dicm:Material ;
+    core:hasLabel "Brick, Common" .
+
+inst:2rgQY9S713g9TKtQ4MvRvJ a dicv:Property ;
+    core:hasLabel "Length" ;
+    core:hasValue 3.56875e+03 .
+
+inst:2runGPpSr7suw5Ld0B6jFF a dicm:Layer ;
+    dicm:hasMaterial inst:3JmOLthqPBHRVytWvVm_PS ;
+    dicv:hasProperty inst:2o1E1DEov6I82ya4uBeXRN ;
+    core:hasLabel "Concrete, Lightweight" .
+
+inst:2sF0o65lr9vxxLv1a6hsuV a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 1.27e+01 .
+
+inst:2sNrugyZXCExzJZ9lSNTfZ a dicm:Layer ;
+    dicm:hasMaterial inst:1cUpv1LVbDyfIBcPAeQM1C ;
+    dicv:hasProperty inst:1t8oULULzF6RneVQF8yoV2 ;
+    core:hasLabel "Air" .
+
+inst:2scVr8qZ18FQoraRmc_QuD a dicm:Material ;
+    core:hasLabel "Brick, Common" .
+
+inst:2t62k0PmDAYBv19Xp389Fr a dicv:Property ;
+    core:hasLabel "Height" ;
+    core:hasValue 3.775e+03 .
+
+inst:2tPQkzzAb8AeB0FzgxndLz a dicv:Property ;
+    core:hasLabel "Absorptance" ;
+    core:hasValue 7e-01 .
+
+inst:2tUQ_ixOTBWvvHWHqhm2DB a dicm:Layer ;
+    dicm:hasMaterial inst:3b4wcqEO18PAQ2qa3n0Yph ;
+    dicv:hasProperty inst:2Bzkwt4NrCjAm6pMbmxiNS ;
+    core:hasLabel "Concrete, Lightweight" .
+
+inst:2te6U8dxH7CB0hGmLnMFsP a dicm:Layer ;
+    dicm:hasMaterial inst:3tq6Jw_DfA_BD6utbWa8jv ;
+    dicv:hasProperty inst:1_A0T1nrH52hC1ilI7L1hu ;
+    core:hasLabel "Concrete, Lightweight" .
+
+inst:2thoMK_Nj8HwPuG_VcecSH a dicv:Property ;
+    core:hasLabel "ThermalTransmittance" ;
+    core:hasValue 8.47504e-01 .
+
+inst:2tlRESsir04R5JwTWj5uof a dicv:Property ;
+    core:hasLabel "Roughness" ;
+    core:hasValue 3 .
+
+inst:2u59De1Zv5D9iwO5gwmmpk a dicm:LayerSet ;
+    dicm:NumberOfLayers 3 ;
+    dicm:hasLayer inst:1NHry9GBr1LQosFPIVH7Bu,
+        inst:2NSSH0o5n9AAGiTJXk3I9z,
+        inst:3g3IWkuafESBo6KXixPm45 ;
+    core:hasName "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster" .
+
+inst:2uaO8kiBvCXBS86naglG8l a dicv:Property ;
+    core:hasLabel "Width" ;
+    core:hasValue 7e+01 .
+
+inst:2v8Euo_sPBGBEmV8SV9IHS a dicv:Property ;
+    core:hasLabel "Length" ;
+    core:hasValue 2.6825e+03 .
+
+inst:2v8N8G_8T3MQH2o6BJvdDI a dicv:Property ;
+    core:hasLabel "ThermalTransmittance" ;
+    core:hasValue 8.47504e-01 .
+
+inst:2vOmCZlXb1WwB_vlrO71Bt a dicm:Layer ;
+    dicm:hasMaterial inst:0UirziJWr41g4u8MH45yQM ;
+    dicv:hasProperty inst:0OzpmvsGXAuAEsbdmZN4aV ;
+    core:hasLabel "Gypsum Wall Board" .
+
+inst:2vZu36J6rCqOXUXVttMXoJ a dicv:Property ;
+    core:hasLabel "Thermal Resistance (R)" ;
+    core:hasValue 1.179935e+00 .
+
+inst:2vo9nwlFD5XARiEyXHVyJj a dicm:Material ;
+    core:hasLabel "Plaster" .
+
+inst:2vttkrVnX1dBlTh8imUdnT a dicm:Material ;
+    core:hasLabel "Gypsum Wall Board" .
+
+inst:2vueOtQIr3buBCbRQ5VUtd a dicv:Property ;
+    core:hasLabel "ThermalTransmittance" ;
+    core:hasValue 6.028369e-01 .
+
+inst:2w89EHZw14Ufi6xLkimiAQ a dicv:Property ;
+    core:hasLabel "Thermal Resistance (R)" ;
+    core:hasValue 1.179935e+00 .
+
+inst:2wboIGIDT0A9vfiEd6XWWz a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 1.27e+01 .
+
+inst:2whJ4LvTz5OA25UP_a_vjW a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 1.5e+01 .
+
+inst:2woBlIMvDFJvkeCOmH4uFA a dicm:Material ;
+    core:hasLabel "Concrete, Lightweight" .
+
+inst:2xF6sYR816wuYyn0QB8K91 a dicm:LayerSet ;
+    dicm:NumberOfLayers 1 ;
+    dicm:hasLayer inst:3BjHPoOp5BredS37GO2JUZ ;
+    core:hasName "Basic Wall:Parapet Wal _ 90mm Brickl" .
+
+inst:2xnxkNqLj1uwGoiyIUIcZr a dicv:Property ;
+    core:hasLabel "Height" ;
+    core:hasValue 3.775e+03 .
+
+inst:2xpVLJv4n0WPc0auyOdYWq a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 1.5e+01 .
+
+inst:2y58cHKeb7qvjy4vzpk_Kl a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 1.5e+01 .
+
+inst:2yZM3JFknCNfqUCQftVVaf a dicv:Property ;
+    core:hasLabel "IsExternal" ;
+    core:hasValue true .
+
+inst:2yiqBicADFkwRcD72zhwnC a dicv:Property ;
+    core:hasLabel "ThermalTransmittance" ;
+    core:hasValue 8.47504e-01 .
+
+inst:2z5kubLuXCUPWZOyZpxiCx a dicv:Property ;
+    core:hasLabel "Absorptance" ;
+    core:hasValue 7e-01 .
+
+inst:2zA4iWeLX9mQYzgTqx7ydY a dicv:Property ;
+    core:hasLabel "Thermal Resistance (R)" ;
+    core:hasValue 1.658824e+00 .
+
+inst:2zFp5TFl53P9u7Csd18Mpn a dicm:LayerSet ;
+    dicm:NumberOfLayers 1 ;
+    dicm:hasLayer inst:2JUB8mJNn9JRmu3rT2cdLj ;
+    core:hasName "Basic Wall:Parapet Wal _ 90mm Brickl" .
+
+inst:2zob1_jcLD2ASZT57gIeiJ a dicv:Property ;
+    core:hasLabel "Width" ;
+    core:hasValue 3.175e+02 .
+
+inst:30QV2lQrfCLwcCTRN9xjgr a dicv:Property ;
+    core:hasLabel "Height" ;
+    core:hasValue 6.325e+02 .
+
+inst:30tBZtP3506Bau9TFSVUnm a dicm:LayerSet ;
+    dicm:NumberOfLayers 3 ;
+    dicm:hasLayer inst:1ePDw1Pnr3tQL_idVol1b0,
+        inst:2HyWl3L9vC2QHng5kOUixi,
+        inst:3I5sovC6j189b2vieofApF ;
+    core:hasName "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster" .
+
+inst:310pCoYy13n8GvGpUBHMZ8 a dicm:Material ;
+    core:hasLabel "Brick, Common" .
+
+inst:310rfnHTH31ui6rTgbsHpG a dicm:LayerSet ;
+    dicm:NumberOfLayers 3 ;
+    dicm:hasLayer inst:0Lw69RsGn28P5cW_I7LrWF,
+        inst:1_yzKOpa9C4hXbT1CBZ6jI,
+        inst:2XltjwGDDAD8qYLPDr8kfa ;
+    core:hasName "Basic Wall:Internal Wall _ 15mm Plaster Board + 40mm Cavity + 15mm Plaster Board" .
+
+inst:313q8McaD91QzvZjI2c7cx a dicv:Property ;
+    core:hasLabel "Length" ;
+    core:hasValue 3e+03 .
+
+inst:31DtXBLszF5vrdWUUjzLDy a dicm:Layer ;
+    dicm:hasMaterial inst:2MqLrkgiPDEBd3xPlI53k1 ;
+    dicv:hasProperty inst:3dDNa3eD1Ctglez3nCSuDk ;
+    core:hasLabel "Concrete, Lightweight" .
+
+inst:31YckA8lbBbhINBmJ2CBIw a dicm:Material ;
+    core:hasLabel "Brick, Common" .
+
+inst:31pQQrojD8G9ZhV0Png6Qx a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 1.5e+01 .
+
+inst:31uHlHOGD1xOUPgbVecKmX a dicv:Property ;
+    core:hasLabel "Width" ;
+    core:hasValue 3.175e+02 .
+
+inst:31vyY2nOH75PijckV_nKaN a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 1.016e+02 .
+
+inst:32LgxPQS9DzBXicbOen3Gq a dicv:Property ;
+    core:hasLabel "Absorptance" ;
+    core:hasValue 7e-01 .
+
+inst:32OOYBbPj9GvPG26Qu8Rha a dicm:LayerSet ;
+    dicm:NumberOfLayers 3 ;
+    dicm:hasLayer inst:1D6D4liJjAHOX1ewtUdC28,
+        inst:2DY6qJnGv3Gv5amX0wmw9t,
+        inst:2gv8vVULzD_8wGB07H1wG_ ;
+    core:hasName "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster" .
+
+inst:32bibI4WT7euV2AtObXE9T a dicm:LayerSet ;
+    dicm:NumberOfLayers 3 ;
+    dicm:hasLayer inst:0kZ2RtEC5ADPB7exHBJtZa,
+        inst:1cMGZFkcTFAxSKuDZEJ42i,
+        inst:2cwsYowsn3HvncKU_nPO8E ;
+    core:hasName "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster" .
+
+inst:339nL1or95Y9JXu3CeyLrO a dicv:Property ;
+    core:hasLabel "Thermal Resistance (R)" ;
+    core:hasValue 1.658824e+00 .
+
+inst:33S6bb1Af2GhvcrYPbNojt a dicv:Property ;
+    core:hasLabel "Thermal Resistance (R)" ;
+    core:hasValue 1.179935e+00 .
+
+inst:34OKPIpSfFYgcrl_2TtkCq a dicv:Property ;
+    core:hasLabel "Width" ;
+    core:hasValue 9e+01 .
+
+inst:34Qq2sqJXB49cnHwAmT_gN a dicm:Material ;
+    core:hasLabel "Plaster" .
+
+inst:34UjVINMb5qALc1c6P5S0Q a dicv:Property ;
+    core:hasLabel "ThermalTransmittance" ;
+    core:hasValue 8.47504e-01 .
+
+inst:34aaWqL999xwAgCTYNvv1s a dicv:Property ;
+    core:hasLabel "Thermal Resistance (R)" ;
+    core:hasValue 1.658824e+00 .
+
+inst:34dtyVWvTDAO3968KB_cS9 a dicm:LayerSet ;
+    dicm:NumberOfLayers 3 ;
+    dicm:hasLayer inst:025INBupLA4BIe4EWqe8jo,
+        inst:2dnTwSCdv0MfGADdX_bzTy,
+        inst:2tUQ_ixOTBWvvHWHqhm2DB ;
+    core:hasName "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster" .
+
+inst:34hV2Ss4H89g5jg4CEZjxL a dicm:Material ;
+    core:hasLabel "Brick, Common" .
+
+inst:34kGdeZlLFQP9NMNSZNn6y a dicm:Material ;
+    core:hasLabel "Concrete, Lightweight" .
+
+inst:35IVOoBBrDQBCC5uAQjxJb a dicm:Layer ;
+    dicm:hasMaterial inst:2woBlIMvDFJvkeCOmH4uFA ;
+    dicv:hasProperty inst:0mHfcSVJzEUQ5m3renRwf6 ;
+    core:hasLabel "Concrete, Lightweight" .
+
+inst:35LALdxyf8z9rGPjZPwBq_ a dicv:Property ;
+    core:hasLabel "Thermal Resistance (R)" ;
+    core:hasValue 1.179935e+00 .
+
+inst:35bYAh_gPBLP8zLHvckwUb a dicm:Layer ;
+    dicm:hasMaterial inst:1Tzynoufr7I9Iv0u36J7M4 ;
+    dicv:hasProperty inst:1JfsFrSwLAwOAzkfvOd40A ;
+    core:hasLabel "Brick, Common" .
+
+inst:36EmEIcQXEyxG6xpQQd3gk a dicv:Property ;
+    core:hasLabel "IsExternal" ;
+    core:hasValue true .
+
+inst:36rXC07bvAmBXvzKgBtnLp a dicv:Property ;
+    core:hasLabel "IsExternal" ;
+    core:hasValue false .
+
+inst:37RRQmcob7ngvsNqFV_1bs a dicv:Property ;
+    core:hasLabel "Length" ;
+    core:hasValue 2.80625e+03 .
+
+inst:37SDgdZ25F4gQUE7g_5Za0 a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 1.27e+01 .
+
+inst:37d0yM31z7qBWDF9bPbzVc a dicv:Property ;
+    core:hasLabel "Height" ;
+    core:hasValue 3.5e+03 .
+
+inst:37lbz4ZjzBsxZdpRQPCDpx a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 1.5e+01 .
+
+inst:382YwFaQ9B6wbqIEUVMAs6 a dicv:Property ;
+    core:hasLabel "Height" ;
+    core:hasValue 3.775e+03 .
+
+inst:3844th_dr05xEW45XT3gir a dicm:LayerSet ;
+    dicm:NumberOfLayers 3 ;
+    dicm:hasLayer inst:0KwxmDPu5EyQRhT7Zt10p1,
+        inst:0llNxXnxTCoxtx09024e3u,
+        inst:1AXtoAXy18nROjpQWGDiiE ;
+    core:hasName "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster" .
+
+inst:38IvhclNL7mvUo9nqusftM a dicv:Property ;
+    core:hasLabel "Roughness" ;
+    core:hasValue 3 .
+
+inst:38QJ7qpO1FZghUGUs4auFg a dicm:Layer ;
+    dicm:hasMaterial inst:2vo9nwlFD5XARiEyXHVyJj ;
+    dicv:hasProperty inst:2GPuIFfZHA8QBjMbiuzxkd ;
+    core:hasLabel "Plaster" .
+
+inst:38UVimgdbD4eySH5UGG68S a dicv:Property ;
+    core:hasLabel "ThermalTransmittance" ;
+    core:hasValue 8.47504e-01 .
+
+inst:397gUTRPrC3OWujxa2mcK3 a dicv:Property ;
+    core:hasLabel "ThermalTransmittance" ;
+    core:hasValue 6e+00 .
+
+inst:39FuVtNp12Kuk9N_0tKQWk a dicv:Property ;
+    core:hasLabel "Length" ;
+    core:hasValue 5.87625e+03 .
+
+inst:39NJMMF9nCaRy5HFS2uY0N a dicv:Property ;
+    core:hasLabel "Length" ;
+    core:hasValue 2.5e+03 .
+
+inst:39fN75H0nEFPAEdvaILj9i a dicm:Material ;
+    core:hasLabel "Concrete, Lightweight" .
+
+inst:39qgxwUf93xQI8nVVv6eOU a dicm:Layer ;
+    dicm:hasMaterial inst:1UY58cDD519AyolHkCdivM ;
+    dicv:hasProperty inst:2whJ4LvTz5OA25UP_a_vjW ;
+    core:hasLabel "Plaster" .
+
+inst:39ypr4CCr1rhBX2ZWBn8O7 a dicm:Layer ;
+    dicm:hasMaterial inst:1kquZ5HSbEQuaHpWGYSwJV ;
+    dicv:hasProperty inst:3ORhnjwsvFq86k0mAQm_PH ;
+    core:hasLabel "Air" .
+
+inst:3A2L5Bvtf2LQcvIjneje2Y a dicm:Material ;
+    core:hasLabel "Brick, Common" .
+
+inst:3A4Vv8zhLDLBQveBeTZX06 a dicm:Material ;
+    core:hasLabel "Brick, Common" .
+
+inst:3ACszMpJX3OgzUsTjBvCIJ a dicv:Property ;
+    core:hasLabel "Absorptance" ;
+    core:hasValue 7e-01 .
+
+inst:3AFhxeIL95gwPEg8EczZoN a dicm:Material ;
+    core:hasLabel "Concrete, Lightweight" .
+
+inst:3AT7MahJbAV9H3cXtd8YhJ a dicm:Layer ;
+    dicm:hasMaterial inst:1mvp8tyC1DOu62Eg_bqYij ;
+    dicv:hasProperty inst:1Ub0wyPKL8Zu_Krs3ks7ge ;
+    core:hasLabel "Brick, Common" .
+
+inst:3AcOJKXRjDX8OuEOXFSXmL a dicv:Property ;
+    core:hasLabel "Roughness" ;
+    core:hasValue 3 .
+
+inst:3AlUt6JAvFXOUlze0X_CfM a dicm:Layer ;
+    dicm:hasMaterial inst:1uBodDtH15JerFxgzcI3UK ;
+    dicv:hasProperty inst:1iHPF71uv6b8ml3qw_jRY9 ;
+    core:hasLabel "Brick, Common" .
+
+inst:3Ar4c4ijHDv9EPpPL5_2kn a dicv:Property ;
+    core:hasLabel "Thermal Resistance (R)" ;
+    core:hasValue 1.179935e+00 .
+
+inst:3AsTAXN8fFlOc4gO99u5J2 a dicv:Property ;
+    core:hasLabel "ThermalTransmittance" ;
+    core:hasValue 8.47504e-01 .
+
+inst:3B1GCkh0b8HhK7KuRrAbzw a dicv:Property ;
+    core:hasLabel "IsExternal" ;
+    core:hasValue true .
+
+inst:3BAIaoLcD8AwXsNuogZz5T a dicm:Layer ;
+    dicm:hasMaterial inst:3j9M6iBZn6Tf6m0Hggd4cY ;
+    dicv:hasProperty inst:1mT9hUwlD4i8zaBmENnu2r ;
+    core:hasLabel "Brick, Common" .
+
+inst:3BGnTg3m5FTu456I72RjQ4 a dicv:Property ;
+    core:hasLabel "Length" ;
+    core:hasValue 8.6825e+03 .
+
+inst:3BXfDuv0n7MAmsoUBTK6YP a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 1.27e+01 .
+
+inst:3BjHPoOp5BredS37GO2JUZ a dicm:Layer ;
+    dicm:hasMaterial inst:0mCJmjkdT3vejlCCTiCa1r ;
+    dicv:hasProperty inst:1554vhR7P4URZFXKQYgiwq ;
+    core:hasLabel "Brick, Common" .
+
+inst:3BrJRvBtHB099FyewnGIzh a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 9e+01 .
+
+inst:3Bxx6FFfb6phtuxuI4NBEl a dicv:Property ;
+    core:hasLabel "Width" ;
+    core:hasValue 3.175e+02 .
+
+inst:3CDpBw3FnFJ9Mgap0V1en6 a dicv:Property ;
+    core:hasLabel "Roughness" ;
+    core:hasValue 3 .
+
+inst:3CTbH0nx55n9TcECf3kSld a dicm:Material ;
+    core:hasLabel "Gypsum Wall Board" .
+
+inst:3CmUt8G_95cgwoisPZosyf a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 1.27e+01 .
+
+inst:3DIMdOImj19QBWmVNGcQLW a dicv:Property ;
+    core:hasLabel "Absorptance" ;
+    core:hasValue 7e-01 .
+
+inst:3DYyZq7tn5ZethPQlkHICz a dicm:Material ;
+    core:hasLabel "Brick, Common" .
+
+inst:3DfiFMgD90rRNrkGlDI5FE a dicv:Property ;
+    core:hasLabel "Roughness" ;
+    core:hasValue 3 .
+
+inst:3DvsywZ3jEveO0VLgS3BNR a dicv:Property ;
+    core:hasLabel "Height" ;
+    core:hasValue 4e+03 .
+
+inst:3EFW6wluHEVP4DBVCuleaM a dicv:Property ;
+    core:hasLabel "IsExternal" ;
+    core:hasValue true .
+
+inst:3EMSSh_xr39vD2JerJy08H a dicv:Property ;
+    core:hasLabel "ThermalTransmittance" ;
+    core:hasValue 8.47504e-01 .
+
+inst:3EQKWOamH4p8RjJrx4CJV3 a dicv:Property ;
+    core:hasLabel "Length" ;
+    core:hasValue 5.80625e+03 .
+
+inst:3EQlfokEn9IhoGGr9smgBY a dicm:Layer ;
+    dicm:hasMaterial inst:2fMKwkSm52KgN_rgcseHgk ;
+    dicv:hasProperty inst:2PpunbEW9A1QRiG0NULzzd ;
+    core:hasLabel "Brick, Common" .
+
+inst:3EVXsbJV1F5BxmqkTpPWvW a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 1.5e+01 .
+
+inst:3EZ4d7ib9EXhW8IOhg6_Dh a dicv:Property ;
+    core:hasLabel "Length" ;
+    core:hasValue 3e+03 .
+
+inst:3FNXK3V4L9tfCqZoVCypW5 a dicm:Material ;
+    core:hasLabel "Air" .
+
+inst:3FWFK_DP115vPSBHbPBSg1 a dicm:Material ;
+    core:hasLabel "Concrete, Lightweight" .
+
+inst:3FWeAWy85BsPUMvjKYoDgR a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 1.016e+02 .
+
+inst:3FlrjtPI9DR8nwEtsVz1e1 a dicm:LayerSet ;
+    dicm:NumberOfLayers 3 ;
+    dicm:hasLayer inst:1TqtWazGrC5vv8f2XAlTYk,
+        inst:3AT7MahJbAV9H3cXtd8YhJ,
+        inst:3sis6cnB94Iv_sz5jP2qnC ;
+    core:hasName "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster" .
+
+inst:3FsgsyV215PenUZiFieqfl a dicm:Material ;
+    core:hasLabel "Plaster" .
+
+inst:3FtbcQLIP0oBu6TOvbs80N a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 1.016e+02 .
+
+inst:3GLaDebcf16AFqoAr_7Ysg a dicv:Property ;
+    core:hasLabel "Thermal Resistance (R)" ;
+    core:hasValue 1.179935e+00 .
+
+inst:3GSzuSkybFvufNsrR2bMZd a dicv:Property ;
+    core:hasLabel "Height" ;
+    core:hasValue 3.5e+03 .
+
+inst:3GZJKxFX986gJOuonLD4o6 a dicv:Property ;
+    core:hasLabel "IsExternal" ;
+    core:hasValue true .
+
+inst:3GqsQbCnj1Of3ig_gAXask a dicv:Property ;
+    core:hasLabel "Roughness" ;
+    core:hasValue 3 .
+
+inst:3H5LqlBnL2O9xziUNkoaHt a dicv:Property ;
+    core:hasLabel "Absorptance" ;
+    core:hasValue 7e-01 .
+
+inst:3Hcjoe6jf4jOayzNBWZD5g a dicm:Layer ;
+    dicm:hasMaterial inst:1d3l0fbxvBWg_Y2Neag229 ;
+    dicv:hasProperty inst:1__IHCq0DDtQDU28xlRY0x ;
+    core:hasLabel "Brick, Common" .
+
+inst:3HhEQcuIH8pBRY018jSl1B a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 1.016e+02 .
+
+inst:3I0BuXLEHCrh96wo9GD1RX a dicm:Layer ;
+    dicm:hasMaterial inst:3nQOsTfET0_w6ZqaEPm3eH ;
+    dicv:hasProperty inst:2ac3ZbQpXFSwWgdgWYGYJK ;
+    core:hasLabel "Brick, Common" .
+
+inst:3I4pTpwFT47uczTBWHYtqo a dicv:Property ;
+    core:hasLabel "ThermalTransmittance" ;
+    core:hasValue 6.028369e-01 .
+
+inst:3I5sovC6j189b2vieofApF a dicm:Layer ;
+    dicm:hasMaterial inst:3xSZSqVUj5JBWCb8ANBRJ3 ;
+    dicv:hasProperty inst:25UD__2wX5KA87gEdYFddI ;
+    core:hasLabel "Concrete, Lightweight" .
+
+inst:3IMvfax1r0ZeHR4iKNQkFp a dicv:Property ;
+    core:hasLabel "IsExternal" ;
+    core:hasValue true .
+
+inst:3IU47h2B54hewzOk3l4KAA a dicm:Layer ;
+    dicm:hasMaterial inst:1BkMEKGcz3HhVyaWWCQWJW ;
+    dicv:hasProperty inst:0dUKOFlh50RPwa7hOhfis6 ;
+    core:hasLabel "Air" .
+
+<https://w3id.org/digitalconstruction/instance#3IgqlyNZb9CR1JNQVbt$eA> a beo:Wall ;
+    bot:containsElement inst:2rvVZuy3X0l9ATwUENTXrw,
+        inst:2rvVZuy3X0l9ATwV2NTXrw ;
+    dicm:hasLayerSet inst:1fnH6WRiH2ZQrXziY2woFN ;
+    dicv:hasProperty inst:03ns52tin2mvDEnUCaC6pV,
+        inst:0P4jYpUqrFNA2_xRzWDlFa,
+        inst:1pYviFs3LFQhgz169_5M8K,
+        inst:2PVQBO5BDAwQaFJsuPagIq,
+        inst:3W98xkPfH0bfpeXxgZEYrD,
+        inst:3ZCxg8gzH8yB8oAMyWGjrv,
+        inst:3aq6pRdD13AhHlYnJnMnwP,
+        inst:3zPw8WrBD94Pr6p6k5FmlA ;
+    core:hasGlobalID "3IgqlyNZb9CR1JNQVbt$eA" ;
+    core:hasLabel "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster:267224" .
+
+<https://w3id.org/digitalconstruction/instance#3IgqlyNZb9CR1JNQVbt$kz> a beo:Wall ;
+    dicm:hasLayerSet inst:34dtyVWvTDAO3968KB_cS9 ;
+    dicv:hasProperty inst:080iCQhXv3CPzQF_4XPmyL,
+        inst:0O4UYJZK1AeOuuGe3h8OZ0,
+        inst:1RBS0Ak3z30R0fTDoAohwm,
+        inst:1nfRm18UnCiAkOe2RRNVDP,
+        inst:2DooFP0fH8F9SFHE3xneqL,
+        inst:2nBP7yEZfEqBHF2Y4MdZZk,
+        inst:33S6bb1Af2GhvcrYPbNojt,
+        inst:3Ji8JPiXT78ABIV8ursE9z ;
+    core:hasGlobalID "3IgqlyNZb9CR1JNQVbt$kz" ;
+    core:hasLabel "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster:266863" .
+
+<https://w3id.org/digitalconstruction/instance#3IgqlyNZb9CR1JNQVbt$sg> a beo:Wall ;
+    bot:containsElement inst:2rvVZuy3X0l9ATwUENTXqt,
+        inst:2rvVZuy3X0l9ATwV2NTXqt ;
+    dicm:hasLayerSet inst:3Qi1vgHqbBLPcbq6riBIuS ;
+    dicv:hasProperty inst:0Wk3p7_dzC9R6iAL12by1t,
+        inst:0q4hjy0tP8s8nHDyR2TLeN,
+        inst:1gW8t0mZjBdP6SnM4Un81n,
+        inst:26elLQWxz3sO5m6Nq8ixtX,
+        inst:2v8Euo_sPBGBEmV8SV9IHS,
+        inst:38UVimgdbD4eySH5UGG68S,
+        inst:3ZwN5gmQXC4wtn404yQKhE,
+        inst:3hambKb0D3teUduh7hiUQd ;
+    core:hasGlobalID "3IgqlyNZb9CR1JNQVbt$sg" ;
+    core:hasLabel "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster:267384" .
+
+inst:3IgqlyNZb9CR1JNQVbt_6H a beo:Wall ;
+    bot:containsElement inst:2rvVZuy3X0l9ATwUENTXfh,
+        inst:2rvVZuy3X0l9ATwUENTXsO,
+        inst:2rvVZuy3X0l9ATwUENTXtm,
+        inst:2rvVZuy3X0l9ATwV2NTXfh,
+        inst:2rvVZuy3X0l9ATwV2NTXsO,
+        inst:2rvVZuy3X0l9ATwV2NTXtm ;
+    dicm:hasLayerSet inst:2_dpmn2gn8dfTh32YQiaQ2 ;
+    dicv:hasProperty inst:02rB8QTDHCyhR1dDVqmimO,
+        inst:0cwcpARrH1uw_dFKFifCcO,
+        inst:2cB6aAx0H09RkQ8CAUWmud,
+        inst:2cEyWIMUPFJOKs5gdTl9hF,
+        inst:2nnA775QT8CROyKBnBnseU,
+        inst:2qiDl1RU53Fu6GBvvE6YmF,
+        inst:2r2K592YfBeu0ua5vclvuA,
+        inst:2t62k0PmDAYBv19Xp389Fr ;
+    core:hasGlobalID "3IgqlyNZb9CR1JNQVbt_6H" ;
+    core:hasLabel "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster:264259" .
+
+inst:3IgqlyNZb9CR1JNQVbt_6L a beo:Wall ;
+    bot:containsElement inst:2rvVZuy3X0l9ATwUENTXeJ,
+        inst:2rvVZuy3X0l9ATwUENTXgf,
+        inst:2rvVZuy3X0l9ATwUENTXhZ,
+        inst:2rvVZuy3X0l9ATwUENTXjw,
+        inst:2rvVZuy3X0l9ATwV2NTXeJ,
+        inst:2rvVZuy3X0l9ATwV2NTXgf,
+        inst:2rvVZuy3X0l9ATwV2NTXhZ,
+        inst:2rvVZuy3X0l9ATwV2NTXjw ;
+    dicm:hasLayerSet inst:3ORrWMyh17kB2b3fi_FHlk ;
+    dicv:hasProperty inst:0L9w1xcWfCAuxmf5U_5gLZ,
+        inst:0ZH8iMJML2yw6gt4V_STwF,
+        inst:149zZP3eL0CAXLY9vRRanY,
+        inst:28hgdPbjD8yeT5SVaj0toc,
+        inst:2rJR_EACvASw2naF8U9XJn,
+        inst:3DIMdOImj19QBWmVNGcQLW,
+        inst:3SyuSzz4n51fzBFXX6DlPT,
+        inst:3TjCaClwvCiwQGlyWGQQLu ;
+    core:hasGlobalID "3IgqlyNZb9CR1JNQVbt_6L" ;
+    core:hasLabel "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster:264263" .
+
+inst:3IgqlyNZb9CR1JNQVbt_7A a beo:Wall ;
+    bot:containsElement inst:2nzBOJCJX6VxFvqeGy5Gxo,
+        inst:2nzBOJCJX6VxFvqfSy5Gxo,
+        inst:2rvVZuy3X0l9ATwUENTXix,
+        inst:2rvVZuy3X0l9ATwV2NTXix ;
+    dicm:hasLayerSet inst:2MlK9NufDDkxMdRf5U8JKH ;
+    dicv:hasProperty inst:0euYB8hWn7wPnvi9me6oaG,
+        inst:0jkWIUvGz76BhTvuEGozbV,
+        inst:0q_YJ8fFv7fwIFVQoMaVfG,
+        inst:1OTenvQnP6UeZFgyjBthLO,
+        inst:20gXoV4vr82uIZuIpOImB1,
+        inst:2F6edjikrELPreizzxZFwB,
+        inst:2VE63TIrf4JhQTcZQK1tPf,
+        inst:3y5ER7Chr1q9N8syURFTPR ;
+    core:hasGlobalID "3IgqlyNZb9CR1JNQVbt_7A" ;
+    core:hasLabel "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster:264216" .
+
+inst:3IgqlyNZb9CR1JNQVbt_7X a beo:Wall ;
+    bot:containsElement inst:2rvVZuy3X0l9ATwUENTjb6,
+        inst:2rvVZuy3X0l9ATwV2NTjb6 ;
+    dicm:hasLayerSet inst:3qBfd3npn62xjJdwyQl2Vp ;
+    dicv:hasProperty inst:0mdkJMN45ADfmMLFoN0_YC,
+        inst:0sTheEp4DFjOADP1pQtENY,
+        inst:2HUHXiXHT4VBZRWbdZ5z5p,
+        inst:2RUSWtcHfDIx1LVVd4z3P1,
+        inst:2nIfHnIin4hf02STJLAq1D,
+        inst:2qNzBZ8jX99hZ09U59rtYq,
+        inst:2tlRESsir04R5JwTWj5uof,
+        inst:3EFW6wluHEVP4DBVCuleaM ;
+    core:hasGlobalID "3IgqlyNZb9CR1JNQVbt_7X" ;
+    core:hasLabel "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster:264243" .
+
+inst:3IgqlyNZb9CR1JNQVbt_7b a beo:Wall ;
+    dicm:hasLayerSet inst:0z73o7lpD6Bv1ulmgheM3A ;
+    dicv:hasProperty inst:00u3iteeLECeSrUiqkTRb5,
+        inst:0nuICyOBn1OBWRh95HBRU_,
+        inst:1Ck2DdklPDEOwLlNDuR4Lg,
+        inst:1w8yv5gST3PxDiy_G0mzYS,
+        inst:1ya2cGCKr53fTsOyXhQwo1,
+        inst:2v8N8G_8T3MQH2o6BJvdDI,
+        inst:3B1GCkh0b8HhK7KuRrAbzw,
+        inst:3EZ4d7ib9EXhW8IOhg6_Dh ;
+    core:hasGlobalID "3IgqlyNZb9CR1JNQVbt_7b" ;
+    core:hasLabel "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster:264247" .
+
+inst:3IgqlyNZb9CR1JNQVbt_7f a beo:Wall ;
+    dicm:hasLayerSet inst:06zn2ESUnBQ9nNTGlnfXQK ;
+    dicv:hasProperty inst:0fcUXb1Kb6sR8iohzM0QVr,
+        inst:15XOIUGtj3Bfbypq0NS621,
+        inst:1psUoGPK5DLAv8gdJU0iwS,
+        inst:1ri8ffaWv9IRVRHSeq1Ug6,
+        inst:2BnajjXMz8RuJ01PJoHi8N,
+        inst:2L3y9wHHf4vQSdJXcE3r8l,
+        inst:2REXvIvMH8mPdUVPlG31zW,
+        inst:3bcab7OpDBOQQZWKqYQ5Yz ;
+    core:hasGlobalID "3IgqlyNZb9CR1JNQVbt_7f" ;
+    core:hasLabel "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster:264251" .
+
+inst:3IgqlyNZb9CR1JNQVbt_7j a beo:Wall ;
+    dicm:hasLayerSet inst:0mhcwLCwr5zvYDUffW8RHp ;
+    dicv:hasProperty inst:0_MjX3hyP4xgB0F33EWlKa,
+        inst:0jZqNq6dbCIg5FsPBCWIbJ,
+        inst:18LU4L2JX9dfV_qYFg5850,
+        inst:1NZ5AJpUr9w8FikCOskYVf,
+        inst:21r42mKkL7GRKZxX9ZMSSr,
+        inst:2N7saFsk59LeLCwsXGZLYZ,
+        inst:38IvhclNL7mvUo9nqusftM,
+        inst:39NJMMF9nCaRy5HFS2uY0N ;
+    core:hasGlobalID "3IgqlyNZb9CR1JNQVbt_7j" ;
+    core:hasLabel "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster:264255" .
+
+inst:3IgqlyNZb9CR1JNQVbt_7n a beo:Wall ;
+    dicm:hasLayerSet inst:2L5gAe7Hr1fvXSNfRTGWRf ;
+    dicv:hasProperty inst:0AsOd0vu9548uBe9xEWk2p,
+        inst:0LuW9XN5X8xhCN1BEowmbR,
+        inst:0jXSrzA5n07vGuLITwKcXx,
+        inst:1aXh9g25n5lxA66wzzveOQ,
+        inst:2xnxkNqLj1uwGoiyIUIcZr,
+        inst:36EmEIcQXEyxG6xpQQd3gk,
+        inst:3GLaDebcf16AFqoAr_7Ysg,
+        inst:3MD8YZ_T50yQE5P6tEkMOP ;
+    core:hasGlobalID "3IgqlyNZb9CR1JNQVbt_7n" ;
+    core:hasLabel "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster:264227" .
+
+inst:3IgqlyNZb9CR1JNQVbt_7r a beo:Wall ;
+    dicm:hasLayerSet inst:3fzF2PYoL1XgU_2x1dF2Cu ;
+    dicv:hasProperty inst:0N6pG8AQL5ehTSZKIiuJfe,
+        inst:0p1sDx0cv0pg5TYVww4qRL,
+        inst:1N6eF2Bhv4j80pPhaqjZ4x,
+        inst:1T4GxCitP6BxVOXus7EshS,
+        inst:1v2I_w9nL30BHKojv7_ysb,
+        inst:2Dzy4jcFH2hufWWsaCbNeJ,
+        inst:2MBvxtGtr9bfhkRM5sro69,
+        inst:2eKzLen_vERge9_2G2OuG8 ;
+    core:hasGlobalID "3IgqlyNZb9CR1JNQVbt_7r" ;
+    core:hasLabel "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster:264231" .
+
+inst:3IgqlyNZb9CR1JNQVbt_7z a beo:Wall ;
+    dicm:hasLayerSet inst:3cNl6cLbD7y905BYsS6ap_ ;
+    dicv:hasProperty inst:1Dzyvoz6f67QSGIiFJkFv_,
+        inst:1U6xfE1WHAduZi2ECLV6Mf,
+        inst:1UbZqYAvjBuAaBlayAMPsj,
+        inst:1vEhCW0vLC4Q9O2ckotBnu,
+        inst:21b953BLr4bO4CA_fIx1C4,
+        inst:2IO3J7tRX1PwmzKCpjGsRt,
+        inst:2z5kubLuXCUPWZOyZpxiCx,
+        inst:3ixKQu40n04eFXHRnUof_G ;
+    core:hasGlobalID "3IgqlyNZb9CR1JNQVbt_7z" ;
+    core:hasLabel "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster:264239" .
+
+inst:3Ijwdp7Y1CQAZesKrRjQRx a dicv:Property ;
+    core:hasLabel "Thermal Resistance (R)" ;
+    core:hasValue 1.179935e+00 .
+
+inst:3Im2ffEqj1dBVOr_bOaCUR a dicv:Property ;
+    core:hasLabel "Roughness" ;
+    core:hasValue 3 .
+
+inst:3Ji8JPiXT78ABIV8ursE9z a dicv:Property ;
+    core:hasLabel "Height" ;
+    core:hasValue 4.225e+03 .
+
+inst:3JmOLthqPBHRVytWvVm_PS a dicm:Material ;
+    core:hasLabel "Concrete, Lightweight" .
+
+inst:3K7j5ECRrCKAPOevZIhJ24 a dicv:Property ;
+    core:hasLabel "Height" ;
+    core:hasValue 4e+03 .
+
+inst:3KLitUFIHEuQNgmsQAI6aW a dicm:Layer ;
+    dicm:hasMaterial inst:2E7Ab9EMnEsRkRYaxDaSSd ;
+    dicv:hasProperty inst:2EpremA3f4X926_x70J_HT ;
+    core:hasLabel "Plaster" .
+
+inst:3KM_7GINj6K9vd67XaKQHn a dicv:Property ;
+    core:hasLabel "Absorptance" ;
+    core:hasValue 7e-01 .
+
+inst:3KbZk2MJH0FQ6IeiS1bfsf a dicm:Material ;
+    core:hasLabel "Plaster" .
+
+inst:3KeyGdiSPFAxBFIeuzVMVd a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 1.27e+01 .
+
+<https://w3id.org/digitalconstruction/instance#3LC5bzgVD3Kg2ks$jx6OWD> a beo:Wall ;
+    dicm:hasLayerSet inst:1R0iTnPsj8RPy43JToXB58 ;
+    dicv:hasProperty inst:0a5z_HgA51oO0MC9XpktkL,
+        inst:1StI2isF1FbuBRtJDn4_2a,
+        inst:1gF56NGg98nOSmSmtVgGiU,
+        inst:1kMb2QsrT5cBh1cETqhbld,
+        inst:1pkrWQZ1PFOQsrfIDiltgi,
+        inst:27vFbYTib8sgGzcVZYRr_H,
+        inst:2zA4iWeLX9mQYzgTqx7ydY,
+        inst:3H5LqlBnL2O9xziUNkoaHt ;
+    core:hasGlobalID "3LC5bzgVD3Kg2ks$jx6OWD" ;
+    core:hasLabel "Basic Wall:Internal Wall _ 15mm Plaster Board + 40mm Cavity + 15mm Plaster Board:284191" .
+
+<https://w3id.org/digitalconstruction/instance#3LC5bzgVD3Kg2ks$jx6OXZ> a beo:Wall ;
+    dicm:hasLayerSet inst:0MNMuSBdH9jeRgUUao95H2 ;
+    dicv:hasProperty inst:0PeLiQWYb22AUKHWMjQ0Ja,
+        inst:0_DjXil6H1lQiBK7UUyMby,
+        inst:0h1mOmhQb7xPdXI22MExY4,
+        inst:0l12L3Gov3E94tT6CdhpjU,
+        inst:2I17LgdgTAlBXM2OVWZNY7,
+        inst:2V4DzVZaD7ORN_wWrNB7hn,
+        inst:3GSzuSkybFvufNsrR2bMZd,
+        inst:3vlW2NpejBgfiCXptlt6s2 ;
+    core:hasGlobalID "3LC5bzgVD3Kg2ks$jx6OXZ" ;
+    core:hasLabel "Basic Wall:Internal Wall _ 15mm Plaster Board + 40mm Cavity + 15mm Plaster Board:284273" .
+
+<https://w3id.org/digitalconstruction/instance#3LC5bzgVD3Kg2ks$jx6OY4> a beo:Wall ;
+    bot:containsElement <https://w3id.org/digitalconstruction/instance#0uUHcDv$52GPXRv8oFn40F>,
+        <https://w3id.org/digitalconstruction/instance#0uUHcDv$52GPXRv9_Fn40F> ;
+    dicm:hasLayerSet inst:2ImkDEF714dA7JnbN_iAAC ;
+    dicv:hasProperty inst:0G_plzVmD3Suz5ikW7LRe1,
+        inst:0J3MTAzUDCxAczJ4pD0bWE,
+        inst:0Jb9LST4LFMRmQD3b6K0QC,
+        inst:0hfXQrOo5CpxUmHI0Lsx2G,
+        inst:11HHI96RD97fUMEm_t21kN,
+        inst:1hHaUBseLD9AmE0EzjmO07,
+        inst:2CpSmtiRzB_eTPPfWRFetu,
+        inst:2uaO8kiBvCXBS86naglG8l ;
+    core:hasGlobalID "3LC5bzgVD3Kg2ks$jx6OY4" ;
+    core:hasLabel "Basic Wall:Internal Wall _ 15mm Plaster Board + 40mm Cavity + 15mm Plaster Board:284310" .
+
+<https://w3id.org/digitalconstruction/instance#3LC5bzgVD3Kg2ks$jx6OZ3> a beo:Wall ;
+    bot:containsElement <https://w3id.org/digitalconstruction/instance#0uUHcDv$52GPXRv8oFn4Ee>,
+        <https://w3id.org/digitalconstruction/instance#0uUHcDv$52GPXRv9_Fn4Ee> ;
+    dicm:hasLayerSet inst:0C5OgmvKjFW8aqkNahiDHo ;
+    dicv:hasProperty inst:0fB5cJHTH79vQ_DDaxZbJQ,
+        inst:0o3DZmXsX0LwLEjhpiLjmp,
+        inst:1_CMLbuFPDLutOk78Oh8JY,
+        inst:20ryqHjcrB3xOkX_Ev30Xc,
+        inst:2G3gHKTnr1s977Wo3kZclh,
+        inst:2WWeJKilH3Yv06ZbyAI3Uw,
+        inst:2nH2CiQ6DDJ8XpXYYv7FlK,
+        inst:3PGgWlJfL0RuyEI07dVhbu ;
+    core:hasGlobalID "3LC5bzgVD3Kg2ks$jx6OZ3" ;
+    core:hasLabel "Basic Wall:Internal Wall _ 15mm Plaster Board + 40mm Cavity + 15mm Plaster Board:284369" .
+
+<https://w3id.org/digitalconstruction/instance#3LC5bzgVD3Kg2ks$jx6OaH> a beo:Wall ;
+    dicm:hasLayerSet inst:310rfnHTH31ui6rTgbsHpG ;
+    dicv:hasProperty inst:0_2S3CeoXA2vNcZNW4sS72,
+        inst:0o2bZeoxP8gxXTYj0OB89W,
+        inst:1hWWxABAr38v7FvESE_7OH,
+        inst:1tRi_8Z7n3RAKO7b7TTjgE,
+        inst:27PGEtHZfCPhXiFu8wdP3j,
+        inst:339nL1or95Y9JXu3CeyLrO,
+        inst:3Waxs839bCuBqGA1FtQSr9,
+        inst:3YuIluQg56cRHKWkusEVum ;
+    core:hasGlobalID "3LC5bzgVD3Kg2ks$jx6OaH" ;
+    core:hasLabel "Basic Wall:Internal Wall _ 15mm Plaster Board + 40mm Cavity + 15mm Plaster Board:284419" .
+
+<https://w3id.org/digitalconstruction/instance#3LC5bzgVD3Kg2ks$jx6Oal> a beo:Wall ;
+    bot:containsElement <https://w3id.org/digitalconstruction/instance#0uUHcDv$52GPXRv8oFn4Fe>,
+        <https://w3id.org/digitalconstruction/instance#0uUHcDv$52GPXRv9_Fn4Fe> ;
+    dicm:hasLayerSet inst:3kgfmkUc16bxrXjZUmiXMh ;
+    dicv:hasProperty inst:0rBrmnQ3fFExJBBvl1NMOl,
+        inst:240PFLfSL45PWADSjzS1q6,
+        inst:2649YlllDAPAPrOr3jKabW,
+        inst:2L6bHBRzn4cwVgmxiqkYJj,
+        inst:2N8M816XrDTPuAYZeO0AUV,
+        inst:36rXC07bvAmBXvzKgBtnLp,
+        inst:3EQKWOamH4p8RjJrx4CJV3,
+        inst:3GqsQbCnj1Of3ig_gAXask ;
+    core:hasGlobalID "3LC5bzgVD3Kg2ks$jx6Oal" ;
+    core:hasLabel "Basic Wall:Internal Wall _ 15mm Plaster Board + 40mm Cavity + 15mm Plaster Board:284477" .
+
+inst:3LuaVeel913esKaXEOu0IU a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 1.5e+01 .
+
+inst:3MD8YZ_T50yQE5P6tEkMOP a dicv:Property ;
+    core:hasLabel "Absorptance" ;
+    core:hasValue 7e-01 .
+
+inst:3MHhzoCDr2TwyyBEGZ2plt a dicv:Property ;
+    core:hasLabel "Width" ;
+    core:hasValue 7e+01 .
+
+inst:3MPLWElRjBHgj2qXZ2Xni_ a dicm:Layer ;
+    dicm:hasMaterial inst:0XKQV7w2nAZPbuDwIOzI3_ ;
+    dicv:hasProperty inst:1G9y8G7nb0luc5CAkkWl63 ;
+    core:hasLabel "Concrete, Lightweight" .
+
+inst:3MzGLAe_bD59Ue7ahK8Kae a dicm:Layer ;
+    dicm:hasMaterial inst:04dwNk6NfFfPr19NFelgew ;
+    dicv:hasProperty inst:1dCP03jKL3XB0FVd8YzZN_ ;
+    core:hasLabel "Gypsum Wall Board" .
+
+inst:3N0g857JTF5hWYdZJAFgM4 a dicv:Property ;
+    core:hasLabel "Height" ;
+    core:hasValue 3.5e+03 .
+
+inst:3NervUQt1AgRQQEDxSOUGf a dicm:Layer ;
+    dicm:hasMaterial inst:2e6HH3Wa10DgZHYgCLb0uE ;
+    dicv:hasProperty inst:3vLSfGH2TE3AdUC0zRgSMl ;
+    core:hasLabel "Gypsum Wall Board" .
+
+inst:3Nwi_M04H5ve3FLzkixU7t a dicm:Layer ;
+    dicm:hasMaterial inst:1OmyQnMO98kQN8uZVT9vLR ;
+    dicv:hasProperty inst:2DikFn7qPC2uHs5pDt9VLq ;
+    core:hasLabel "Brick, Common" .
+
+inst:3O6hcEjtb5QR6xUOFuDoav a dicv:Property ;
+    core:hasLabel "ThermalTransmittance" ;
+    core:hasValue 6e+00 .
+
+inst:3ORhnjwsvFq86k0mAQm_PH a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 4e+01 .
+
+inst:3ORrWMyh17kB2b3fi_FHlk a dicm:LayerSet ;
+    dicm:NumberOfLayers 3 ;
+    dicm:hasLayer inst:0HOH2P7djCzepZ9DYlfaZh,
+        inst:3I0BuXLEHCrh96wo9GD1RX,
+        inst:3MzGLAe_bD59Ue7ahK8Kae ;
+    core:hasName "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster" .
+
+inst:3Oln4UGoHClvGybbvS10nI a dicm:Layer ;
+    dicm:hasMaterial inst:1rFYL8UCX8qxVnmGbRreDw ;
+    dicv:hasProperty inst:37SDgdZ25F4gQUE7g_5Za0 ;
+    core:hasLabel "Gypsum Wall Board" .
+
+inst:3OzrMGhmv7T9pfQGDzawQl a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 1.016e+02 .
+
+inst:3PGgWlJfL0RuyEI07dVhbu a dicv:Property ;
+    core:hasLabel "Absorptance" ;
+    core:hasValue 7e-01 .
+
+inst:3PmHNWn1H7DQ0_wHlFFpST a dicv:Property ;
+    core:hasLabel "Height" ;
+    core:hasValue 6.325e+02 .
+
+inst:3PyMyIjJj4rO0fbL8oznHm a dicv:Property ;
+    core:hasLabel "Roughness" ;
+    core:hasValue 3 .
+
+inst:3Q1JipDP193OCyktfpIB2U a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 1.27e+01 .
+
+inst:3QFEbXVcj7jhKq2wPD2kqT a dicv:Property ;
+    core:hasLabel "Length" ;
+    core:hasValue 1.03175e+04 .
+
+inst:3QHB4y5zXEAA8Erdgl4159 a dicm:Layer ;
+    dicm:hasMaterial inst:18SXIK3inBRezlv5UjO_52 ;
+    dicv:hasProperty inst:0oSEW1_pL1i8aHh8RdBK8u ;
+    core:hasLabel "Concrete, Lightweight" .
+
+inst:3QQm1bWEvBqem28mKN3U07 a dicv:Property ;
+    core:hasLabel "IsExternal" ;
+    core:hasValue true .
+
+inst:3QVoEScjbBlxgFaaHwWSB3 a dicm:Material ;
+    core:hasLabel "Plaster" .
+
+inst:3Qi1vgHqbBLPcbq6riBIuS a dicm:LayerSet ;
+    dicm:NumberOfLayers 3 ;
+    dicm:hasLayer inst:08HEfZPW9E3AEWx1mzL6En,
+        inst:1JpqzVFjzBfB1fiMEbX5VN,
+        inst:1exTlGp1fBAfIxYJ3WoLH7 ;
+    core:hasName "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster" .
+
+inst:3QvKYMgTn6AAU_HT50icIG a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 2.032e+02 .
+
+inst:3QwT0g0VX2hQqBVtHV3U9l a dicm:Material ;
+    core:hasLabel "Brick, Common" .
+
+inst:3QysjP1SzC_8i1iqk2el1I a dicv:Property ;
+    core:hasLabel "Width" ;
+    core:hasValue 9e+01 .
+
+inst:3SyuSzz4n51fzBFXX6DlPT a dicv:Property ;
+    core:hasLabel "Height" ;
+    core:hasValue 3.775e+03 .
+
+inst:3TSKoqssf6DvvczcE9i21q a dicm:Layer ;
+    dicm:hasMaterial inst:28T9mxDAX11eKz5CZatYeg ;
+    dicv:hasProperty inst:3WZfwMg5z7vuK7Uuq_CJKt ;
+    core:hasLabel "Plaster" .
+
+inst:3TjCaClwvCiwQGlyWGQQLu a dicv:Property ;
+    core:hasLabel "Thermal Resistance (R)" ;
+    core:hasValue 1.179935e+00 .
+
+inst:3TlZ2to5PCDeasITg26ucZ a dicm:Layer ;
+    dicm:hasMaterial inst:3oE7NUtlvFzhEXtSkRlr5m ;
+    dicv:hasProperty inst:0SYPjwObb3J9J_nq9sbZOx ;
+    core:hasLabel "Gypsum Wall Board" .
+
+<https://w3id.org/digitalconstruction/instance#3Tn8vdAOX0QxqbKYoVvs$b> a beo:Wall ;
+    dicm:hasLayerSet inst:2xF6sYR816wuYyn0QB8K91 ;
+    dicv:hasProperty inst:1EIdbX3Kr4fg4ovXt721i4,
+        inst:1MqxH7ntr3dAGLQ8PtQPpQ,
+        inst:1w1ie3WlH9MwLkKUJcsU9h,
+        inst:27UNwEsY52P9dfDc8R2t3z,
+        inst:2UC1ed7AjEkxiL84IzyCyH,
+        inst:2ghD_B6ZTBeejzqLyO023Z,
+        inst:34OKPIpSfFYgcrl_2TtkCq,
+        inst:3PyMyIjJj4rO0fbL8oznHm ;
+    core:hasGlobalID "3Tn8vdAOX0QxqbKYoVvs$b" ;
+    core:hasLabel "Basic Wall:Parapet Wal _ 90mm Brickl:281193" .
+
+inst:3Tn8vdAOX0QxqbKYoVvsY3 a beo:Wall ;
+    dicm:hasLayerSet inst:2lGHBHyL5Bp8bSmvDjNsBP ;
+    dicv:hasProperty inst:0lB6pWJenEVgdFI8rv2kiv,
+        inst:1qwnPHTK91QfuXxHjNIluZ,
+        inst:20m8MAKub9_gXe4vcZfwlT,
+        inst:22ez3sGQz0vOHe6UreY8pm,
+        inst:28LWNwkTjCPeHXM7Q9kN_3,
+        inst:2bBN4rbGD3aBFzryS2I1xT,
+        inst:3W1w7LfeLB_v9l6kBjaY2P,
+        inst:3gfo9qS4zB_gexDGURVli2 ;
+    core:hasGlobalID "3Tn8vdAOX0QxqbKYoVvsY3" ;
+    core:hasLabel "Basic Wall:Parapet Wal _ 90mm Brickl:281871" .
+
+inst:3Tn8vdAOX0QxqbKYoVvsZJ a beo:Wall ;
+    dicm:hasLayerSet inst:0wj9DM1sf1lh2K2zNMS2Op ;
+    dicv:hasProperty inst:08y7cotA50G9BtnUAd8XYF,
+        inst:0nO_vCiCz07AYqaczoVOj4,
+        inst:1SN5cmOsj7DB1Kvgp1t7MX,
+        inst:24toduCNzFVB4osyJITrdw,
+        inst:2SqujWUbbDLv_nM4Aqz3CR,
+        inst:3QysjP1SzC_8i1iqk2el1I,
+        inst:3j0IDXEeT0P9CF8NxmGrRd,
+        inst:3usbViikH9sxwLQfdDt0k_ ;
+    core:hasGlobalID "3Tn8vdAOX0QxqbKYoVvsZJ" ;
+    core:hasLabel "Basic Wall:Parapet Wal _ 90mm Brickl:281951" .
+
+inst:3Tn8vdAOX0QxqbKYoVvs_C a beo:Wall ;
+    dicm:hasLayerSet inst:3wEpsksk13WxsN7VPZlC9J ;
+    dicv:hasProperty inst:0Fqti9jdn52hSndjzV00Xu,
+        inst:14Nu_5pvvEQRLyObkbBXHW,
+        inst:1NeEAAY1T3Sw3qOM4qh0oP,
+        inst:1ObZwVcr53GwPM6_OUwcf7,
+        inst:1Sq0csmsD3mQoqPHVuMgi0,
+        inst:1lQUVRnFz8svJDHY8lDla5,
+        inst:2O6C7HBCnDKP7AdLu_ePB_,
+        inst:2eSO_HtA17UBh2HFGqWEHn ;
+    core:hasGlobalID "3Tn8vdAOX0QxqbKYoVvs_C" ;
+    core:hasLabel "Basic Wall:Parapet Wal _ 90mm Brickl:281088" .
+
+inst:3Tn8vdAOX0QxqbKYoVvs_X a beo:Wall ;
+    dicm:hasLayerSet inst:0RHW8X_PH21P4mAPPtZROZ ;
+    dicv:hasProperty inst:0aVU7MLfbFtxqusbT7th3t,
+        inst:19GnXSRwf9ARvJbasH9crO,
+        inst:1Sohv5gRT2Awfs5MNyDLa9,
+        inst:1WltxljN92ROusY8aWN_Uv,
+        inst:1vXxWmNGf8IONyRxpVGTtu,
+        inst:2Y70AdSDj1vQrJS0IzzJyV,
+        inst:3O6hcEjtb5QR6xUOFuDoav,
+        inst:3hxobAI6D3GxGdWOguW_hY ;
+    core:hasGlobalID "3Tn8vdAOX0QxqbKYoVvs_X" ;
+    core:hasLabel "Basic Wall:Parapet Wal _ 90mm Brickl:281133" .
+
+inst:3Tn8vdAOX0QxqbKYoVvsan a beo:Wall ;
+    dicm:hasLayerSet inst:2XQsPnB5rCShz8wbOoPW1Q ;
+    dicv:hasProperty inst:0QxO0O5Qn5wQIV_vs71nAs,
+        inst:0bqvRRGBP3HhovM1aZvjyR,
+        inst:1TTw2MGgP8ww1Udj4tJy3E,
+        inst:1cjBfGDpL6OORpUBPu0zak,
+        inst:1qclu4wSP2oxaSA1MTxSFb,
+        inst:2gH1Hts8j0HhRApZPE3H98,
+        inst:30QV2lQrfCLwcCTRN9xjgr,
+        inst:3cU8HlR3jBzObex0D_ImNG ;
+    core:hasGlobalID "3Tn8vdAOX0QxqbKYoVvsan" ;
+    core:hasLabel "Basic Wall:Parapet Wal _ 90mm Brickl:281789" .
+
+inst:3Tn8vdAOX0QxqbKYoVvscY a beo:Wall ;
+    dicm:hasLayerSet inst:2f4HpVYn5F1QpiNj5EU_MV ;
+    dicv:hasProperty inst:1R9fXzy7X81R2MCGUfJPvu,
+        inst:1_xYo7KKv43x_IfQq24Lj2,
+        inst:2ATAc4y_T10RXjPrpr6j8y,
+        inst:2fg6hcLY50pPXBFlkOiJB7,
+        inst:2fv3y_Djn2DAbdQMYO0RYV,
+        inst:3IMvfax1r0ZeHR4iKNQkFp,
+        inst:3ZUlHTHlD97OinKWqFRCf8,
+        inst:3gLc6H3y52O9cBMLysPuag ;
+    core:hasGlobalID "3Tn8vdAOX0QxqbKYoVvscY" ;
+    core:hasLabel "Basic Wall:Parapet Wal _ 90mm Brickl:281646" .
+
+inst:3Tn8vdAOX0QxqbKYoVvsdx a beo:Wall ;
+    dicm:hasLayerSet inst:1zEnJcZUX7uxbJO95KkgVO ;
+    dicv:hasProperty inst:06MzBESXz30Q8lTnutA4nh,
+        inst:0CfU_eVqP1fAWSfKUk8ZpQ,
+        inst:0qFXbx2GfFfvXpT6TVelxO,
+        inst:1panuB4H918R7ZleUcL7y_,
+        inst:2yZM3JFknCNfqUCQftVVaf,
+        inst:3PmHNWn1H7DQ0_wHlFFpST,
+        inst:3UV9HVZiz8kQrpsjC4MTh1,
+        inst:3YWuUMleL7RAcPLvT7Z4F3 ;
+    core:hasGlobalID "3Tn8vdAOX0QxqbKYoVvsdx" ;
+    core:hasLabel "Basic Wall:Parapet Wal _ 90mm Brickl:281719" .
+
+inst:3Tn8vdAOX0QxqbKYoVvsfp a beo:Wall ;
+    bot:containsElement inst:2rvVZuy3X0l9ATwUENTZ7Z,
+        inst:2rvVZuy3X0l9ATwV2NTZ7Z ;
+    dicm:hasLayerSet inst:03NFFT4of7PAq_1v5cN4I0 ;
+    dicv:hasProperty inst:00aSX8OETCcQbPeW5rAN_l,
+        inst:06IUZKG0nArfDS_uCSch3H,
+        inst:0GRa0iseH4_gH_ZqVv1S4I,
+        inst:18vrIlLYDDnvyRHR_RUzqJ,
+        inst:1e3VV5EtfDogMDBuuf6S9i,
+        inst:1wODZakDT87f7Vu1auWmoQ,
+        inst:2E4JlezOjB7fclUrWxorBW,
+        inst:2M9KSvuVP2nx2DorbPvSHp ;
+    core:hasGlobalID "3Tn8vdAOX0QxqbKYoVvsfp" ;
+    core:hasLabel "Basic Wall:Internal Wall _ 15mm Plaster Board + 40mm Cavity + 15mm Plaster Board:282623" .
+
+inst:3Tn8vdAOX0QxqbKYoVvsmp a beo:Wall ;
+    dicm:hasLayerSet inst:1onIuiUM53jfXnYIbde1wE ;
+    dicv:hasProperty inst:0VXZR1UEf3E8irwEh9wjyg,
+        inst:0b0ZzeQZnAHu7yofLwFY7l,
+        inst:1DXr7KIEnBwhUnpDTxZczx,
+        inst:1kbfnAo7PDTRXUpWz1IgKQ,
+        inst:25hL1olnrFng4DKXkQOoa8,
+        inst:2_CI845QX1sw6a3cgB0D14,
+        inst:397gUTRPrC3OWujxa2mcK3,
+        inst:3j1hmGVIz0dhuK38khNXVn ;
+    core:hasGlobalID "3Tn8vdAOX0QxqbKYoVvsmp" ;
+    core:hasLabel "Basic Wall:Parapet Wal _ 90mm Brickl:281023" .
+
+inst:3Tn8vdAOX0QxqbKYoVvsxQ a beo:Wall ;
+    dicm:hasLayerSet inst:04pTwD3LjB8hROrMLQmtDm ;
+    dicv:hasProperty inst:0DvhlLY4jDR8Zobwf6DjXv,
+        inst:0yg8qNQlj8neslAbGTgyGO,
+        inst:1JC9akCt18nwggoT7CbJV7,
+        inst:1O6wBM5tnEGB9KlmgGTttR,
+        inst:20b3S5qxb4mwQtqJWPho_u,
+        inst:2MDvHd1w9D1hvwcC6t3Bx0,
+        inst:2Qw8uSDgDBEBGT8lgQMYSJ,
+        inst:3GZJKxFX986gJOuonLD4o6 ;
+    core:hasGlobalID "3Tn8vdAOX0QxqbKYoVvsxQ" ;
+    core:hasLabel "Basic Wall:Parapet Wal _ 90mm Brickl:281430" .
+
+inst:3Tn8vdAOX0QxqbKYoVvsyc a beo:Wall ;
+    dicm:hasLayerSet inst:2zFp5TFl53P9u7Csd18Mpn ;
+    dicv:hasProperty inst:1bPy5BaR1DWubBhKvOqoQK,
+        inst:1c6ZvaC198kQUMQHhQ8jG7,
+        inst:1shsBnnHXDSeaxXmcI8zFi,
+        inst:29UYRjymP5Xg5aPfQT_FNs,
+        inst:2rgQY9S713g9TKtQ4MvRvJ,
+        inst:3AcOJKXRjDX8OuEOXFSXmL,
+        inst:3a1ufNLOf5n8ms2gnlvvpt,
+        inst:3sVxw4Vx539umFyrmZOyi0 ;
+    core:hasGlobalID "3Tn8vdAOX0QxqbKYoVvsyc" ;
+    core:hasLabel "Basic Wall:Parapet Wal _ 90mm Brickl:281258" .
+
+inst:3Tn8vdAOX0QxqbKYoVvt6G a beo:Wall ;
+    bot:containsElement inst:2rvVZuy3X0l9ATwUENTXob,
+        inst:2rvVZuy3X0l9ATwV2NTXob ;
+    dicm:hasLayerSet inst:2MmaiEqLX9_Q0XDBb44Sr2 ;
+    dicv:hasProperty inst:0JgwLeukj968cCw8EtYIqp,
+        inst:0XUCNaCjnB_OKsKBM_C9zn,
+        inst:1f80GJz5PAABOFSwBiBsP5,
+        inst:1tQQBJMo1B7hcPL7xz7vyK,
+        inst:27nCFGLQz1HQDGDnwEeouv,
+        inst:2UY6M3muf8j99ajyM6w8iY,
+        inst:2vueOtQIr3buBCbRQ5VUtd,
+        inst:37RRQmcob7ngvsNqFV_1bs ;
+    core:hasGlobalID "3Tn8vdAOX0QxqbKYoVvt6G" ;
+    core:hasLabel "Basic Wall:Internal Wall _ 15mm Plaster Board + 40mm Cavity + 15mm Plaster Board:283676" .
+
+inst:3Tn8vdAOX0QxqbKYoVvtGG a beo:Wall ;
+    dicm:hasLayerSet inst:2O0GFr75X83unLxrwlCf3S ;
+    dicv:hasProperty inst:0FMDnHlsH6AO23bHFTAaGW,
+        inst:212ywCMVb7lf5ci1Ma3OAv,
+        inst:2cOxz_EMn2lBYYgqmbBsOH,
+        inst:34aaWqL999xwAgCTYNvv1s,
+        inst:3DvsywZ3jEveO0VLgS3BNR,
+        inst:3Im2ffEqj1dBVOr_bOaCUR,
+        inst:3MHhzoCDr2TwyyBEGZ2plt,
+        inst:3xSjmqIh17Mh7oqiwCRj5l ;
+    core:hasGlobalID "3Tn8vdAOX0QxqbKYoVvtGG" ;
+    core:hasLabel "Basic Wall:Internal Wall _ 15mm Plaster Board + 40mm Cavity + 15mm Plaster Board:283036" .
+
+inst:3Tn8vdAOX0QxqbKYoVvtIS a beo:Wall ;
+    bot:containsElement inst:2rvVZuy3X0l9ATwUENTZ4X,
+        inst:2rvVZuy3X0l9ATwV2NTZ4X ;
+    dicm:hasLayerSet inst:2qgM8ehCP1GA_gmAjvucs7 ;
+    dicv:hasProperty inst:1HlAb7uHL9zRH9OShmB4pO,
+        inst:1r8F8OGlL4JP0Yj78Z6NOV,
+        inst:20Qf8yKWP9aheWmYK6Hlg6,
+        inst:22XW5M9mXCTvzfSrEkhOLw,
+        inst:2bDnWJHoHBWwhGOxnbmMnG,
+        inst:3K7j5ECRrCKAPOevZIhJ24,
+        inst:3Z0RqNYPn4tx7ahusSzbfM,
+        inst:3aMdceMqD5aOoGwCJrSCkP ;
+    core:hasGlobalID "3Tn8vdAOX0QxqbKYoVvtIS" ;
+    core:hasLabel "Basic Wall:Internal Wall _ 15mm Plaster Board + 40mm Cavity + 15mm Plaster Board:282896" .
+
+inst:3Tn8vdAOX0QxqbKYoVvtMt a beo:Wall ;
+    dicm:hasLayerSet inst:2TXDvZfkPEhx5TZicT3bme ;
+    dicv:hasProperty inst:0HPf2RkH97mwzLNuUARidG,
+        inst:1X1T1f_Iz2euV1rOV6EhGV,
+        inst:1XtgNbaSH5Kv5urFlIZNRB,
+        inst:1dzxCFzxjE2frLMUfNRycu,
+        inst:1f27Ah3zjBawqofOLvxBwP,
+        inst:2R1FjEioD0rRoTMn2QWyah,
+        inst:3I4pTpwFT47uczTBWHYtqo,
+        inst:3ZNd1Vb01EgBpIxhkkudRy ;
+    core:hasGlobalID "3Tn8vdAOX0QxqbKYoVvtMt" ;
+    core:hasLabel "Basic Wall:Internal Wall _ 15mm Plaster Board + 40mm Cavity + 15mm Plaster Board:282683" .
+
+inst:3Tn8vdAOX0QxqbKYoVvtPR a beo:Wall ;
+    dicm:hasLayerSet inst:18nx0_W5X7lRsqekrwPj8_ ;
+    dicv:hasProperty inst:1O5ulAa6TCQhogC74N9RSr,
+        inst:1OncytmKjCkAflHX1mPy37,
+        inst:1re0TDx1D6sfbqxda2V8yA,
+        inst:25aB_Dg2H5Ahs4r2oXT4kD,
+        inst:26vc19Xhb8hetmCefjvBGQ,
+        inst:2NxnaION9ChOLuAvVOMleL,
+        inst:2bi4bFCYj4Mx56YxCxozYe,
+        inst:3n5X2pyDz9yvQwSrOK5wTM ;
+    core:hasGlobalID "3Tn8vdAOX0QxqbKYoVvtPR" ;
+    core:hasLabel "Basic Wall:Internal Wall _ 15mm Plaster Board + 40mm Cavity + 15mm Plaster Board:283607" .
+
+inst:3Tn8vdAOX0QxqbKYoVvtQm a beo:Wall ;
+    bot:containsElement inst:2rvVZuy3X0l9ATwUENTXni,
+        inst:2rvVZuy3X0l9ATwV2NTXni ;
+    dicm:hasLayerSet inst:2H0vj821DCCvVEqPmy7u4T ;
+    dicv:hasProperty inst:15VUhhLIP45QGOgx5t2Ivj,
+        inst:1FyNzQVtLAhwvZWzIHbIYk,
+        inst:1Vfs5NdorCwfHoqFaUpd2I,
+        inst:1trTGqlff1z8ID3dGDLXLn,
+        inst:2110onXe94bPEQjuJDMlE2,
+        inst:2PzJxZ4Kb17glcJz8Nu3oD,
+        inst:3g6bDqKbj3JOE6PCoHeOAL,
+        inst:3l0mLBVyjCTOTnqWlEaLES ;
+    core:hasGlobalID "3Tn8vdAOX0QxqbKYoVvtQm" ;
+    core:hasLabel "Basic Wall:Internal Wall _ 15mm Plaster Board + 40mm Cavity + 15mm Plaster Board:283452" .
+
+inst:3Tn8vdAOX0QxqbKYoVvtUL a beo:Wall ;
+    bot:containsElement inst:2rvVZuy3X0l9ATwUENTXmp,
+        inst:2rvVZuy3X0l9ATwV2NTXmp ;
+    dicm:hasLayerSet inst:3XI5hcRQL5kfc_amxxZfbN ;
+    dicv:hasProperty inst:04Ou0vsKf299gNsWn6KHos,
+        inst:0HZqwL0_f3NQmy8kutfqyK,
+        inst:1mV55mEfL3fQq9lJzeI4Wp,
+        inst:1quJLf5TnDjAdBeWho5W68,
+        inst:2PMJZjmVr8XviZK1HXWzXk,
+        inst:2agFwFvqz1Uh78_fOlLkHx,
+        inst:2qdXfAKbj25w_3OYCn4wMt,
+        inst:39FuVtNp12Kuk9N_0tKQWk ;
+    core:hasGlobalID "3Tn8vdAOX0QxqbKYoVvtUL" ;
+    core:hasLabel "Basic Wall:Internal Wall _ 15mm Plaster Board + 40mm Cavity + 15mm Plaster Board:283161" .
+
+inst:3Tn8vdAOX0QxqbKYoVvtV2 a beo:Wall ;
+    bot:containsElement inst:2rvVZuy3X0l9ATwUENTXr6,
+        inst:2rvVZuy3X0l9ATwV2NTXr6 ;
+    dicm:hasLayerSet inst:2JSmQyrRbClOkAfUzXd7Ug ;
+    dicv:hasProperty inst:1gtqa4nkb8FvdXWWaYPA4q,
+        inst:1lUEhuND10cekIWGqT3kLZ,
+        inst:1oo1Rsmn16peqC8JVtg2fs,
+        inst:2Cgm4kmLfDEeu0u6csWBFf,
+        inst:2OBBO1Kor7RAOM01cCIkiq,
+        inst:2SNaK9T290HxLnUemw_ECz,
+        inst:2nwI_20Sn84BeMOlBk2H2S,
+        inst:3VJRQti_nAE8o4gv5UZA_F ;
+    core:hasGlobalID "3Tn8vdAOX0QxqbKYoVvtV2" ;
+    core:hasLabel "Basic Wall:Internal Wall _ 15mm Plaster Board + 40mm Cavity + 15mm Plaster Board:283214" .
+
+inst:3UDpq6P9rFEh4gR0xFMdIO a dicv:Property ;
+    core:hasLabel "Absorptance" ;
+    core:hasValue 7e-01 .
+
+inst:3UPQa_9f588RWPOCa0ULFE a dicm:Material ;
+    core:hasLabel "Concrete, Lightweight" .
+
+inst:3UV9HVZiz8kQrpsjC4MTh1 a dicv:Property ;
+    core:hasLabel "Length" ;
+    core:hasValue 3.56875e+03 .
+
+inst:3UWPpKtEDB0QFeZACRv4dt a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 1.5e+01 .
+
+inst:3VJRQti_nAE8o4gv5UZA_F a dicv:Property ;
+    core:hasLabel "Length" ;
+    core:hasValue 5.30625e+03 .
+
+inst:3VUYNcUsD4IBRyWI1FjFyg a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 2.032e+02 .
+
+inst:3VVBp8CmXEMhUt3lO3SXgj a dicv:Property ;
+    core:hasLabel "Width" ;
+    core:hasValue 3.175e+02 .
+
+inst:3VZxs5wWT9TewerSQiZDYq a dicv:Property ;
+    core:hasLabel "Roughness" ;
+    core:hasValue 3 .
+
+inst:3VbcYLjEn3pRxC1m3eEb8z a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 1.27e+01 .
+
+inst:3Vq_YyOLT66hE4ZqvtULH3 a dicm:Material ;
+    core:hasLabel "Brick, Common" .
+
+inst:3Vy8YkaEH5FAbCx6Yge7Ja a dicm:Material ;
+    core:hasLabel "Plaster" .
+
+inst:3W1w7LfeLB_v9l6kBjaY2P a dicv:Property ;
+    core:hasLabel "Thermal Resistance (R)" ;
+    core:hasValue 1.666667e-01 .
+
+inst:3W98xkPfH0bfpeXxgZEYrD a dicv:Property ;
+    core:hasLabel "Width" ;
+    core:hasValue 3.175e+02 .
+
+inst:3WZfwMg5z7vuK7Uuq_CJKt a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 1.5e+01 .
+
+inst:3Waxs839bCuBqGA1FtQSr9 a dicv:Property ;
+    core:hasLabel "Height" ;
+    core:hasValue 3.5e+03 .
+
+inst:3WbJzQLtjABAbGKTbrAMcr a dicm:Layer ;
+    dicm:hasMaterial inst:2jRoGIbLH5iPM0XWLEee_8 ;
+    dicv:hasProperty inst:0By0QjyRP2eOiSm2EJ07xD ;
+    core:hasLabel "Brick, Common" .
+
+inst:3WbzhI2B5D6Q7mvD8h6s4N a dicv:Property ;
+    core:hasLabel "Thermal Resistance (R)" ;
+    core:hasValue 1.179935e+00 .
+
+inst:3WexkJORX1uw9S1MxnKtgm a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 1.016e+02 .
+
+inst:3XBwdWCmPFbAUff5vb45HR a dicm:Material ;
+    core:hasLabel "Concrete, Lightweight" .
+
+inst:3XHi904jTC_OPbQYdOsqvn a dicm:Layer ;
+    dicm:hasMaterial inst:0J6IB7RdnEX9QO0v4clp9w ;
+    dicv:hasProperty inst:2TfegqMZr1KBLfyVtgLjVA ;
+    core:hasLabel "Concrete, Lightweight" .
+
+inst:3XI5hcRQL5kfc_amxxZfbN a dicm:LayerSet ;
+    dicm:NumberOfLayers 3 ;
+    dicm:hasLayer inst:1I6AIyfhT1wAP_67Uksgfu,
+        inst:3TSKoqssf6DvvczcE9i21q,
+        inst:3kR64L6uv0nAS0G6pytr3T ;
+    core:hasName "Basic Wall:Internal Wall _ 15mm Plaster Board + 40mm Cavity + 15mm Plaster Board" .
+
+inst:3XYFZBYWjAh9UulMTonwM_ a dicv:Property ;
+    core:hasLabel "IsExternal" ;
+    core:hasValue true .
+
+inst:3XcnTrssXF5xhC26jJIo4l a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 1.27e+01 .
+
+inst:3XdVsHm958IAmaVfxLeZXi a dicv:Property ;
+    core:hasLabel "Absorptance" ;
+    core:hasValue 7e-01 .
+
+inst:3Y4UmUMRT798wAu2Dj3Lsf a dicm:Material ;
+    core:hasLabel "Plaster" .
+
+inst:3YCoRxJKjAwBgL5m87YQqv a dicm:Material ;
+    core:hasLabel "Air" .
+
+inst:3YGlE6Stv6bOyYe_VTf19a a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 1.27e+01 .
+
+inst:3YWuUMleL7RAcPLvT7Z4F3 a dicv:Property ;
+    core:hasLabel "Width" ;
+    core:hasValue 9e+01 .
+
+inst:3YtImjqq16_QzDNa4e58O7 a dicv:Property ;
+    core:hasLabel "Height" ;
+    core:hasValue 3.775e+03 .
+
+inst:3YuIluQg56cRHKWkusEVum a dicv:Property ;
+    core:hasLabel "ThermalTransmittance" ;
+    core:hasValue 6.028369e-01 .
+
+inst:3Z0RqNYPn4tx7ahusSzbfM a dicv:Property ;
+    core:hasLabel "Length" ;
+    core:hasValue 2.87625e+03 .
+
+inst:3ZCxg8gzH8yB8oAMyWGjrv a dicv:Property ;
+    core:hasLabel "ThermalTransmittance" ;
+    core:hasValue 8.47504e-01 .
+
+inst:3ZNd1Vb01EgBpIxhkkudRy a dicv:Property ;
+    core:hasLabel "Width" ;
+    core:hasValue 7e+01 .
+
+inst:3ZUlHTHlD97OinKWqFRCf8 a dicv:Property ;
+    core:hasLabel "Height" ;
+    core:hasValue 6.325e+02 .
+
+inst:3ZwN5gmQXC4wtn404yQKhE a dicv:Property ;
+    core:hasLabel "Absorptance" ;
+    core:hasValue 7e-01 .
+
+inst:3_BFhraq5EsxKQuJHBgjYE a dicm:Layer ;
+    dicm:hasMaterial inst:2kPVe6xPvE8vk6HWkj1465 ;
+    dicv:hasProperty inst:0CzFngaML8ROzHf1A3hnwT ;
+    core:hasLabel "Concrete, Lightweight" .
+
+inst:3_Eyl5HR1ClOpIozcfwnRR a dicv:Property ;
+    core:hasLabel "ThermalTransmittance" ;
+    core:hasValue 8.47504e-01 .
+
+inst:3_hvQ0OeT5AgXSqkZ56xNO a dicv:Property ;
+    core:hasLabel "Length" ;
+    core:hasValue 2.6825e+03 .
+
+inst:3a1ufNLOf5n8ms2gnlvvpt a dicv:Property ;
+    core:hasLabel "Absorptance" ;
+    core:hasValue 7e-01 .
+
+inst:3aCAbIUb1BoxpRq7796DOX a dicm:Layer ;
+    dicm:hasMaterial inst:1Rc0cwAM57zR6KuYmJb9FU ;
+    dicv:hasProperty inst:24bLL_EBP6kQaUv3x5FQ99 ;
+    core:hasLabel "Concrete, Lightweight" .
+
+inst:3aMdceMqD5aOoGwCJrSCkP a dicv:Property ;
+    core:hasLabel "ThermalTransmittance" ;
+    core:hasValue 6.028369e-01 .
+
+inst:3aOtG7agH8B8pDUSnVog28 a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 1.016e+02 .
+
+inst:3aq6pRdD13AhHlYnJnMnwP a dicv:Property ;
+    core:hasLabel "Height" ;
+    core:hasValue 3.775e+03 .
+
+inst:3b4wcqEO18PAQ2qa3n0Yph a dicm:Material ;
+    core:hasLabel "Concrete, Lightweight" .
+
+inst:3bFISVaZfC_vEE520ueYzq a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 1.5e+01 .
+
+inst:3bcab7OpDBOQQZWKqYQ5Yz a dicv:Property ;
+    core:hasLabel "Height" ;
+    core:hasValue 3.775e+03 .
+
+inst:3bsTcZYFrEjxdRxDqBgwC0 a dicm:Material ;
+    core:hasLabel "Concrete, Lightweight" .
+
+inst:3c1M5VLtbC9fzfFK8R5sdS a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 1.27e+01 .
+
+inst:3cKsKI21LB5wBmjX7O15AA a dicm:Layer ;
+    dicm:hasMaterial inst:1md8Z4Asj0uenHOoc1fDow ;
+    dicv:hasProperty inst:2jGAsE29bCtxPLB_Gzsz0p ;
+    core:hasLabel "Gypsum Wall Board" .
+
+inst:3cNl6cLbD7y905BYsS6ap_ a dicm:LayerSet ;
+    dicm:NumberOfLayers 3 ;
+    dicm:hasLayer inst:1QwcrYqTT97AecsknkUBun,
+        inst:2ZXxOBK01EY9h8WVMN4M2L,
+        inst:2c83_ImCD9IuKNIhRFXABP ;
+    core:hasName "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster" .
+
+inst:3cU8HlR3jBzObex0D_ImNG a dicv:Property ;
+    core:hasLabel "Length" ;
+    core:hasValue 3e+03 .
+
+inst:3cj0tsMx16rREsO8Jhp2Ca a dicv:Property ;
+    core:hasLabel "Width" ;
+    core:hasValue 3.175e+02 .
+
+inst:3crS6PmCn5Ah_y8vuc_zlf a dicv:Property ;
+    core:hasLabel "Absorptance" ;
+    core:hasValue 7e-01 .
+
+inst:3ctucO2vz0mB9NSpSh9EYA a dicv:Property ;
+    core:hasLabel "ThermalTransmittance" ;
+    core:hasValue 8.47504e-01 .
+
+inst:3d9dcy0fP4Mezbjpftdbxp a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 4e+01 .
+
+inst:3dDNa3eD1Ctglez3nCSuDk a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 2.032e+02 .
+
+inst:3dlxlOrb117fLswN0lt3HR a dicv:Property ;
+    core:hasLabel "Length" ;
+    core:hasValue 1.36825e+04 .
+
+inst:3dpJEmSXnE69wmOqLiAteA a dicv:Property ;
+    core:hasLabel "Length" ;
+    core:hasValue 1.36825e+04 .
+
+inst:3eEuKNtBL4C9EtRpiNJoqo a dicv:Property ;
+    core:hasLabel "Thermal Resistance (R)" ;
+    core:hasValue 1.179935e+00 .
+
+inst:3efTCZyunAwhCDUQXnr5_f a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 1.016e+02 .
+
+inst:3ehxwpEbj07AozhfUxfCzt a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 1.5e+01 .
+
+inst:3er6GUr393QBhSssbVTDva a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 4e+01 .
+
+inst:3fVe_RWkT02B1rlLzBgK9F a dicm:Layer ;
+    dicm:hasMaterial inst:3A2L5Bvtf2LQcvIjneje2Y ;
+    dicv:hasProperty inst:3qsI9x7t9A_RrE53sHk_S5 ;
+    core:hasLabel "Brick, Common" .
+
+inst:3f_SYUcgL4Pft9uSBqzdOI a dicm:LayerSet ;
+    dicm:NumberOfLayers 3 ;
+    dicm:hasLayer inst:1JBOkHLML4OAg1UP_y92KS,
+        inst:2AToQJY6187QTw3MxGnIiz,
+        inst:3fyL9zuxv3TfZYJLQb2vpK ;
+    core:hasName "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster" .
+
+inst:3faAMFqCDA5PApu6IMSFBU a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 2.032e+02 .
+
+inst:3fjv5j5cXCtRRjmk58F7mQ a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 1.5e+01 .
+
+inst:3fyL9zuxv3TfZYJLQb2vpK a dicm:Layer ;
+    dicm:hasMaterial inst:2hPZxtCFr6pRfxxsPKuik6 ;
+    dicv:hasProperty inst:2IBzzbBIT0DRCE8yElYu2A ;
+    core:hasLabel "Concrete, Lightweight" .
+
+inst:3fzF2PYoL1XgU_2x1dF2Cu a dicm:LayerSet ;
+    dicm:NumberOfLayers 3 ;
+    dicm:hasLayer inst:0ClQjN3HT2Xuk2zgMpNesp,
+        inst:1Vz7YqKhf1lvahKLk03p14,
+        inst:2iYjnYqb1C0f3jOg5jSwEq ;
+    core:hasName "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster" .
+
+inst:3g3IWkuafESBo6KXixPm45 a dicm:Layer ;
+    dicm:hasMaterial inst:2hw79Thrr0fOlCIqZrwopS ;
+    dicv:hasProperty inst:0JWyYiO45D3fvjX4qdfA42 ;
+    core:hasLabel "Concrete, Lightweight" .
+
+inst:3g6bDqKbj3JOE6PCoHeOAL a dicv:Property ;
+    core:hasLabel "Length" ;
+    core:hasValue 2.87625e+03 .
+
+inst:3gLc6H3y52O9cBMLysPuag a dicv:Property ;
+    core:hasLabel "Width" ;
+    core:hasValue 9e+01 .
+
+inst:3gfo9qS4zB_gexDGURVli2 a dicv:Property ;
+    core:hasLabel "Length" ;
+    core:hasValue 2.34125e+03 .
+
+inst:3gjaErSTbAgw_IH3z3JQNB a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 1.5e+01 .
+
+inst:3gxeYAGCL0Lguv56dLatRh a dicm:Material ;
+    core:hasLabel "Plaster" .
+
+inst:3gxgnoP59AGg16GmG_FQ4O a dicm:Material ;
+    core:hasLabel "Gypsum Wall Board" .
+
+inst:3hambKb0D3teUduh7hiUQd a dicv:Property ;
+    core:hasLabel "Width" ;
+    core:hasValue 3.175e+02 .
+
+inst:3hdxRK8AX26uVqM75_D6Ho a dicv:Property ;
+    core:hasLabel "Thermal Resistance (R)" ;
+    core:hasValue 1.179935e+00 .
+
+inst:3hpJBe59v6PPIGZnd2C5ZQ a dicm:Layer ;
+    dicm:hasMaterial inst:3QwT0g0VX2hQqBVtHV3U9l ;
+    dicv:hasProperty inst:3FtbcQLIP0oBu6TOvbs80N ;
+    core:hasLabel "Brick, Common" .
+
+inst:3hsE1QoQL6tBmx6RBNanPb a dicv:Property ;
+    core:hasLabel "Length" ;
+    core:hasValue 3.3175e+03 .
+
+inst:3hxobAI6D3GxGdWOguW_hY a dicv:Property ;
+    core:hasLabel "Width" ;
+    core:hasValue 9e+01 .
+
+inst:3iI_FFURf4LexLrpLxAFEv a dicv:Property ;
+    core:hasLabel "Height" ;
+    core:hasValue 3.5e+03 .
+
+inst:3ixKQu40n04eFXHRnUof_G a dicv:Property ;
+    core:hasLabel "Thermal Resistance (R)" ;
+    core:hasValue 1.179935e+00 .
+
+inst:3j0IDXEeT0P9CF8NxmGrRd a dicv:Property ;
+    core:hasLabel "Height" ;
+    core:hasValue 6.325e+02 .
+
+inst:3j1hmGVIz0dhuK38khNXVn a dicv:Property ;
+    core:hasLabel "Absorptance" ;
+    core:hasValue 7e-01 .
+
+inst:3j9B9LD5b11vDFxRUgoTfc a dicm:Material ;
+    core:hasLabel "Brick, Common" .
+
+inst:3j9M6iBZn6Tf6m0Hggd4cY a dicm:Material ;
+    core:hasLabel "Brick, Common" .
+
+inst:3k3s8vlQzBrPYZfOu0Ahuy a dicm:Material ;
+    core:hasLabel "Gypsum Wall Board" .
+
+inst:3kR64L6uv0nAS0G6pytr3T a dicm:Layer ;
+    dicm:hasMaterial inst:2i1_sGKpXCqxNLMEbiEQ3B ;
+    dicv:hasProperty inst:3LuaVeel913esKaXEOu0IU ;
+    core:hasLabel "Plaster" .
+
+inst:3kgfmkUc16bxrXjZUmiXMh a dicm:LayerSet ;
+    dicm:NumberOfLayers 3 ;
+    dicm:hasLayer inst:18i3SyyHn6hP2kKLwf6PxM,
+        inst:1JQxegblnFtQ86ISCCwWxB,
+        inst:3uZZttiEPEYhzn9zoh6yAU ;
+    core:hasName "Basic Wall:Internal Wall _ 15mm Plaster Board + 40mm Cavity + 15mm Plaster Board" .
+
+inst:3l0mLBVyjCTOTnqWlEaLES a dicv:Property ;
+    core:hasLabel "IsExternal" ;
+    core:hasValue false .
+
+inst:3lC4QdZHzBFuWQAQXVnAfR a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 1.016e+02 .
+
+inst:3lnDJRgoH2ZuqgBkc48TS9 a dicv:Property ;
+    core:hasLabel "Thermal Resistance (R)" ;
+    core:hasValue 1.179935e+00 .
+
+inst:3lvAArubn8H9Ih1BIaGYOc a dicm:Material ;
+    core:hasLabel "Gypsum Wall Board" .
+
+inst:3n5X2pyDz9yvQwSrOK5wTM a dicv:Property ;
+    core:hasLabel "Height" ;
+    core:hasValue 4e+03 .
+
+inst:3nQOsTfET0_w6ZqaEPm3eH a dicm:Material ;
+    core:hasLabel "Brick, Common" .
+
+inst:3nRyz2C7515RUpvP_OzV0E a dicm:Material ;
+    core:hasLabel "Gypsum Wall Board" .
+
+inst:3o0lC1QvrCC9xHDE0OBmRb a dicv:Property ;
+    core:hasLabel "ThermalTransmittance" ;
+    core:hasValue 8.47504e-01 .
+
+inst:3o5o6OCDD7Iht4docf2rMt a dicv:Property ;
+    core:hasLabel "IsExternal" ;
+    core:hasValue true .
+
+inst:3oE7NUtlvFzhEXtSkRlr5m a dicm:Material ;
+    core:hasLabel "Gypsum Wall Board" .
+
+inst:3oVtYx3kH9Mw1GcHkoGAP9 a dicv:Property ;
+    core:hasLabel "Length" ;
+    core:hasValue 3e+03 .
+
+inst:3opXAWHA5FKfASYqez3sD8 a dicm:Material ;
+    core:hasLabel "Brick, Common" .
+
+inst:3pZ_Vj6nz8BAlLx72mac0P a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 1.27e+01 .
+
+inst:3phy1qF_T4WQkFWr5AGvPF a dicm:LayerSet ;
+    dicm:NumberOfLayers 3 ;
+    dicm:hasLayer inst:1c0L4fggj16vghjj6mlJWq,
+        inst:2mhldMLTX30P6VDwsyE0gQ,
+        inst:3QHB4y5zXEAA8Erdgl4159 ;
+    core:hasName "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster" .
+
+inst:3q234qRHP0NAZn7TpJE89j a dicm:Layer ;
+    dicm:hasMaterial inst:1q7UIdD9LFSPk3eJDMMTHy ;
+    dicv:hasProperty inst:0hq4x_kgX0CwGY7Q7sTTee ;
+    core:hasLabel "Brick, Common" .
+
+inst:3q6WXPp918Ov6XeIvGvByG a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 1.016e+02 .
+
+inst:3qBfd3npn62xjJdwyQl2Vp a dicm:LayerSet ;
+    dicm:NumberOfLayers 3 ;
+    dicm:hasLayer inst:1996j6q3j0gRCx8SQqbXpw,
+        inst:1PXAdC_ZLBf85vDwfmivek,
+        inst:3hpJBe59v6PPIGZnd2C5ZQ ;
+    core:hasName "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster" .
+
+inst:3qKWtekGXCKuvBBN62Bcmi a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 2.032e+02 .
+
+inst:3qPWYkLkXE2816CpQTBKj2 a dicv:Property ;
+    core:hasLabel "Width" ;
+    core:hasValue 3.175e+02 .
+
+inst:3qsI9x7t9A_RrE53sHk_S5 a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 1.016e+02 .
+
+inst:3rXTHls0n7N8G14Qa9uaw7 a dicm:Material ;
+    core:hasLabel "Air" .
+
+inst:3rlPTLL3b67QWiefFDsBge a dicv:Property ;
+    core:hasLabel "Width" ;
+    core:hasValue 3.175e+02 .
+
+inst:3s9JDShQX9HgUCcoNGNbz8 a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 1.27e+01 .
+
+inst:3sVxw4Vx539umFyrmZOyi0 a dicv:Property ;
+    core:hasLabel "Width" ;
+    core:hasValue 9e+01 .
+
+inst:3sY1__ls17evCdEAHShm9Q a dicm:Material ;
+    core:hasLabel "Gypsum Wall Board" .
+
+inst:3sasYamID5ZOP86tp8ldm5 a dicv:Property ;
+    core:hasLabel "Width" ;
+    core:hasValue 3.175e+02 .
+
+inst:3sbpKYsgP9nwa8_NFZRldN a dicv:Property ;
+    core:hasLabel "Width" ;
+    core:hasValue 3.175e+02 .
+
+inst:3sis6cnB94Iv_sz5jP2qnC a dicm:Layer ;
+    dicm:hasMaterial inst:1e9wrIuUDA79cht4rc0Dot ;
+    dicv:hasProperty inst:1AiLUbMyLEmQiRrYUzcAQH ;
+    core:hasLabel "Gypsum Wall Board" .
+
+inst:3tDNrrSu125RNg7WIj3sa7 a dicv:Property ;
+    core:hasLabel "Thermal Resistance (R)" ;
+    core:hasValue 1.179935e+00 .
+
+inst:3tWbnowv93N95J4q2pgkNj a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 1.5e+01 .
+
+inst:3tb6QAd7jFxBg9cgnvzthl a dicv:Property ;
+    core:hasLabel "Thermal Resistance (R)" ;
+    core:hasValue 1.179935e+00 .
+
+inst:3teF6mO8v5ShlH0eKg3c6N a dicv:Property ;
+    core:hasLabel "Height" ;
+    core:hasValue 3.1325e+03 .
+
+inst:3tq6Jw_DfA_BD6utbWa8jv a dicm:Material ;
+    core:hasLabel "Concrete, Lightweight" .
+
+inst:3uOciicz1F4wmL1IE73tEY a dicm:Layer ;
+    dicm:hasMaterial inst:2KgfB2j6v488yjOSc8Z0AQ ;
+    dicv:hasProperty inst:3er6GUr393QBhSssbVTDva ;
+    core:hasLabel "Air" .
+
+inst:3uZZttiEPEYhzn9zoh6yAU a dicm:Layer ;
+    dicm:hasMaterial inst:34Qq2sqJXB49cnHwAmT_gN ;
+    dicv:hasProperty inst:3UWPpKtEDB0QFeZACRv4dt ;
+    core:hasLabel "Plaster" .
+
+inst:3usbViikH9sxwLQfdDt0k_ a dicv:Property ;
+    core:hasLabel "IsExternal" ;
+    core:hasValue true .
+
+inst:3uuN7EcoHDpfE2kNAmlc1g a dicv:Property ;
+    core:hasLabel "ThermalTransmittance" ;
+    core:hasValue 8.47504e-01 .
+
+inst:3v8FWBSPv7ReAw_nnFcZXG a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 2.032e+02 .
+
+inst:3vLSfGH2TE3AdUC0zRgSMl a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 1.27e+01 .
+
+inst:3vcIy9mjT9ex_OSrRFGcEU a dicm:Material ;
+    core:hasLabel "Brick, Common" .
+
+inst:3veInHG8nDZglzm9Oo1gBB a dicm:Layer ;
+    dicm:hasMaterial inst:3YCoRxJKjAwBgL5m87YQqv ;
+    dicv:hasProperty inst:0CJ0Iuxlj8kQwz45ppXDwH ;
+    core:hasLabel "Air" .
+
+inst:3vlW2NpejBgfiCXptlt6s2 a dicv:Property ;
+    core:hasLabel "Absorptance" ;
+    core:hasValue 7e-01 .
+
+inst:3wEpsksk13WxsN7VPZlC9J a dicm:LayerSet ;
+    dicm:NumberOfLayers 1 ;
+    dicm:hasLayer inst:3Hcjoe6jf4jOayzNBWZD5g ;
+    core:hasName "Basic Wall:Parapet Wal _ 90mm Brickl" .
+
+inst:3wExtPIuXFfhiIJhRtZg_t a dicm:Layer ;
+    dicm:hasMaterial inst:13tcS0LeP57PdyVtAF7arC ;
+    dicv:hasProperty inst:2y58cHKeb7qvjy4vzpk_Kl ;
+    core:hasLabel "Plaster" .
+
+inst:3wbMOXJgD91QF3DLI0Krrg a dicv:Property ;
+    core:hasLabel "Absorptance" ;
+    core:hasValue 7e-01 .
+
+inst:3wfAdNOhLEvvfpewxLS2gK a dicm:Layer ;
+    dicm:hasMaterial inst:09FVkRq4HA_9aF9dE6NKRo ;
+    dicv:hasProperty inst:3fjv5j5cXCtRRjmk58F7mQ ;
+    core:hasLabel "Plaster" .
+
+inst:3xSZSqVUj5JBWCb8ANBRJ3 a dicm:Material ;
+    core:hasLabel "Concrete, Lightweight" .
+
+inst:3xSjmqIh17Mh7oqiwCRj5l a dicv:Property ;
+    core:hasLabel "Absorptance" ;
+    core:hasValue 7e-01 .
+
+inst:3xUU9QEbT9ofygOA_gF00z a dicm:LayerSet ;
+    dicm:NumberOfLayers 3 ;
+    dicm:hasLayer inst:0OhaDoz4v6gPtpIzIrFMJF,
+        inst:0mUyPIKzv9rgCAWiXWbwgu,
+        inst:1GPty1lDnAzBi37KVy0q16 ;
+    core:hasName "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster" .
+
+inst:3xp0HmoPTDfQY_c7mKMUBk a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 1.016e+02 .
+
+inst:3y5ER7Chr1q9N8syURFTPR a dicv:Property ;
+    core:hasLabel "IsExternal" ;
+    core:hasValue true .
+
+inst:3y7sxEDF52LRmHCoORK5sT a dicm:Material ;
+    core:hasLabel "Plaster" .
+
+inst:3zPw8WrBD94Pr6p6k5FmlA a dicv:Property ;
+    core:hasLabel "Absorptance" ;
+    core:hasValue 7e-01 .
+
