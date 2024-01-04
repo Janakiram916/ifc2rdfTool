@@ -30,3 +30,7 @@ test: unit-test integration-test ## Runs all tests
 
 .PHONY: check
 check: auto-format lint test requirements.txt ## Runs all code checks and tests
+
+.PHONY: app
+app:
+	poetry run flet ifc2rdfApp
