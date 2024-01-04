@@ -33,4 +33,4 @@ check: auto-format lint test requirements.txt ## Runs all code checks and tests
 
 .PHONY: app
 app:
-	poetry run flet ifc2rdfApp
+	poetry run flet ifc2rdfApp/ifc2rdfApp.py
