@@ -1,0 +1,37 @@
+@prefix bot: <https://w3id.org/bot#> .
+@prefix core: <https://w3id.org/digitalconstruction/core#> .
+@prefix geo1: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix inst: <https://w3id.org/digitalconstruction/instance#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+inst:0lY6P5Ur90TAQnnnI6wtnb a core:Project ;
+    core:hasGlobalID "0lY6P5Ur90TAQnnnI6wtnb" ;
+    core:hasLabel "Projekt-FZK-Haus" ;
+    core:hasName "None" ;
+    core:hasSite inst:0KMpiAlnb52RgQuM1CwVfd .
+
+inst:0KMpiAlnb52RgQuM1CwVfd a bot:Site ;
+    geo1:lat "49.100435"^^xsd:float ;
+    geo1:long "8.436539"^^xsd:float ;
+    bot:hasBuilding inst:2hQBAVPOr5VxhS3Jl0O47h ;
+    core:hasGlobalID "0KMpiAlnb52RgQuM1CwVfd" ;
+    core:hasLabel "Gelaende" ;
+    core:hasName "None" .
+
+inst:273g3wqLzDtfYIl7qqkgcO a bot:Storey ;
+    core:hasGlobalID "273g3wqLzDtfYIl7qqkgcO" ;
+    core:hasLabel "Dachgeschoss" ;
+    core:hasName "ACID00000002-0000-0000-0000-000000000000" .
+
+inst:2eyxpyOx95m90jmsXLOuR0 a bot:Storey ;
+    core:hasGlobalID "2eyxpyOx95m90jmsXLOuR0" ;
+    core:hasLabel "Erdgeschoss" ;
+    core:hasName "ACID00000001-0000-0000-0000-000000000000" .
+
+inst:2hQBAVPOr5VxhS3Jl0O47h a bot:Building ;
+    bot:hasStorey inst:273g3wqLzDtfYIl7qqkgcO,
+        inst:2eyxpyOx95m90jmsXLOuR0 ;
+    core:hasGlobalID "2hQBAVPOr5VxhS3Jl0O47h" ;
+    core:hasLabel "FZK-Haus" ;
+    core:hasName "None" .
+
