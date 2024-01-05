@@ -104,6 +104,9 @@ jobs:
       - build-for-macos
 #    if: github.event_name == 'push'
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+    
       - name: Check for version bump
         id: version-check
         run: |
