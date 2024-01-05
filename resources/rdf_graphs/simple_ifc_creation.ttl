@@ -1,0 +1,48 @@
+@prefix beo: <https://pi.pauwel.be/voc/buildingelement#> .
+@prefix bot: <https://w3id.org/bot#> .
+@prefix core: <https://w3id.org/digitalconstruction/core#> .
+@prefix inst: <https://w3id.org/digitalconstruction/instance#> .
+
+inst:1IFGbFSrX4bfBDk5edULdH a core:Project ;
+    core:hasGlobalID "1IFGbFSrX4bfBDk5edULdH" ;
+    core:hasLabel "My Project" ;
+    core:hasName "None" ;
+    core:hasSite inst:2IpF_2gZX2oBgsZYeBYgKc .
+
+inst:05knors9vCkvvKGTCC2f77 a beo:Wall ;
+    core:hasGlobalID "05knors9vCkvvKGTCC2f77" ;
+    core:hasLabel "wall3" .
+
+inst:0QOk5s_TDA0vu04WeNLLSW a bot:Storey ;
+    bot:containsElement inst:05knors9vCkvvKGTCC2f77,
+        <https://w3id.org/digitalconstruction/instance#1j8Pc2mTvCBRv65Yi$QM1n>,
+        inst:31WwcEe_LAvhgBPpPQ1pYU,
+        inst:3h7nG35d53jgQYqsWhfv7S ;
+    core:hasGlobalID "0QOk5s_TDA0vu04WeNLLSW" ;
+    core:hasLabel "Ground Floor" ;
+    core:hasName "None" .
+
+<https://w3id.org/digitalconstruction/instance#1j8Pc2mTvCBRv65Yi$QM1n> a beo:Wall ;
+    core:hasGlobalID "1j8Pc2mTvCBRv65Yi$QM1n" ;
+    core:hasLabel "wall2" .
+
+inst:2IpF_2gZX2oBgsZYeBYgKc a bot:Site ;
+    bot:hasBuilding inst:39Cw3RzeXFoAV8o4QCrbVP ;
+    core:hasGlobalID "2IpF_2gZX2oBgsZYeBYgKc" ;
+    core:hasLabel "My Site" ;
+    core:hasName "None" .
+
+inst:31WwcEe_LAvhgBPpPQ1pYU a beo:Wall ;
+    core:hasGlobalID "31WwcEe_LAvhgBPpPQ1pYU" ;
+    core:hasLabel "wall4" .
+
+inst:39Cw3RzeXFoAV8o4QCrbVP a bot:Building ;
+    bot:hasStorey inst:0QOk5s_TDA0vu04WeNLLSW ;
+    core:hasGlobalID "39Cw3RzeXFoAV8o4QCrbVP" ;
+    core:hasLabel "My Building" ;
+    core:hasName "None" .
+
+inst:3h7nG35d53jgQYqsWhfv7S a beo:Wall ;
+    core:hasGlobalID "3h7nG35d53jgQYqsWhfv7S" ;
+    core:hasLabel "external_wall" .
+

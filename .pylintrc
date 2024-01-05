@@ -10,6 +10,7 @@ disable=C0114,
         C0200,
         R0912,
         R1702,
+        c0103,
 ignore-patterns=.*_pb2.*
 
 # Specify the maximum line length

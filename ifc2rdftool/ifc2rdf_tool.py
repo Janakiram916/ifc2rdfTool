@@ -40,13 +40,14 @@ def add_entity_global_id_and_label_info_to_graph(entity, graph: Graph):
             Literal(f"{entity.GlobalId}"),
         )
     )
-    graph.add(
-        (
-            URIRef(f"{INSTANCE_NAMESPACE}{entity.GlobalId}"),
-            CORE_NAMESPACE.hasLabel,
-            Literal(f"{entity.Name}"),
+    if entity.Name:
+        graph.add(
+            (
+                URIRef(f"{INSTANCE_NAMESPACE}{entity.GlobalId}"),
+                CORE_NAMESPACE.hasLabel,
+                Literal(f"{entity.Name}"),
+            )
         )
-    )
     if "LongName" in entity.get_info().keys():
         graph.add(
             (
