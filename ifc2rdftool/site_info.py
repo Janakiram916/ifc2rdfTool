@@ -26,26 +26,28 @@ def add_site_info_to_graph(site_entity, graph: Graph):
             BOT_NAMESPACE.Site,
         )
     )
-    graph.add(
-        (
-            URIRef(f"{INSTANCE_NAMESPACE}{site_entity.GlobalId}"),
-            GEO_NAMESPACE.lat,
-            Literal(
-                f"{tuple_to_decimal_latitude_or_longitude(site_entity.RefLatitude)}",
-                datatype=XSD.float,
-            ),
+    if site_entity.RefLatitude:
+        graph.add(
+            (
+                URIRef(f"{INSTANCE_NAMESPACE}{site_entity.GlobalId}"),
+                GEO_NAMESPACE.lat,
+                Literal(
+                    f"{tuple_to_decimal_latitude_or_longitude(site_entity.RefLatitude)}",
+                    datatype=XSD.float,
+                ),
+            )
         )
-    )
-    graph.add(
-        (
-            URIRef(f"{INSTANCE_NAMESPACE}{site_entity.GlobalId}"),
-            GEO_NAMESPACE.long,
-            Literal(
-                f"{tuple_to_decimal_latitude_or_longitude(site_entity.RefLongitude)}",
-                datatype=XSD.float,
-            ),
+    if site_entity.RefLongitude:
+        graph.add(
+            (
+                URIRef(f"{INSTANCE_NAMESPACE}{site_entity.GlobalId}"),
+                GEO_NAMESPACE.long,
+                Literal(
+                    f"{tuple_to_decimal_latitude_or_longitude(site_entity.RefLongitude)}",
+                    datatype=XSD.float,
+                ),
+            )
         )
-    )
     decomposition = ifcopenshell.util.element.get_aggregate(site_entity)
     if decomposition:
         graph.add(

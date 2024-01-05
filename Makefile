@@ -1,4 +1,4 @@
-SRC_PATH := ".\ifc2rdfTool"
+SRC_PATH := "./ifc2rdfTool"
 
 .PHONY: install
 install: ## Installs all dependencies

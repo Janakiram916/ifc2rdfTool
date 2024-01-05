@@ -83,9 +83,9 @@ def get_material_triples(element, material, graph_model):
 
 def get_element_layer_info(element, graph_model):
     layer_set_guid = get_valid_guid()
-    layer_set_usage = ifcopenshell.util.element.get_material(element).get_info()
+    layer_set_usage = ifcopenshell.util.element.get_material(element)
     if layer_set_usage:
-        layer_set = layer_set_usage["ForLayerSet"]
+        layer_set = layer_set_usage.get_info()["ForLayerSet"]
         if layer_set:
             graph_model.add(
                 (
@@ -101,15 +101,16 @@ def get_element_layer_info(element, graph_model):
                     DICM_NAMESPACE.LayerSet,
                 )
             )
-            graph_model.add(
-                (
-                    URIRef(f"{INSTANCE_NAMESPACE}{layer_set_guid}"),
-                    CORE_NAMESPACE.hasName,
-                    Literal(layer_set.get_info()["LayerSetName"]),
+            if layer_set.get_info()["LayerSetName"]:
+                graph_model.add(
+                    (
+                        URIRef(f"{INSTANCE_NAMESPACE}{layer_set_guid}"),
+                        CORE_NAMESPACE.hasName,
+                        Literal(layer_set.get_info()["LayerSetName"]),
+                    )
                 )
-            )
-            layers = layer_set.MaterialLayers
-            if layers:
+            if layer_set.MaterialLayers:
+                layers = layer_set.MaterialLayers
                 graph_model.add(
                     (
                         URIRef(f"{INSTANCE_NAMESPACE}{layer_set_guid}"),
@@ -134,13 +135,14 @@ def get_element_layer_info(element, graph_model):
                             DICM_NAMESPACE.Layer,
                         )
                     )
-                    graph_model.add(
-                        (
-                            URIRef(f"{INSTANCE_NAMESPACE}{layer_guid}"),
-                            CORE_NAMESPACE.hasLabel,
-                            Literal(layers[i].get_info()["Name"]),
+                    if layers[i].Name:
+                        graph_model.add(
+                            (
+                                URIRef(f"{INSTANCE_NAMESPACE}{layer_guid}"),
+                                CORE_NAMESPACE.hasLabel,
+                                Literal(layers[i].get_info()["Name"]),
+                            )
                         )
-                    )
                     layer_property_set = layers[i].get_info()
                     for property_name, property_value in layer_property_set.items():
                         if property_name == "LayerThickness":
