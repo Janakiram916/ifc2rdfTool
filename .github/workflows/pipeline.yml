@@ -37,11 +37,11 @@ jobs:
     - name: Run tests
       run: |
         pytest
-    - name: Upload the artifact
-      uses: actions/upload-artifact@v4
-      with:
-        name: ${{ env.ARTIFACT_NAME }}
-        path: .
+#    - name: Upload the artifact
+#      uses: actions/upload-artifact@v4
+#      with:
+#        name: ${{ env.ARTIFACT_NAME }}
+#        path: .
 
   build-for-windows:
 
@@ -66,6 +66,20 @@ jobs:
     - name: Run tests
       run: |
         pytest
+    - name: Generate app
+      run: |
+        flet pack ifc2rdfApp/ifc2rdfApp.py
+#    - name: Upload the artifact
+#      uses: actions/upload-artifact@v4
+#      with:
+#        name: ${{ env.ARTIFACT_NAME }}
+#        path: .
+    - name: Upload Application
+      uses: actions/upload-artifact@v4
+      with:
+          name: ifc2rdfApp
+          path: dist/ifc2rdfApp.exe
+        
 
   build-for-macos:
 
