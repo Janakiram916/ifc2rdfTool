@@ -102,7 +102,7 @@ jobs:
       - build-for-ubuntu
       - build-for-windows
       - build-for-macos
-    if: github.event_name == 'push'
+    # if: github.event_name == 'push'
     steps:
       - name: Set up version
         id: version
@@ -123,14 +123,22 @@ jobs:
           filename: ${{ env.ARTIFACT_NAME }}.zip
           exclusions: '*.git* /*node_modules/* .editorconfig /*__pycache__/* *.pyc'
 
+      - name: Tag
+        id: tag
+        uses: K-Phoen/semver-release-action@master
+        with:
+          release_branch: trunk
+        env:
+          GITHUB_TOKEN: ${{ secrets.RELEASE_GITHUB_TOKEN }}
+
       - name: Github release
         id: create_release
         uses: actions/create-release@v1
         env:
           GITHUB_TOKEN: ${{ secrets.RELEASE_GITHUB_TOKEN }} # This token is provided by Actions, you do not need to create your own token
         with:
-          tag_name: ${{ env.VERSION }}
-          release_name: Release v${{ env.VERSION }}
+          tag_name: ${{ steps.tag }}
+          release_name: Release v${{ steps.tag }}
 
       - name: Upload Release Asset
         id: upload-release-asset
@@ -140,5 +148,5 @@ jobs:
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }} # This pulls from the CREATE RELEASE step above, referencing it's ID to get its outputs object, which include a `upload_url`. See this blog post for more info: https://jasonet.co/posts/new-features-of-github-actions/#passing-data-to-future-steps
           asset_path: ./${{ env.ARTIFACT_NAME }}.zip
-          asset_name: ifc2rdftool-v${{ env.VERSION }}.zip
+          asset_name: ifc2rdftool.zip
           asset_content_type: application/zip
