@@ -13,7 +13,7 @@ env:
   ARTIFACT_NAME: ifc2rdftool
   MAJOR_VERSION: '0'
   MINOR_VERSION: '2'
-  PATCH_VERSION: ${{ github.run_number }}
+  PATCH_VERSION: '0'
 
 
 permissions:
@@ -102,12 +102,34 @@ jobs:
       - build-for-ubuntu
       - build-for-windows
       - build-for-macos
-    if: github.event_name == 'push'
+#    if: github.event_name == 'push'
     steps:
+      - name: Check for version bump
+        id: version-check
+        run: |
+          # Check for changes in the repository
+          CHANGES=$(git diff --name-only ${{ github.event.before }} ${{ github.sha }})
+
+          # Determine if there are changes in either major or minor version files
+          if echo "$CHANGES" | grep -qE '^(major|minor)/'; then
+            SHOULD_BUMP=true
+          else
+            SHOULD_BUMP=false
+          fi
+
+          # Output the result
+          echo "SHOULD_BUMP=${SHOULD_BUMP}" >> $GITHUB_ENV
+          
       - name: Set up version
         id: version
         run: |
-          echo "VERSION=${{ env.MAJOR_VERSION }}.${{ env.MINOR_VERSION }}.${{ env.PATCH_VERSION }}" >> $GITHUB_ENV
+          # Bump the PATCH_VERSION only if there are changes in major or minor
+          if [ "${{ env.SHOULD_BUMP }}" == "true" ]; then
+            PATCH_VERSION=$((PATCH_VERSION + 1))
+          fi
+
+          echo "PATCH_VERSION=${PATCH_VERSION}" >> $GITHUB_ENV
+          echo "VERSION=${MAJOR_VERSION}.${MINOR_VERSION}.${PATCH_VERSION}" >> $GITHUB_ENV
 
       - name: Download Artifact
         uses: actions/download-artifact@v4
