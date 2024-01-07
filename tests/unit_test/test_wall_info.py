@@ -9,13 +9,14 @@ from ifc2rdftool.ifc2rdf_tool import initialize_graph
 from ifc2rdftool.wall_info import (add_wall_info_to_graph,
                                    create_property_triple,
                                    get_element_layer_info,
+                                   get_element_properties,
                                    get_material_triples, get_multiple_guids,
-                                   get_valid_guid, get_wall_properties)
+                                   get_valid_guid)
 from tests.unit_test.test_ifc2rdf_tool import TEST_IFC_FILE
 
 
 @mock.patch("ifc2rdftool.wall_info.get_element_layer_info")
-@mock.patch("ifc2rdftool.wall_info.get_wall_properties")
+@mock.patch("ifc2rdftool.wall_info.get_element_properties")
 def test_should_return_graph_with_wall_data_when_entity_type_is_ifc_wall(
     mock_property_function,
     mock_layers_function,
@@ -101,7 +102,7 @@ def test_should_return_wall_properties(mock_guid, mock_psets) -> None:
     }
     test_graph = initialize_graph()
     test_wall_entity = TEST_IFC_FILE.by_type("IfcWall")[0]
-    get_wall_properties(test_wall_entity, test_graph)
+    get_element_properties(test_wall_entity, test_graph)
     expected_graph_str = f"""
         {PREFIXES}
         

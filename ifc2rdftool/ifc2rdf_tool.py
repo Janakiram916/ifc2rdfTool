@@ -10,6 +10,7 @@ from ifc2rdftool.graph_resources import (BEO_NAMESPACE, BOT_NAMESPACE,
                                          DICV_NAMESPACE, GEO_NAMESPACE,
                                          INSTANCE_NAMESPACE)
 from ifc2rdftool.site_info import add_site_info_to_graph
+from ifc2rdftool.slab_info import add_slab_info_to_graph
 from ifc2rdftool.storey_info import add_storey_info_to_graph
 from ifc2rdftool.wall_info import add_wall_info_to_graph
 
@@ -71,22 +72,18 @@ def add_project_info_to_graph(project_entity, graph: Graph):
 
 def add_entity_info_to_graph(ifc_file, graph: Graph, entity_type: str):
     entities = ifc_file.by_type(entity_type)
-    if entity_type == "IfcSite":
-        for entity in entities:
+    for entity in entities:
+        add_entity_global_id_and_label_info_to_graph(entity, graph)
+        if entity_type == "IfcSite":
             add_site_info_to_graph(entity, graph)
-            add_entity_global_id_and_label_info_to_graph(entity, graph)
-    elif entity_type == "IfcBuilding":
-        for entity in entities:
+        elif entity_type == "IfcBuilding":
             add_building_info_to_graph(entity, graph)
-            add_entity_global_id_and_label_info_to_graph(entity, graph)
-    elif entity_type == "IfcBuildingStorey":
-        for entity in entities:
+        elif entity_type == "IfcBuildingStorey":
             add_storey_info_to_graph(entity, graph)
-            add_entity_global_id_and_label_info_to_graph(entity, graph)
-    elif entity_type == "IfcWall":
-        for entity in entities:
+        elif entity_type == "IfcWall":
             add_wall_info_to_graph(entity, graph)
-            add_entity_global_id_and_label_info_to_graph(entity, graph)
+        elif entity_type == "IfcSlab":
+            add_slab_info_to_graph(entity, graph)
 
 
 def get_all_entity_types_from_project_decomposition(ifc):

@@ -1,0 +1,50 @@
+@prefix core: <https://w3id.org/digitalconstruction/core#> .
+@prefix dicm: <https://w3id.org/digitalconstruction/0.5/Materials#> .
+@prefix dicv: <https://w3id.org/digitalconstruction/0.5/Variables#> .
+@prefix inst: <https://w3id.org/digitalconstruction/instance#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+inst:3IgqlyNZb9CR1JNQVbt_lX dicm:hasLayerSet inst:2rvVZuy3X0l9ATwV2NTibB .
+
+inst:1InbJU1uf1NgTLNghGHC45 a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 2e+02 .
+
+inst:1InbJU1uf1NgTLNghGHC46 a dicm:Material ;
+    core:hasLabel "Damp-proofing" .
+
+inst:1InbJU1uf1NgTLNghGHC47 a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 1.25e+01 .
+
+inst:1JiIoLE5XAvx1zVHUdIyGn a dicm:Layer ;
+    dicm:hasMaterial inst:1vYs0UNEb6LB1yYXDqLDIH ;
+    dicv:hasProperty inst:1InbJU1uf1NgTLNghGHC45 ;
+    core:hasLabel "Concrete, Precast" .
+
+inst:1XVbyL0DzCVOyewmt2whMj a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 2e+02 .
+
+inst:1a8Aef4WT5O95P1duyJUJM a dicm:Layer ;
+    dicm:hasMaterial inst:29m76ZKSP4n8xpWQ5lKvUQ ;
+    dicv:hasProperty inst:1XVbyL0DzCVOyewmt2whMj ;
+    core:hasLabel "Sand" .
+
+inst:1vYs0UNEb6LB1yYXDqLDIH a dicm:Material ;
+    core:hasLabel "Concrete, Precast" .
+
+inst:213gwkWvf7bv0837WjMTfN a dicm:Layer ;
+    dicm:hasMaterial inst:1InbJU1uf1NgTLNghGHC46 ;
+    dicv:hasProperty inst:1InbJU1uf1NgTLNghGHC47 ;
+    core:hasLabel "Damp-proofing" .
+
+inst:29m76ZKSP4n8xpWQ5lKvUQ a dicm:Material ;
+    core:hasLabel "Sand" .
+
+inst:2rvVZuy3X0l9ATwV2NTibB a dicm:LayerSet ;
+    dicm:NumberOfLayers 3 ;
+    dicm:hasLayer inst:1JiIoLE5XAvx1zVHUdIyGn,
+        inst:1a8Aef4WT5O95P1duyJUJM,
+        inst:213gwkWvf7bv0837WjMTfN ;
+    core:hasName "Floor:Floor - 200mm Sand + 200mm Concrete + 12.5mm Dampproofing" .
