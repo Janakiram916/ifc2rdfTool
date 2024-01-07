@@ -12,8 +12,8 @@ on:
 env:
   ARTIFACT_NAME: ifc2rdftool
   MAJOR_VERSION: '0'
-  MINOR_VERSION: '2'
-  PATCH_VERSION: ${{ github.run_number % 100 }}
+  MINOR_VERSION: '3'
+  PATCH_VERSION: 0
 
 
 permissions:
