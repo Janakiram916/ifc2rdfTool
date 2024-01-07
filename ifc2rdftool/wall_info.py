@@ -85,7 +85,9 @@ def get_element_layer_info(element, graph_model):
     layer_set_guid = get_valid_guid()
     layer_set_usage = ifcopenshell.util.element.get_material(element)
     if layer_set_usage:
-        layer_set = layer_set_usage.get_info()["ForLayerSet"]
+        layer_set = layer_set_usage
+        if layer_set_usage.get_info()["type"] == "IfcMaterialLayerSetUsage":
+            layer_set = layer_set_usage.ForLayerSet
         if layer_set:
             graph_model.add(
                 (
