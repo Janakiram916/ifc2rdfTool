@@ -164,7 +164,11 @@ def get_element_properties(element, rdf_graph):
     psets_and_qtos = ifcopenshell.util.element.get_psets(element)
     element_guid = element.GlobalId
     for property_set_key, property_key in psets_and_qtos.items():
-        if property_set_key in ["Pset_WallCommon", "Pset_SlabCommon"]:
+        if property_set_key in [
+            "Pset_WallCommon",
+            "Pset_SlabCommon",
+            "Pset_SpaceCommon",
+        ]:
             for property_name, property_value in property_key.items():
                 if property_name == "ThermalTransmittance":
                     create_property_triple(
@@ -174,7 +178,11 @@ def get_element_properties(element, rdf_graph):
                     create_property_triple(
                         property_name, property_value, element_guid, rdf_graph
                     )
-        if property_set_key in ["Qto_WallBaseQuantities", "Qto_SlabBaseQuantities"]:
+        if property_set_key in [
+            "Qto_WallBaseQuantities",
+            "Qto_SlabBaseQuantities",
+            "Qto_SpaceBaseQuantities",
+        ]:
             for property_name, property_value in property_key.items():
                 if property_name == "Length":
                     create_property_triple(
@@ -205,6 +213,10 @@ def get_element_properties(element, rdf_graph):
                         property_name, property_value, element_guid, rdf_graph
                     )
                 if property_name == "Perimeter":
+                    create_property_triple(
+                        property_name, property_value, element_guid, rdf_graph
+                    )
+                if property_name == "NetFloorArea":
                     create_property_triple(
                         property_name, property_value, element_guid, rdf_graph
                     )

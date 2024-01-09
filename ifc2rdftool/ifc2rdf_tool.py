@@ -11,6 +11,7 @@ from ifc2rdftool.graph_resources import (BEO_NAMESPACE, BOT_NAMESPACE,
                                          INSTANCE_NAMESPACE)
 from ifc2rdftool.site_info import add_site_info_to_graph
 from ifc2rdftool.slab_info import add_slab_info_to_graph
+from ifc2rdftool.space_info import add_space_info_to_graph
 from ifc2rdftool.storey_info import add_storey_info_to_graph
 from ifc2rdftool.wall_info import add_wall_info_to_graph
 
@@ -80,10 +81,12 @@ def add_entity_info_to_graph(ifc_file, graph: Graph, entity_type: str):
             add_building_info_to_graph(entity, graph)
         elif entity_type == "IfcBuildingStorey":
             add_storey_info_to_graph(entity, graph)
-        elif entity_type == "IfcWall":
+        elif entity_type in ["IfcWall", "IfcWallStandardCase"]:
             add_wall_info_to_graph(entity, graph)
         elif entity_type == "IfcSlab":
             add_slab_info_to_graph(entity, graph)
+        elif entity_type == "IfcSpace":
+            add_space_info_to_graph(entity, graph)
 
 
 def get_all_entity_types_from_project_decomposition(ifc):

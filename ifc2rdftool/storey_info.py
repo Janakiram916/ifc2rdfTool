@@ -5,6 +5,21 @@ from rdflib.namespace import RDF
 from ifc2rdftool.graph_resources import BOT_NAMESPACE, INSTANCE_NAMESPACE
 
 
+def get_relationship_with_spaces(storey, storey_graph: Graph) -> None:
+    relationship = storey.IsDecomposedBy
+    if relationship:
+        space_entities = relationship[0].RelatedObjects
+        if space_entities:
+            for space_entity in space_entities:
+                storey_graph.add(
+                    (
+                        URIRef(f"{INSTANCE_NAMESPACE}{storey.GlobalId}"),
+                        BOT_NAMESPACE.hasSpace,
+                        URIRef(f"{INSTANCE_NAMESPACE}{space_entity.GlobalId}"),
+                    )
+                )
+
+
 def add_storey_info_to_graph(storey_entity, graph: Graph):
     graph.add(
         (
@@ -22,3 +37,4 @@ def add_storey_info_to_graph(storey_entity, graph: Graph):
                 URIRef(f"{INSTANCE_NAMESPACE}{storey_entity.GlobalId}"),
             )
         )
+    get_relationship_with_spaces(storey_entity, graph)
