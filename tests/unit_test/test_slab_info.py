@@ -79,8 +79,8 @@ def test_should_return_slab_properties(mock_guid, mock_psets) -> None:
         "Analytical Properties": {"Thermal Resistance (R)": "test_value3"},
     }
     test_graph = initialize_graph()
-    test_wall_entity = TEST_IFC_FILE.by_type("IfcSlab")[0]
-    get_element_properties(test_wall_entity, test_graph)
+    test_slab_entity = TEST_IFC_FILE.by_type("IfcSlab")[0]
+    get_element_properties(test_slab_entity, test_graph)
     expected_graph_str = f"""
         {PREFIXES}
 

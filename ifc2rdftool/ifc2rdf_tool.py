@@ -14,6 +14,7 @@ from ifc2rdftool.slab_info import add_slab_info_to_graph
 from ifc2rdftool.space_info import add_space_info_to_graph
 from ifc2rdftool.storey_info import add_storey_info_to_graph
 from ifc2rdftool.wall_info import add_wall_info_to_graph
+from ifc2rdftool.windows_info import add_windows_info_to_graph
 
 
 def initialize_graph() -> Graph:
@@ -87,6 +88,8 @@ def add_entity_info_to_graph(ifc_file, graph: Graph, entity_type: str):
             add_slab_info_to_graph(entity, graph)
         elif entity_type == "IfcSpace":
             add_space_info_to_graph(entity, graph)
+        elif entity_type == "IfcWindow":
+            add_windows_info_to_graph(entity, graph)
 
 
 def get_all_entity_types_from_project_decomposition(ifc):
