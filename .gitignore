@@ -10,5 +10,4 @@
 __pycache__/
 tests/__pycache__/
 
-#personal resources
-resources/
+main.spec
