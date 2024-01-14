@@ -169,6 +169,7 @@ def get_element_properties(element, rdf_graph):
             "Pset_SlabCommon",
             "Pset_SpaceCommon",
             "Pset_WindowCommon",
+            "Pset_DoorCommon",
         ]:
             for property_name, property_value in property_key.items():
                 if property_name == "ThermalTransmittance":
@@ -184,6 +185,7 @@ def get_element_properties(element, rdf_graph):
             "Qto_SlabBaseQuantities",
             "Qto_SpaceBaseQuantities",
             "Qto_WindowBaseQuantities",
+            "Qto_DoorBaseQuantities",
         ]:
             for property_name, property_value in property_key.items():
                 if property_name == "Length":

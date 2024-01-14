@@ -104,5 +104,5 @@ def add_windows_info_to_graph(window_element, graph_model):
                     URIRef(f"{INSTANCE_NAMESPACE}{element.GlobalId}"),
                 )
             )
-    # get_element_layer_info(wall_element, graph_model)
     get_element_properties(window_element, graph_model)
+    get_element_material_constituent_info(window_element, graph_model)
