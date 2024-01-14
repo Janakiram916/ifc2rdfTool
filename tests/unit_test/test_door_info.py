@@ -3,31 +3,31 @@ from unittest import mock
 from rdflib import Graph
 from rdflib.compare import isomorphic
 
+from ifc2rdftool.door_info import add_door_info_to_graph
 from ifc2rdftool.graph_resources import PREFIXES
 from ifc2rdftool.ifc2rdf_tool import initialize_graph
 from ifc2rdftool.wall_info import get_element_properties
-from ifc2rdftool.windows_info import (add_windows_info_to_graph,
-                                      get_element_material_constituent_info)
+from ifc2rdftool.windows_info import get_element_material_constituent_info
 from tests.unit_test.test_ifc2rdf_tool import TEST_IFC_FILE
 
 
-@mock.patch("ifc2rdftool.windows_info.get_element_material_constituent_info")
-@mock.patch("ifc2rdftool.windows_info.get_element_properties")
-def test_should_return_window_info_without_materials_and_property_data(
+@mock.patch("ifc2rdftool.door_info.get_element_material_constituent_info")
+@mock.patch("ifc2rdftool.door_info.get_element_properties")
+def test_should_return_door_info_without_materials_and_property_data(
     mock_property_function, mock_constituents_func
 ) -> None:
     test_graph = initialize_graph()
-    test_window_entity = TEST_IFC_FILE.by_type("IfcWindow")[0]
-    add_windows_info_to_graph(test_window_entity, test_graph)
+    test_door_entity = TEST_IFC_FILE.by_type("IfcDoor")[0]
+    add_door_info_to_graph(test_door_entity, test_graph)
     expected_graph_str = f"""
             {PREFIXES}
-            inst:2rvVZuy3X0l9ATwUENTYQY a beo:Window .
-            inst:04XCdhzWXDtBhVSPQ7KoNt bot:containsElement inst:2rvVZuy3X0l9ATwUENTYQY .
+            inst:2rvVZuy3X0l9ATwUENTjYJ a beo:Door .
+            inst:04XCdhzWXDtBhVSPQ7KoNt bot:containsElement inst:2rvVZuy3X0l9ATwUENTjYJ .
             """
     expected_graph = Graph().parse(data=expected_graph_str, format="turtle")
     assert isomorphic(test_graph, expected_graph)
-    mock_constituents_func.assert_called_once_with(test_window_entity, test_graph)
-    mock_property_function.assert_called_once_with(test_window_entity, test_graph)
+    mock_constituents_func.assert_called_once_with(test_door_entity, test_graph)
+    mock_property_function.assert_called_once_with(test_door_entity, test_graph)
 
 
 @mock.patch("ifcopenshell.util.element.get_psets")
@@ -44,12 +44,12 @@ def test_should_return_window_properties(mock_guid, mock_psets) -> None:
         "Analytical Properties": {"Thermal Resistance (R)": "test_value3"},
     }
     test_graph = initialize_graph()
-    test_window_entity = TEST_IFC_FILE.by_type("IfcWindow")[0]
-    get_element_properties(test_window_entity, test_graph)
+    test_door_entity = TEST_IFC_FILE.by_type("IfcDoor")[0]
+    get_element_properties(test_door_entity, test_graph)
     expected_graph_str = f"""
         {PREFIXES}
 
-        inst:2rvVZuy3X0l9ATwUENTYQY dicv:hasProperty inst:2rvVZuy3X0l9ATwV2NTibB ,
+        inst:2rvVZuy3X0l9ATwUENTjYJ dicv:hasProperty inst:2rvVZuy3X0l9ATwV2NTibB ,
             inst:2rvVZuy3X0l9ATwV2NTYSe,
             inst:2rvVZuy3X0l9ATwUENTYSe.
 
@@ -97,10 +97,10 @@ def test_should_return_graph_with_window_layer_data_when_entity_type_is_ifc_wind
     mocked_material_guid, mocked_constituent_guid, mocker_layer_set_guid
 ) -> None:
     test_graph = initialize_graph()
-    test_window_entity = TEST_IFC_FILE.by_type("IfcWindow")[0]
-    get_element_material_constituent_info(test_window_entity, test_graph)
+    test_door_entity = TEST_IFC_FILE.by_type("IfcDoor")[0]
+    get_element_material_constituent_info(test_door_entity, test_graph)
     expected_graph = Graph().parse(
-        source="tests/test_resources/test_window_constituent.ttl", format="turtle"
+        source="tests/test_resources/test_door_constituent.ttl", format="turtle"
     )
     assert isomorphic(test_graph, expected_graph)
     mocked_material_guid.assert_called()
