@@ -58,7 +58,7 @@ def test_should_return_graph_with_slab_layer_data_when_entity_type_is_ifc_slab(
     test_building_entity = TEST_IFC_FILE.by_type("IfcSlab")[0]
     get_element_layer_info(test_building_entity, test_graph)
     expected_graph = Graph().parse(
-        source="tests/test_resources/test_slab_layer.ttl", format="turtle"
+        source="tests/unit_test/test_resources/test_slab_layer.ttl", format="turtle"
     )
     assert isomorphic(test_graph, expected_graph)
     mocked_layers_guid.assert_called()

@@ -7,7 +7,7 @@ from ifc2rdftool.ifc2rdf_tool import (
     add_entity_global_id_and_label_info_to_graph, add_project_info_to_graph,
     get_all_entity_types_from_project_decomposition, initialize_graph)
 
-TEST_IFC_FILE_PATH = "tests/test_resources/Demonstration_Model_V1_DTV_4.ifc"
+TEST_IFC_FILE_PATH = "tests/unit_test/test_resources/Demonstration_Model_V1_DTV_4.ifc"
 TEST_IFC_FILE = ifcopenshell.open(TEST_IFC_FILE_PATH)
 
 
