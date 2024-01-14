@@ -80,7 +80,7 @@ def test_should_return_graph_with_wall_layer_data_when_entity_type_is_ifc_wall(
     test_building_entity = TEST_IFC_FILE.by_type("IfcWall")[0]
     get_element_layer_info(test_building_entity, test_graph)
     expected_graph = Graph().parse(
-        source="tests/test_resources/test_wall_layer.ttl", format="turtle"
+        source="tests/unit_test/test_resources/test_wall_layer.ttl", format="turtle"
     )
     assert isomorphic(test_graph, expected_graph)
     mocked_layers_guid.assert_called()

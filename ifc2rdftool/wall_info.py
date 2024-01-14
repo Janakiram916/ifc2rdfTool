@@ -103,7 +103,7 @@ def get_element_layer_info(element, graph_model):
                     DICM_NAMESPACE.LayerSet,
                 )
             )
-            if layer_set.get_info()["LayerSetName"]:
+            if "LayerSetName" in layer_set.get_info():
                 graph_model.add(
                     (
                         URIRef(f"{INSTANCE_NAMESPACE}{layer_set_guid}"),
@@ -111,7 +111,7 @@ def get_element_layer_info(element, graph_model):
                         Literal(layer_set.get_info()["LayerSetName"]),
                     )
                 )
-            if layer_set.MaterialLayers:
+            if "MaterialLayers" in layer_set.get_info():
                 layers = layer_set.MaterialLayers
                 graph_model.add(
                     (
@@ -137,7 +137,7 @@ def get_element_layer_info(element, graph_model):
                             DICM_NAMESPACE.Layer,
                         )
                     )
-                    if layers[i].Name:
+                    if "Name" in layers[i].get_info():
                         graph_model.add(
                             (
                                 URIRef(f"{INSTANCE_NAMESPACE}{layer_guid}"),

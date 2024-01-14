@@ -1,0 +1,1969 @@
+@prefix beo: <https://pi.pauwel.be/voc/buildingelement#> .
+@prefix bot: <https://w3id.org/bot#> .
+@prefix core: <https://w3id.org/digitalconstruction/core#> .
+@prefix dicm: <https://w3id.org/digitalconstruction/0.5/Materials#> .
+@prefix dicv: <https://w3id.org/digitalconstruction/0.5/Variables#> .
+@prefix geo1: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix inst: <https://w3id.org/digitalconstruction/instance#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+inst:0OCKWbE5XClAxb7e2zYg04 core:hasGlobalID "0OCKWbE5XClAxb7e2zYg04" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:151400" .
+
+inst:0OCKWbE5XClAxb7e2zYg0P core:hasGlobalID "0OCKWbE5XClAxb7e2zYg0P" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:151413" .
+
+inst:0OCKWbE5XClAxb7e2zYg0c core:hasGlobalID "0OCKWbE5XClAxb7e2zYg0c" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:151370" .
+
+inst:0OCKWbE5XClAxb7e2zYg0t core:hasGlobalID "0OCKWbE5XClAxb7e2zYg0t" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:151387" .
+
+inst:0OCKWbE5XClAxb7e2zYg1a core:hasGlobalID "0OCKWbE5XClAxb7e2zYg1a" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:151304" .
+
+inst:0OCKWbE5XClAxb7e2zYg22 core:hasGlobalID "0OCKWbE5XClAxb7e2zYg22" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:151534" .
+
+inst:0OCKWbE5XClAxb7e2zYg2H core:hasGlobalID "0OCKWbE5XClAxb7e2zYg2H" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:151549" .
+
+inst:0OCKWbE5XClAxb7e2zYg2_ core:hasGlobalID "0OCKWbE5XClAxb7e2zYg2_" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:151506" .
+
+inst:0OCKWbE5XClAxb7e2zYg2f core:hasGlobalID "0OCKWbE5XClAxb7e2zYg2f" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:151493" .
+
+inst:0OCKWbE5XClAxb7e2zYg2p core:hasGlobalID "0OCKWbE5XClAxb7e2zYg2p" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:151519" .
+
+<https://w3id.org/digitalconstruction/instance#0OCKWbE5XClAxb7e2zYg3$> core:hasGlobalID "0OCKWbE5XClAxb7e2zYg3$" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:151443" .
+
+inst:0OCKWbE5XClAxb7e2zYg3Q core:hasGlobalID "0OCKWbE5XClAxb7e2zYg3Q" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:151478" .
+
+inst:0OCKWbE5XClAxb7e2zYg3g core:hasGlobalID "0OCKWbE5XClAxb7e2zYg3g" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:151430" .
+
+inst:0OCKWbE5XClAxb7e2zYg4B core:hasGlobalID "0OCKWbE5XClAxb7e2zYg4B" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:151143" .
+
+inst:0OCKWbE5XClAxb7e2zYg4R core:hasGlobalID "0OCKWbE5XClAxb7e2zYg4R" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:151159" .
+
+inst:0OCKWbE5XClAxb7e2zYg4f core:hasGlobalID "0OCKWbE5XClAxb7e2zYg4f" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:151109" .
+
+inst:0OCKWbE5XClAxb7e2zYg4x core:hasGlobalID "0OCKWbE5XClAxb7e2zYg4x" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:151127" .
+
+inst:0OCKWbE5XClAxb7e2zYg5V core:hasGlobalID "0OCKWbE5XClAxb7e2zYg5V" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:151091" .
+
+inst:0OCKWbE5XClAxb7e2zYg64 core:hasGlobalID "0OCKWbE5XClAxb7e2zYg64" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:151272" .
+
+inst:0OCKWbE5XClAxb7e2zYg6R core:hasGlobalID "0OCKWbE5XClAxb7e2zYg6R" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:151287" .
+
+inst:0OCKWbE5XClAxb7e2zYg6d core:hasGlobalID "0OCKWbE5XClAxb7e2zYg6d" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:151243" .
+
+inst:0OCKWbE5XClAxb7e2zYg6r core:hasGlobalID "0OCKWbE5XClAxb7e2zYg6r" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:151257" .
+
+inst:0OCKWbE5XClAxb7e2zYg73 core:hasGlobalID "0OCKWbE5XClAxb7e2zYg73" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:151215" .
+
+inst:0OCKWbE5XClAxb7e2zYg7H core:hasGlobalID "0OCKWbE5XClAxb7e2zYg7H" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:151229" .
+
+inst:0OCKWbE5XClAxb7e2zYg7d core:hasGlobalID "0OCKWbE5XClAxb7e2zYg7d" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:151179" .
+
+inst:0OCKWbE5XClAxb7e2zYg7p core:hasGlobalID "0OCKWbE5XClAxb7e2zYg7p" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:151199" .
+
+inst:0OCKWbE5XClAxb7e2zYg84 core:hasGlobalID "0OCKWbE5XClAxb7e2zYg84" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:150888" .
+
+inst:0OCKWbE5XClAxb7e2zYg8l core:hasGlobalID "0OCKWbE5XClAxb7e2zYg8l" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:150851" .
+
+inst:0OCKWbE5XClAxb7e2zYg97 core:hasGlobalID "0OCKWbE5XClAxb7e2zYg97" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:150827" .
+
+inst:0OCKWbE5XClAxb7e2zYg9l core:hasGlobalID "0OCKWbE5XClAxb7e2zYg9l" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:150787" .
+
+inst:0OCKWbE5XClAxb7e2zYgAw core:hasGlobalID "0OCKWbE5XClAxb7e2zYgAw" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:150998" .
+
+inst:0OCKWbE5XClAxb7e2zYgBM core:hasGlobalID "0OCKWbE5XClAxb7e2zYgBM" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:150970" .
+
+inst:0OCKWbE5XClAxb7e2zYgB_ core:hasGlobalID "0OCKWbE5XClAxb7e2zYgB_" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:150930" .
+
+inst:0OCKWbE5XClAxb7e2zYgEC core:hasGlobalID "0OCKWbE5XClAxb7e2zYgEC" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:150752" .
+
+<https://w3id.org/digitalconstruction/instance#0OCKWbE5XClAxb7e2zYgS$> core:hasGlobalID "0OCKWbE5XClAxb7e2zYgS$" ;
+    core:hasLabel "M_W-Wide Flange-Column:W250X67:W250X67:149587" .
+
+inst:0OCKWbE5XClAxb7e2zYgSW core:hasGlobalID "0OCKWbE5XClAxb7e2zYgSW" ;
+    core:hasLabel "M_W-Wide Flange-Column:W250X67:W250X67:149580" .
+
+inst:0OCKWbE5XClAxb7e2zYgSX core:hasGlobalID "0OCKWbE5XClAxb7e2zYgSX" ;
+    core:hasLabel "M_W-Wide Flange-Column:W250X67:W250X67:149581" .
+
+inst:0OCKWbE5XClAxb7e2zYgSY core:hasGlobalID "0OCKWbE5XClAxb7e2zYgSY" ;
+    core:hasLabel "M_W-Wide Flange-Column:W250X67:W250X67:149582" .
+
+inst:0OCKWbE5XClAxb7e2zYgSZ core:hasGlobalID "0OCKWbE5XClAxb7e2zYgSZ" ;
+    core:hasLabel "M_W-Wide Flange-Column:W250X67:W250X67:149583" .
+
+inst:0OCKWbE5XClAxb7e2zYgS_ core:hasGlobalID "0OCKWbE5XClAxb7e2zYgS_" ;
+    core:hasLabel "M_W-Wide Flange-Column:W250X67:W250X67:149586" .
+
+inst:0OCKWbE5XClAxb7e2zYgSa core:hasGlobalID "0OCKWbE5XClAxb7e2zYgSa" ;
+    core:hasLabel "M_W-Wide Flange-Column:W250X67:W250X67:149576" .
+
+inst:0OCKWbE5XClAxb7e2zYgSb core:hasGlobalID "0OCKWbE5XClAxb7e2zYgSb" ;
+    core:hasLabel "M_W-Wide Flange-Column:W250X67:W250X67:149577" .
+
+inst:0OCKWbE5XClAxb7e2zYgSc core:hasGlobalID "0OCKWbE5XClAxb7e2zYgSc" ;
+    core:hasLabel "M_W-Wide Flange-Column:W250X67:W250X67:149578" .
+
+inst:0OCKWbE5XClAxb7e2zYgSd core:hasGlobalID "0OCKWbE5XClAxb7e2zYgSd" ;
+    core:hasLabel "M_W-Wide Flange-Column:W250X67:W250X67:149579" .
+
+inst:0OCKWbE5XClAxb7e2zYgSe core:hasGlobalID "0OCKWbE5XClAxb7e2zYgSe" ;
+    core:hasLabel "M_W-Wide Flange-Column:W250X67:W250X67:149572" .
+
+inst:0OCKWbE5XClAxb7e2zYgSf core:hasGlobalID "0OCKWbE5XClAxb7e2zYgSf" ;
+    core:hasLabel "M_W-Wide Flange-Column:W250X67:W250X67:149573" .
+
+inst:0OCKWbE5XClAxb7e2zYgSg core:hasGlobalID "0OCKWbE5XClAxb7e2zYgSg" ;
+    core:hasLabel "M_W-Wide Flange-Column:W250X67:W250X67:149574" .
+
+inst:0OCKWbE5XClAxb7e2zYgSh core:hasGlobalID "0OCKWbE5XClAxb7e2zYgSh" ;
+    core:hasLabel "M_W-Wide Flange-Column:W250X67:W250X67:149575" .
+
+inst:0OCKWbE5XClAxb7e2zYgSi core:hasGlobalID "0OCKWbE5XClAxb7e2zYgSi" ;
+    core:hasLabel "M_W-Wide Flange-Column:W250X67:W250X67:149568" .
+
+inst:0OCKWbE5XClAxb7e2zYgSj core:hasGlobalID "0OCKWbE5XClAxb7e2zYgSj" ;
+    core:hasLabel "M_W-Wide Flange-Column:W250X67:W250X67:149569" .
+
+inst:0OCKWbE5XClAxb7e2zYgSk core:hasGlobalID "0OCKWbE5XClAxb7e2zYgSk" ;
+    core:hasLabel "M_W-Wide Flange-Column:W250X67:W250X67:149570" .
+
+inst:0OCKWbE5XClAxb7e2zYgSl core:hasGlobalID "0OCKWbE5XClAxb7e2zYgSl" ;
+    core:hasLabel "M_W-Wide Flange-Column:W250X67:W250X67:149571" .
+
+inst:0OCKWbE5XClAxb7e2zYgSy core:hasGlobalID "0OCKWbE5XClAxb7e2zYgSy" ;
+    core:hasLabel "M_W-Wide Flange-Column:W250X67:W250X67:149584" .
+
+inst:0OCKWbE5XClAxb7e2zYgSz core:hasGlobalID "0OCKWbE5XClAxb7e2zYgSz" ;
+    core:hasLabel "M_W-Wide Flange-Column:W250X67:W250X67:149585" .
+
+inst:0OCKWbE5XClAxb7e2zYgT1 core:hasGlobalID "0OCKWbE5XClAxb7e2zYgT1" ;
+    core:hasLabel "M_W-Wide Flange-Column:W250X67:W250X67:149549" .
+
+inst:0OCKWbE5XClAxb7e2zYgT2 core:hasGlobalID "0OCKWbE5XClAxb7e2zYgT2" ;
+    core:hasLabel "M_W-Wide Flange-Column:W250X67:W250X67:149550" .
+
+inst:0OCKWbE5XClAxb7e2zYgT3 core:hasGlobalID "0OCKWbE5XClAxb7e2zYgT3" ;
+    core:hasLabel "M_W-Wide Flange-Column:W250X67:W250X67:149551" .
+
+inst:0OCKWbE5XClAxb7e2zYgTG core:hasGlobalID "0OCKWbE5XClAxb7e2zYgTG" ;
+    core:hasLabel "M_W-Wide Flange-Column:W250X67:W250X67:149564" .
+
+inst:0OCKWbE5XClAxb7e2zYgTH core:hasGlobalID "0OCKWbE5XClAxb7e2zYgTH" ;
+    core:hasLabel "M_W-Wide Flange-Column:W250X67:W250X67:149565" .
+
+inst:0OCKWbE5XClAxb7e2zYgTI core:hasGlobalID "0OCKWbE5XClAxb7e2zYgTI" ;
+    core:hasLabel "M_W-Wide Flange-Column:W250X67:W250X67:149566" .
+
+inst:0OCKWbE5XClAxb7e2zYgTJ core:hasGlobalID "0OCKWbE5XClAxb7e2zYgTJ" ;
+    core:hasLabel "M_W-Wide Flange-Column:W250X67:W250X67:149567" .
+
+inst:0OCKWbE5XClAxb7e2zYgTK core:hasGlobalID "0OCKWbE5XClAxb7e2zYgTK" ;
+    core:hasLabel "M_W-Wide Flange-Column:W250X67:W250X67:149560" .
+
+inst:0OCKWbE5XClAxb7e2zYgTL core:hasGlobalID "0OCKWbE5XClAxb7e2zYgTL" ;
+    core:hasLabel "M_W-Wide Flange-Column:W250X67:W250X67:149561" .
+
+inst:0OCKWbE5XClAxb7e2zYgTM core:hasGlobalID "0OCKWbE5XClAxb7e2zYgTM" ;
+    core:hasLabel "M_W-Wide Flange-Column:W250X67:W250X67:149562" .
+
+inst:0OCKWbE5XClAxb7e2zYgTN core:hasGlobalID "0OCKWbE5XClAxb7e2zYgTN" ;
+    core:hasLabel "M_W-Wide Flange-Column:W250X67:W250X67:149563" .
+
+inst:0OCKWbE5XClAxb7e2zYgTO core:hasGlobalID "0OCKWbE5XClAxb7e2zYgTO" ;
+    core:hasLabel "M_W-Wide Flange-Column:W250X67:W250X67:149556" .
+
+inst:0OCKWbE5XClAxb7e2zYgTP core:hasGlobalID "0OCKWbE5XClAxb7e2zYgTP" ;
+    core:hasLabel "M_W-Wide Flange-Column:W250X67:W250X67:149557" .
+
+inst:0OCKWbE5XClAxb7e2zYgTQ core:hasGlobalID "0OCKWbE5XClAxb7e2zYgTQ" ;
+    core:hasLabel "M_W-Wide Flange-Column:W250X67:W250X67:149558" .
+
+inst:0OCKWbE5XClAxb7e2zYgTR core:hasGlobalID "0OCKWbE5XClAxb7e2zYgTR" ;
+    core:hasLabel "M_W-Wide Flange-Column:W250X67:W250X67:149559" .
+
+inst:0OCKWbE5XClAxb7e2zYgTS core:hasGlobalID "0OCKWbE5XClAxb7e2zYgTS" ;
+    core:hasLabel "M_W-Wide Flange-Column:W250X67:W250X67:149552" .
+
+inst:0OCKWbE5XClAxb7e2zYgTT core:hasGlobalID "0OCKWbE5XClAxb7e2zYgTT" ;
+    core:hasLabel "M_W-Wide Flange-Column:W250X67:W250X67:149553" .
+
+inst:0OCKWbE5XClAxb7e2zYgTU core:hasGlobalID "0OCKWbE5XClAxb7e2zYgTU" ;
+    core:hasLabel "M_W-Wide Flange-Column:W250X67:W250X67:149554" .
+
+inst:0OCKWbE5XClAxb7e2zYgTV core:hasGlobalID "0OCKWbE5XClAxb7e2zYgTV" ;
+    core:hasLabel "M_W-Wide Flange-Column:W250X67:W250X67:149555" .
+
+inst:0OCKWbE5XClAxb7e2zYgWe core:hasGlobalID "0OCKWbE5XClAxb7e2zYgWe" ;
+    core:hasLabel "M_W-Wide Flange-Column:W250X67:W250X67:149316" .
+
+<https://w3id.org/digitalconstruction/instance#0OCKWbE5XClAxb7e2zYh$R> core:hasGlobalID "0OCKWbE5XClAxb7e2zYh$R" ;
+    core:hasLabel "M_W-Wide Flange:W360X44:W360X44:151735" .
+
+inst:0OCKWbE5XClAxb7e2zYh_2 core:hasGlobalID "0OCKWbE5XClAxb7e2zYh_2" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:151790" .
+
+inst:0OCKWbE5XClAxb7e2zYh_J core:hasGlobalID "0OCKWbE5XClAxb7e2zYh_J" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:151807" .
+
+inst:0OCKWbE5XClAxb7e2zYh_a core:hasGlobalID "0OCKWbE5XClAxb7e2zYh_a" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:151752" .
+
+inst:0OCKWbE5XClAxb7e2zYh_v core:hasGlobalID "0OCKWbE5XClAxb7e2zYh_v" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:151765" .
+
+inst:0OCKWbE5XClAxb7e2zYhq3 core:hasGlobalID "0OCKWbE5XClAxb7e2zYhq3" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:152175" .
+
+inst:0OCKWbE5XClAxb7e2zYhqE core:hasGlobalID "0OCKWbE5XClAxb7e2zYhqE" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:152162" .
+
+inst:0OCKWbE5XClAxb7e2zYhqG core:hasGlobalID "0OCKWbE5XClAxb7e2zYhqG" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:152188" .
+
+inst:0OCKWbE5XClAxb7e2zYhqa core:hasGlobalID "0OCKWbE5XClAxb7e2zYhqa" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:152136" .
+
+inst:0OCKWbE5XClAxb7e2zYhqv core:hasGlobalID "0OCKWbE5XClAxb7e2zYhqv" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:152149" .
+
+inst:0OCKWbE5XClAxb7e2zYhr4 core:hasGlobalID "0OCKWbE5XClAxb7e2zYhr4" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:152104" .
+
+inst:0OCKWbE5XClAxb7e2zYhrL core:hasGlobalID "0OCKWbE5XClAxb7e2zYhrL" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:152121" .
+
+inst:0OCKWbE5XClAxb7e2zYhri core:hasGlobalID "0OCKWbE5XClAxb7e2zYhri" ;
+    core:hasLabel "M_W-Wide Flange:W360X44:W360X44:152064" .
+
+inst:0OCKWbE5XClAxb7e2zYhuD core:hasGlobalID "0OCKWbE5XClAxb7e2zYhuD" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:151905" .
+
+inst:0OCKWbE5XClAxb7e2zYhuU core:hasGlobalID "0OCKWbE5XClAxb7e2zYhuU" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:151922" .
+
+inst:0OCKWbE5XClAxb7e2zYhuj core:hasGlobalID "0OCKWbE5XClAxb7e2zYhuj" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:151873" .
+
+inst:0OCKWbE5XClAxb7e2zYhvD core:hasGlobalID "0OCKWbE5XClAxb7e2zYhvD" ;
+    core:hasLabel "M_W-Wide Flange:W360X44:W360X44:151841" .
+
+inst:0OCKWbE5XClAxb7e2zYhvU core:hasGlobalID "0OCKWbE5XClAxb7e2zYhvU" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:151858" .
+
+inst:0OCKWbE5XClAxb7e2zYhvW core:hasGlobalID "0OCKWbE5XClAxb7e2zYhvW" ;
+    core:hasLabel "M_W-Wide Flange:W360X44:W360X44:151820" .
+
+inst:0OCKWbE5XClAxb7e2zYhwC core:hasGlobalID "0OCKWbE5XClAxb7e2zYhwC" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:152032" .
+
+inst:0OCKWbE5XClAxb7e2zYhwT core:hasGlobalID "0OCKWbE5XClAxb7e2zYhwT" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:152049" .
+
+inst:0OCKWbE5XClAxb7e2zYhwa core:hasGlobalID "0OCKWbE5XClAxb7e2zYhwa" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:152008" .
+
+inst:0OCKWbE5XClAxb7e2zYhx4 core:hasGlobalID "0OCKWbE5XClAxb7e2zYhx4" ;
+    core:hasLabel "M_W-Wide Flange:W360X44:W360X44:151976" .
+
+inst:0OCKWbE5XClAxb7e2zYhxL core:hasGlobalID "0OCKWbE5XClAxb7e2zYhxL" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:151993" .
+
+inst:0OCKWbE5XClAxb7e2zYhx_ core:hasGlobalID "0OCKWbE5XClAxb7e2zYhx_" ;
+    core:hasLabel "M_W-Wide Flange:W360X44:W360X44:151954" .
+
+inst:0OCKWbE5XClAxb7e2zYhy6 core:hasGlobalID "0OCKWbE5XClAxb7e2zYhy6" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:151658" .
+
+inst:0OCKWbE5XClAxb7e2zYhyR core:hasGlobalID "0OCKWbE5XClAxb7e2zYhyR" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:151671" .
+
+inst:0OCKWbE5XClAxb7e2zYhyc core:hasGlobalID "0OCKWbE5XClAxb7e2zYhyc" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:151626" .
+
+inst:0OCKWbE5XClAxb7e2zYhyn core:hasGlobalID "0OCKWbE5XClAxb7e2zYhyn" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:151645" .
+
+inst:0OCKWbE5XClAxb7e2zYhzJ core:hasGlobalID "0OCKWbE5XClAxb7e2zYhzJ" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:151615" .
+
+inst:0OCKWbE5XClAxb7e2zYhzS core:hasGlobalID "0OCKWbE5XClAxb7e2zYhzS" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:151600" .
+
+inst:0OCKWbE5XClAxb7e2zYhzp core:hasGlobalID "0OCKWbE5XClAxb7e2zYhzp" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:151583" .
+
+<https://w3id.org/digitalconstruction/instance#178AwrkRP5mhvJtBJNVV$A> core:hasGlobalID "178AwrkRP5mhvJtBJNVV$A" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:167788" .
+
+<https://w3id.org/digitalconstruction/instance#178AwrkRP5mhvJtBJNVV$B> core:hasGlobalID "178AwrkRP5mhvJtBJNVV$B" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:167789" .
+
+<https://w3id.org/digitalconstruction/instance#178AwrkRP5mhvJtBJNVV$D> core:hasGlobalID "178AwrkRP5mhvJtBJNVV$D" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:167787" .
+
+inst:178AwrkRP5mhvJtBJNVVhR core:hasGlobalID "178AwrkRP5mhvJtBJNVVhR" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:166525" .
+
+inst:178AwrkRP5mhvJtBJNVVim core:hasGlobalID "178AwrkRP5mhvJtBJNVVim" ;
+    core:hasLabel "M_W-Wide Flange:W360X44:W360X44:166806" .
+
+inst:178AwrkRP5mhvJtBJNVVk8 core:hasGlobalID "178AwrkRP5mhvJtBJNVVk8" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:166702" .
+
+inst:178AwrkRP5mhvJtBJNVVk9 core:hasGlobalID "178AwrkRP5mhvJtBJNVVk9" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:166703" .
+
+inst:178AwrkRP5mhvJtBJNVVkA core:hasGlobalID "178AwrkRP5mhvJtBJNVVkA" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:166700" .
+
+inst:178AwrkRP5mhvJtBJNVVkB core:hasGlobalID "178AwrkRP5mhvJtBJNVVkB" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:166701" .
+
+inst:178AwrkRP5mhvJtBJNVVkD core:hasGlobalID "178AwrkRP5mhvJtBJNVVkD" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:166699" .
+
+inst:178AwrkRP5mhvJtBJNVVnH core:hasGlobalID "178AwrkRP5mhvJtBJNVVnH" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:167159" .
+
+inst:178AwrkRP5mhvJtBJNVVpw core:hasGlobalID "178AwrkRP5mhvJtBJNVVpw" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:167004" .
+
+inst:178AwrkRP5mhvJtBJNVVpz core:hasGlobalID "178AwrkRP5mhvJtBJNVVpz" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:167003" .
+
+inst:178AwrkRP5mhvJtBJNVVsL core:hasGlobalID "178AwrkRP5mhvJtBJNVVsL" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:167219" .
+
+inst:178AwrkRP5mhvJtBJNVVse core:hasGlobalID "178AwrkRP5mhvJtBJNVVse" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:167182" .
+
+inst:178AwrkRP5mhvJtBJNVVx8 core:hasGlobalID "178AwrkRP5mhvJtBJNVVx8" ;
+    core:hasLabel "M_W-Wide Flange:W360X44:W360X44:167534" .
+
+inst:178AwrkRP5mhvJtBJNVVxA core:hasGlobalID "178AwrkRP5mhvJtBJNVVxA" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:167532" .
+
+inst:178AwrkRP5mhvJtBJNVVxB core:hasGlobalID "178AwrkRP5mhvJtBJNVVxB" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:167533" .
+
+<https://w3id.org/digitalconstruction/instance#1A82GFUrrAYuoKWxPIpR$U> core:hasGlobalID "1A82GFUrrAYuoKWxPIpR$U" ;
+    core:hasLabel "M_Footing-Rectangular:2000 x 2000 x 300mm:2000 x 2000 x 300mm:147301" .
+
+inst:1A82GFUrrAYuoKWxPIpR_9 core:hasGlobalID "1A82GFUrrAYuoKWxPIpR_9" ;
+    core:hasLabel "M_Footing-Rectangular:2000 x 2000 x 300mm:2000 x 2000 x 300mm:147250" .
+
+inst:1A82GFUrrAYuoKWxPIpRrK core:hasGlobalID "1A82GFUrrAYuoKWxPIpRrK" ;
+    core:hasLabel "M_Footing-Rectangular:2000 x 2000 x 300mm:2000 x 2000 x 300mm:146927" .
+
+inst:1A82GFUrrAYuoKWxPIpRvK core:hasGlobalID "1A82GFUrrAYuoKWxPIpRvK" ;
+    core:hasLabel "M_Footing-Rectangular:2000 x 2000 x 300mm:2000 x 2000 x 300mm:147183" .
+
+inst:1A82GFUrrAYuoKWxPIpRvp core:hasGlobalID "1A82GFUrrAYuoKWxPIpRvp" ;
+    core:hasLabel "M_Footing-Rectangular:2000 x 2000 x 300mm:2000 x 2000 x 300mm:147144" .
+
+inst:1A82GFUrrAYuoKWxPIpRw1 core:hasGlobalID "1A82GFUrrAYuoKWxPIpRw1" ;
+    core:hasLabel "M_Footing-Rectangular:2000 x 2000 x 300mm:2000 x 2000 x 300mm:147002" .
+
+inst:1A82GFUrrAYuoKWxPIpRxE core:hasGlobalID "1A82GFUrrAYuoKWxPIpRxE" ;
+    core:hasLabel "M_Footing-Rectangular:2000 x 2000 x 300mm:2000 x 2000 x 300mm:147061" .
+
+inst:1A82GFUrrAYuoKWxPIpRyz core:hasGlobalID "1A82GFUrrAYuoKWxPIpRyz" ;
+    core:hasLabel "M_Footing-Rectangular:2000 x 2000 x 300mm:2000 x 2000 x 300mm:147334" .
+
+inst:1A82GFUrrAYuoKWxPIpRzW core:hasGlobalID "1A82GFUrrAYuoKWxPIpRzW" ;
+    core:hasLabel "M_Footing-Rectangular:2000 x 2000 x 300mm:2000 x 2000 x 300mm:147419" .
+
+inst:1A82GFUrrAYuoKWxPIpS0q core:hasGlobalID "1A82GFUrrAYuoKWxPIpS0q" ;
+    core:hasLabel "M_Footing-Rectangular:2000 x 2000 x 300mm:2000 x 2000 x 300mm:147599" .
+
+inst:1A82GFUrrAYuoKWxPIpS1f core:hasGlobalID "1A82GFUrrAYuoKWxPIpS1f" ;
+    core:hasLabel "M_Footing-Rectangular:2000 x 2000 x 300mm:2000 x 2000 x 300mm:147666" .
+
+<https://w3id.org/digitalconstruction/instance#1A82GFUrrAYuoKWxPIpS3$> core:hasGlobalID "1A82GFUrrAYuoKWxPIpS3$" ;
+    core:hasLabel "M_Footing-Rectangular:2000 x 2000 x 300mm:2000 x 2000 x 300mm:147524" .
+
+inst:1A82GFUrrAYuoKWxPIpS5l core:hasGlobalID "1A82GFUrrAYuoKWxPIpS5l" ;
+    core:hasLabel "M_Footing-Rectangular:2000 x 2000 x 300mm:2000 x 2000 x 300mm:147924" .
+
+inst:1A82GFUrrAYuoKWxPIpS6q core:hasGlobalID "1A82GFUrrAYuoKWxPIpS6q" ;
+    core:hasLabel "M_Footing-Rectangular:2000 x 2000 x 300mm:2000 x 2000 x 300mm:147727" .
+
+inst:1A82GFUrrAYuoKWxPIpS7n core:hasGlobalID "1A82GFUrrAYuoKWxPIpS7n" ;
+    core:hasLabel "M_Footing-Rectangular:2000 x 2000 x 300mm:2000 x 2000 x 300mm:147786" .
+
+inst:1A82GFUrrAYuoKWxPIpS8Q core:hasGlobalID "1A82GFUrrAYuoKWxPIpS8Q" ;
+    core:hasLabel "M_Footing-Rectangular:2000 x 2000 x 300mm:2000 x 2000 x 300mm:148129" .
+
+inst:1A82GFUrrAYuoKWxPIpS9p core:hasGlobalID "1A82GFUrrAYuoKWxPIpS9p" ;
+    core:hasLabel "M_Footing-Rectangular:2000 x 2000 x 300mm:2000 x 2000 x 300mm:148168" .
+
+inst:1A82GFUrrAYuoKWxPIpSA0 core:hasGlobalID "1A82GFUrrAYuoKWxPIpSA0" ;
+    core:hasLabel "M_Footing-Rectangular:2000 x 2000 x 300mm:2000 x 2000 x 300mm:148027" .
+
+inst:1A82GFUrrAYuoKWxPIpSBR core:hasGlobalID "1A82GFUrrAYuoKWxPIpSBR" ;
+    core:hasLabel "M_Footing-Rectangular:2000 x 2000 x 300mm:2000 x 2000 x 300mm:148064" .
+
+inst:1A82GFUrrAYuoKWxPIpSCn core:hasGlobalID "1A82GFUrrAYuoKWxPIpSCn" ;
+    core:hasLabel "M_Footing-Rectangular:2000 x 2000 x 300mm:2000 x 2000 x 300mm:148362" .
+
+inst:1A82GFUrrAYuoKWxPIpSEQ core:hasGlobalID "1A82GFUrrAYuoKWxPIpSEQ" ;
+    core:hasLabel "M_Footing-Rectangular:2000 x 2000 x 300mm:2000 x 2000 x 300mm:148257" .
+
+inst:1trXgJhnr0DuT_DyrHBhoI a core:Project ;
+    core:hasGlobalID "1trXgJhnr0DuT_DyrHBhoI" ;
+    core:hasLabel "Project Number" ;
+    core:hasName "" ;
+    core:hasSite inst:1trXgJhnr0DuT_DyrHBhoG .
+
+inst:2rx4FsVcjEO8rf_ydqo09Z core:hasGlobalID "2rx4FsVcjEO8rf_ydqo09Z" ;
+    core:hasLabel "M_Footing-Rectangular:2000 x 2000 x 300mm:2000 x 2000 x 300mm:146610" .
+
+inst:2rx4FsVcjEO8rf_ydqo0Gc core:hasGlobalID "2rx4FsVcjEO8rf_ydqo0Gc" ;
+    core:hasLabel "M_Footing-Rectangular:2000 x 2000 x 300mm:2000 x 2000 x 300mm:146167" .
+
+inst:2rx4FsVcjEO8rf_ydqo0IH core:hasGlobalID "2rx4FsVcjEO8rf_ydqo0IH" ;
+    core:hasLabel "M_Footing-Rectangular:2000 x 2000 x 300mm:2000 x 2000 x 300mm:145984" .
+
+inst:2rx4FsVcjEO8rf_ydqo0Ko core:hasGlobalID "2rx4FsVcjEO8rf_ydqo0Ko" ;
+    core:hasLabel "M_Footing-Rectangular:2000 x 2000 x 300mm:2000 x 2000 x 300mm:146403" .
+
+<https://w3id.org/digitalconstruction/instance#2rx4FsVcjEO8rf_ydqo0L$> core:hasGlobalID "2rx4FsVcjEO8rf_ydqo0L$" ;
+    core:hasLabel "M_Footing-Rectangular:2000 x 2000 x 300mm:2000 x 2000 x 300mm:146350" .
+
+inst:2rx4FsVcjEO8rf_ydqo0MH core:hasGlobalID "2rx4FsVcjEO8rf_ydqo0MH" ;
+    core:hasLabel "M_Footing-Rectangular:2000 x 2000 x 300mm:2000 x 2000 x 300mm:146240" .
+
+inst:2rx4FsVcjEO8rf_ydqo0Mc core:hasGlobalID "2rx4FsVcjEO8rf_ydqo0Mc" ;
+    core:hasLabel "M_Footing-Rectangular:2000 x 2000 x 300mm:2000 x 2000 x 300mm:146295" .
+
+inst:2rx4FsVcjEO8rf_ydqo0P7 core:hasGlobalID "2rx4FsVcjEO8rf_ydqo0P7" ;
+    core:hasLabel "M_Footing-Rectangular:2000 x 2000 x 300mm:2000 x 2000 x 300mm:145558" .
+
+inst:2rx4FsVcjEO8rf_ydqo0Rc core:hasGlobalID "2rx4FsVcjEO8rf_ydqo0Rc" ;
+    core:hasLabel "M_Footing-Rectangular:2000 x 2000 x 300mm:2000 x 2000 x 300mm:145463" .
+
+inst:2rx4FsVcjEO8rf_ydqo0TJ core:hasGlobalID "2rx4FsVcjEO8rf_ydqo0TJ" ;
+    core:hasLabel "M_Footing-Rectangular:2000 x 2000 x 300mm:2000 x 2000 x 300mm:145794" .
+
+inst:2rx4FsVcjEO8rf_ydqo0Vy core:hasGlobalID "2rx4FsVcjEO8rf_ydqo0Vy" ;
+    core:hasLabel "M_Footing-Rectangular:2000 x 2000 x 300mm:2000 x 2000 x 300mm:145709" .
+
+inst:2rx4FsVcjEO8rf_ydqo0Wx core:hasGlobalID "2rx4FsVcjEO8rf_ydqo0Wx" ;
+    core:hasLabel "M_Footing-Rectangular:2000 x 2000 x 300mm:2000 x 2000 x 300mm:145130" .
+
+inst:2rx4FsVcjEO8rf_ydqo0XT core:hasGlobalID "2rx4FsVcjEO8rf_ydqo0XT" ;
+    core:hasLabel "M_Footing-Rectangular:2000 x 2000 x 300mm:2000 x 2000 x 300mm:145036" .
+
+inst:2rx4FsVcjEO8rf_ydqo0XY core:hasGlobalID "2rx4FsVcjEO8rf_ydqo0XY" ;
+    core:hasLabel "M_Footing-Rectangular:2000 x 2000 x 300mm:2000 x 2000 x 300mm:145075" .
+
+inst:2rx4FsVcjEO8rf_ydqo0YU core:hasGlobalID "2rx4FsVcjEO8rf_ydqo0YU" ;
+    core:hasLabel "M_Footing-Rectangular:2000 x 2000 x 300mm:2000 x 2000 x 300mm:144975" .
+
+inst:2rx4FsVcjEO8rf_ydqo0aF core:hasGlobalID "2rx4FsVcjEO8rf_ydqo0aF" ;
+    core:hasLabel "M_Footing-Rectangular:2000 x 2000 x 300mm:2000 x 2000 x 300mm:145374" .
+
+inst:2rx4FsVcjEO8rf_ydqo0de core:hasGlobalID "2rx4FsVcjEO8rf_ydqo0de" ;
+    core:hasLabel "M_Footing-Rectangular:2000 x 2000 x 300mm:2000 x 2000 x 300mm:145209" .
+
+inst:2rx4FsVcjEO8rf_ydqo0g0 core:hasGlobalID "2rx4FsVcjEO8rf_ydqo0g0" ;
+    core:hasLabel "M_W-Wide Flange-Column:W250X67:W250X67:144465" .
+
+inst:2rx4FsVcjEO8rf_ydqo0g1 core:hasGlobalID "2rx4FsVcjEO8rf_ydqo0g1" ;
+    core:hasLabel "M_W-Wide Flange-Column:W250X67:W250X67:144464" .
+
+inst:2rx4FsVcjEO8rf_ydqo0g2 core:hasGlobalID "2rx4FsVcjEO8rf_ydqo0g2" ;
+    core:hasLabel "M_W-Wide Flange-Column:W250X67:W250X67:144467" .
+
+inst:2rx4FsVcjEO8rf_ydqo0g3 core:hasGlobalID "2rx4FsVcjEO8rf_ydqo0g3" ;
+    core:hasLabel "M_W-Wide Flange-Column:W250X67:W250X67:144466" .
+
+inst:2rx4FsVcjEO8rf_ydqo0g4 core:hasGlobalID "2rx4FsVcjEO8rf_ydqo0g4" ;
+    core:hasLabel "M_W-Wide Flange-Column:W250X67:W250X67:144469" .
+
+inst:2rx4FsVcjEO8rf_ydqo0g5 core:hasGlobalID "2rx4FsVcjEO8rf_ydqo0g5" ;
+    core:hasLabel "M_W-Wide Flange-Column:W250X67:W250X67:144468" .
+
+inst:2rx4FsVcjEO8rf_ydqo0g6 core:hasGlobalID "2rx4FsVcjEO8rf_ydqo0g6" ;
+    core:hasLabel "M_W-Wide Flange-Column:W250X67:W250X67:144471" .
+
+inst:2rx4FsVcjEO8rf_ydqo0g7 core:hasGlobalID "2rx4FsVcjEO8rf_ydqo0g7" ;
+    core:hasLabel "M_W-Wide Flange-Column:W250X67:W250X67:144470" .
+
+inst:2rx4FsVcjEO8rf_ydqo0g8 core:hasGlobalID "2rx4FsVcjEO8rf_ydqo0g8" ;
+    core:hasLabel "M_W-Wide Flange-Column:W250X67:W250X67:144473" .
+
+inst:2rx4FsVcjEO8rf_ydqo0g9 core:hasGlobalID "2rx4FsVcjEO8rf_ydqo0g9" ;
+    core:hasLabel "M_W-Wide Flange-Column:W250X67:W250X67:144472" .
+
+inst:2rx4FsVcjEO8rf_ydqo0gA core:hasGlobalID "2rx4FsVcjEO8rf_ydqo0gA" ;
+    core:hasLabel "M_W-Wide Flange-Column:W250X67:W250X67:144475" .
+
+inst:2rx4FsVcjEO8rf_ydqo0gB core:hasGlobalID "2rx4FsVcjEO8rf_ydqo0gB" ;
+    core:hasLabel "M_W-Wide Flange-Column:W250X67:W250X67:144474" .
+
+inst:2rx4FsVcjEO8rf_ydqo0gC core:hasGlobalID "2rx4FsVcjEO8rf_ydqo0gC" ;
+    core:hasLabel "M_W-Wide Flange-Column:W250X67:W250X67:144477" .
+
+inst:2rx4FsVcjEO8rf_ydqo0gD core:hasGlobalID "2rx4FsVcjEO8rf_ydqo0gD" ;
+    core:hasLabel "M_W-Wide Flange-Column:W250X67:W250X67:144476" .
+
+inst:2rx4FsVcjEO8rf_ydqo0gG core:hasGlobalID "2rx4FsVcjEO8rf_ydqo0gG" ;
+    core:hasLabel "M_W-Wide Flange-Column:W250X67:W250X67:144449" .
+
+inst:2rx4FsVcjEO8rf_ydqo0gH core:hasGlobalID "2rx4FsVcjEO8rf_ydqo0gH" ;
+    core:hasLabel "M_W-Wide Flange-Column:W250X67:W250X67:144448" .
+
+inst:2rx4FsVcjEO8rf_ydqo0gI core:hasGlobalID "2rx4FsVcjEO8rf_ydqo0gI" ;
+    core:hasLabel "M_W-Wide Flange-Column:W250X67:W250X67:144451" .
+
+inst:2rx4FsVcjEO8rf_ydqo0gJ core:hasGlobalID "2rx4FsVcjEO8rf_ydqo0gJ" ;
+    core:hasLabel "M_W-Wide Flange-Column:W250X67:W250X67:144450" .
+
+inst:2rx4FsVcjEO8rf_ydqo0gK core:hasGlobalID "2rx4FsVcjEO8rf_ydqo0gK" ;
+    core:hasLabel "M_W-Wide Flange-Column:W250X67:W250X67:144453" .
+
+inst:2rx4FsVcjEO8rf_ydqo0gL core:hasGlobalID "2rx4FsVcjEO8rf_ydqo0gL" ;
+    core:hasLabel "M_W-Wide Flange-Column:W250X67:W250X67:144452" .
+
+inst:2rx4FsVcjEO8rf_ydqo0gM core:hasGlobalID "2rx4FsVcjEO8rf_ydqo0gM" ;
+    core:hasLabel "M_W-Wide Flange-Column:W250X67:W250X67:144455" .
+
+inst:2rx4FsVcjEO8rf_ydqo0gN core:hasGlobalID "2rx4FsVcjEO8rf_ydqo0gN" ;
+    core:hasLabel "M_W-Wide Flange-Column:W250X67:W250X67:144454" .
+
+inst:2rx4FsVcjEO8rf_ydqo0gO core:hasGlobalID "2rx4FsVcjEO8rf_ydqo0gO" ;
+    core:hasLabel "M_W-Wide Flange-Column:W250X67:W250X67:144457" .
+
+inst:2rx4FsVcjEO8rf_ydqo0gP core:hasGlobalID "2rx4FsVcjEO8rf_ydqo0gP" ;
+    core:hasLabel "M_W-Wide Flange-Column:W250X67:W250X67:144456" .
+
+inst:2rx4FsVcjEO8rf_ydqo0gQ core:hasGlobalID "2rx4FsVcjEO8rf_ydqo0gQ" ;
+    core:hasLabel "M_W-Wide Flange-Column:W250X67:W250X67:144459" .
+
+inst:2rx4FsVcjEO8rf_ydqo0gR core:hasGlobalID "2rx4FsVcjEO8rf_ydqo0gR" ;
+    core:hasLabel "M_W-Wide Flange-Column:W250X67:W250X67:144458" .
+
+inst:2rx4FsVcjEO8rf_ydqo0gS core:hasGlobalID "2rx4FsVcjEO8rf_ydqo0gS" ;
+    core:hasLabel "M_W-Wide Flange-Column:W250X67:W250X67:144461" .
+
+inst:2rx4FsVcjEO8rf_ydqo0gT core:hasGlobalID "2rx4FsVcjEO8rf_ydqo0gT" ;
+    core:hasLabel "M_W-Wide Flange-Column:W250X67:W250X67:144460" .
+
+inst:2rx4FsVcjEO8rf_ydqo0gU core:hasGlobalID "2rx4FsVcjEO8rf_ydqo0gU" ;
+    core:hasLabel "M_W-Wide Flange-Column:W250X67:W250X67:144463" .
+
+inst:2rx4FsVcjEO8rf_ydqo0gV core:hasGlobalID "2rx4FsVcjEO8rf_ydqo0gV" ;
+    core:hasLabel "M_W-Wide Flange-Column:W250X67:W250X67:144462" .
+
+inst:2rx4FsVcjEO8rf_ydqo0hg core:hasGlobalID "2rx4FsVcjEO8rf_ydqo0hg" ;
+    core:hasLabel "M_W-Wide Flange-Column:W250X67:W250X67:144443" .
+
+inst:2rx4FsVcjEO8rf_ydqo0hi core:hasGlobalID "2rx4FsVcjEO8rf_ydqo0hi" ;
+    core:hasLabel "M_W-Wide Flange-Column:W250X67:W250X67:144445" .
+
+inst:2rx4FsVcjEO8rf_ydqo0hj core:hasGlobalID "2rx4FsVcjEO8rf_ydqo0hj" ;
+    core:hasLabel "M_W-Wide Flange-Column:W250X67:W250X67:144444" .
+
+inst:2rx4FsVcjEO8rf_ydqo0hk core:hasGlobalID "2rx4FsVcjEO8rf_ydqo0hk" ;
+    core:hasLabel "M_W-Wide Flange-Column:W250X67:W250X67:144447" .
+
+inst:2rx4FsVcjEO8rf_ydqo0hl core:hasGlobalID "2rx4FsVcjEO8rf_ydqo0hl" ;
+    core:hasLabel "M_W-Wide Flange-Column:W250X67:W250X67:144446" .
+
+inst:2rx4FsVcjEO8rf_ydqo0it core:hasGlobalID "2rx4FsVcjEO8rf_ydqo0it" ;
+    core:hasLabel "M_Footing-Rectangular:2000 x 2000 x 300mm:2000 x 2000 x 300mm:144870" .
+
+inst:2rx4FsVcjEO8rf_ydqo0lh core:hasGlobalID "2rx4FsVcjEO8rf_ydqo0lh" ;
+    core:hasLabel "M_Footing-Rectangular:2000 x 2000 x 300mm:2000 x 2000 x 300mm:144698" .
+
+inst:2rx4FsVcjEO8rf_ydqo0mz core:hasGlobalID "2rx4FsVcjEO8rf_ydqo0mz" ;
+    core:hasLabel "M_W-Wide Flange-Column:W250X67:W250X67:144108" .
+
+inst:2rx4FsVcjEO8rf_ydqo0nU core:hasGlobalID "2rx4FsVcjEO8rf_ydqo0nU" ;
+    core:hasLabel "M_W-Wide Flange-Column:W250X67:W250X67:144015" .
+
+inst:2rx4FsVcjEO8rf_ydqo0rl core:hasGlobalID "2rx4FsVcjEO8rf_ydqo0rl" ;
+    core:hasLabel "M_W-Wide Flange-Column:W250X67:W250X67:144318" .
+
+inst:2rx4FsVcjEO8rf_ydqo0s2 core:hasGlobalID "2rx4FsVcjEO8rf_ydqo0s2" ;
+    core:hasLabel "M_W-Wide Flange-Column:W250X67:W250X67:144211" .
+
+inst:2rx4FsVcjEO8rf_ydqo0yC core:hasGlobalID "2rx4FsVcjEO8rf_ydqo0yC" ;
+    core:hasLabel "M_W-Wide Flange-Column:W250X67:W250X67:143837" .
+
+inst:340v1GCnbCmfXIVFSXgO08 core:hasGlobalID "340v1GCnbCmfXIVFSXgO08" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:156842" .
+
+inst:340v1GCnbCmfXIVFSXgO09 core:hasGlobalID "340v1GCnbCmfXIVFSXgO09" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:156843" .
+
+inst:340v1GCnbCmfXIVFSXgO0C core:hasGlobalID "340v1GCnbCmfXIVFSXgO0C" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:156846" .
+
+inst:340v1GCnbCmfXIVFSXgO0D core:hasGlobalID "340v1GCnbCmfXIVFSXgO0D" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:156847" .
+
+inst:340v1GCnbCmfXIVFSXgO0E core:hasGlobalID "340v1GCnbCmfXIVFSXgO0E" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:156844" .
+
+inst:340v1GCnbCmfXIVFSXgO0F core:hasGlobalID "340v1GCnbCmfXIVFSXgO0F" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:156845" .
+
+inst:340v1GCnbCmfXIVFSXgO0I core:hasGlobalID "340v1GCnbCmfXIVFSXgO0I" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:156848" .
+
+inst:340v1GCnbCmfXIVFSXgO0W core:hasGlobalID "340v1GCnbCmfXIVFSXgO0W" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:156802" .
+
+inst:340v1GCnbCmfXIVFSXgO0X core:hasGlobalID "340v1GCnbCmfXIVFSXgO0X" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:156803" .
+
+inst:340v1GCnbCmfXIVFSXgO0Z core:hasGlobalID "340v1GCnbCmfXIVFSXgO0Z" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:156801" .
+
+inst:340v1GCnbCmfXIVFSXgO0a core:hasGlobalID "340v1GCnbCmfXIVFSXgO0a" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:156806" .
+
+inst:340v1GCnbCmfXIVFSXgO0b core:hasGlobalID "340v1GCnbCmfXIVFSXgO0b" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:156807" .
+
+inst:340v1GCnbCmfXIVFSXgO0c core:hasGlobalID "340v1GCnbCmfXIVFSXgO0c" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:156804" .
+
+inst:340v1GCnbCmfXIVFSXgO0d core:hasGlobalID "340v1GCnbCmfXIVFSXgO0d" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:156805" .
+
+inst:340v1GCnbCmfXIVFSXgO1P core:hasGlobalID "340v1GCnbCmfXIVFSXgO1P" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:156923" .
+
+inst:340v1GCnbCmfXIVFSXgO1S core:hasGlobalID "340v1GCnbCmfXIVFSXgO1S" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:156926" .
+
+inst:340v1GCnbCmfXIVFSXgO1T core:hasGlobalID "340v1GCnbCmfXIVFSXgO1T" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:156927" .
+
+inst:340v1GCnbCmfXIVFSXgO1U core:hasGlobalID "340v1GCnbCmfXIVFSXgO1U" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:156924" .
+
+inst:340v1GCnbCmfXIVFSXgO1V core:hasGlobalID "340v1GCnbCmfXIVFSXgO1V" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:156925" .
+
+inst:340v1GCnbCmfXIVFSXgO1n core:hasGlobalID "340v1GCnbCmfXIVFSXgO1n" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:156883" .
+
+inst:340v1GCnbCmfXIVFSXgO1q core:hasGlobalID "340v1GCnbCmfXIVFSXgO1q" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:156886" .
+
+inst:340v1GCnbCmfXIVFSXgO1r core:hasGlobalID "340v1GCnbCmfXIVFSXgO1r" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:156887" .
+
+inst:340v1GCnbCmfXIVFSXgO1s core:hasGlobalID "340v1GCnbCmfXIVFSXgO1s" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:156884" .
+
+inst:340v1GCnbCmfXIVFSXgO1t core:hasGlobalID "340v1GCnbCmfXIVFSXgO1t" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:156885" .
+
+inst:340v1GCnbCmfXIVFSXgO1w core:hasGlobalID "340v1GCnbCmfXIVFSXgO1w" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:156888" .
+
+inst:340v1GCnbCmfXIVFSXgO2n core:hasGlobalID "340v1GCnbCmfXIVFSXgO2n" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:156691" .
+
+inst:340v1GCnbCmfXIVFSXgO2q core:hasGlobalID "340v1GCnbCmfXIVFSXgO2q" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:156694" .
+
+inst:340v1GCnbCmfXIVFSXgO2r core:hasGlobalID "340v1GCnbCmfXIVFSXgO2r" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:156695" .
+
+inst:340v1GCnbCmfXIVFSXgO2s core:hasGlobalID "340v1GCnbCmfXIVFSXgO2s" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:156692" .
+
+inst:340v1GCnbCmfXIVFSXgO2t core:hasGlobalID "340v1GCnbCmfXIVFSXgO2t" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:156693" .
+
+inst:340v1GCnbCmfXIVFSXgO2w core:hasGlobalID "340v1GCnbCmfXIVFSXgO2w" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:156696" .
+
+inst:340v1GCnbCmfXIVFSXgO3W core:hasGlobalID "340v1GCnbCmfXIVFSXgO3W" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:156738" .
+
+inst:340v1GCnbCmfXIVFSXgO3X core:hasGlobalID "340v1GCnbCmfXIVFSXgO3X" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:156739" .
+
+inst:340v1GCnbCmfXIVFSXgO3Z core:hasGlobalID "340v1GCnbCmfXIVFSXgO3Z" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:156737" .
+
+inst:340v1GCnbCmfXIVFSXgO3a core:hasGlobalID "340v1GCnbCmfXIVFSXgO3a" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:156742" .
+
+inst:340v1GCnbCmfXIVFSXgO3c core:hasGlobalID "340v1GCnbCmfXIVFSXgO3c" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:156740" .
+
+inst:340v1GCnbCmfXIVFSXgO3d core:hasGlobalID "340v1GCnbCmfXIVFSXgO3d" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:156741" .
+
+inst:340v1GCnbCmfXIVFSXgO5K core:hasGlobalID "340v1GCnbCmfXIVFSXgO5K" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:12K3:12K3:157174" .
+
+inst:340v1GCnbCmfXIVFSXgO5L core:hasGlobalID "340v1GCnbCmfXIVFSXgO5L" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:12K3:12K3:157175" .
+
+inst:340v1GCnbCmfXIVFSXgO5N core:hasGlobalID "340v1GCnbCmfXIVFSXgO5N" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:12K3:12K3:157173" .
+
+inst:340v1GCnbCmfXIVFSXgO5Q core:hasGlobalID "340v1GCnbCmfXIVFSXgO5Q" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:12K3:12K3:157176" .
+
+inst:340v1GCnbCmfXIVFSXgO5R core:hasGlobalID "340v1GCnbCmfXIVFSXgO5R" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:12K3:12K3:157177" .
+
+inst:340v1GCnbCmfXIVFSXgO5j core:hasGlobalID "340v1GCnbCmfXIVFSXgO5j" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:12K3:12K3:157135" .
+
+inst:340v1GCnbCmfXIVFSXgO5m core:hasGlobalID "340v1GCnbCmfXIVFSXgO5m" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:12K3:12K3:157138" .
+
+inst:340v1GCnbCmfXIVFSXgO5n core:hasGlobalID "340v1GCnbCmfXIVFSXgO5n" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:12K3:12K3:157139" .
+
+inst:340v1GCnbCmfXIVFSXgO5o core:hasGlobalID "340v1GCnbCmfXIVFSXgO5o" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:12K3:12K3:157136" .
+
+inst:340v1GCnbCmfXIVFSXgO5p core:hasGlobalID "340v1GCnbCmfXIVFSXgO5p" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:12K3:12K3:157137" .
+
+inst:340v1GCnbCmfXIVFSXgO5s core:hasGlobalID "340v1GCnbCmfXIVFSXgO5s" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:12K3:12K3:157140" .
+
+inst:340v1GCnbCmfXIVFSXgO64 core:hasGlobalID "340v1GCnbCmfXIVFSXgO64" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:156966" .
+
+inst:340v1GCnbCmfXIVFSXgO65 core:hasGlobalID "340v1GCnbCmfXIVFSXgO65" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:156967" .
+
+inst:340v1GCnbCmfXIVFSXgO67 core:hasGlobalID "340v1GCnbCmfXIVFSXgO67" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:156965" .
+
+inst:340v1GCnbCmfXIVFSXgO68 core:hasGlobalID "340v1GCnbCmfXIVFSXgO68" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:156970" .
+
+inst:340v1GCnbCmfXIVFSXgO6A core:hasGlobalID "340v1GCnbCmfXIVFSXgO6A" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:156968" .
+
+inst:340v1GCnbCmfXIVFSXgO6B core:hasGlobalID "340v1GCnbCmfXIVFSXgO6B" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:156969" .
+
+inst:340v1GCnbCmfXIVFSXgO6W core:hasGlobalID "340v1GCnbCmfXIVFSXgO6W" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:156930" .
+
+inst:340v1GCnbCmfXIVFSXgO6Y core:hasGlobalID "340v1GCnbCmfXIVFSXgO6Y" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:156928" .
+
+inst:340v1GCnbCmfXIVFSXgO6Z core:hasGlobalID "340v1GCnbCmfXIVFSXgO6Z" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:156929" .
+
+inst:340v1GCnbCmfXIVFSXgO7K core:hasGlobalID "340v1GCnbCmfXIVFSXgO7K" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:157046" .
+
+inst:340v1GCnbCmfXIVFSXgO7L core:hasGlobalID "340v1GCnbCmfXIVFSXgO7L" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:157047" .
+
+inst:340v1GCnbCmfXIVFSXgO7M core:hasGlobalID "340v1GCnbCmfXIVFSXgO7M" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:157044" .
+
+inst:340v1GCnbCmfXIVFSXgO7N core:hasGlobalID "340v1GCnbCmfXIVFSXgO7N" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:157045" .
+
+inst:340v1GCnbCmfXIVFSXgO7Q core:hasGlobalID "340v1GCnbCmfXIVFSXgO7Q" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:157048" .
+
+inst:340v1GCnbCmfXIVFSXgO7R core:hasGlobalID "340v1GCnbCmfXIVFSXgO7R" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:157049" .
+
+inst:340v1GCnbCmfXIVFSXgO7i core:hasGlobalID "340v1GCnbCmfXIVFSXgO7i" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:157006" .
+
+inst:340v1GCnbCmfXIVFSXgO7j core:hasGlobalID "340v1GCnbCmfXIVFSXgO7j" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:157007" .
+
+inst:340v1GCnbCmfXIVFSXgO7l core:hasGlobalID "340v1GCnbCmfXIVFSXgO7l" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:157005" .
+
+inst:340v1GCnbCmfXIVFSXgO7o core:hasGlobalID "340v1GCnbCmfXIVFSXgO7o" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:157008" .
+
+inst:340v1GCnbCmfXIVFSXgO7p core:hasGlobalID "340v1GCnbCmfXIVFSXgO7p" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:157009" .
+
+inst:340v1GCnbCmfXIVFSXgOHb core:hasGlobalID "340v1GCnbCmfXIVFSXgOHb" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:155847" .
+
+inst:340v1GCnbCmfXIVFSXgOHe core:hasGlobalID "340v1GCnbCmfXIVFSXgOHe" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:155850" .
+
+inst:340v1GCnbCmfXIVFSXgOHf core:hasGlobalID "340v1GCnbCmfXIVFSXgOHf" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:155851" .
+
+inst:340v1GCnbCmfXIVFSXgOHg core:hasGlobalID "340v1GCnbCmfXIVFSXgOHg" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:155848" .
+
+inst:340v1GCnbCmfXIVFSXgOHh core:hasGlobalID "340v1GCnbCmfXIVFSXgOHh" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:155849" .
+
+inst:340v1GCnbCmfXIVFSXgOKf core:hasGlobalID "340v1GCnbCmfXIVFSXgOKf" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:156043" .
+
+inst:340v1GCnbCmfXIVFSXgOKi core:hasGlobalID "340v1GCnbCmfXIVFSXgOKi" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:156046" .
+
+inst:340v1GCnbCmfXIVFSXgOKj core:hasGlobalID "340v1GCnbCmfXIVFSXgOKj" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:156047" .
+
+inst:340v1GCnbCmfXIVFSXgOKk core:hasGlobalID "340v1GCnbCmfXIVFSXgOKk" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:156044" .
+
+inst:340v1GCnbCmfXIVFSXgOKl core:hasGlobalID "340v1GCnbCmfXIVFSXgOKl" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:156045" .
+
+inst:340v1GCnbCmfXIVFSXgOKo core:hasGlobalID "340v1GCnbCmfXIVFSXgOKo" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:156048" .
+
+inst:340v1GCnbCmfXIVFSXgOLK core:hasGlobalID "340v1GCnbCmfXIVFSXgOLK" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:156150" .
+
+inst:340v1GCnbCmfXIVFSXgOLL core:hasGlobalID "340v1GCnbCmfXIVFSXgOLL" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:156151" .
+
+inst:340v1GCnbCmfXIVFSXgOLO core:hasGlobalID "340v1GCnbCmfXIVFSXgOLO" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:156154" .
+
+inst:340v1GCnbCmfXIVFSXgOLP core:hasGlobalID "340v1GCnbCmfXIVFSXgOLP" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:156155" .
+
+inst:340v1GCnbCmfXIVFSXgOLQ core:hasGlobalID "340v1GCnbCmfXIVFSXgOLQ" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:156152" .
+
+inst:340v1GCnbCmfXIVFSXgOLR core:hasGlobalID "340v1GCnbCmfXIVFSXgOLR" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:156153" .
+
+inst:340v1GCnbCmfXIVFSXgOLU core:hasGlobalID "340v1GCnbCmfXIVFSXgOLU" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:156156" .
+
+inst:340v1GCnbCmfXIVFSXgOLW core:hasGlobalID "340v1GCnbCmfXIVFSXgOLW" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:156098" .
+
+inst:340v1GCnbCmfXIVFSXgOLX core:hasGlobalID "340v1GCnbCmfXIVFSXgOLX" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:156099" .
+
+inst:340v1GCnbCmfXIVFSXgOLY core:hasGlobalID "340v1GCnbCmfXIVFSXgOLY" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:156096" .
+
+inst:340v1GCnbCmfXIVFSXgOLZ core:hasGlobalID "340v1GCnbCmfXIVFSXgOLZ" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:156097" .
+
+inst:340v1GCnbCmfXIVFSXgOLa core:hasGlobalID "340v1GCnbCmfXIVFSXgOLa" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:156102" .
+
+inst:340v1GCnbCmfXIVFSXgOLc core:hasGlobalID "340v1GCnbCmfXIVFSXgOLc" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:156100" .
+
+inst:340v1GCnbCmfXIVFSXgOLd core:hasGlobalID "340v1GCnbCmfXIVFSXgOLd" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:156101" .
+
+inst:340v1GCnbCmfXIVFSXgOM0 core:hasGlobalID "340v1GCnbCmfXIVFSXgOM0" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:155938" .
+
+inst:340v1GCnbCmfXIVFSXgOM1 core:hasGlobalID "340v1GCnbCmfXIVFSXgOM1" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:155939" .
+
+inst:340v1GCnbCmfXIVFSXgOM2 core:hasGlobalID "340v1GCnbCmfXIVFSXgOM2" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:155936" .
+
+inst:340v1GCnbCmfXIVFSXgOM3 core:hasGlobalID "340v1GCnbCmfXIVFSXgOM3" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:155937" .
+
+inst:340v1GCnbCmfXIVFSXgOM6 core:hasGlobalID "340v1GCnbCmfXIVFSXgOM6" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:155940" .
+
+inst:340v1GCnbCmfXIVFSXgOMz core:hasGlobalID "340v1GCnbCmfXIVFSXgOMz" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:155935" .
+
+inst:340v1GCnbCmfXIVFSXgONq core:hasGlobalID "340v1GCnbCmfXIVFSXgONq" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:155990" .
+
+inst:340v1GCnbCmfXIVFSXgONr core:hasGlobalID "340v1GCnbCmfXIVFSXgONr" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:155991" .
+
+inst:340v1GCnbCmfXIVFSXgONs core:hasGlobalID "340v1GCnbCmfXIVFSXgONs" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:155988" .
+
+inst:340v1GCnbCmfXIVFSXgONt core:hasGlobalID "340v1GCnbCmfXIVFSXgONt" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:155989" .
+
+inst:340v1GCnbCmfXIVFSXgONu core:hasGlobalID "340v1GCnbCmfXIVFSXgONu" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:155994" .
+
+inst:340v1GCnbCmfXIVFSXgONv core:hasGlobalID "340v1GCnbCmfXIVFSXgONv" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:155995" .
+
+inst:340v1GCnbCmfXIVFSXgONw core:hasGlobalID "340v1GCnbCmfXIVFSXgONw" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:155992" .
+
+inst:340v1GCnbCmfXIVFSXgONx core:hasGlobalID "340v1GCnbCmfXIVFSXgONx" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:155993" .
+
+<https://w3id.org/digitalconstruction/instance#340v1GCnbCmfXIVFSXgOO$> core:hasGlobalID "340v1GCnbCmfXIVFSXgOO$" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:12K3:12K3:156317" .
+
+inst:340v1GCnbCmfXIVFSXgOO0 core:hasGlobalID "340v1GCnbCmfXIVFSXgOO0" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:12K3:12K3:156322" .
+
+inst:340v1GCnbCmfXIVFSXgOO1 core:hasGlobalID "340v1GCnbCmfXIVFSXgOO1" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:12K3:12K3:156323" .
+
+inst:340v1GCnbCmfXIVFSXgOO2 core:hasGlobalID "340v1GCnbCmfXIVFSXgOO2" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:12K3:12K3:156320" .
+
+inst:340v1GCnbCmfXIVFSXgOO3 core:hasGlobalID "340v1GCnbCmfXIVFSXgOO3" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:12K3:12K3:156321" .
+
+inst:340v1GCnbCmfXIVFSXgOOy core:hasGlobalID "340v1GCnbCmfXIVFSXgOOy" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:12K3:12K3:156318" .
+
+inst:340v1GCnbCmfXIVFSXgOOz core:hasGlobalID "340v1GCnbCmfXIVFSXgOOz" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:12K3:12K3:156319" .
+
+inst:340v1GCnbCmfXIVFSXgOP9 core:hasGlobalID "340v1GCnbCmfXIVFSXgOP9" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:12K3:12K3:156395" .
+
+inst:340v1GCnbCmfXIVFSXgOPC core:hasGlobalID "340v1GCnbCmfXIVFSXgOPC" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:12K3:12K3:156398" .
+
+inst:340v1GCnbCmfXIVFSXgOPD core:hasGlobalID "340v1GCnbCmfXIVFSXgOPD" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:12K3:12K3:156399" .
+
+inst:340v1GCnbCmfXIVFSXgOPE core:hasGlobalID "340v1GCnbCmfXIVFSXgOPE" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:12K3:12K3:156396" .
+
+inst:340v1GCnbCmfXIVFSXgOPF core:hasGlobalID "340v1GCnbCmfXIVFSXgOPF" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:12K3:12K3:156397" .
+
+inst:340v1GCnbCmfXIVFSXgOPI core:hasGlobalID "340v1GCnbCmfXIVFSXgOPI" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:12K3:12K3:156400" .
+
+inst:340v1GCnbCmfXIVFSXgOPa core:hasGlobalID "340v1GCnbCmfXIVFSXgOPa" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:12K3:12K3:156358" .
+
+inst:340v1GCnbCmfXIVFSXgOPb core:hasGlobalID "340v1GCnbCmfXIVFSXgOPb" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:12K3:12K3:156359" .
+
+inst:340v1GCnbCmfXIVFSXgOPc core:hasGlobalID "340v1GCnbCmfXIVFSXgOPc" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:12K3:12K3:156356" .
+
+inst:340v1GCnbCmfXIVFSXgOPd core:hasGlobalID "340v1GCnbCmfXIVFSXgOPd" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:12K3:12K3:156357" .
+
+inst:340v1GCnbCmfXIVFSXgOPe core:hasGlobalID "340v1GCnbCmfXIVFSXgOPe" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:12K3:12K3:156362" .
+
+inst:340v1GCnbCmfXIVFSXgOPg core:hasGlobalID "340v1GCnbCmfXIVFSXgOPg" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:12K3:12K3:156360" .
+
+inst:340v1GCnbCmfXIVFSXgOPh core:hasGlobalID "340v1GCnbCmfXIVFSXgOPh" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:12K3:12K3:156361" .
+
+inst:340v1GCnbCmfXIVFSXgOQC core:hasGlobalID "340v1GCnbCmfXIVFSXgOQC" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:156206" .
+
+inst:340v1GCnbCmfXIVFSXgOQD core:hasGlobalID "340v1GCnbCmfXIVFSXgOQD" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:156207" .
+
+inst:340v1GCnbCmfXIVFSXgOQE core:hasGlobalID "340v1GCnbCmfXIVFSXgOQE" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:156204" .
+
+inst:340v1GCnbCmfXIVFSXgOQF core:hasGlobalID "340v1GCnbCmfXIVFSXgOQF" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:156205" .
+
+inst:340v1GCnbCmfXIVFSXgOQI core:hasGlobalID "340v1GCnbCmfXIVFSXgOQI" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:156208" .
+
+inst:340v1GCnbCmfXIVFSXgOQJ core:hasGlobalID "340v1GCnbCmfXIVFSXgOQJ" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:156209" .
+
+inst:340v1GCnbCmfXIVFSXgOR0 core:hasGlobalID "340v1GCnbCmfXIVFSXgOR0" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:12K3:12K3:156258" .
+
+inst:340v1GCnbCmfXIVFSXgOR1 core:hasGlobalID "340v1GCnbCmfXIVFSXgOR1" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:12K3:12K3:156259" .
+
+inst:340v1GCnbCmfXIVFSXgOR3 core:hasGlobalID "340v1GCnbCmfXIVFSXgOR3" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:12K3:12K3:156257" .
+
+inst:340v1GCnbCmfXIVFSXgOR4 core:hasGlobalID "340v1GCnbCmfXIVFSXgOR4" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:12K3:12K3:156262" .
+
+inst:340v1GCnbCmfXIVFSXgOR6 core:hasGlobalID "340v1GCnbCmfXIVFSXgOR6" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:12K3:12K3:156260" .
+
+inst:340v1GCnbCmfXIVFSXgOR7 core:hasGlobalID "340v1GCnbCmfXIVFSXgOR7" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:12K3:12K3:156261" .
+
+inst:340v1GCnbCmfXIVFSXgOSK core:hasGlobalID "340v1GCnbCmfXIVFSXgOSK" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:156598" .
+
+inst:340v1GCnbCmfXIVFSXgOSL core:hasGlobalID "340v1GCnbCmfXIVFSXgOSL" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:156599" .
+
+inst:340v1GCnbCmfXIVFSXgOSN core:hasGlobalID "340v1GCnbCmfXIVFSXgOSN" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:156597" .
+
+inst:340v1GCnbCmfXIVFSXgOSO core:hasGlobalID "340v1GCnbCmfXIVFSXgOSO" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:156602" .
+
+inst:340v1GCnbCmfXIVFSXgOSP core:hasGlobalID "340v1GCnbCmfXIVFSXgOSP" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:156603" .
+
+inst:340v1GCnbCmfXIVFSXgOSQ core:hasGlobalID "340v1GCnbCmfXIVFSXgOSQ" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:156600" .
+
+inst:340v1GCnbCmfXIVFSXgOSR core:hasGlobalID "340v1GCnbCmfXIVFSXgOSR" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:156601" .
+
+inst:340v1GCnbCmfXIVFSXgOSb core:hasGlobalID "340v1GCnbCmfXIVFSXgOSb" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:156551" .
+
+inst:340v1GCnbCmfXIVFSXgOSe core:hasGlobalID "340v1GCnbCmfXIVFSXgOSe" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:156554" .
+
+inst:340v1GCnbCmfXIVFSXgOSf core:hasGlobalID "340v1GCnbCmfXIVFSXgOSf" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:156555" .
+
+inst:340v1GCnbCmfXIVFSXgOSg core:hasGlobalID "340v1GCnbCmfXIVFSXgOSg" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:156552" .
+
+inst:340v1GCnbCmfXIVFSXgOSh core:hasGlobalID "340v1GCnbCmfXIVFSXgOSh" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:156553" .
+
+inst:340v1GCnbCmfXIVFSXgOSk core:hasGlobalID "340v1GCnbCmfXIVFSXgOSk" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:156556" .
+
+inst:340v1GCnbCmfXIVFSXgOT4 core:hasGlobalID "340v1GCnbCmfXIVFSXgOT4" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:156646" .
+
+inst:340v1GCnbCmfXIVFSXgOT5 core:hasGlobalID "340v1GCnbCmfXIVFSXgOT5" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:156647" .
+
+inst:340v1GCnbCmfXIVFSXgOT6 core:hasGlobalID "340v1GCnbCmfXIVFSXgOT6" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:156644" .
+
+inst:340v1GCnbCmfXIVFSXgOT7 core:hasGlobalID "340v1GCnbCmfXIVFSXgOT7" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:156645" .
+
+inst:340v1GCnbCmfXIVFSXgOT8 core:hasGlobalID "340v1GCnbCmfXIVFSXgOT8" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:156650" .
+
+inst:340v1GCnbCmfXIVFSXgOTA core:hasGlobalID "340v1GCnbCmfXIVFSXgOTA" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:156648" .
+
+inst:340v1GCnbCmfXIVFSXgOTB core:hasGlobalID "340v1GCnbCmfXIVFSXgOTB" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:156649" .
+
+inst:340v1GCnbCmfXIVFSXgOUO core:hasGlobalID "340v1GCnbCmfXIVFSXgOUO" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:156474" .
+
+inst:340v1GCnbCmfXIVFSXgOUP core:hasGlobalID "340v1GCnbCmfXIVFSXgOUP" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:156475" .
+
+inst:340v1GCnbCmfXIVFSXgOUR core:hasGlobalID "340v1GCnbCmfXIVFSXgOUR" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:156473" .
+
+inst:340v1GCnbCmfXIVFSXgOUS core:hasGlobalID "340v1GCnbCmfXIVFSXgOUS" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:156478" .
+
+inst:340v1GCnbCmfXIVFSXgOUT core:hasGlobalID "340v1GCnbCmfXIVFSXgOUT" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:156479" .
+
+inst:340v1GCnbCmfXIVFSXgOUU core:hasGlobalID "340v1GCnbCmfXIVFSXgOUU" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:156476" .
+
+inst:340v1GCnbCmfXIVFSXgOUV core:hasGlobalID "340v1GCnbCmfXIVFSXgOUV" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:156477" .
+
+inst:340v1GCnbCmfXIVFSXgOUm core:hasGlobalID "340v1GCnbCmfXIVFSXgOUm" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:12K3:12K3:156434" .
+
+inst:340v1GCnbCmfXIVFSXgOUn core:hasGlobalID "340v1GCnbCmfXIVFSXgOUn" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:12K3:12K3:156435" .
+
+inst:340v1GCnbCmfXIVFSXgOUp core:hasGlobalID "340v1GCnbCmfXIVFSXgOUp" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:12K3:12K3:156433" .
+
+inst:340v1GCnbCmfXIVFSXgOUq core:hasGlobalID "340v1GCnbCmfXIVFSXgOUq" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:12K3:12K3:156438" .
+
+inst:340v1GCnbCmfXIVFSXgOUr core:hasGlobalID "340v1GCnbCmfXIVFSXgOUr" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:12K3:12K3:156439" .
+
+inst:340v1GCnbCmfXIVFSXgOUs core:hasGlobalID "340v1GCnbCmfXIVFSXgOUs" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:12K3:12K3:156436" .
+
+inst:340v1GCnbCmfXIVFSXgOUt core:hasGlobalID "340v1GCnbCmfXIVFSXgOUt" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:12K3:12K3:156437" .
+
+inst:340v1GCnbCmfXIVFSXgOUw core:hasGlobalID "340v1GCnbCmfXIVFSXgOUw" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:12K3:12K3:156440" .
+
+inst:340v1GCnbCmfXIVFSXgOVY core:hasGlobalID "340v1GCnbCmfXIVFSXgOVY" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:156480" .
+
+inst:34aMhLxa9Fwfg3t6pczI_C core:hasGlobalID "34aMhLxa9Fwfg3t6pczI_C" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:163662" .
+
+inst:34aMhLxa9Fwfg3t6pczI_D core:hasGlobalID "34aMhLxa9Fwfg3t6pczI_D" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:163663" .
+
+inst:34aMhLxa9Fwfg3t6pczI_G core:hasGlobalID "34aMhLxa9Fwfg3t6pczI_G" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:163666" .
+
+inst:34aMhLxa9Fwfg3t6pczI_J core:hasGlobalID "34aMhLxa9Fwfg3t6pczI_J" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:163665" .
+
+inst:34aMhLxa9Fwfg3t6pczI_L core:hasGlobalID "34aMhLxa9Fwfg3t6pczI_L" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:163671" .
+
+inst:34aMhLxa9Fwfg3t6pczI_M core:hasGlobalID "34aMhLxa9Fwfg3t6pczI_M" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:163668" .
+
+inst:34aMhLxa9Fwfg3t6pczI_N core:hasGlobalID "34aMhLxa9Fwfg3t6pczI_N" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:163669" .
+
+inst:34aMhLxa9Fwfg3t6pczI_O core:hasGlobalID "34aMhLxa9Fwfg3t6pczI_O" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:163674" .
+
+inst:34aMhLxa9Fwfg3t6pczI_P core:hasGlobalID "34aMhLxa9Fwfg3t6pczI_P" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:163675" .
+
+inst:34aMhLxa9Fwfg3t6pczI_Q core:hasGlobalID "34aMhLxa9Fwfg3t6pczI_Q" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:163672" .
+
+inst:34aMhLxa9Fwfg3t6pczI_S core:hasGlobalID "34aMhLxa9Fwfg3t6pczI_S" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:163678" .
+
+inst:34aMhLxa9Fwfg3t6pczI_V core:hasGlobalID "34aMhLxa9Fwfg3t6pczI_V" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:163677" .
+
+inst:34aMhLxa9Fwfg3t6pczI_Y core:hasGlobalID "34aMhLxa9Fwfg3t6pczI_Y" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:163680" .
+
+inst:34aMhLxa9Fwfg3t6pczI_Z core:hasGlobalID "34aMhLxa9Fwfg3t6pczI_Z" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:163681" .
+
+inst:34aMhLxa9Fwfg3t6pczIeq core:hasGlobalID "34aMhLxa9Fwfg3t6pczIeq" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:162550" .
+
+inst:34aMhLxa9Fwfg3t6pczIet core:hasGlobalID "34aMhLxa9Fwfg3t6pczIet" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:162549" .
+
+inst:34aMhLxa9Fwfg3t6pczIj8 core:hasGlobalID "34aMhLxa9Fwfg3t6pczIj8" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:162698" .
+
+inst:34aMhLxa9Fwfg3t6pczIjB core:hasGlobalID "34aMhLxa9Fwfg3t6pczIjB" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:162697" .
+
+inst:34aMhLxa9Fwfg3t6pczIje core:hasGlobalID "34aMhLxa9Fwfg3t6pczIje" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:162730" .
+
+inst:34aMhLxa9Fwfg3t6pczIjh core:hasGlobalID "34aMhLxa9Fwfg3t6pczIjh" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:162729" .
+
+inst:34aMhLxa9Fwfg3t6pczIk9 core:hasGlobalID "34aMhLxa9Fwfg3t6pczIk9" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:162635" .
+
+inst:34aMhLxa9Fwfg3t6pczIkE core:hasGlobalID "34aMhLxa9Fwfg3t6pczIkE" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:162636" .
+
+inst:34aMhLxa9Fwfg3t6pczIke core:hasGlobalID "34aMhLxa9Fwfg3t6pczIke" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:162666" .
+
+inst:34aMhLxa9Fwfg3t6pczIkh core:hasGlobalID "34aMhLxa9Fwfg3t6pczIkh" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:162665" .
+
+inst:34aMhLxa9Fwfg3t6pczIlf core:hasGlobalID "34aMhLxa9Fwfg3t6pczIlf" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:162603" .
+
+inst:34aMhLxa9Fwfg3t6pczIlk core:hasGlobalID "34aMhLxa9Fwfg3t6pczIlk" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:162604" .
+
+inst:34aMhLxa9Fwfg3t6pczTIP core:hasGlobalID "34aMhLxa9Fwfg3t6pczTIP" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:164955" .
+
+inst:34aMhLxa9Fwfg3t6pczTIS core:hasGlobalID "34aMhLxa9Fwfg3t6pczTIS" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:164958" .
+
+inst:34aMhLxa9Fwfg3t6pczTIT core:hasGlobalID "34aMhLxa9Fwfg3t6pczTIT" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:164959" .
+
+inst:34aMhLxa9Fwfg3t6pczTIU core:hasGlobalID "34aMhLxa9Fwfg3t6pczTIU" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:164956" .
+
+inst:34aMhLxa9Fwfg3t6pczTIV core:hasGlobalID "34aMhLxa9Fwfg3t6pczTIV" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:164957" .
+
+inst:34aMhLxa9Fwfg3t6pczTIY core:hasGlobalID "34aMhLxa9Fwfg3t6pczTIY" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:164960" .
+
+inst:34aMhLxa9Fwfg3t6pczTIZ core:hasGlobalID "34aMhLxa9Fwfg3t6pczTIZ" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:164961" .
+
+inst:34aMhLxa9Fwfg3t6pczTQ5 core:hasGlobalID "34aMhLxa9Fwfg3t6pczTQ5" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:165447" .
+
+inst:34aMhLxa9Fwfg3t6pczTQ8 core:hasGlobalID "34aMhLxa9Fwfg3t6pczTQ8" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:165450" .
+
+inst:34aMhLxa9Fwfg3t6pczTQ9 core:hasGlobalID "34aMhLxa9Fwfg3t6pczTQ9" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:165451" .
+
+inst:34aMhLxa9Fwfg3t6pczTQA core:hasGlobalID "34aMhLxa9Fwfg3t6pczTQA" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:165448" .
+
+inst:34aMhLxa9Fwfg3t6pczTQB core:hasGlobalID "34aMhLxa9Fwfg3t6pczTQB" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:165449" .
+
+inst:34aMhLxa9Fwfg3t6pczTQE core:hasGlobalID "34aMhLxa9Fwfg3t6pczTQE" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:165452" .
+
+inst:34aMhLxa9Fwfg3t6pczTQF core:hasGlobalID "34aMhLxa9Fwfg3t6pczTQF" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:165453" .
+
+inst:3iFOdnkqD4vxXLEZB7MIGJ core:hasGlobalID "3iFOdnkqD4vxXLEZB7MIGJ" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:159017" .
+
+inst:3iFOdnkqD4vxXLEZB7MIG_ core:hasGlobalID "3iFOdnkqD4vxXLEZB7MIG_" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:158980" .
+
+inst:3iFOdnkqD4vxXLEZB7MIHF core:hasGlobalID "3iFOdnkqD4vxXLEZB7MIHF" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:159093" .
+
+inst:3iFOdnkqD4vxXLEZB7MIHZ core:hasGlobalID "3iFOdnkqD4vxXLEZB7MIHZ" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:159065" .
+
+inst:3iFOdnkqD4vxXLEZB7MIHx core:hasGlobalID "3iFOdnkqD4vxXLEZB7MIHx" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:159041" .
+
+inst:3iFOdnkqD4vxXLEZB7MIIH core:hasGlobalID "3iFOdnkqD4vxXLEZB7MIIH" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:159147" .
+
+inst:3iFOdnkqD4vxXLEZB7MIJO core:hasGlobalID "3iFOdnkqD4vxXLEZB7MIJO" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:159202" .
+
+inst:3iFOdnkqD4vxXLEZB7MIJo core:hasGlobalID "3iFOdnkqD4vxXLEZB7MIJo" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:159176" .
+
+inst:3iFOdnkqD4vxXLEZB7MIMI core:hasGlobalID "3iFOdnkqD4vxXLEZB7MIMI" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:158888" .
+
+inst:3iFOdnkqD4vxXLEZB7MINH core:hasGlobalID "3iFOdnkqD4vxXLEZB7MINH" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:158955" .
+
+inst:3iFOdnkqD4vxXLEZB7MINp core:hasGlobalID "3iFOdnkqD4vxXLEZB7MINp" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:158921" .
+
+inst:3iFOdnkqD4vxXLEZB7MIOE core:hasGlobalID "3iFOdnkqD4vxXLEZB7MIOE" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:159540" .
+
+inst:3iFOdnkqD4vxXLEZB7MIOS core:hasGlobalID "3iFOdnkqD4vxXLEZB7MIOS" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:159526" .
+
+inst:3iFOdnkqD4vxXLEZB7MIOW core:hasGlobalID "3iFOdnkqD4vxXLEZB7MIOW" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:159514" .
+
+inst:3iFOdnkqD4vxXLEZB7MIOs core:hasGlobalID "3iFOdnkqD4vxXLEZB7MIOs" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:159500" .
+
+inst:3iFOdnkqD4vxXLEZB7MIP6 core:hasGlobalID "3iFOdnkqD4vxXLEZB7MIP6" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:159612" .
+
+inst:3iFOdnkqD4vxXLEZB7MIPN core:hasGlobalID "3iFOdnkqD4vxXLEZB7MIPN" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:159597" .
+
+inst:3iFOdnkqD4vxXLEZB7MIPq core:hasGlobalID "3iFOdnkqD4vxXLEZB7MIPq" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:159566" .
+
+inst:3iFOdnkqD4vxXLEZB7MIPu core:hasGlobalID "3iFOdnkqD4vxXLEZB7MIPu" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:159554" .
+
+inst:3iFOdnkqD4vxXLEZB7MIQ5 core:hasGlobalID "3iFOdnkqD4vxXLEZB7MIQ5" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:159679" .
+
+inst:3iFOdnkqD4vxXLEZB7MIQA core:hasGlobalID "3iFOdnkqD4vxXLEZB7MIQA" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:159664" .
+
+inst:3iFOdnkqD4vxXLEZB7MIQP core:hasGlobalID "3iFOdnkqD4vxXLEZB7MIQP" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:159651" .
+
+inst:3iFOdnkqD4vxXLEZB7MIQi core:hasGlobalID "3iFOdnkqD4vxXLEZB7MIQi" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:159638" .
+
+inst:3iFOdnkqD4vxXLEZB7MIQp core:hasGlobalID "3iFOdnkqD4vxXLEZB7MIQp" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:159625" .
+
+inst:3iFOdnkqD4vxXLEZB7MIRC core:hasGlobalID "3iFOdnkqD4vxXLEZB7MIRC" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:159734" .
+
+inst:3iFOdnkqD4vxXLEZB7MIRH core:hasGlobalID "3iFOdnkqD4vxXLEZB7MIRH" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:159723" .
+
+inst:3iFOdnkqD4vxXLEZB7MIRW core:hasGlobalID "3iFOdnkqD4vxXLEZB7MIRW" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:159706" .
+
+inst:3iFOdnkqD4vxXLEZB7MISK core:hasGlobalID "3iFOdnkqD4vxXLEZB7MISK" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:159278" .
+
+inst:3iFOdnkqD4vxXLEZB7MIS_ core:hasGlobalID "3iFOdnkqD4vxXLEZB7MIS_" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:159236" .
+
+inst:3iFOdnkqD4vxXLEZB7MIT2 core:hasGlobalID "3iFOdnkqD4vxXLEZB7MIT2" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:159352" .
+
+inst:3iFOdnkqD4vxXLEZB7MITh core:hasGlobalID "3iFOdnkqD4vxXLEZB7MITh" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:159313" .
+
+inst:3iFOdnkqD4vxXLEZB7MIUl core:hasGlobalID "3iFOdnkqD4vxXLEZB7MIUl" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:159381" .
+
+inst:3iFOdnkqD4vxXLEZB7MIV4 core:hasGlobalID "3iFOdnkqD4vxXLEZB7MIV4" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:159486" .
+
+inst:3iFOdnkqD4vxXLEZB7MJW4 core:hasGlobalID "3iFOdnkqD4vxXLEZB7MJW4" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:160062" .
+
+inst:3iFOdnkqD4vxXLEZB7MJWL core:hasGlobalID "3iFOdnkqD4vxXLEZB7MJWL" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:160047" .
+
+inst:3iFOdnkqD4vxXLEZB7MJWa core:hasGlobalID "3iFOdnkqD4vxXLEZB7MJWa" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:160030" .
+
+inst:3iFOdnkqD4vxXLEZB7MJXE core:hasGlobalID "3iFOdnkqD4vxXLEZB7MJXE" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:160116" .
+
+inst:3iFOdnkqD4vxXLEZB7MJXT core:hasGlobalID "3iFOdnkqD4vxXLEZB7MJXT" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:160103" .
+
+inst:3iFOdnkqD4vxXLEZB7MJXW core:hasGlobalID "3iFOdnkqD4vxXLEZB7MJXW" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:160090" .
+
+inst:3iFOdnkqD4vxXLEZB7MJXt core:hasGlobalID "3iFOdnkqD4vxXLEZB7MJXt" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:160077" .
+
+<https://w3id.org/digitalconstruction/instance#3iFOdnkqD4vxXLEZB7MJa$> core:hasGlobalID "3iFOdnkqD4vxXLEZB7MJa$" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:159749" .
+
+inst:3iFOdnkqD4vxXLEZB7MJaK core:hasGlobalID "3iFOdnkqD4vxXLEZB7MJaK" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:159790" .
+
+inst:3iFOdnkqD4vxXLEZB7MJab core:hasGlobalID "3iFOdnkqD4vxXLEZB7MJab" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:159775" .
+
+inst:3iFOdnkqD4vxXLEZB7MJae core:hasGlobalID "3iFOdnkqD4vxXLEZB7MJae" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:159762" .
+
+inst:3iFOdnkqD4vxXLEZB7MJb6 core:hasGlobalID "3iFOdnkqD4vxXLEZB7MJb6" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:159868" .
+
+inst:3iFOdnkqD4vxXLEZB7MJbL core:hasGlobalID "3iFOdnkqD4vxXLEZB7MJbL" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:159855" .
+
+inst:3iFOdnkqD4vxXLEZB7MJbX core:hasGlobalID "3iFOdnkqD4vxXLEZB7MJbX" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:159835" .
+
+inst:3iFOdnkqD4vxXLEZB7MJbp core:hasGlobalID "3iFOdnkqD4vxXLEZB7MJbp" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:159817" .
+
+inst:3iFOdnkqD4vxXLEZB7MJcE core:hasGlobalID "3iFOdnkqD4vxXLEZB7MJcE" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:159924" .
+
+inst:3iFOdnkqD4vxXLEZB7MJcV core:hasGlobalID "3iFOdnkqD4vxXLEZB7MJcV" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:159909" .
+
+inst:3iFOdnkqD4vxXLEZB7MJcW core:hasGlobalID "3iFOdnkqD4vxXLEZB7MJcW" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:159898" .
+
+inst:3iFOdnkqD4vxXLEZB7MJcn core:hasGlobalID "3iFOdnkqD4vxXLEZB7MJcn" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:159883" .
+
+<https://w3id.org/digitalconstruction/instance#3iFOdnkqD4vxXLEZB7MJd$> core:hasGlobalID "3iFOdnkqD4vxXLEZB7MJd$" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:159941" .
+
+inst:3iFOdnkqD4vxXLEZB7MJdG core:hasGlobalID "3iFOdnkqD4vxXLEZB7MJdG" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:159978" .
+
+inst:3iFOdnkqD4vxXLEZB7MJdX core:hasGlobalID "3iFOdnkqD4vxXLEZB7MJdX" ;
+    core:hasLabel "M_W-Wide Flange:W460X60:W460X60:159963" .
+
+inst:3iFOdnkqD4vxXLEZB7MJrY core:hasGlobalID "3iFOdnkqD4vxXLEZB7MJrY" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:160856" .
+
+inst:3iFOdnkqD4vxXLEZB7MJrj core:hasGlobalID "3iFOdnkqD4vxXLEZB7MJrj" ;
+    core:hasLabel "M_K-Series Bar Joist-Rod Web:14K1:14K1:160855" .
+
+inst:3j78rpLc50q8dD4qE8hnlZ core:hasGlobalID "3j78rpLc50q8dD4qE8hnlZ" ;
+    core:hasLabel "M_Footing-Rectangular:3300 x 3740 x 300mm:3300 x 3740 x 300mm:166237" .
+
+inst:3nxP5U1Pn9dvBtyihOLemM core:hasGlobalID "3nxP5U1Pn9dvBtyihOLemM" ;
+    core:hasLabel "Wall Foundation:Bearing Footing - 900 x 300:143200" .
+
+inst:3nxP5U1Pn9dvBtyihOLemX core:hasGlobalID "3nxP5U1Pn9dvBtyihOLemX" ;
+    core:hasLabel "Wall Foundation:Bearing Footing - 900 x 300:143191" .
+
+inst:3nxP5U1Pn9dvBtyihOLemp core:hasGlobalID "3nxP5U1Pn9dvBtyihOLemp" ;
+    core:hasLabel "Wall Foundation:Bearing Footing - 900 x 300:143173" .
+
+inst:3nxP5U1Pn9dvBtyihOLemu core:hasGlobalID "3nxP5U1Pn9dvBtyihOLemu" ;
+    core:hasLabel "Wall Foundation:Bearing Footing - 900 x 300:143182" .
+
+inst:01jcyQmVv1m9u_teYvadsw a dicm:LayerSet ;
+    dicm:NumberOfLayers 2 ;
+    dicm:hasLayer inst:09B80XljH6Nv9rgQZvzikx,
+        inst:1kNUlk5mP3neX8o5yNvEGn ;
+    core:hasName "Floor:64mm Concrete With 38mm Metal Deck" .
+
+inst:04dNmZdiv4Q9IiZ9zAGS6t a dicm:Layer ;
+    dicm:hasMaterial inst:1mrTPB1_r3dOicnYBcqcys ;
+    dicv:hasProperty inst:0qs5WIloTC8eefvqzoBdC3 .
+
+inst:07NIcoB8X9qhegyNUUZMBT a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 3e-01 .
+
+inst:08mwQdAdL7S9PjoAmlmOcs a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 3.8e-02 .
+
+inst:08tRnAQpLC3u4qOJL0hTzW a dicm:Material ;
+    core:hasLabel "Concrete - Cast In Situ" .
+
+inst:09B80XljH6Nv9rgQZvzikx a dicm:Layer ;
+    dicm:hasMaterial inst:0k6ykelfTF9eMV3pBY50Rf ;
+    dicv:hasProperty inst:11XOhkJfr2UA7yUunpiOBd .
+
+inst:09LWAui6P49gZLQimAP1H0 a dicv:Property ;
+    core:hasLabel "IsExternal" ;
+    core:hasValue true .
+
+inst:0Mo_1r1qX1QRs409drdrkD a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 3.8e-02 .
+
+inst:0OCKWbE5XClAxb7e2zYhgj a beo:Slab ;
+    bot:containsElement inst:3j78rpLc50q8dD4qE8hng3 ;
+    dicm:hasLayerSet inst:1Ir2M2sqHAbQ7qL0Iq_WBK ;
+    dicv:hasProperty inst:2LQY9pV8LEUg4VehFJwSHk ;
+    core:hasGlobalID "0OCKWbE5XClAxb7e2zYhgj" ;
+    core:hasLabel "Floor:127mm Slab on Grade:153025" .
+
+inst:0OCKWbE5XClAxb7e2zYhgz a beo:Slab ;
+    bot:containsElement inst:3j78rpLc50q8dD4qE8hnYQ,
+        inst:3j78rpLc50q8dD4qE8hnYk,
+        inst:3j78rpLc50q8dD4qE8hnZv ;
+    dicm:hasLayerSet inst:01jcyQmVv1m9u_teYvadsw ;
+    dicv:hasProperty inst:0mRtlg4XrFrAG7UQccYK8l ;
+    core:hasGlobalID "0OCKWbE5XClAxb7e2zYhgz" ;
+    core:hasLabel "Floor:64mm Concrete With 38mm Metal Deck:153041" .
+
+inst:0PYXzZwSv21OrJiLwBvhs9 a dicm:Layer ;
+    dicm:hasMaterial inst:2wv9m9enf7ifII6LLWCJGx ;
+    dicv:hasProperty inst:0Mo_1r1qX1QRs409drdrkD .
+
+inst:0SOvb9jDD29vS9w45yGNsd a dicm:Material ;
+    core:hasLabel "Concrete - Cast In Situ" .
+
+inst:0U1PtSFLzBhBNLhKeUyl6l a dicv:Property ;
+    core:hasLabel "IsExternal" ;
+    core:hasValue true .
+
+inst:0XIJbOLXr4OAAWIRKiIlin a dicv:Property ;
+    core:hasLabel "IsExternal" ;
+    core:hasValue true .
+
+inst:0Xq4jP2Fz5BRe5246nC9E9 a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 3.8e-02 .
+
+inst:0a7QWIOj5Cqfa6oQgkbHnk a dicm:Layer ;
+    dicm:hasMaterial inst:1AI6rXplH3IAs01Pv7t0l8 ;
+    dicv:hasProperty inst:0yRbQX4196PQHbL8UCl6BF .
+
+inst:0dIZY24Z10lx8k1S4dduvR a dicm:Material ;
+    core:hasLabel "Roofing - Metal" .
+
+inst:0k6ykelfTF9eMV3pBY50Rf a dicm:Material ;
+    core:hasLabel "Concrete - Cast in Situ Lightweight" .
+
+inst:0mRtlg4XrFrAG7UQccYK8l a dicv:Property ;
+    core:hasLabel "IsExternal" ;
+    core:hasValue false .
+
+inst:0oNPx3Cw19YgDl6j4KAuIf a dicm:LayerSet ;
+    dicm:NumberOfLayers 3 ;
+    dicm:hasLayer inst:0PYXzZwSv21OrJiLwBvhs9,
+        inst:0xQqrSDJL4QuMLv5L_sfj6,
+        inst:3xh8Tzrjf1Q9piAPM2BJRV ;
+    core:hasName "Basic Roof:EPDM Membrane on Rigid Insul on Metal Deck" .
+
+inst:0pOumi7Rn6OexTuD_rSEID a dicm:Layer ;
+    dicm:hasMaterial inst:3cAopC7b929xyZ_b2sUKQy ;
+    dicv:hasProperty inst:2YwIP7kMvAy8mwvX0A9KdR .
+
+inst:0pcfbw2hj29BUZ1mpbVssN a dicv:Property ;
+    core:hasLabel "IsExternal" ;
+    core:hasValue true .
+
+inst:0qKSDs6s97zwechmrTpDNR a dicm:Layer ;
+    dicm:hasMaterial inst:0dIZY24Z10lx8k1S4dduvR ;
+    dicv:hasProperty inst:2FLEkB7Cr2lPTEbo9S7wqB .
+
+inst:0qs5WIloTC8eefvqzoBdC3 a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 6e-03 .
+
+inst:0sIJ4cl5rE2x8zsLGL4kUn a dicm:LayerSet ;
+    dicm:NumberOfLayers 1 ;
+    dicm:hasLayer inst:2HJ1pyvmr08x_F0P1Ft_U2 ;
+    core:hasName "Basic Wall:Foundation - Concrete (300mm)" .
+
+inst:0sl9d_0VH2n8vCnreWpMnE a dicv:Property ;
+    core:hasLabel "IsExternal" ;
+    core:hasValue false .
+
+inst:0uC2NMWWXEm8tiWNVrpz4X a dicm:Layer ;
+    dicm:hasMaterial inst:08tRnAQpLC3u4qOJL0hTzW ;
+    dicv:hasProperty inst:3Sh752eEn3yOME2CNcFk_o .
+
+inst:0xQqrSDJL4QuMLv5L_sfj6 a dicm:Layer ;
+    dicm:hasMaterial inst:1lhb6cJ0rEsf_hycYhACEc ;
+    dicv:hasProperty inst:2rvWoVaGP2SPzs_xW10ZTb .
+
+inst:0yRbQX4196PQHbL8UCl6BF a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 3e-01 .
+
+<https://w3id.org/digitalconstruction/instance#10jPkmJhLAlOZD3FPexH$U> a beo:Roof ;
+    bot:containsElement inst:2rIeV2mo5CHhZGv9WI3EzJ ;
+    dicm:hasLayerSet inst:2MFAJWvEb1Zf2WdBHso0cS ;
+    dicv:hasProperty inst:2J2gVLkHD68PwDAx6blfNz ;
+    core:hasGlobalID "10jPkmJhLAlOZD3FPexH$U" ;
+    core:hasLabel "Basic Roof:EPDM Membrane on Rigid Insul on Metal Deck:161063" .
+
+inst:10jPkmJhLAlOZD3FPexHtX a beo:Roof ;
+    bot:containsElement inst:0w3RE7F05Fifsk9Akmcljr,
+        inst:3Alsud7uH9v9cpJ3GCLTju ;
+    dicm:hasLayerSet inst:1_FvrjYT91e9lvMDndnYCS ;
+    dicv:hasProperty inst:0sl9d_0VH2n8vCnreWpMnE ;
+    core:hasGlobalID "10jPkmJhLAlOZD3FPexHtX" ;
+    core:hasLabel "Basic Roof:Standing Seam Metal Roof:161560" .
+
+inst:10jPkmJhLAlOZD3FPexHvb a beo:Roof ;
+    bot:containsElement inst:1jmZpLgL1AP88fZDKuzEWR ;
+    dicm:hasLayerSet inst:0oNPx3Cw19YgDl6j4KAuIf ;
+    dicv:hasProperty inst:3vOLntEAb4Qeo2gi0JDOau ;
+    core:hasGlobalID "10jPkmJhLAlOZD3FPexHvb" ;
+    core:hasLabel "Basic Roof:EPDM Membrane on Rigid Insul on Metal Deck:160924" .
+
+inst:11XOhkJfr2UA7yUunpiOBd a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 6.4e-02 .
+
+inst:1AI6rXplH3IAs01Pv7t0l8 a dicm:Material ;
+    core:hasLabel "Concrete - Cast In Situ" .
+
+inst:1FSE6UxTr0AfQoEGF5zI1K a dicm:LayerSet ;
+    dicm:NumberOfLayers 1 ;
+    dicm:hasLayer inst:0pOumi7Rn6OexTuD_rSEID ;
+    core:hasName "Basic Wall:Foundation - Concrete (300mm)" .
+
+inst:1GOTud9NHCMvPdO77J7nr4 a dicm:Material ;
+    core:hasLabel "Metal - Decking" .
+
+inst:1Ir2M2sqHAbQ7qL0Iq_WBK a dicm:LayerSet ;
+    dicm:NumberOfLayers 1 ;
+    dicm:hasLayer inst:3K2qik8i1BPxh3zG4_apms ;
+    core:hasName "Floor:127mm Slab on Grade" .
+
+inst:1NbnmHYKP3Sx1WCWyRmbCT a dicm:Material ;
+    core:hasLabel "Concrete - Cast In Situ" .
+
+inst:1PcjfGpsbCzwsoe4Ls8LoE a dicm:Layer ;
+    dicm:hasMaterial inst:1NbnmHYKP3Sx1WCWyRmbCT ;
+    dicv:hasProperty inst:397NzqWn96uPHff1t4hyvV .
+
+inst:1UHBSu9c5EgRmuTPAQrold a dicm:Layer ;
+    dicm:hasMaterial inst:3Mf_gF1M1CRw4R0T7liNZa ;
+    dicv:hasProperty inst:3PiVdnTrr2eA3EMdVc85go .
+
+inst:1UiBlCVH98gRc3YuN94GUU a dicv:Property ;
+    core:hasLabel "IsExternal" ;
+    core:hasValue true .
+
+inst:1VS4tDTaL1TQlooYTIHQHg a dicm:Layer ;
+    dicm:hasMaterial inst:1GOTud9NHCMvPdO77J7nr4 ;
+    dicv:hasProperty inst:0Xq4jP2Fz5BRe5246nC9E9 .
+
+inst:1YMRBw5ZD2jObVzzK_uCfY a dicm:Material ;
+    core:hasLabel "Metal - Decking" .
+
+inst:1_FvrjYT91e9lvMDndnYCS a dicm:LayerSet ;
+    dicm:NumberOfLayers 3 ;
+    dicm:hasLayer inst:0qKSDs6s97zwechmrTpDNR,
+        inst:1VS4tDTaL1TQlooYTIHQHg,
+        inst:1fKG31z_n7yhiUZR6Nfl2M ;
+    core:hasName "Basic Roof:Standing Seam Metal Roof" .
+
+inst:1dglDBUAf3mOp8oKulZ2sw a dicm:LayerSet ;
+    dicm:NumberOfLayers 1 ;
+    dicm:hasLayer inst:2Q0GpIpsDFl8DmdU8e9trO ;
+    core:hasName "Basic Wall:Foundation - Concrete (300mm)" .
+
+inst:1fKG31z_n7yhiUZR6Nfl2M a dicm:Layer ;
+    dicm:hasMaterial inst:2FaWVYAA96Xg788odh2yV9 ;
+    dicv:hasProperty inst:2h1jZmdmPC6BvQ8FKwiNAf .
+
+inst:1kNUlk5mP3neX8o5yNvEGn a dicm:Layer ;
+    dicm:hasMaterial inst:1YMRBw5ZD2jObVzzK_uCfY ;
+    dicv:hasProperty inst:08mwQdAdL7S9PjoAmlmOcs .
+
+inst:1lhb6cJ0rEsf_hycYhACEc a dicm:Material ;
+    core:hasLabel "Roofing - EPDM Membrane" .
+
+inst:1mrTPB1_r3dOicnYBcqcys a dicm:Material ;
+    core:hasLabel "Roofing - EPDM Membrane" .
+
+inst:1n4bHHyhTF8vVpRpggGTrW a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 3e-01 .
+
+inst:1trXgJhnr0DuT_DyrHBhoG a bot:Site ;
+    geo1:lat "42.358428955"^^xsd:float ;
+    geo1:long "-71.0597763061111"^^xsd:float ;
+    bot:hasBuilding inst:1trXgJhnr0DuT_DyrHBhoJ ;
+    core:hasGlobalID "1trXgJhnr0DuT_DyrHBhoG" ;
+    core:hasLabel "Default" ;
+    core:hasName "None" .
+
+inst:1trXgJhnr0DuT_DyrHBhoJ a bot:Building ;
+    bot:hasStorey inst:1trXgJhnr0DuT_DyskqK7K,
+        inst:1trXgJhnr0DuT_DyskqK9L,
+        inst:1trXgJhnr0DuT_Dyskqqtq,
+        inst:1trXgJhnr0DuT_Dyskqr19 ;
+    core:hasGlobalID "1trXgJhnr0DuT_DyrHBhoJ" ;
+    core:hasName "None" .
+
+inst:1trXgJhnr0DuT_DyskqK7K a bot:Storey ;
+    bot:containsElement inst:0OCKWbE5XClAxb7e2zYhgz ;
+    core:hasGlobalID "1trXgJhnr0DuT_DyskqK7K" ;
+    core:hasLabel "Level 2" ;
+    core:hasName "None" .
+
+inst:1trXgJhnr0DuT_DyskqK9L a bot:Storey ;
+    bot:containsElement inst:0OCKWbE5XClAxb7e2zYhgj ;
+    core:hasGlobalID "1trXgJhnr0DuT_DyskqK9L" ;
+    core:hasLabel "Level 1" ;
+    core:hasName "None" .
+
+inst:1trXgJhnr0DuT_Dyskqqtq a bot:Storey ;
+    bot:containsElement inst:3j78rpLc50q8dD4qE8hne8,
+        inst:3j78rpLc50q8dD4qE8hnfT,
+        inst:3j78rpLc50q8dD4qE8hnkJ,
+        inst:3j78rpLc50q8dD4qE8hnkq,
+        inst:3nxP5U1Pn9dvBtyihOLeny,
+        inst:3nxP5U1Pn9dvBtyihOLeq5,
+        inst:3nxP5U1Pn9dvBtyihOLery,
+        inst:3nxP5U1Pn9dvBtyihOLesp ;
+    core:hasGlobalID "1trXgJhnr0DuT_Dyskqqtq" ;
+    core:hasLabel "T/FDN" ;
+    core:hasName "None" .
+
+inst:1trXgJhnr0DuT_Dyskqr19 a bot:Storey ;
+    bot:containsElement inst:0w3RE7F05Fifsk9Akmcljr,
+        <https://w3id.org/digitalconstruction/instance#10jPkmJhLAlOZD3FPexH$U>,
+        inst:10jPkmJhLAlOZD3FPexHtX,
+        inst:10jPkmJhLAlOZD3FPexHvb,
+        inst:1jmZpLgL1AP88fZDKuzEWR,
+        inst:2rIeV2mo5CHhZGv9WI3EzJ,
+        inst:3Alsud7uH9v9cpJ3GCLTju ;
+    core:hasGlobalID "1trXgJhnr0DuT_Dyskqr19" ;
+    core:hasLabel "Roof" ;
+    core:hasName "None" .
+
+inst:1vHFPhMDf9HxTHeGm0wAyA a dicv:Property ;
+    core:hasLabel "IsExternal" ;
+    core:hasValue true .
+
+inst:1wQxQRW8f8vvqdAdULADLk a dicv:Property ;
+    core:hasLabel "IsExternal" ;
+    core:hasValue true .
+
+inst:2FLEkB7Cr2lPTEbo9S7wqB a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 6e-03 .
+
+inst:2FaWVYAA96Xg788odh2yV9 a dicm:Material ;
+    core:hasLabel "Structure - Steel Bar Joist Layer" .
+
+inst:2HJ1pyvmr08x_F0P1Ft_U2 a dicm:Layer ;
+    dicm:hasMaterial inst:3Lnp4CcB9EkPrUZF9H3t5m ;
+    dicv:hasProperty inst:07NIcoB8X9qhegyNUUZMBT .
+
+inst:2J2gVLkHD68PwDAx6blfNz a dicv:Property ;
+    core:hasLabel "IsExternal" ;
+    core:hasValue false .
+
+inst:2LQY9pV8LEUg4VehFJwSHk a dicv:Property ;
+    core:hasLabel "IsExternal" ;
+    core:hasValue false .
+
+inst:2MFAJWvEb1Zf2WdBHso0cS a dicm:LayerSet ;
+    dicm:NumberOfLayers 3 ;
+    dicm:hasLayer inst:04dNmZdiv4Q9IiZ9zAGS6t,
+        inst:1UHBSu9c5EgRmuTPAQrold,
+        inst:3tsV7sYbLCRQ33d7wJzx5g ;
+    core:hasName "Basic Roof:EPDM Membrane on Rigid Insul on Metal Deck" .
+
+inst:2McchQeMXBoxwRhT8L5j2k a dicm:Material ;
+    core:hasLabel "Concrete - Cast In Situ" .
+
+inst:2Q0GpIpsDFl8DmdU8e9trO a dicm:Layer ;
+    dicm:hasMaterial inst:0SOvb9jDD29vS9w45yGNsd ;
+    dicv:hasProperty inst:3nmnrENJT0Seo6pmjRbSWK .
+
+inst:2YwIP7kMvAy8mwvX0A9KdR a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 3e-01 .
+
+inst:2cgRVR_HPFoBzLVkD2TNAp a dicm:Layer ;
+    dicm:hasMaterial inst:3xAqrMFDXDJ9wwTlVpqRAc ;
+    dicv:hasProperty inst:2wt5MG8hLCYe0y2cNF7fQG .
+
+inst:2h1jZmdmPC6BvQ8FKwiNAf a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 2.86e-01 .
+
+inst:2kAWFqqdb4z9YVLjTgTTMw a dicm:Material ;
+    core:hasLabel "Insulation / Thermal Barriers - Rigid insulation" .
+
+inst:2m5UR4ZKrAWQvf6NpDG3Dd a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 1.27e-01 .
+
+inst:2ruPFqAPv4U9AxWbutYpyN a dicm:Material ;
+    core:hasLabel "Concrete" .
+
+inst:2rvWoVaGP2SPzs_xW10ZTb a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 6e-03 .
+
+inst:2wt5MG8hLCYe0y2cNF7fQG a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 3e-01 .
+
+inst:2wv9m9enf7ifII6LLWCJGx a dicm:Material ;
+    core:hasLabel "Metal - Decking" .
+
+inst:397NzqWn96uPHff1t4hyvV a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 3e-01 .
+
+inst:3Br6LW6SP1_uHlR2jVCF9N a dicm:LayerSet ;
+    dicm:NumberOfLayers 1 ;
+    dicm:hasLayer inst:1PcjfGpsbCzwsoe4Ls8LoE ;
+    core:hasName "Basic Wall:Foundation - Concrete (300mm)" .
+
+inst:3JOmhe5CX8cfdoMeR10RWv a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 7.6e-02 .
+
+inst:3K2qik8i1BPxh3zG4_apms a dicm:Layer ;
+    dicm:hasMaterial inst:2ruPFqAPv4U9AxWbutYpyN ;
+    dicv:hasProperty inst:2m5UR4ZKrAWQvf6NpDG3Dd .
+
+inst:3Lnp4CcB9EkPrUZF9H3t5m a dicm:Material ;
+    core:hasLabel "Concrete - Cast In Situ" .
+
+inst:3Mf_gF1M1CRw4R0T7liNZa a dicm:Material ;
+    core:hasLabel "Metal - Decking" .
+
+inst:3PaDwIKmrBH8BJRmrKjbV_ a dicm:LayerSet ;
+    dicm:NumberOfLayers 1 ;
+    dicm:hasLayer inst:2cgRVR_HPFoBzLVkD2TNAp ;
+    core:hasName "Basic Wall:Foundation - Concrete (300mm)" .
+
+inst:3PiVdnTrr2eA3EMdVc85go a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 3.8e-02 .
+
+inst:3Sh752eEn3yOME2CNcFk_o a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 3e-01 .
+
+inst:3TpmXNxM5FifPuu3JZFXcT a dicm:Layer ;
+    dicm:hasMaterial inst:2McchQeMXBoxwRhT8L5j2k ;
+    dicv:hasProperty inst:1n4bHHyhTF8vVpRpggGTrW .
+
+inst:3UvoJh83X5lhS37ffAgguJ a dicm:Material ;
+    core:hasLabel "Insulation / Thermal Barriers - Rigid insulation" .
+
+inst:3_N5CLbaPFi80mTyOTpRWr a dicm:LayerSet ;
+    dicm:NumberOfLayers 1 ;
+    dicm:hasLayer inst:0a7QWIOj5Cqfa6oQgkbHnk ;
+    core:hasName "Basic Wall:Foundation - Concrete (300mm)" .
+
+inst:3cAopC7b929xyZ_b2sUKQy a dicm:Material ;
+    core:hasLabel "Concrete - Cast In Situ" .
+
+inst:3j78rpLc50q8dD4qE8hnYQ core:hasGlobalID "3j78rpLc50q8dD4qE8hnYQ" ;
+    core:hasLabel "Floor:64mm Concrete With 38mm Metal Deck:153041:3" .
+
+inst:3j78rpLc50q8dD4qE8hnYk core:hasGlobalID "3j78rpLc50q8dD4qE8hnYk" ;
+    core:hasLabel "Floor:64mm Concrete With 38mm Metal Deck:153041:2" .
+
+inst:3j78rpLc50q8dD4qE8hnZv core:hasGlobalID "3j78rpLc50q8dD4qE8hnZv" ;
+    core:hasLabel "Floor:64mm Concrete With 38mm Metal Deck:153041:4" .
+
+inst:3j78rpLc50q8dD4qE8hne8 a beo:Wall ;
+    dicm:hasLayerSet inst:1FSE6UxTr0AfQoEGF5zI1K ;
+    dicv:hasProperty inst:0pcfbw2hj29BUZ1mpbVssN ;
+    core:hasGlobalID "3j78rpLc50q8dD4qE8hne8" ;
+    core:hasLabel "Basic Wall:Foundation - Concrete (300mm):166070" .
+
+inst:3j78rpLc50q8dD4qE8hnfT a beo:Wall ;
+    dicm:hasLayerSet inst:3mBsMbIXnCVuaY7tooAOqS ;
+    dicv:hasProperty inst:0U1PtSFLzBhBNLhKeUyl6l ;
+    core:hasGlobalID "3j78rpLc50q8dD4qE8hnfT" ;
+    core:hasLabel "Basic Wall:Foundation - Concrete (300mm):166115" .
+
+inst:3j78rpLc50q8dD4qE8hng3 core:hasGlobalID "3j78rpLc50q8dD4qE8hng3" ;
+    core:hasLabel "Floor:127mm Slab on Grade:153025:2" .
+
+inst:3j78rpLc50q8dD4qE8hnkJ a beo:Wall ;
+    dicm:hasLayerSet inst:3Br6LW6SP1_uHlR2jVCF9N ;
+    dicv:hasProperty inst:1UiBlCVH98gRc3YuN94GUU ;
+    core:hasGlobalID "3j78rpLc50q8dD4qE8hnkJ" ;
+    core:hasLabel "Basic Wall:Foundation - Concrete (300mm):166189" .
+
+inst:3j78rpLc50q8dD4qE8hnkq a beo:Wall ;
+    dicm:hasLayerSet inst:3vQs5ONUn0zAhuu4rQgyV0 ;
+    dicv:hasProperty inst:1wQxQRW8f8vvqdAdULADLk ;
+    core:hasGlobalID "3j78rpLc50q8dD4qE8hnkq" ;
+    core:hasLabel "Basic Wall:Foundation - Concrete (300mm):166154" .
+
+inst:3mBsMbIXnCVuaY7tooAOqS a dicm:LayerSet ;
+    dicm:NumberOfLayers 1 ;
+    dicm:hasLayer inst:0uC2NMWWXEm8tiWNVrpz4X ;
+    core:hasName "Basic Wall:Foundation - Concrete (300mm)" .
+
+inst:3mQE_tG7bA582J1s71fu47 a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 7.6e-02 .
+
+inst:3nmnrENJT0Seo6pmjRbSWK a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 3e-01 .
+
+inst:3nxP5U1Pn9dvBtyihOLeny a beo:Wall ;
+    dicm:hasLayerSet inst:3_N5CLbaPFi80mTyOTpRWr ;
+    dicv:hasProperty inst:1vHFPhMDf9HxTHeGm0wAyA ;
+    core:hasGlobalID "3nxP5U1Pn9dvBtyihOLeny" ;
+    core:hasLabel "Basic Wall:Foundation - Concrete (300mm):143114" .
+
+inst:3nxP5U1Pn9dvBtyihOLeq5 a beo:Wall ;
+    dicm:hasLayerSet inst:0sIJ4cl5rE2x8zsLGL4kUn ;
+    dicv:hasProperty inst:09LWAui6P49gZLQimAP1H0 ;
+    core:hasGlobalID "3nxP5U1Pn9dvBtyihOLeq5" ;
+    core:hasLabel "Basic Wall:Foundation - Concrete (300mm):142963" .
+
+inst:3nxP5U1Pn9dvBtyihOLery a beo:Wall ;
+    dicm:hasLayerSet inst:3PaDwIKmrBH8BJRmrKjbV_ ;
+    dicv:hasProperty inst:0XIJbOLXr4OAAWIRKiIlin ;
+    core:hasGlobalID "3nxP5U1Pn9dvBtyihOLery" ;
+    core:hasLabel "Basic Wall:Foundation - Concrete (300mm):142858" .
+
+inst:3nxP5U1Pn9dvBtyihOLesp a beo:Wall ;
+    dicm:hasLayerSet inst:1dglDBUAf3mOp8oKulZ2sw ;
+    dicv:hasProperty inst:3saS216Pz9eQO1832LdKoK ;
+    core:hasGlobalID "3nxP5U1Pn9dvBtyihOLesp" ;
+    core:hasLabel "Basic Wall:Foundation - Concrete (300mm):143045" .
+
+inst:3saS216Pz9eQO1832LdKoK a dicv:Property ;
+    core:hasLabel "IsExternal" ;
+    core:hasValue true .
+
+inst:3tsV7sYbLCRQ33d7wJzx5g a dicm:Layer ;
+    dicm:hasMaterial inst:2kAWFqqdb4z9YVLjTgTTMw ;
+    dicv:hasProperty inst:3mQE_tG7bA582J1s71fu47 .
+
+inst:3vOLntEAb4Qeo2gi0JDOau a dicv:Property ;
+    core:hasLabel "IsExternal" ;
+    core:hasValue false .
+
+inst:3vQs5ONUn0zAhuu4rQgyV0 a dicm:LayerSet ;
+    dicm:NumberOfLayers 1 ;
+    dicm:hasLayer inst:3TpmXNxM5FifPuu3JZFXcT ;
+    core:hasName "Basic Wall:Foundation - Concrete (300mm)" .
+
+inst:3xAqrMFDXDJ9wwTlVpqRAc a dicm:Material ;
+    core:hasLabel "Concrete - Cast In Situ" .
+
+inst:3xh8Tzrjf1Q9piAPM2BJRV a dicm:Layer ;
+    dicm:hasMaterial inst:3UvoJh83X5lhS37ffAgguJ ;
+    dicv:hasProperty inst:3JOmhe5CX8cfdoMeR10RWv .
+
+inst:0w3RE7F05Fifsk9Akmcljr a beo:Slab ;
+    core:hasGlobalID "0w3RE7F05Fifsk9Akmcljr" ;
+    core:hasLabel "Basic Roof:Standing Seam Metal Roof:161560" .
+
+inst:1jmZpLgL1AP88fZDKuzEWR a beo:Slab ;
+    core:hasGlobalID "1jmZpLgL1AP88fZDKuzEWR" ;
+    core:hasLabel "Basic Roof:EPDM Membrane on Rigid Insul on Metal Deck:160924" .
+
+inst:2rIeV2mo5CHhZGv9WI3EzJ a beo:Slab ;
+    core:hasGlobalID "2rIeV2mo5CHhZGv9WI3EzJ" ;
+    core:hasLabel "Basic Roof:EPDM Membrane on Rigid Insul on Metal Deck:161063" .
+
+inst:3Alsud7uH9v9cpJ3GCLTju a beo:Slab ;
+    core:hasGlobalID "3Alsud7uH9v9cpJ3GCLTju" ;
+    core:hasLabel "Basic Roof:Standing Seam Metal Roof:161560" .
+

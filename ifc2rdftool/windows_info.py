@@ -27,7 +27,7 @@ def get_element_material_constituent_info(element, graph_model):
                 DICM_NAMESPACE.ConstituentSet,
             )
         )
-        if constituent_set.get_info()["Name"]:
+        if "Name" in constituent_set.get_info():
             graph_model.add(
                 (
                     URIRef(f"{INSTANCE_NAMESPACE}{constituent_set_guid}"),
@@ -35,7 +35,7 @@ def get_element_material_constituent_info(element, graph_model):
                     Literal(constituent_set.get_info()["Name"]),
                 )
             )
-        if constituent_set.MaterialConstituents:
+        if "MaterialConstituents" in constituent_set.get_info():
             material_constituents = constituent_set.MaterialConstituents
             graph_model.add(
                 (
@@ -61,7 +61,7 @@ def get_element_material_constituent_info(element, graph_model):
                         DICM_NAMESPACE.Constituent,
                     )
                 )
-                if material_constituents[i].Name:
+                if "Name" in material_constituents[i].get_info():
                     graph_model.add(
                         (
                             URIRef(f"{INSTANCE_NAMESPACE}{constituent_guid}"),

@@ -1,0 +1,1011 @@
+@prefix beo: <https://pi.pauwel.be/voc/buildingelement#> .
+@prefix bot: <https://w3id.org/bot#> .
+@prefix core: <https://w3id.org/digitalconstruction/core#> .
+@prefix dicm: <https://w3id.org/digitalconstruction/0.5/Materials#> .
+@prefix dicv: <https://w3id.org/digitalconstruction/0.5/Variables#> .
+@prefix geo1: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix inst: <https://w3id.org/digitalconstruction/instance#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/digitalconstruction/instance#06JZMOVBX8VucSQwQ3o$8d> core:hasGlobalID "06JZMOVBX8VucSQwQ3o$8d" ;
+    core:hasLabel "Sparren-25" .
+
+inst:09OmJpUcj4WvNp2dXHFMWj core:hasGlobalID "09OmJpUcj4WvNp2dXHFMWj" ;
+    core:hasLabel "Sparren-22" .
+
+inst:09axaKU7X1_O8n6dmmiZ1E core:hasGlobalID "09axaKU7X1_O8n6dmmiZ1E" .
+
+inst:0CWpGkM7zEROS7WsgthNfA core:hasGlobalID "0CWpGkM7zEROS7WsgthNfA" .
+
+inst:0DTRkEz0r6gvzG6VdDr24n core:hasGlobalID "0DTRkEz0r6gvzG6VdDr24n" ;
+    core:hasLabel "Sparren-36" .
+
+inst:0OKCG9uG53i9K16_x3YNfz core:hasGlobalID "0OKCG9uG53i9K16_x3YNfz" ;
+    core:hasLabel "Sparren-20" .
+
+inst:0OL3LCjon8C8eMGVs718Tk core:hasGlobalID "0OL3LCjon8C8eMGVs718Tk" .
+
+inst:0VzptM87L6uOjQj08tTXIQ core:hasGlobalID "0VzptM87L6uOjQj08tTXIQ" ;
+    core:hasLabel "Sparren-15" .
+
+inst:0dGzbiP6H1sPcT0NmqaFGO core:hasGlobalID "0dGzbiP6H1sPcT0NmqaFGO" .
+
+inst:0eaC0nL3XAOfFxRXK_2iAr core:hasGlobalID "0eaC0nL3XAOfFxRXK_2iAr" ;
+    core:hasLabel "Pfette-2-1" .
+
+<https://w3id.org/digitalconstruction/instance#0hRh9WB$jCLwlAiq3vfmg9> core:hasGlobalID "0hRh9WB$jCLwlAiq3vfmg9" ;
+    core:hasLabel "Sparren-31" .
+
+inst:0j7WClqLTB0gkHE605BLnY core:hasGlobalID "0j7WClqLTB0gkHE605BLnY" .
+
+inst:0lY6P5Ur90TAQnnnI6wtnb a core:Project ;
+    core:hasGlobalID "0lY6P5Ur90TAQnnnI6wtnb" ;
+    core:hasLabel "Projekt-FZK-Haus" ;
+    core:hasName "None" ;
+    core:hasSite inst:0KMpiAlnb52RgQuM1CwVfd .
+
+inst:0nsN_jkIrBQBuGFMg_zMEg core:hasGlobalID "0nsN_jkIrBQBuGFMg_zMEg" ;
+    core:hasLabel "Sparren-5" .
+
+<https://w3id.org/digitalconstruction/instance#0o5vgCKyTBzO5$QJcI2YDP> core:hasGlobalID "0o5vgCKyTBzO5$QJcI2YDP" .
+
+inst:0oTQ6V1VbChulreA_hfmUa core:hasGlobalID "0oTQ6V1VbChulreA_hfmUa" ;
+    core:hasLabel "Sparren-1" .
+
+inst:0q1clcN4jF4gdikC9OySy7 core:hasGlobalID "0q1clcN4jF4gdikC9OySy7" ;
+    core:hasLabel "Sparren-18" .
+
+inst:11pyNSTMP9zfUCy679gsvT core:hasGlobalID "11pyNSTMP9zfUCy679gsvT" .
+
+inst:17MHCgVYn2YPLX56yXUJbL core:hasGlobalID "17MHCgVYn2YPLX56yXUJbL" ;
+    core:hasLabel "Sparren-29" .
+
+<https://w3id.org/digitalconstruction/instance#1NBDw_i_jD$u7IjvwmbPmx> core:hasGlobalID "1NBDw_i_jD$u7IjvwmbPmx" ;
+    core:hasLabel "Sparren-32" .
+
+inst:1OckORehXEoB_KILQGJao5 core:hasGlobalID "1OckORehXEoB_KILQGJao5" ;
+    core:hasLabel "Sparren-4" .
+
+inst:1TKECZOIj9cBBj4ne6lhuA core:hasGlobalID "1TKECZOIj9cBBj4ne6lhuA" .
+
+inst:1WAtLpg_nDBxKhzIXT_jnH core:hasGlobalID "1WAtLpg_nDBxKhzIXT_jnH" .
+
+inst:1fzvgX3pDB88Tz63VWPBLu core:hasGlobalID "1fzvgX3pDB88Tz63VWPBLu" .
+
+inst:1nGDFBBHvBJ9NmlweQO0fX core:hasGlobalID "1nGDFBBHvBJ9NmlweQO0fX" ;
+    core:hasLabel "Sparren-9" .
+
+inst:1qMEiq1Qz6guq8g1GCODiJ core:hasGlobalID "1qMEiq1Qz6guq8g1GCODiJ" ;
+    core:hasLabel "Sparren-34" .
+
+inst:1tpUOcVEPCGgFqSz0VbniQ core:hasGlobalID "1tpUOcVEPCGgFqSz0VbniQ" ;
+    core:hasLabel "Sparren-2" .
+
+inst:1ulHlNTuj798Os3k9phhVC core:hasGlobalID "1ulHlNTuj798Os3k9phhVC" ;
+    core:hasLabel "Sparren-3" .
+
+inst:20AsUDMgH0JwAitydKgsOm core:hasGlobalID "20AsUDMgH0JwAitydKgsOm" ;
+    core:hasLabel "Sparren-27" .
+
+inst:20bTaetQDApP5w8egFxj13 core:hasGlobalID "20bTaetQDApP5w8egFxj13" ;
+    core:hasLabel "First" .
+
+inst:22oN_bO9T4jO5eG4GKW7be core:hasGlobalID "22oN_bO9T4jO5eG4GKW7be" ;
+    core:hasLabel "Sparren-40" .
+
+inst:23pmL_2aH88OVqWp_5Lfkf core:hasGlobalID "23pmL_2aH88OVqWp_5Lfkf" ;
+    core:hasLabel "Sparren-24" .
+
+inst:2AxITdtlD1h9Y3ye8U93bV core:hasGlobalID "2AxITdtlD1h9Y3ye8U93bV" ;
+    core:hasLabel "Sparren-35" .
+
+inst:2BEAsxujfCOxQo3wTVr7Wr core:hasGlobalID "2BEAsxujfCOxQo3wTVr7Wr" .
+
+<https://w3id.org/digitalconstruction/instance#2CxE0$jXr8iOH1VC2gLCXX> core:hasGlobalID "2CxE0$jXr8iOH1VC2gLCXX" ;
+    core:hasLabel "Sparren-16" .
+
+<https://w3id.org/digitalconstruction/instance#2DH$OLoObDkAtwqVzNdUnS> core:hasGlobalID "2DH$OLoObDkAtwqVzNdUnS" ;
+    core:hasLabel "Sparren-33" .
+
+inst:2HtybvLgf93veGIhadqbJ9 core:hasGlobalID "2HtybvLgf93veGIhadqbJ9" .
+
+<https://w3id.org/digitalconstruction/instance#2Ml9lHXiTBN8zH$beU1ns5> core:hasGlobalID "2Ml9lHXiTBN8zH$beU1ns5" .
+
+inst:2OHMT7B69F5PRG_f3rMcjF core:hasGlobalID "2OHMT7B69F5PRG_f3rMcjF" ;
+    core:hasLabel "Sparren-13" .
+
+inst:2SfSpj_pX9nvTeCOxeKqTd core:hasGlobalID "2SfSpj_pX9nvTeCOxeKqTd" ;
+    core:hasLabel "Sparren-28" .
+
+inst:2TSghi3E94BuNE_F6jBcWe core:hasGlobalID "2TSghi3E94BuNE_F6jBcWe" .
+
+inst:2XyYurmzzDOAIoZ52R97Jm core:hasGlobalID "2XyYurmzzDOAIoZ52R97Jm" ;
+    core:hasLabel "Sparren-30" .
+
+inst:2in0QvfYXEawl1f3MP1bq2 core:hasGlobalID "2in0QvfYXEawl1f3MP1bq2" ;
+    core:hasLabel "Sparren-41" .
+
+inst:2jBFZiQw110vV7XY77KKfx core:hasGlobalID "2jBFZiQw110vV7XY77KKfx" ;
+    core:hasLabel "Sparren-39" .
+
+<https://w3id.org/digitalconstruction/instance#31Quw2HAvFqv$9_JgCuemp> core:hasGlobalID "31Quw2HAvFqv$9_JgCuemp" ;
+    core:hasLabel "Sparren-6" .
+
+inst:31ry3UPYD7weLluBlhQxXZ core:hasGlobalID "31ry3UPYD7weLluBlhQxXZ" ;
+    core:hasLabel "Sparren-26" .
+
+inst:34zPS2PUTBDOe7g7RIRXK0 core:hasGlobalID "34zPS2PUTBDOe7g7RIRXK0" ;
+    core:hasLabel "Sparren-14" .
+
+inst:35W3cFc4L7MhJR0gIk9uis core:hasGlobalID "35W3cFc4L7MhJR0gIk9uis" ;
+    core:hasLabel "Sparren-7" .
+
+inst:36KGWr2Rv8QuUhNnocm2nH core:hasGlobalID "36KGWr2Rv8QuUhNnocm2nH" ;
+    core:hasLabel "Sparren-19" .
+
+inst:37ab3q_iz8XRterfnMKTQX core:hasGlobalID "37ab3q_iz8XRterfnMKTQX" ;
+    core:hasLabel "Sparren-11" .
+
+inst:38a9vdh9bF5Qg28GWyHhlr core:hasGlobalID "38a9vdh9bF5Qg28GWyHhlr" ;
+    core:hasLabel "Wendeltreppe" .
+
+<https://w3id.org/digitalconstruction/instance#3BTqRqk7D5EhoEfLy$YPgs> core:hasGlobalID "3BTqRqk7D5EhoEfLy$YPgs" .
+
+inst:3CS1rsE3bB7vMHAdjyaamh core:hasGlobalID "3CS1rsE3bB7vMHAdjyaamh" ;
+    core:hasLabel "Sparren-38" .
+
+inst:3EgsECVVb6zQXnK3YFcWAu core:hasGlobalID "3EgsECVVb6zQXnK3YFcWAu" ;
+    core:hasLabel "Sparren-42" .
+
+<https://w3id.org/digitalconstruction/instance#3F58AqxJfF$QkuoceQhWg3> core:hasGlobalID "3F58AqxJfF$QkuoceQhWg3" ;
+    core:hasLabel "Sparren-8" .
+
+inst:3UTqpydzf7i8J6iMY2tHil core:hasGlobalID "3UTqpydzf7i8J6iMY2tHil" ;
+    core:hasLabel "Sparren-37" .
+
+inst:3YZcx3Gb58SwNRLuheFOxL core:hasGlobalID "3YZcx3Gb58SwNRLuheFOxL" .
+
+inst:3ePWkSzvLApwXTt3b0I2nV core:hasGlobalID "3ePWkSzvLApwXTt3b0I2nV" ;
+    core:hasLabel "Sparren-21" .
+
+inst:3iSL8frGLDweFar9j4zgJ_ core:hasGlobalID "3iSL8frGLDweFar9j4zgJ_" ;
+    core:hasLabel "Sparren-23" .
+
+<https://w3id.org/digitalconstruction/instance#3jZHeNcfvDMf9wG$wx9XqG> core:hasGlobalID "3jZHeNcfvDMf9wG$wx9XqG" ;
+    core:hasLabel "Pfette-1-1" .
+
+<https://w3id.org/digitalconstruction/instance#3qFc3Wrr9BBPJyb2wB$4Ra> core:hasGlobalID "3qFc3Wrr9BBPJyb2wB$4Ra" ;
+    core:hasLabel "Sparren-10" .
+
+<https://w3id.org/digitalconstruction/instance#3sG$iUZAX499eUK87UfZk_> core:hasGlobalID "3sG$iUZAX499eUK87UfZk_" ;
+    core:hasLabel "Sparren-17" .
+
+inst:3tCgZT92j6fw8fXgwCL3Jm core:hasGlobalID "3tCgZT92j6fw8fXgwCL3Jm" ;
+    core:hasLabel "Unterzug-1" .
+
+inst:3xdLwxTMD7bw4hWoOQL41M core:hasGlobalID "3xdLwxTMD7bw4hWoOQL41M" ;
+    core:hasLabel "Sparren-12" .
+
+inst:005oFpa_fBFgpGAb9ISEyj a dicv:Property ;
+    core:hasLabel "ThermalTransmittance" ;
+    core:hasValue 1.5e+00 .
+
+inst:00Y50KLO9CLA5eWVpjtK7_ a dicm:ConstituentSet .
+
+inst:01qeAK1uv89ORPmtB13ky_ a dicm:Layer ;
+    dicm:hasMaterial inst:2Gr5eFWAX0bwdLLNxBDUKs ;
+    dicv:hasProperty inst:3SExwnjZ1AegC8SPHdt7xW ;
+    core:hasLabel "None" .
+
+<https://w3id.org/digitalconstruction/instance#02A6FCU4lrAZ0mm$uvcVpb> core:hasGlobalID "02A6FCU4lrAZ0mm$uvcVpb" ;
+    core:hasLabel "OG-Fenster-2" .
+
+inst:03uXASKt9BBRn1VJgV3xb_ a dicv:Property ;
+    core:hasLabel "ThermalTransmittance" ;
+    core:hasValue 3e-01 .
+
+inst:03vjqO7cP90ODplMBP3u0I a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 2.4e-01 .
+
+inst:04RcXu1mKxpGnJw_7oRBLn core:hasGlobalID "04RcXu1mKxpGnJw_7oRBLn" ;
+    core:hasLabel "Haustuer" .
+
+inst:07Enbsqm9C7AQC9iyBwfSD a beo:Slab ;
+    dicm:hasLayerSet inst:0Gxto99s55LfyiTWVs2uLm ;
+    dicv:hasProperty inst:03uXASKt9BBRn1VJgV3xb_ ;
+    core:hasGlobalID "07Enbsqm9C7AQC9iyBwfSD" ;
+    core:hasLabel "Dach-1" .
+
+inst:09lyt2kLT3yRMUxvTyEeu_ a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 2e-01 .
+
+inst:0B6UMAQb_hdSR0n26dQbUu core:hasGlobalID "0B6UMAQb_hdSR0n26dQbUu" ;
+    core:hasLabel "EG-Fenster-2" .
+
+inst:0EEC867ZX4efMH_UOEqbJF a dicv:Property ;
+    core:hasLabel "ThermalTransmittance" ;
+    core:hasValue 1.4e+00 .
+
+inst:0Gxto99s55LfyiTWVs2uLm a dicm:LayerSet ;
+    dicm:NumberOfLayers 1 ;
+    dicm:hasLayer inst:0YTpheeHb0G9KgysiojG_s ;
+    core:hasName "Solid 397409098 0.2" .
+
+inst:0I6HKLMLT3pvkygK2U76gb a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 2.4e-01 .
+
+inst:0KMpiAlnb52RgQuM1CwVfd a bot:Site ;
+    geo1:lat "49.100435"^^xsd:float ;
+    geo1:long "8.436539"^^xsd:float ;
+    bot:hasBuilding inst:2hQBAVPOr5VxhS3Jl0O47h ;
+    core:hasGlobalID "0KMpiAlnb52RgQuM1CwVfd" ;
+    core:hasLabel "Gelaende" ;
+    core:hasName "None" .
+
+inst:0LIwlKv8TEh9HSSrzGE_df a dicm:Layer ;
+    dicm:hasMaterial inst:1PLk3AjLf0dOr5xLgKOHPs ;
+    dicv:hasProperty inst:2bFUdbM192cOhxv_KuBtgH ;
+    core:hasLabel "None" .
+
+<https://w3id.org/digitalconstruction/instance#0LM8GvGe$G3dlW4mZ4aA9R> core:hasGlobalID "0LM8GvGe$G3dlW4mZ4aA9R" ;
+    core:hasLabel "Innentuer-1" .
+
+inst:0LUzDucmLBdvEFyOTEApGj a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 3e-01 .
+
+inst:0Lt8gR_E9ESeGH5uY_g9e9 a bot:Space ;
+    core:hasGlobalID "0Lt8gR_E9ESeGH5uY_g9e9" ;
+    core:hasLabel "5" ;
+    core:hasName "Wohnen" .
+
+inst:0MZdlsu1P9IPSsPU2Ov7ow a dicv:Property ;
+    core:hasLabel "ThermalTransmittance" ;
+    core:hasValue 4e-01 .
+
+inst:0RM1TVdAD0jvPnSg6PpBmD a dicv:Property ;
+    core:hasLabel "ThermalTransmittance" ;
+    core:hasValue 4e-01 .
+
+inst:0RestYHYT6ifgMRRPzHED5 a dicm:LayerSet ;
+    dicm:NumberOfLayers 1 ;
+    dicm:hasLayer inst:1lyvdVccr8SuWR6i6_snPi ;
+    core:hasName "Leichtbeton 102890359 0.3" .
+
+inst:0YTpheeHb0G9KgysiojG_s a dicm:Layer ;
+    dicm:hasMaterial inst:2r1QRAuZf49xznR6YIIK8a ;
+    dicv:hasProperty inst:3v0lzXaFbE3xLHwKF_VZMi ;
+    core:hasLabel "None" .
+
+inst:0_19hGTVj0gv34cxLG8zjg a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 2.4e-01 .
+
+inst:0_FV0yEn13qfZcpTGABSww a dicv:Property ;
+    core:hasLabel "ThermalTransmittance" ;
+    core:hasValue 1.5e+00 .
+
+inst:0ckli9mkj6TPcBnS4cmxt0 a dicm:Material ;
+    core:hasLabel "Leichtbeton 102890359" .
+
+inst:0e2iWM3ICUNVYAkmP5YImx core:hasGlobalID "0e2iWM3ICUNVYAkmP5YImx" ;
+    core:hasLabel "OG-Fenster-1" .
+
+<https://w3id.org/digitalconstruction/instance#0e_hbkIQ5DMQlIJ$2V3j_m> a bot:Space ;
+    core:hasGlobalID "0e_hbkIQ5DMQlIJ$2V3j_m" ;
+    core:hasLabel "3" ;
+    core:hasName "Bad" .
+
+inst:0eeARmZdX60ebtFSR6pXYs a dicv:Property ;
+    core:hasLabel "ThermalTransmittance" ;
+    core:hasValue 4e-01 .
+
+inst:0goLT9BBfEJxvkjmuvuyRe a dicv:Property ;
+    core:hasLabel "ThermalTransmittance" ;
+    core:hasValue 1.4e+00 .
+
+inst:0hKCB6TSX6jhJQSk9X0G3t a dicv:Property ;
+    core:hasLabel "ThermalTransmittance" ;
+    core:hasValue 1.4e+00 .
+
+inst:0hT8mop61Bi8ec99PaHkxW a dicm:LayerSet ;
+    dicm:NumberOfLayers 1 ;
+    dicm:hasLayer inst:1OuhOycKDDyewSPzHjYx23 ;
+    core:hasName "Leichtbeton 102890359 0.3" .
+
+inst:0hWBL8AgP3y9NOkskG2OLI a dicm:Layer ;
+    dicm:hasMaterial inst:1bP3OSRyrE2e32FPad_CDs ;
+    dicv:hasProperty inst:03vjqO7cP90ODplMBP3u0I ;
+    core:hasLabel "None" .
+
+inst:0jPoBao5LCQw56Z5MaA96k a dicv:Property ;
+    core:hasLabel "ThermalTransmittance" ;
+    core:hasValue 2e+00 .
+
+inst:0kbS3oCuzDEvNSd9_Had2W a dicv:Property ;
+    core:hasLabel "ThermalTransmittance" ;
+    core:hasValue 1.5e+00 .
+
+inst:0knNIAVBPBFvBy_m5QVHsU a beo:Wall ;
+    bot:containsElement <https://w3id.org/digitalconstruction/instance#02A6FCU4lrAZ0mm$uvcVpb>,
+        inst:1zOBw0Gej5Wf0QAJfHnOc0 ;
+    dicm:hasLayerSet inst:1rrC70vlH7JPDLAybcymJx ;
+    dicv:hasProperty inst:3h2gtUOpX75BTXmA2SOXNI ;
+    core:hasGlobalID "0knNIAVBPBFvBy_m5QVHsU" ;
+    core:hasLabel "Wand-Ext-OG-1" .
+
+inst:0lOysJYpL7_gYKhWMfNRVT a dicm:Layer ;
+    dicm:hasMaterial inst:3016SXFnf6PQe3BZMaOqPd ;
+    dicv:hasProperty inst:0I6HKLMLT3pvkygK2U76gb ;
+    core:hasLabel "None" .
+
+inst:0mjBE7Ai50TQyxZp0KaTOS a dicm:Material ;
+    core:hasLabel "Leichtbeton 102890359" .
+
+inst:0nyf1VIQTClug_2OzrF47v a dicv:Property ;
+    core:hasLabel "ThermalTransmittance" ;
+    core:hasValue 1.4e+00 .
+
+inst:0rYqPDIfj6lwDHZF2esqyA a dicm:ConstituentSet .
+
+inst:0seqbT9MlcQAX_K0YLzD86 core:hasGlobalID "0seqbT9MlcQAX_K0YLzD86" ;
+    core:hasLabel "EG-Fenster-6" .
+
+inst:0yA2o0Wob8NQCD7A4GpPkE a dicm:Layer ;
+    dicm:hasMaterial inst:3xvIExwj11uxcxIQZ95u0e ;
+    dicv:hasProperty inst:09lyt2kLT3yRMUxvTyEeu_ ;
+    core:hasLabel "None" .
+
+<https://w3id.org/digitalconstruction/instance#1$wmdwWPjDYuku_ghVkynE> a beo:Wall ;
+    dicm:hasLayerSet inst:2d_pyQ8D99jxWf_vWB8bGD ;
+    dicv:hasProperty inst:1g8EuHN3z18OymrZvnl5bz ;
+    core:hasGlobalID "1$wmdwWPjDYuku_ghVkynE" ;
+    core:hasLabel "Wand-Int-ERDG-5" .
+
+inst:12wEbStILFiwyJLEKeKw5Q a dicv:Property ;
+    core:hasLabel "ThermalTransmittance" ;
+    core:hasValue 1.4e+00 .
+
+inst:16DNNqzfP2thtfaOflvsKA a beo:Wall ;
+    bot:containsElement <https://w3id.org/digitalconstruction/instance#1M$gxUrX1Fiwe3P64ww7U5>,
+        inst:1c0Yk5iLrVR4e3y5gEUEKa,
+        inst:1r_KIZSL381KWyrYQXOn52,
+        inst:25nJxEpYf8LRDJNkMUVO0m,
+        inst:2uYaWLoMXGPW4zZLca_BWr,
+        inst:3BFcylCsX74PQAoRAe5fNv ;
+    dicm:hasLayerSet inst:0RestYHYT6ifgMRRPzHED5 ;
+    dicv:hasProperty inst:3XpfW_rqP2UvaCHImfW5s1 ;
+    core:hasGlobalID "16DNNqzfP2thtfaOflvsKA" ;
+    core:hasLabel "Wand-Ext-ERDG-4" .
+
+<https://w3id.org/digitalconstruction/instance#16PF6khT5_p$Z03P73inyv> core:hasGlobalID "16PF6khT5_p$Z03P73inyv" ;
+    core:hasLabel "Slab Opening" .
+
+inst:16wyIMFtDFNPdPfp1EIkfV a dicm:Material ;
+    core:hasLabel "Leichtbeton 102890359" .
+
+inst:17JZcMFrf5tOftUTidA0d3 a bot:Space ;
+    core:hasGlobalID "17JZcMFrf5tOftUTidA0d3" ;
+    core:hasLabel "6" ;
+    core:hasName "Küche" .
+
+inst:1D4LD4plT2Cf0gR3eJWNOI a dicm:Layer ;
+    dicm:hasMaterial inst:2RqiltxF93BAScefGGAkH0 ;
+    dicv:hasProperty inst:1KV7MxyJ986vlQXXCWdFKE ;
+    core:hasLabel "None" .
+
+inst:1DmWHoknPEvBzVF8kKxFLK a dicv:Property ;
+    core:hasLabel "ThermalTransmittance" ;
+    core:hasValue 1.5e+00 .
+
+inst:1Ep0FdjzX3WfcTSc8EIvIF a dicm:ConstituentSet .
+
+inst:1HD56Zk1P5lBcg5Z1y5u5n a dicv:Property ;
+    core:hasLabel "ThermalTransmittance" ;
+    core:hasValue 1.4e+00 .
+
+inst:1Jkb8gnNT9xx0RGmAzwk1T a dicv:Property ;
+    core:hasLabel "ThermalTransmittance" ;
+    core:hasValue 4e-01 .
+
+inst:1KV7MxyJ986vlQXXCWdFKE a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 3e-01 .
+
+inst:1OuhOycKDDyewSPzHjYx23 a dicm:Layer ;
+    dicm:hasMaterial inst:3BDUF1w_n4efTWjh70158a ;
+    dicv:hasProperty inst:26nw5s1zDCbwXmnaT9T2em ;
+    core:hasLabel "None" .
+
+inst:1PLk3AjLf0dOr5xLgKOHPs a dicm:Material ;
+    core:hasLabel "Leichtbeton 102890359" .
+
+inst:1R1Ui2MyL6oBiXu9rsLmj6 a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 2.4e-01 .
+
+inst:1SQrYawbzBKvk1BD2dGAr3 a dicm:LayerSet ;
+    dicm:NumberOfLayers 1 ;
+    dicm:hasLayer inst:0yA2o0Wob8NQCD7A4GpPkE ;
+    core:hasName "Solid 397409098 0.2" .
+
+inst:1Yy6wJwgXCNRvFT8j8nbGV a dicm:ConstituentSet .
+
+inst:1_JXuqTzL7E9L_A93q1sJh a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 3e-01 .
+
+inst:1axUtioET1RP2DCLePHmKY a dicm:ConstituentSet .
+
+inst:1bP3OSRyrE2e32FPad_CDs a dicm:Material ;
+    core:hasLabel "Leichtbeton 102890359" .
+
+inst:1bzfVsJqn8De5PukCrqylz a beo:Wall ;
+    bot:containsElement inst:0B6UMAQb_hdSR0n26dQbUu,
+        inst:1DiYqhfzH9xxuJdVHwXCNa,
+        inst:1TAI4ouKX4Xx4lBDZIu5qM,
+        inst:1edW1mWMGQA1AyF6LZE0rZ,
+        inst:2Q9w7oRXP249jBobEMVqlZ,
+        inst:2o6xwVLCqc7RJXOAHbb1iq ;
+    dicm:hasLayerSet inst:3R_3HHg9nBKwlTE6gzWw5N ;
+    dicv:hasProperty inst:2eS3g2qt99U95dTN52ZmQb ;
+    core:hasGlobalID "1bzfVsJqn8De5PukCrqylz" ;
+    core:hasLabel "Wand-Ext-ERDG-2" .
+
+inst:1c0Yk5iLrVR4e3y5gEUEKa core:hasGlobalID "1c0Yk5iLrVR4e3y5gEUEKa" ;
+    core:hasLabel "EG-Fenster-4" .
+
+inst:1edW1mWMGQA1AyF6LZE0rZ core:hasGlobalID "1edW1mWMGQA1AyF6LZE0rZ" ;
+    core:hasLabel "EG-Fenster-1" .
+
+inst:1g8EuHN3z18OymrZvnl5bz a dicv:Property ;
+    core:hasLabel "ThermalTransmittance" ;
+    core:hasValue 1.5e+00 .
+
+inst:1jEVTshmvFt8no9qra49sI a dicv:Property ;
+    core:hasLabel "ThermalTransmittance" ;
+    core:hasValue 2e+00 .
+
+inst:1lyvdVccr8SuWR6i6_snPi a dicm:Layer ;
+    dicm:hasMaterial inst:37ISx6e412NgMA_gnbGZLb ;
+    dicv:hasProperty inst:0LUzDucmLBdvEFyOTEApGj ;
+    core:hasLabel "None" .
+
+inst:1mZCuM0bf5NvSlxKM7xW5Y a dicm:Material ;
+    core:hasLabel "Leichtbeton 102890359" .
+
+inst:1nOT7qi_15mfsAWl1eDfHd a dicm:LayerSet ;
+    dicm:NumberOfLayers 1 ;
+    dicm:hasLayer inst:26mTeLsbT5RB2n3zKnQQKK ;
+    core:hasName "Solid 397409098 0.2" .
+
+inst:1oLVIYEqn9Whcgu5eyRJdO a dicm:Layer ;
+    dicm:hasMaterial inst:3HG20BQLTFPPWvvzyFXsGH ;
+    dicv:hasProperty inst:2yDYPtE4PDM82CytbT52tY ;
+    core:hasLabel "None" .
+
+inst:1pAMwni_PDO983125929nW a dicv:Property ;
+    core:hasLabel "ThermalTransmittance" ;
+    core:hasValue 1.4e+00 .
+
+inst:1pPHnf7cXCpPsNEnQf8_6B a beo:Slab ;
+    dicm:hasLayerSet inst:3XhRsDL_X3w8WRDsXQN1YS ;
+    dicv:hasProperty inst:21psdqj2TFbhTJBj4iHxAa ;
+    core:hasGlobalID "1pPHnf7cXCpPsNEnQf8_6B" ;
+    core:hasLabel "Bodenplatte" .
+
+inst:1r_KIZSL381KWyrYQXOn52 core:hasGlobalID "1r_KIZSL381KWyrYQXOn52" ;
+    core:hasLabel "Terrassentuer" .
+
+inst:1rrC70vlH7JPDLAybcymJx a dicm:LayerSet ;
+    dicm:NumberOfLayers 1 ;
+    dicm:hasLayer inst:01qeAK1uv89ORPmtB13ky_ ;
+    core:hasName "Leichtbeton 102890359 0.3" .
+
+inst:1t8Q3LUZn9JvYGcECGYHct a dicm:LayerSet ;
+    dicm:NumberOfLayers 1 ;
+    dicm:hasLayer inst:3k8OGnjNzB4hKqdcTMEr0l ;
+    core:hasName "Leichtbeton 102890359 0.3" .
+
+inst:1vKEYMQfX7OuRUryc_1_4I a dicm:ConstituentSet .
+
+inst:1vdPWCb4r2KgiCc1lxri8t a dicm:LayerSet ;
+    dicm:NumberOfLayers 1 ;
+    dicm:hasLayer inst:1D4LD4plT2Cf0gR3eJWNOI ;
+    core:hasName "Leichtbeton 102890359 0.3" .
+
+inst:1xR6BAwAX8sgb3V6nr4bc8 a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 2e-01 .
+
+inst:20pBtBATfAY84tHtgGgcmB a dicm:ConstituentSet .
+
+inst:21psdqj2TFbhTJBj4iHxAa a dicv:Property ;
+    core:hasLabel "ThermalTransmittance" ;
+    core:hasValue 4e-01 .
+
+inst:23pk56hKTFS8YZrlUCvdH9 a dicv:Property ;
+    core:hasLabel "ThermalTransmittance" ;
+    core:hasValue 1.4e+00 .
+
+inst:24dkX3HUD4XgyZHhzQA3Nh a dicm:ConstituentSet .
+
+inst:253rr8ORNAORFOx911Dvez core:hasGlobalID "253rr8ORNAORFOx911Dvez" ;
+    core:hasLabel "Innentuer-2" .
+
+inst:25OWQvmXj5BPgyergP43tY a beo:Wall ;
+    dicm:hasLayerSet inst:1vdPWCb4r2KgiCc1lxri8t ;
+    dicv:hasProperty inst:0MZdlsu1P9IPSsPU2Ov7ow ;
+    core:hasGlobalID "25OWQvmXj5BPgyergP43tY" ;
+    core:hasLabel "Wand-Ext-OG-2" .
+
+<https://w3id.org/digitalconstruction/instance#25fsbPyk15VvuXI$yNKenK> a beo:Wall ;
+    bot:containsElement inst:13aSY79zb8fP4HApEJ0z_e,
+        inst:2EQh_jhP1B_A_AMuSJc5E0,
+        inst:2OW0PH61vS77xxyX1o74u8,
+        inst:2cFXkmvNz6q8TXoCpAWu5Y ;
+    dicm:hasLayerSet inst:1t8Q3LUZn9JvYGcECGYHct ;
+    dicv:hasProperty inst:0eeARmZdX60ebtFSR6pXYs ;
+    core:hasGlobalID "25fsbPyk15VvuXI$yNKenK" ;
+    core:hasLabel "Wand-Ext-ERDG-3" .
+
+inst:25ytuMhJ96YfRMKOCzgCQz a dicm:ConstituentSet .
+
+inst:26mTeLsbT5RB2n3zKnQQKK a dicm:Layer ;
+    dicm:hasMaterial inst:3az9cvmAT4CO0PiZap_7Pp ;
+    dicv:hasProperty inst:1xR6BAwAX8sgb3V6nr4bc8 ;
+    core:hasLabel "None" .
+
+inst:26nw5s1zDCbwXmnaT9T2em a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 3e-01 .
+
+inst:273g3wqLzDtfYIl7qqkgcO a bot:Storey ;
+    bot:containsElement inst:07Enbsqm9C7AQC9iyBwfSD,
+        inst:0knNIAVBPBFvBy_m5QVHsU,
+        inst:1zOBw0Gej5Wf0QAJfHnOc0,
+        inst:25OWQvmXj5BPgyergP43tY,
+        inst:2ACmFFQhT1Ouf0x4YRUh9m,
+        <https://w3id.org/digitalconstruction/instance#2IxUUNUVPB6Ob$eicCfP2N>,
+        inst:2RGlQk4xH47RHK93zcTzUL,
+        <https://w3id.org/digitalconstruction/instance#3Ttjr$59XEWfWN1WUHjelZ>,
+        inst:3VCarUKgH1buLo22Ozxe6J ;
+    bot:hasSpace inst:2dQFggKBb1fOc1CqZDIDlx ;
+    core:hasGlobalID "273g3wqLzDtfYIl7qqkgcO" ;
+    core:hasLabel "Dachgeschoss" ;
+    core:hasName "ACID00000002-0000-0000-0000-000000000000" .
+
+inst:2Gr5eFWAX0bwdLLNxBDUKs a dicm:Material ;
+    core:hasLabel "Leichtbeton 102890359" .
+
+<https://w3id.org/digitalconstruction/instance#2IxUUNUVPB6Ob$eicCfP2N> a beo:Slab ;
+    dicm:hasLayerSet inst:1nOT7qi_15mfsAWl1eDfHd ;
+    dicv:hasProperty inst:2z0Tsq7D18qBlyX0zoCkHD ;
+    core:hasGlobalID "2IxUUNUVPB6Ob$eicCfP2N" ;
+    core:hasLabel "Dach-2" .
+
+inst:2K36ACXGfCiuapOx8VtfoC a dicm:LayerSet ;
+    dicm:NumberOfLayers 1 ;
+    dicm:hasLayer inst:3orLIRtPfDK8vmGoDZ9_TR ;
+    core:hasName "Leichtbeton 102890359 0.24" .
+
+inst:2NE9qKcWUF2uoVhRSqTd_a core:hasGlobalID "2NE9qKcWUF2uoVhRSqTd_a" ;
+    core:hasLabel "EG-Fenster-7" .
+
+inst:2OW0PH61vS77xxyX1o74u8 core:hasGlobalID "2OW0PH61vS77xxyX1o74u8" ;
+    core:hasLabel "EG-Fenster-8" .
+
+inst:2RGlQk4xH47RHK93zcTzUL a beo:Slab ;
+    bot:containsElement <https://w3id.org/digitalconstruction/instance#16PF6khT5_p$Z03P73inyv> ;
+    dicm:hasLayerSet inst:1SQrYawbzBKvk1BD2dGAr3 ;
+    dicv:hasProperty inst:3LZSnne0f6rffjZXAmb8w5 ;
+    core:hasGlobalID "2RGlQk4xH47RHK93zcTzUL" ;
+    core:hasLabel "Slab-033" .
+
+<https://w3id.org/digitalconstruction/instance#2RSCzLOBz4FAK$_wE8VckM> a bot:Space ;
+    core:hasGlobalID "2RSCzLOBz4FAK$_wE8VckM" ;
+    core:hasLabel "2" ;
+    core:hasName "Buero" .
+
+inst:2RqiltxF93BAScefGGAkH0 a dicm:Material ;
+    core:hasLabel "Leichtbeton 102890359" .
+
+inst:2U__IVwBT5CBz8Ql60XgXA a dicm:LayerSet ;
+    dicm:NumberOfLayers 1 ;
+    dicm:hasLayer inst:3kqllZ2Pr6nOavlUKI2g_Y ;
+    core:hasName "Leichtbeton 102890359 0.3" .
+
+inst:2XPyKWY018sA1ygZKgQPtU a beo:Wall ;
+    dicm:hasLayerSet inst:3bF090swz3ggaHVtEjmSNS ;
+    dicv:hasProperty inst:1DmWHoknPEvBzVF8kKxFLK ;
+    core:hasGlobalID "2XPyKWY018sA1ygZKgQPtU" ;
+    core:hasLabel "Wand-Int-ERDG-4" .
+
+inst:2aBVVXWcXFg9xz_nSHVgYy a dicv:Property ;
+    core:hasLabel "ThermalTransmittance" ;
+    core:hasValue 1.4e+00 .
+
+inst:2bFUdbM192cOhxv_KuBtgH a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 3e-01 .
+
+inst:2cFXkmvNz6q8TXoCpAWu5Y core:hasGlobalID "2cFXkmvNz6q8TXoCpAWu5Y" ;
+    core:hasLabel "EG-Fenster-9" .
+
+inst:2dQFggKBb1fOc1CqZDIDlx a bot:Space ;
+    core:hasGlobalID "2dQFggKBb1fOc1CqZDIDlx" ;
+    core:hasLabel "7" ;
+    core:hasName "Galerie" .
+
+inst:2d_pyQ8D99jxWf_vWB8bGD a dicm:LayerSet ;
+    dicm:NumberOfLayers 1 ;
+    dicm:hasLayer inst:0lOysJYpL7_gYKhWMfNRVT ;
+    core:hasName "Leichtbeton 102890359 0.24" .
+
+inst:2eS3g2qt99U95dTN52ZmQb a dicv:Property ;
+    core:hasLabel "ThermalTransmittance" ;
+    core:hasValue 4e-01 .
+
+inst:2eZVLkz1D4ePZpC16gGQpB a dicv:Property ;
+    core:hasLabel "ThermalTransmittance" ;
+    core:hasValue 1.4e+00 .
+
+inst:2eyxpyOx95m90jmsXLOuR0 a bot:Storey ;
+    bot:containsElement <https://w3id.org/digitalconstruction/instance#0B1RwEzzP3CfME5NR$Vqh5>,
+        inst:0pGAjlJMP3ifYPATVF5xAR,
+        <https://w3id.org/digitalconstruction/instance#1$wmdwWPjDYuku_ghVkynE>,
+        inst:13aSY79zb8fP4HApEJ0z_e,
+        inst:16DNNqzfP2thtfaOflvsKA,
+        inst:1DiYqhfzH9xxuJdVHwXCNa,
+        <https://w3id.org/digitalconstruction/instance#1M$gxUrX1Fiwe3P64ww7U5>,
+        <https://w3id.org/digitalconstruction/instance#1Oms875aH3Wg$9l65H2ZGw>,
+        inst:1TAI4ouKX4Xx4lBDZIu5qM,
+        inst:1bzfVsJqn8De5PukCrqylz,
+        inst:1pPHnf7cXCpPsNEnQf8_6B,
+        <https://w3id.org/digitalconstruction/instance#1srAI$R4T8ihLXSNHmUSET>,
+        <https://w3id.org/digitalconstruction/instance#25fsbPyk15VvuXI$yNKenK>,
+        inst:25nJxEpYf8LRDJNkMUVO0m,
+        inst:2EQh_jhP1B_A_AMuSJc5E0,
+        inst:2Q9w7oRXP249jBobEMVqlZ,
+        inst:2XPyKWY018sA1ygZKgQPtU,
+        inst:2jTRqchjf7oB0yhQ6462T0,
+        <https://w3id.org/digitalconstruction/instance#2ptk1k7qn8_Qk22vjh$0DE>,
+        inst:2qiPPF3FrF8OIqfrKiSUqm,
+        inst:3BFcylCsX74PQAoRAe5fNv,
+        inst:3PfS__Y_DBAfq5naM6zD2Z,
+        inst:3jjW3rL656ex34Gws22EfM,
+        inst:3rPX_Juz59peXXY6wDJl18 ;
+    bot:hasSpace inst:0Lt8gR_E9ESeGH5uY_g9e9,
+        <https://w3id.org/digitalconstruction/instance#0e_hbkIQ5DMQlIJ$2V3j_m>,
+        inst:17JZcMFrf5tOftUTidA0d3,
+        <https://w3id.org/digitalconstruction/instance#2RSCzLOBz4FAK$_wE8VckM>,
+        <https://w3id.org/digitalconstruction/instance#3$f2p7VyLB7eox67SA_zKE>,
+        inst:347jFE2yX7IhCEIALmupEH ;
+    core:hasGlobalID "2eyxpyOx95m90jmsXLOuR0" ;
+    core:hasLabel "Erdgeschoss" ;
+    core:hasName "ACID00000001-0000-0000-0000-000000000000" .
+
+inst:2fSHDHRbLFbQP6InDtpcIg a dicm:LayerSet ;
+    dicm:NumberOfLayers 1 ;
+    dicm:hasLayer inst:2o6Vw5pnv0vf1xiW3Pxd9_ ;
+    core:hasName "Leichtbeton 102890359 0.24" .
+
+inst:2hQBAVPOr5VxhS3Jl0O47h a bot:Building ;
+    bot:hasStorey inst:273g3wqLzDtfYIl7qqkgcO,
+        inst:2eyxpyOx95m90jmsXLOuR0 ;
+    core:hasGlobalID "2hQBAVPOr5VxhS3Jl0O47h" ;
+    core:hasLabel "FZK-Haus" ;
+    core:hasName "None" .
+
+inst:2jpRdkykfBpBWdXmzgMe8D a dicv:Property ;
+    core:hasLabel "ThermalTransmittance" ;
+    core:hasValue 4e-01 .
+
+inst:2lV07gym5YkPLv5gWQeAr4 core:hasGlobalID "2lV07gym5YkPLv5gWQeAr4" ;
+    core:hasLabel "Innentuer-3" .
+
+inst:2lZytrYWv6yPILR3kZEvhz a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 3e-01 .
+
+inst:2mKBBcWHLBfwNAbRv3nmvS a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 3e-01 .
+
+inst:2o6Vw5pnv0vf1xiW3Pxd9_ a dicm:Layer ;
+    dicm:hasMaterial inst:0ckli9mkj6TPcBnS4cmxt0 ;
+    dicv:hasProperty inst:0_19hGTVj0gv34cxLG8zjg ;
+    core:hasLabel "None" .
+
+inst:2o6xwVLCqc7RJXOAHbb1iq core:hasGlobalID "2o6xwVLCqc7RJXOAHbb1iq" ;
+    core:hasLabel "EG-Fenster-3" .
+
+<https://w3id.org/digitalconstruction/instance#2ptk1k7qn8_Qk22vjh$0DE> a beo:Wall ;
+    dicm:hasLayerSet inst:2K36ACXGfCiuapOx8VtfoC ;
+    dicv:hasProperty inst:0_FV0yEn13qfZcpTGABSww ;
+    core:hasGlobalID "2ptk1k7qn8_Qk22vjh$0DE" ;
+    core:hasLabel "Wand-Int-ERDG-1" .
+
+inst:2r1QRAuZf49xznR6YIIK8a a dicm:Material ;
+    core:hasLabel "Solid 397409098" .
+
+inst:2uYaWLoMXGPW4zZLca_BWr core:hasGlobalID "2uYaWLoMXGPW4zZLca_BWr" ;
+    core:hasLabel "EG-Fenster-5" .
+
+inst:2y6IB8Gxn4Mw7mzoVs2JD3 a dicv:Property ;
+    core:hasLabel "ThermalTransmittance" ;
+    core:hasValue 1.4e+00 .
+
+inst:2yDYPtE4PDM82CytbT52tY a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 2e-01 .
+
+inst:2z0Tsq7D18qBlyX0zoCkHD a dicv:Property ;
+    core:hasLabel "ThermalTransmittance" ;
+    core:hasValue 3e-01 .
+
+<https://w3id.org/digitalconstruction/instance#3$f2p7VyLB7eox67SA_zKE> a bot:Space ;
+    core:hasGlobalID "3$f2p7VyLB7eox67SA_zKE" ;
+    core:hasLabel "1" ;
+    core:hasName "Flur" .
+
+inst:3016SXFnf6PQe3BZMaOqPd a dicm:Material ;
+    core:hasLabel "Leichtbeton 102890359" .
+
+inst:347jFE2yX7IhCEIALmupEH a bot:Space ;
+    core:hasGlobalID "347jFE2yX7IhCEIALmupEH" ;
+    core:hasLabel "4" ;
+    core:hasName "Schlafzimmer" .
+
+inst:36n6TYAjDBxuAmbTbfIyM2 a dicv:Property ;
+    core:hasLabel "ThermalTransmittance" ;
+    core:hasValue 1.4e+00 .
+
+inst:37ISx6e412NgMA_gnbGZLb a dicm:Material ;
+    core:hasLabel "Leichtbeton 102890359" .
+
+inst:37vGwxKfP7igG4gSD4tOH9 a dicm:ConstituentSet .
+
+inst:3BDUF1w_n4efTWjh70158a a dicm:Material ;
+    core:hasLabel "Leichtbeton 102890359" .
+
+inst:3HG20BQLTFPPWvvzyFXsGH a dicm:Material ;
+    core:hasLabel "Stahlbeton 65690" .
+
+inst:3KW6hRAvHAtO9vpYC29wtf a dicm:Layer ;
+    dicm:hasMaterial inst:16wyIMFtDFNPdPfp1EIkfV ;
+    dicv:hasProperty inst:1R1Ui2MyL6oBiXu9rsLmj6 ;
+    core:hasLabel "None" .
+
+inst:3LZSnne0f6rffjZXAmb8w5 a dicv:Property ;
+    core:hasLabel "ThermalTransmittance" ;
+    core:hasValue 5e-01 .
+
+inst:3NanqGBcTDjQ44kFGehcOf a dicv:Property ;
+    core:hasLabel "ThermalTransmittance" ;
+    core:hasValue 1.4e+00 .
+
+inst:3PfS__Y_DBAfq5naM6zD2Z a beo:Wall ;
+    bot:containsElement <https://w3id.org/digitalconstruction/instance#0LM8GvGe$G3dlW4mZ4aA9R>,
+        <https://w3id.org/digitalconstruction/instance#1Oms875aH3Wg$9l65H2ZGw> ;
+    dicm:hasLayerSet inst:2fSHDHRbLFbQP6InDtpcIg ;
+    dicv:hasProperty inst:0kbS3oCuzDEvNSd9_Had2W ;
+    core:hasGlobalID "3PfS__Y_DBAfq5naM6zD2Z" ;
+    core:hasLabel "Wand-Int-ERDG-2" .
+
+inst:3QPabYR2fEQAy0wHqeoWej a dicm:Material ;
+    core:hasLabel "Leichtbeton 102890359" .
+
+inst:3R_3HHg9nBKwlTE6gzWw5N a dicm:LayerSet ;
+    dicm:NumberOfLayers 1 ;
+    dicm:hasLayer inst:0LIwlKv8TEh9HSSrzGE_df ;
+    core:hasName "Leichtbeton 102890359 0.3" .
+
+inst:3SExwnjZ1AegC8SPHdt7xW a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 3e-01 .
+
+inst:3T2IFiGsD6hBRnRWhl5qVh a dicm:LayerSet ;
+    dicm:NumberOfLayers 1 ;
+    dicm:hasLayer inst:3KW6hRAvHAtO9vpYC29wtf ;
+    core:hasName "Leichtbeton 102890359 0.24" .
+
+<https://w3id.org/digitalconstruction/instance#3Ttjr$59XEWfWN1WUHjelZ> a beo:Wall ;
+    dicm:hasLayerSet inst:3vuZfKn3n0Kv4BCmlThn7I ;
+    dicv:hasProperty inst:0RM1TVdAD0jvPnSg6PpBmD ;
+    core:hasGlobalID "3Ttjr$59XEWfWN1WUHjelZ" ;
+    core:hasLabel "Wand-Ext-OG-4" .
+
+inst:3VCarUKgH1buLo22Ozxe6J a beo:Wall ;
+    bot:containsElement inst:0e2iWM3ICUNVYAkmP5YImx,
+        inst:2ACmFFQhT1Ouf0x4YRUh9m ;
+    dicm:hasLayerSet inst:2U__IVwBT5CBz8Ql60XgXA ;
+    dicv:hasProperty inst:1Jkb8gnNT9xx0RGmAzwk1T ;
+    core:hasGlobalID "3VCarUKgH1buLo22Ozxe6J" ;
+    core:hasLabel "Wand-Ext-OG-3" .
+
+inst:3XhRsDL_X3w8WRDsXQN1YS a dicm:LayerSet ;
+    dicm:NumberOfLayers 1 ;
+    dicm:hasLayer inst:1oLVIYEqn9Whcgu5eyRJdO ;
+    core:hasName "Stahlbeton 65690 0.2" .
+
+inst:3XpfW_rqP2UvaCHImfW5s1 a dicv:Property ;
+    core:hasLabel "ThermalTransmittance" ;
+    core:hasValue 4e-01 .
+
+inst:3az9cvmAT4CO0PiZap_7Pp a dicm:Material ;
+    core:hasLabel "Solid 397409098" .
+
+inst:3bF090swz3ggaHVtEjmSNS a dicm:LayerSet ;
+    dicm:NumberOfLayers 1 ;
+    dicm:hasLayer inst:0hWBL8AgP3y9NOkskG2OLI ;
+    core:hasName "Leichtbeton 102890359 0.24" .
+
+inst:3cYkftRmL7Au3xuuFPFPRX a dicm:ConstituentSet .
+
+inst:3ecvKbmmvEuhb3wtsugczL a dicm:ConstituentSet .
+
+inst:3h2gtUOpX75BTXmA2SOXNI a dicv:Property ;
+    core:hasLabel "ThermalTransmittance" ;
+    core:hasValue 4e-01 .
+
+inst:3jjW3rL656ex34Gws22EfM a beo:Wall ;
+    bot:containsElement inst:0pGAjlJMP3ifYPATVF5xAR,
+        inst:253rr8ORNAORFOx911Dvez,
+        inst:2lV07gym5YkPLv5gWQeAr4,
+        inst:2qiPPF3FrF8OIqfrKiSUqm ;
+    dicm:hasLayerSet inst:3T2IFiGsD6hBRnRWhl5qVh ;
+    dicv:hasProperty inst:005oFpa_fBFgpGAb9ISEyj ;
+    core:hasGlobalID "3jjW3rL656ex34Gws22EfM" ;
+    core:hasLabel "Wand-Int-ERDG-3" .
+
+inst:3k8OGnjNzB4hKqdcTMEr0l a dicm:Layer ;
+    dicm:hasMaterial inst:3QPabYR2fEQAy0wHqeoWej ;
+    dicv:hasProperty inst:2lZytrYWv6yPILR3kZEvhz ;
+    core:hasLabel "None" .
+
+inst:3kqllZ2Pr6nOavlUKI2g_Y a dicm:Layer ;
+    dicm:hasMaterial inst:0mjBE7Ai50TQyxZp0KaTOS ;
+    dicv:hasProperty inst:1_JXuqTzL7E9L_A93q1sJh ;
+    core:hasLabel "None" .
+
+inst:3lx7BgZc194OLceoHi9cuI a dicv:Property ;
+    core:hasLabel "ThermalTransmittance" ;
+    core:hasValue 2e+00 .
+
+inst:3orLIRtPfDK8vmGoDZ9_TR a dicm:Layer ;
+    dicm:hasMaterial inst:3pZtngd7b2oftSLbiWYRnX ;
+    dicv:hasProperty inst:3pYQtnU794CO7BMSXhEODP ;
+    core:hasLabel "None" .
+
+inst:3pYQtnU794CO7BMSXhEODP a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 2.4e-01 .
+
+inst:3pZtngd7b2oftSLbiWYRnX a dicm:Material ;
+    core:hasLabel "Leichtbeton 102890359" .
+
+inst:3rPX_Juz59peXXY6wDJl18 a beo:Wall ;
+    bot:containsElement inst:04RcXu1mKxpGnJw_7oRBLn,
+        <https://w3id.org/digitalconstruction/instance#0B1RwEzzP3CfME5NR$Vqh5>,
+        inst:0seqbT9MlcQAX_K0YLzD86,
+        <https://w3id.org/digitalconstruction/instance#1srAI$R4T8ihLXSNHmUSET>,
+        inst:2NE9qKcWUF2uoVhRSqTd_a,
+        inst:2jTRqchjf7oB0yhQ6462T0 ;
+    dicm:hasLayerSet inst:0hT8mop61Bi8ec99PaHkxW ;
+    dicv:hasProperty inst:2jpRdkykfBpBWdXmzgMe8D ;
+    core:hasGlobalID "3rPX_Juz59peXXY6wDJl18" ;
+    core:hasLabel "Wand-Ext-ERDG-1" .
+
+inst:3sQLPdvuzDN9TL8Izd1Zog a dicm:Layer ;
+    dicm:hasMaterial inst:1mZCuM0bf5NvSlxKM7xW5Y ;
+    dicv:hasProperty inst:2mKBBcWHLBfwNAbRv3nmvS ;
+    core:hasLabel "None" .
+
+inst:3v0lzXaFbE3xLHwKF_VZMi a dicv:Property ;
+    core:hasLabel "LayerThickness" ;
+    core:hasValue 2e-01 .
+
+inst:3vuZfKn3n0Kv4BCmlThn7I a dicm:LayerSet ;
+    dicm:NumberOfLayers 1 ;
+    dicm:hasLayer inst:3sQLPdvuzDN9TL8Izd1Zog ;
+    core:hasName "Leichtbeton 102890359 0.3" .
+
+inst:3xvIExwj11uxcxIQZ95u0e a dicm:Material ;
+    core:hasLabel "Solid 397409098" .
+
+<https://w3id.org/digitalconstruction/instance#0B1RwEzzP3CfME5NR$Vqh5> a beo:Window ;
+    dicm:hasConstituentSet inst:00Y50KLO9CLA5eWVpjtK7_ ;
+    dicv:hasProperty inst:3NanqGBcTDjQ44kFGehcOf ;
+    core:hasGlobalID "0B1RwEzzP3CfME5NR$Vqh5" ;
+    core:hasLabel "EG-Fenster-7" .
+
+inst:0pGAjlJMP3ifYPATVF5xAR a beo:Door ;
+    dicm:hasConstituentSet inst:20pBtBATfAY84tHtgGgcmB ;
+    dicv:hasProperty inst:1jEVTshmvFt8no9qra49sI ;
+    core:hasGlobalID "0pGAjlJMP3ifYPATVF5xAR" ;
+    core:hasLabel "Innentuer-2" .
+
+inst:13aSY79zb8fP4HApEJ0z_e a beo:Window ;
+    dicm:hasConstituentSet inst:1Ep0FdjzX3WfcTSc8EIvIF ;
+    dicv:hasProperty inst:0goLT9BBfEJxvkjmuvuyRe ;
+    core:hasGlobalID "13aSY79zb8fP4HApEJ0z_e" ;
+    core:hasLabel "EG-Fenster-8" .
+
+inst:1DiYqhfzH9xxuJdVHwXCNa a beo:Window ;
+    dicm:hasConstituentSet inst:3ecvKbmmvEuhb3wtsugczL ;
+    dicv:hasProperty inst:0hKCB6TSX6jhJQSk9X0G3t ;
+    core:hasGlobalID "1DiYqhfzH9xxuJdVHwXCNa" ;
+    core:hasLabel "EG-Fenster-3" .
+
+<https://w3id.org/digitalconstruction/instance#1M$gxUrX1Fiwe3P64ww7U5> a beo:Door ;
+    dicv:hasProperty inst:0nyf1VIQTClug_2OzrF47v ;
+    core:hasGlobalID "1M$gxUrX1Fiwe3P64ww7U5" ;
+    core:hasLabel "Terrassentuer" .
+
+<https://w3id.org/digitalconstruction/instance#1Oms875aH3Wg$9l65H2ZGw> a beo:Door ;
+    dicm:hasConstituentSet inst:0rYqPDIfj6lwDHZF2esqyA ;
+    dicv:hasProperty inst:3lx7BgZc194OLceoHi9cuI ;
+    core:hasGlobalID "1Oms875aH3Wg$9l65H2ZGw" ;
+    core:hasLabel "Innentuer-1" .
+
+inst:1TAI4ouKX4Xx4lBDZIu5qM a beo:Window ;
+    dicm:hasConstituentSet inst:37vGwxKfP7igG4gSD4tOH9 ;
+    dicv:hasProperty inst:0EEC867ZX4efMH_UOEqbJF ;
+    core:hasGlobalID "1TAI4ouKX4Xx4lBDZIu5qM" ;
+    core:hasLabel "EG-Fenster-1" .
+
+<https://w3id.org/digitalconstruction/instance#1srAI$R4T8ihLXSNHmUSET> a beo:Window ;
+    dicm:hasConstituentSet inst:24dkX3HUD4XgyZHhzQA3Nh ;
+    dicv:hasProperty inst:23pk56hKTFS8YZrlUCvdH9 ;
+    core:hasGlobalID "1srAI$R4T8ihLXSNHmUSET" ;
+    core:hasLabel "EG-Fenster-6" .
+
+inst:1zOBw0Gej5Wf0QAJfHnOc0 a beo:Window ;
+    dicv:hasProperty inst:2y6IB8Gxn4Mw7mzoVs2JD3 ;
+    core:hasGlobalID "1zOBw0Gej5Wf0QAJfHnOc0" ;
+    core:hasLabel "OG-Fenster-2" .
+
+inst:25nJxEpYf8LRDJNkMUVO0m a beo:Window ;
+    dicm:hasConstituentSet inst:1axUtioET1RP2DCLePHmKY ;
+    dicv:hasProperty inst:1pAMwni_PDO983125929nW ;
+    core:hasGlobalID "25nJxEpYf8LRDJNkMUVO0m" ;
+    core:hasLabel "EG-Fenster-4" .
+
+inst:2ACmFFQhT1Ouf0x4YRUh9m a beo:Window ;
+    dicv:hasProperty inst:2aBVVXWcXFg9xz_nSHVgYy ;
+    core:hasGlobalID "2ACmFFQhT1Ouf0x4YRUh9m" ;
+    core:hasLabel "OG-Fenster-1" .
+
+inst:2EQh_jhP1B_A_AMuSJc5E0 a beo:Window ;
+    dicm:hasConstituentSet inst:1Yy6wJwgXCNRvFT8j8nbGV ;
+    dicv:hasProperty inst:12wEbStILFiwyJLEKeKw5Q ;
+    core:hasGlobalID "2EQh_jhP1B_A_AMuSJc5E0" ;
+    core:hasLabel "EG-Fenster-9" .
+
+inst:2Q9w7oRXP249jBobEMVqlZ a beo:Window ;
+    dicm:hasConstituentSet inst:25ytuMhJ96YfRMKOCzgCQz ;
+    dicv:hasProperty inst:1HD56Zk1P5lBcg5Z1y5u5n ;
+    core:hasGlobalID "2Q9w7oRXP249jBobEMVqlZ" ;
+    core:hasLabel "EG-Fenster-2" .
+
+inst:2jTRqchjf7oB0yhQ6462T0 a beo:Door ;
+    dicv:hasProperty inst:36n6TYAjDBxuAmbTbfIyM2 ;
+    core:hasGlobalID "2jTRqchjf7oB0yhQ6462T0" ;
+    core:hasLabel "Haustuer" .
+
+inst:2qiPPF3FrF8OIqfrKiSUqm a beo:Door ;
+    dicm:hasConstituentSet inst:3cYkftRmL7Au3xuuFPFPRX ;
+    dicv:hasProperty inst:0jPoBao5LCQw56Z5MaA96k ;
+    core:hasGlobalID "2qiPPF3FrF8OIqfrKiSUqm" ;
+    core:hasLabel "Innentuer-3" .
+
+inst:3BFcylCsX74PQAoRAe5fNv a beo:Window ;
+    dicm:hasConstituentSet inst:1vKEYMQfX7OuRUryc_1_4I ;
+    dicv:hasProperty inst:2eZVLkz1D4ePZpC16gGQpB ;
+    core:hasGlobalID "3BFcylCsX74PQAoRAe5fNv" ;
+    core:hasLabel "EG-Fenster-5" .
+

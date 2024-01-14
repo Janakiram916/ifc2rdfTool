@@ -100,7 +100,8 @@ def test_should_return_graph_with_window_layer_data_when_entity_type_is_ifc_wind
     test_door_entity = TEST_IFC_FILE.by_type("IfcDoor")[0]
     get_element_material_constituent_info(test_door_entity, test_graph)
     expected_graph = Graph().parse(
-        source="tests/test_resources/test_door_constituent.ttl", format="turtle"
+        source="tests/unit_test/test_resources/test_door_constituent.ttl",
+        format="turtle",
     )
     assert isomorphic(test_graph, expected_graph)
     mocked_material_guid.assert_called()
