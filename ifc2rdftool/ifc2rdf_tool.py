@@ -10,6 +10,7 @@ from ifc2rdftool.graph_resources import (BEO_NAMESPACE, BOT_NAMESPACE,
                                          CORE_NAMESPACE, DICM_NAMESPACE,
                                          DICV_NAMESPACE, GEO_NAMESPACE,
                                          INSTANCE_NAMESPACE)
+from ifc2rdftool.roof_info import add_roof_info_to_graph
 from ifc2rdftool.site_info import add_site_info_to_graph
 from ifc2rdftool.slab_info import add_slab_info_to_graph
 from ifc2rdftool.space_info import add_space_info_to_graph
@@ -93,6 +94,8 @@ def add_entity_info_to_graph(ifc_file, graph: Graph, entity_type: str):
             add_windows_info_to_graph(entity, graph)
         elif entity_type == "IfcDoor":
             add_door_info_to_graph(entity, graph)
+        elif entity_type == "IfcRoof":
+            add_roof_info_to_graph(entity, graph)
 
 
 def get_all_entity_types_from_project_decomposition(ifc):
