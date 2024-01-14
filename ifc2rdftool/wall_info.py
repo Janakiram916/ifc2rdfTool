@@ -167,6 +167,7 @@ def get_element_properties(element, rdf_graph):
         if property_set_key in [
             "Pset_WallCommon",
             "Pset_SlabCommon",
+            "Pset_RoofCommon",
             "Pset_SpaceCommon",
             "Pset_WindowCommon",
             "Pset_DoorCommon",
@@ -183,6 +184,7 @@ def get_element_properties(element, rdf_graph):
         if property_set_key in [
             "Qto_WallBaseQuantities",
             "Qto_SlabBaseQuantities",
+            "Qto_RoofBaseQuantities",
             "Qto_SpaceBaseQuantities",
             "Qto_WindowBaseQuantities",
             "Qto_DoorBaseQuantities",
