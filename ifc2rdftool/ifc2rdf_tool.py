@@ -107,8 +107,7 @@ def get_all_entity_types_from_project_decomposition(ifc):
     return set(entity_types_list)
 
 
-def create_rdf_graph_from_ifc(ifc_file):
-    ifc_model = ifcopenshell.open(ifc_file)
+def create_rdf_graph_from_ifc(ifc_model):
     rdf_model = initialize_graph()
     project = ifc_model.by_type("IfcProject")[0]
     if project:
@@ -117,3 +116,8 @@ def create_rdf_graph_from_ifc(ifc_file):
         for entity_type in ifc_entity_types:
             add_entity_info_to_graph(ifc_model, rdf_model, entity_type=entity_type)
     return rdf_model
+
+
+def create_rdf_graph_from_ifc_file_path(ifc_file_path):
+    ifc_model = ifcopenshell.open(ifc_file_path)
+    return create_rdf_graph_from_ifc(ifc_model)
