@@ -8,14 +8,16 @@ inst:0mhevRo9r5X8JNSuTZNOZH dicm:hasLayerSet inst:2rvVZuy3X0l9ATwV2NTibB .
 
 inst:1InbJU1uf1NgTLNghGHC45 a dicv:Property ;
     core:hasLabel "LayerThickness" ;
-    core:hasValue 2.032e+02 .
+    core:hasValue 2.032e+02 ;
+    core:hasGlobalID "1InbJU1uf1NgTLNghGHC45" .
 
 inst:1InbJU1uf1NgTLNghGHC46 a dicm:Material ;
     core:hasLabel "Gypsum Wall Board" .
 
 inst:1InbJU1uf1NgTLNghGHC47 a dicv:Property ;
     core:hasLabel "LayerThickness" ;
-    core:hasValue 1.27e+01 .
+    core:hasValue 1.27e+01 ;
+    core:hasGlobalID "1InbJU1uf1NgTLNghGHC47" .
 
 inst:1JiIoLE5XAvx1zVHUdIyGn a dicm:Layer ;
     dicm:hasMaterial inst:1vYs0UNEb6LB1yYXDqLDIH ;
@@ -24,7 +26,8 @@ inst:1JiIoLE5XAvx1zVHUdIyGn a dicm:Layer ;
 
 inst:1XVbyL0DzCVOyewmt2whMj a dicv:Property ;
     core:hasLabel "LayerThickness" ;
-    core:hasValue 1.016e+02 .
+    core:hasValue 1.016e+02 ;
+    core:hasGlobalID "1XVbyL0DzCVOyewmt2whMj" .
 
 inst:1a8Aef4WT5O95P1duyJUJM a dicm:Layer ;
     dicm:hasMaterial inst:29m76ZKSP4n8xpWQ5lKvUQ ;

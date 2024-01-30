@@ -109,15 +109,20 @@ def test_should_return_wall_properties(mock_guid, mock_psets) -> None:
         inst:0mhevRo9r5X8JNSuTZNOZH dicv:hasProperty inst:2rvVZuy3X0l9ATwV2NTibB.
         inst:2rvVZuy3X0l9ATwV2NTibB a dicv:Property ;
             core:hasLabel "ThermalTransmittance" ;
-            core:hasValue "test_value1" .
+            core:hasValue "test_value1" ;
+            core:hasGlobalID "2rvVZuy3X0l9ATwV2NTibB" .
+            
         inst:0mhevRo9r5X8JNSuTZNOZH dicv:hasProperty inst:2rvVZuy3X0l9ATwV2NTYSe.
         inst:2rvVZuy3X0l9ATwV2NTYSe a dicv:Property ;
             core:hasLabel "Length" ;
-            core:hasValue "test_value2" .
+            core:hasValue "test_value2" ;
+            core:hasGlobalID "2rvVZuy3X0l9ATwV2NTYSe" .
+            
         inst:0mhevRo9r5X8JNSuTZNOZH dicv:hasProperty inst:2rvVZuy3X0l9ATwUENTYSe.
         inst:2rvVZuy3X0l9ATwUENTYSe a dicv:Property ;
             core:hasLabel "Thermal Resistance (R)" ;
-            core:hasValue "test_value3" .
+            core:hasValue "test_value3" ;
+            core:hasGlobalID "2rvVZuy3X0l9ATwUENTYSe" .
     """
     expected_graph = Graph().parse(data=expected_graph_str, format="turtle")
     assert isomorphic(test_graph, expected_graph)
@@ -140,7 +145,8 @@ def test_should_return_property_triple(mock_guid) -> None:
         inst:0mhevRo9r5X8JNSuTZNOZH dicv:hasProperty inst:2rvVZuy3X0l9ATwV2NTibB.
         inst:2rvVZuy3X0l9ATwV2NTibB a dicv:Property ;
             core:hasLabel "test_property" ;
-            core:hasValue "test_value" .
+            core:hasValue "test_value" ;
+            core:hasGlobalID "2rvVZuy3X0l9ATwV2NTibB" .
     """
     expected_graph = Graph().parse(data=expected_graph_str, format="turtle")
     assert isomorphic(test_graph, expected_graph)

@@ -28,7 +28,7 @@ def test_should_return_space_info_without_property_data(
 
 @mock.patch("ifcopenshell.util.element.get_psets")
 @mock.patch("ifc2rdftool.wall_info.get_valid_guid")
-def test_should_return_slab_properties(mock_guid, mock_psets) -> None:
+def test_should_return_space_properties(mock_guid, mock_psets) -> None:
     mock_guid.side_effect = [
         "2rvVZuy3X0l9ATwV2NTibB",
         "2rvVZuy3X0l9ATwV2NTYSe",
@@ -48,11 +48,13 @@ def test_should_return_slab_properties(mock_guid, mock_psets) -> None:
 
         inst:2rvVZuy3X0l9ATwV2NTibB a dicv:Property ;
             core:hasLabel "IsExternal" ;
-            core:hasValue "test_value1" .
+            core:hasValue "test_value1" ;
+            core:hasGlobalID "2rvVZuy3X0l9ATwV2NTibB" .
 
         inst:2rvVZuy3X0l9ATwV2NTYSe a dicv:Property ;
             core:hasLabel "Height" ;
-            core:hasValue "test_value2" .
+            core:hasValue "test_value2" ;
+            core:hasGlobalID "2rvVZuy3X0l9ATwV2NTYSe" .
     """
     expected_graph = Graph().parse(data=expected_graph_str, format="turtle")
     assert isomorphic(test_graph, expected_graph)
