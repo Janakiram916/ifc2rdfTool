@@ -90,15 +90,18 @@ def test_should_return_slab_properties(mock_guid, mock_psets) -> None:
         
         inst:2rvVZuy3X0l9ATwV2NTibB a dicv:Property ;
             core:hasLabel "ThermalTransmittance" ;
-            core:hasValue "test_value1" .
+            core:hasValue "test_value1" ;
+            core:hasGlobalID "2rvVZuy3X0l9ATwV2NTibB" .
 
         inst:2rvVZuy3X0l9ATwV2NTYSe a dicv:Property ;
             core:hasLabel "Width" ;
-            core:hasValue "test_value2" .
+            core:hasValue "test_value2" ;
+            core:hasGlobalID "2rvVZuy3X0l9ATwV2NTYSe" .
 
         inst:2rvVZuy3X0l9ATwUENTYSe a dicv:Property ;
             core:hasLabel "Thermal Resistance (R)" ;
-            core:hasValue "test_value3" .
+            core:hasValue "test_value3" ;
+            core:hasGlobalID "2rvVZuy3X0l9ATwUENTYSe" .
     """
     expected_graph = Graph().parse(data=expected_graph_str, format="turtle")
     assert isomorphic(test_graph, expected_graph)

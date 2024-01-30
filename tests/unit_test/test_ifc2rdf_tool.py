@@ -1,5 +1,4 @@
 import ifcopenshell
-from icecream import ic
 from rdflib import Graph
 from rdflib.compare import isomorphic
 

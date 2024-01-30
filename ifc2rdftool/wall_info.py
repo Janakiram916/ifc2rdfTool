@@ -53,6 +53,13 @@ def create_property_triple(property_type, value, element, graph):
             Literal(value),
         )
     )
+    graph.add(
+        (
+            property_uri,
+            CORE_NAMESPACE.hasGlobalID,
+            Literal(property_guid),
+        )
+    )
 
 
 def get_material_triples(element, material, graph_model):

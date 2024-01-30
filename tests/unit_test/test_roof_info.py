@@ -7,7 +7,6 @@ from rdflib.compare import isomorphic
 from ifc2rdftool.graph_resources import PREFIXES
 from ifc2rdftool.ifc2rdf_tool import initialize_graph
 from ifc2rdftool.roof_info import add_roof_info_to_graph
-from ifc2rdftool.slab_info import add_slab_info_to_graph
 from ifc2rdftool.wall_info import (get_element_layer_info,
                                    get_element_properties)
 from tests.unit_test.test_ifc2rdf_tool import TEST_IFC_FILE
@@ -91,15 +90,18 @@ def test_should_return_roof_properties(mock_guid, mock_psets) -> None:
 
         inst:2rvVZuy3X0l9ATwV2NTibB a dicv:Property ;
             core:hasLabel "ThermalTransmittance" ;
-            core:hasValue "test_value1" .
+            core:hasValue "test_value1" ;
+            core:hasGlobalID "2rvVZuy3X0l9ATwV2NTibB" .
 
         inst:2rvVZuy3X0l9ATwV2NTYSe a dicv:Property ;
             core:hasLabel "Width" ;
-            core:hasValue "test_value2" .
+            core:hasValue "test_value2" ;
+            core:hasGlobalID "2rvVZuy3X0l9ATwV2NTYSe" .
 
         inst:2rvVZuy3X0l9ATwUENTYSe a dicv:Property ;
             core:hasLabel "Thermal Resistance (R)" ;
-            core:hasValue "test_value3" .
+            core:hasValue "test_value3" ;
+            core:hasGlobalID "2rvVZuy3X0l9ATwUENTYSe" .
     """
     expected_graph = Graph().parse(data=expected_graph_str, format="turtle")
     assert isomorphic(test_graph, expected_graph)

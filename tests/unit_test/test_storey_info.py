@@ -1,6 +1,5 @@
 from unittest import mock
 
-from icecream import ic
 from rdflib import Graph
 from rdflib.compare import isomorphic
 

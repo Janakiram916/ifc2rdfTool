@@ -11,6 +11,8 @@ requirements.txt: ## Creates requirements.txt file
 .PHONY: lint
 lint: ## Execute lint script located in the bin folder of the dt/config repo
 	poetry run pylint $(SRC_PATH)
+	poetry run ruff check $(SRC_PATH) --fix
+	poetry run ruff check ./tests --fix
 
 .PHONY: auto-format
 auto-format: ## Automatically formats the code
