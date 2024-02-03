@@ -2,10 +2,8 @@ import ifcopenshell.util.element
 from rdflib import URIRef
 from rdflib.namespace import RDF
 
-from ifc2rdftool.graph_resources import (BEO_NAMESPACE, BOT_NAMESPACE,
-                                         INSTANCE_NAMESPACE)
-from ifc2rdftool.wall_info import (get_element_layer_info,
-                                   get_element_properties)
+from ifc2rdftool.graph_resources import BEO_NAMESPACE, BOT_NAMESPACE, INSTANCE_NAMESPACE
+from ifc2rdftool.wall_info import get_element_layer_info, get_element_properties
 
 
 def add_roof_info_to_graph(roof_element, graph_model):

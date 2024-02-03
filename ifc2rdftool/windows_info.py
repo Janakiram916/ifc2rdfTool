@@ -1,12 +1,19 @@
 import ifcopenshell.util.element
 from rdflib import RDF, XSD, Literal, URIRef
 
-from ifc2rdftool.graph_resources import (BEO_NAMESPACE, BOT_NAMESPACE,
-                                         CORE_NAMESPACE, DICM_NAMESPACE,
-                                         INSTANCE_NAMESPACE)
-from ifc2rdftool.wall_info import (get_element_properties,
-                                   get_material_triples, get_multiple_guids,
-                                   get_valid_guid)
+from ifc2rdftool.graph_resources import (
+    BEO_NAMESPACE,
+    BOT_NAMESPACE,
+    CORE_NAMESPACE,
+    DICM_NAMESPACE,
+    INSTANCE_NAMESPACE,
+)
+from ifc2rdftool.wall_info import (
+    get_element_properties,
+    get_material_triples,
+    get_multiple_guids,
+    get_valid_guid,
+)
 
 
 def get_element_material_constituent_info(element, graph_model):
@@ -72,9 +79,7 @@ def get_element_material_constituent_info(element, graph_model):
                 constituents_property_set = material_constituents[i].get_info()
                 for property_name, property_value in constituents_property_set.items():
                     if property_name == "Material":
-                        get_material_triples(
-                            constituent_guid, property_value, graph_model
-                        )
+                        get_material_triples(constituent_guid, property_value, graph_model)
 
 
 def add_windows_info_to_graph(window_element, graph_model):

@@ -3,8 +3,7 @@ from rdflib.compare import isomorphic
 
 from ifc2rdftool.graph_resources import PREFIXES
 from ifc2rdftool.ifc2rdf_tool import initialize_graph
-from ifc2rdftool.site_info import (add_site_info_to_graph,
-                                   tuple_to_decimal_latitude_or_longitude)
+from ifc2rdftool.site_info import add_site_info_to_graph, tuple_to_decimal_latitude_or_longitude
 from tests.unit_test.test_ifc2rdf_tool import TEST_IFC_FILE
 
 

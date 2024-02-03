@@ -7,13 +7,16 @@ inst:2rvVZuy3X0l9ATwUENTYQY dicm:hasConstituentSet
 inst:2rvVZuy3X0l9ATwV2NTibB .
 
 inst:1InbJU1uf1NgTLNghGHC45 a dicm:Material ;
-    core:hasLabel "Fenster - Kunststoff weiß" .
+    core:hasLabel "Fenster - Kunststoff weiß" ;
+    core:hasGlobalID "1InbJU1uf1NgTLNghGHC45" .
 
 inst:1InbJU1uf1NgTLNghGHC46 a dicm:Material ;
-    core:hasLabel "Glass" .
+    core:hasLabel "Glass" ;
+    core:hasGlobalID "1InbJU1uf1NgTLNghGHC46" .
 
 inst:1InbJU1uf1NgTLNghGHC47 a dicm:Material ;
-    core:hasLabel "Fenster - Kunststoff" .
+    core:hasLabel "Fenster - Kunststoff" ;
+    core:hasGlobalID "1InbJU1uf1NgTLNghGHC47" .
 
 inst:1JiIoLE5XAvx1zVHUdIyGn a dicm:Constituent ;
     dicm:hasMaterial inst:1InbJU1uf1NgTLNghGHC46 ;

@@ -4,8 +4,7 @@ from rdflib import Graph
 from rdflib.compare import isomorphic
 
 from ifc2rdftool.ifc2rdf_tool import initialize_graph
-from ifc2rdftool.storey_info import (add_storey_info_to_graph,
-                                     get_relationship_with_spaces)
+from ifc2rdftool.storey_info import add_storey_info_to_graph, get_relationship_with_spaces
 from tests.unit_test.test_ifc2rdf_tool import TEST_IFC_FILE
 
 

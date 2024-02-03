@@ -6,12 +6,14 @@ from rdflib.compare import isomorphic
 
 from ifc2rdftool.graph_resources import PREFIXES
 from ifc2rdftool.ifc2rdf_tool import initialize_graph
-from ifc2rdftool.wall_info import (add_wall_info_to_graph,
-                                   create_property_triple,
-                                   get_element_layer_info,
-                                   get_element_properties,
-                                   get_material_triples, get_multiple_guids,
-                                   get_valid_guid)
+from ifc2rdftool.wall_info import (
+    add_wall_info_to_graph,
+    create_property_triple,
+    get_element_properties,
+    get_material_triples,
+    get_multiple_guids,
+    get_valid_guid,
+)
 from tests.unit_test.test_ifc2rdf_tool import TEST_IFC_FILE
 
 
@@ -51,40 +53,6 @@ def test_should_return_valid_list_of_guids() -> None:
     assert len(test_guid_list) == no_of_guids
     for guid in test_guid_list:
         assert "&" not in guid
-
-
-@mock.patch(
-    "ifc2rdftool.wall_info.get_multiple_guids",
-    return_value=[
-        "1a8Aef4WT5O95P1duyJUJM",
-        "1JiIoLE5XAvx1zVHUdIyGn",
-        "213gwkWvf7bv0837WjMTfN",
-    ],
-)
-@mock.patch(
-    "ifc2rdftool.wall_info.get_valid_guid",
-    side_effect=[
-        "2rvVZuy3X0l9ATwV2NTibB",
-        "29m76ZKSP4n8xpWQ5lKvUQ",
-        "1XVbyL0DzCVOyewmt2whMj",
-        "1vYs0UNEb6LB1yYXDqLDIH",
-        "1InbJU1uf1NgTLNghGHC45",
-        "1InbJU1uf1NgTLNghGHC46",
-        "1InbJU1uf1NgTLNghGHC47",
-    ],
-)
-def test_should_return_graph_with_wall_layer_data_when_entity_type_is_ifc_wall(
-    mocked_layers_guid, mocker_layer_set_guid
-) -> None:
-    test_graph = initialize_graph()
-    test_building_entity = TEST_IFC_FILE.by_type("IfcWall")[0]
-    get_element_layer_info(test_building_entity, test_graph)
-    expected_graph = Graph().parse(
-        source="tests/unit_test/test_resources/test_wall_layer.ttl", format="turtle"
-    )
-    assert isomorphic(test_graph, expected_graph)
-    mocked_layers_guid.assert_called()
-    mocker_layer_set_guid.assert_called_once()
 
 
 @mock.patch("ifcopenshell.util.element.get_psets")
@@ -130,15 +98,11 @@ def test_should_return_wall_properties(mock_guid, mock_psets) -> None:
     assert mock_guid.call_count == 3
 
 
-@mock.patch(
-    "ifc2rdftool.wall_info.get_valid_guid", return_value="2rvVZuy3X0l9ATwV2NTibB"
-)
+@mock.patch("ifc2rdftool.wall_info.get_valid_guid", return_value="2rvVZuy3X0l9ATwV2NTibB")
 def test_should_return_property_triple(mock_guid) -> None:
     test_graph = initialize_graph()
     test_wall_entity = TEST_IFC_FILE.by_type("IfcWall")[0]
-    create_property_triple(
-        "test_property", "test_value", test_wall_entity.GlobalId, test_graph
-    )
+    create_property_triple("test_property", "test_value", test_wall_entity.GlobalId, test_graph)
     expected_graph_str = f"""
         {PREFIXES}
         
@@ -153,9 +117,7 @@ def test_should_return_property_triple(mock_guid) -> None:
     mock_guid.assert_called_once()
 
 
-@mock.patch(
-    "ifc2rdftool.wall_info.get_valid_guid", return_value="1InbJU1uf1NgTLNghGHCBy"
-)
+@mock.patch("ifc2rdftool.wall_info.get_valid_guid", return_value="1InbJU1uf1NgTLNghGHCBy")
 def test_should_return_material_data(mock_guid) -> None:
     test_graph = initialize_graph()
     test_layer_guid = "2rvVZuy3X0l9ATwV2NTibB"
@@ -167,7 +129,8 @@ def test_should_return_material_data(mock_guid) -> None:
         
         inst:2rvVZuy3X0l9ATwV2NTibB dicm:hasMaterial inst:1InbJU1uf1NgTLNghGHCBy .
         inst:1InbJU1uf1NgTLNghGHCBy a dicm:Material ;
-            core:hasLabel "Brick, Common" .
+            core:hasLabel "Brick, Common" ;
+            core:hasGlobalID "1InbJU1uf1NgTLNghGHCBy" .
     """
     expected_graph = Graph().parse(data=expected_graph_str, format="turtle")
     assert isomorphic(test_graph, expected_graph)

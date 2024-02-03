@@ -3,16 +3,17 @@ from rdflib import Graph
 from rdflib.compare import isomorphic
 
 from ifc2rdftool.ifc2rdf_tool import (
-    add_entity_global_id_and_label_info_to_graph, add_project_info_to_graph,
-    get_all_entity_types_from_project_decomposition, initialize_graph)
+    add_entity_global_id_and_label_info_to_graph,
+    add_project_info_to_graph,
+    get_all_entity_types_from_project_decomposition,
+    initialize_graph,
+)
 
 TEST_IFC_FILE_PATH = "tests/unit_test/test_resources/Demonstration_Model_V1_DTV_4.ifc"
 TEST_IFC_FILE = ifcopenshell.open(TEST_IFC_FILE_PATH)
 
 
-def test_should_return_graph_with_project_data_when_entity_type_is_ifc_project() -> (
-    None
-):
+def test_should_return_graph_with_project_data_when_entity_type_is_ifc_project() -> None:
     test_graph = initialize_graph()
     test_project_entity = TEST_IFC_FILE.by_type("IfcProject")[0]
     add_project_info_to_graph(test_project_entity, test_graph)
@@ -31,9 +32,7 @@ def test_should_return_graph_with_project_data_when_entity_type_is_ifc_project()
 
 def test_should_return_ifc_entities_involved_in_project() -> None:
     test_ifc_model = TEST_IFC_FILE
-    actual_ifc_entities = get_all_entity_types_from_project_decomposition(
-        test_ifc_model
-    )
+    actual_ifc_entities = get_all_entity_types_from_project_decomposition(test_ifc_model)
     expected_ifc_entities = {
         "IfcBuilding",
         "IfcBuildingStorey",
