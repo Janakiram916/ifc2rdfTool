@@ -34,3 +34,10 @@ PREFIXES = f"""
     @prefix dicm: <{DICM_URI}> .
     @prefix dicv: <{DICV_URI}> .
 """
+
+# Ontology_paths
+beo = "ontologies/external_ontologies/beo/beo.ttl"
+bot = "ontologies/external_ontologies/bot/bot.ttl"
+core = "ontologies/project_ontologies/core/core.ttl"
+dicl = "ontologies/project_ontologies/lifecycle/Lifecycle_v0.5.ttl"
+dicm = "ontologies/project_ontologies/material/material.ttl"
