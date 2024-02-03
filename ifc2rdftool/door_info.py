@@ -1,8 +1,7 @@
 import ifcopenshell.util.element
 from rdflib import RDF, URIRef
 
-from ifc2rdftool.graph_resources import (BEO_NAMESPACE, BOT_NAMESPACE,
-                                         INSTANCE_NAMESPACE)
+from ifc2rdftool.graph_resources import BEO_NAMESPACE, BOT_NAMESPACE, INSTANCE_NAMESPACE
 from ifc2rdftool.wall_info import get_element_properties
 from ifc2rdftool.windows_info import get_element_material_constituent_info
 

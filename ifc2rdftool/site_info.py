@@ -3,17 +3,18 @@ import ifcopenshell.util.element
 from rdflib import Graph, Literal, URIRef
 from rdflib.namespace import RDF, XSD
 
-from ifc2rdftool.graph_resources import (BOT_NAMESPACE, CORE_NAMESPACE,
-                                         GEO_NAMESPACE, INSTANCE_NAMESPACE)
+from ifc2rdftool.graph_resources import (
+    BOT_NAMESPACE,
+    CORE_NAMESPACE,
+    GEO_NAMESPACE,
+    INSTANCE_NAMESPACE,
+)
 
 
 def tuple_to_decimal_latitude_or_longitude(coordinate_tuple: tuple) -> float:
     degrees, minutes, seconds, fractional_part = coordinate_tuple
     decimal_coordinate = (
-        degrees
-        + (minutes / 60)
-        + (seconds / 3600)
-        + (fractional_part / (3600 * 1000000))
+        degrees + (minutes / 60) + (seconds / 3600) + (fractional_part / (3600 * 1000000))
     )
     return decimal_coordinate
 

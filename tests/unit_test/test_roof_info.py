@@ -7,8 +7,7 @@ from rdflib.compare import isomorphic
 from ifc2rdftool.graph_resources import PREFIXES
 from ifc2rdftool.ifc2rdf_tool import initialize_graph
 from ifc2rdftool.roof_info import add_roof_info_to_graph
-from ifc2rdftool.wall_info import (get_element_layer_info,
-                                   get_element_properties)
+from ifc2rdftool.wall_info import get_element_layer_info, get_element_properties
 from tests.unit_test.test_ifc2rdf_tool import TEST_IFC_FILE
 
 

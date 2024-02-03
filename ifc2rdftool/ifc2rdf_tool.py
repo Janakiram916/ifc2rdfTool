@@ -6,11 +6,20 @@ from rdflib.namespace import RDF
 
 from ifc2rdftool.building_info import add_building_info_to_graph
 from ifc2rdftool.door_info import add_door_info_to_graph
-from ifc2rdftool.graph_resources import (BEO_NAMESPACE, BOT_NAMESPACE,
-                                         CORE_NAMESPACE, DICM_NAMESPACE,
-                                         DICV_NAMESPACE, GEO_NAMESPACE,
-                                         INSTANCE_NAMESPACE, beo, bot, core,
-                                         dicl, dicm)
+from ifc2rdftool.graph_resources import (
+    BEO_NAMESPACE,
+    BOT_NAMESPACE,
+    CORE_NAMESPACE,
+    DICM_NAMESPACE,
+    DICV_NAMESPACE,
+    GEO_NAMESPACE,
+    INSTANCE_NAMESPACE,
+    beo,
+    bot,
+    core,
+    dicl,
+    dicm,
+)
 from ifc2rdftool.roof_info import add_roof_info_to_graph
 from ifc2rdftool.site_info import add_site_info_to_graph
 from ifc2rdftool.slab_info import add_slab_info_to_graph

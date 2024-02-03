@@ -4,51 +4,53 @@
 @prefix inst: <https://w3id.org/digitalconstruction/instance#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-inst:0mhevRo9r5X8JNSuTZNOZH dicm:hasLayerSet inst:2rvVZuy3X0l9ATwV2NTibB .
+inst:3IgqlyNZb9CR1JNQVbt_lX dicm:hasLayerSet inst:2rvVZuy3X0l9ATwV2NTibB .
 
 inst:1InbJU1uf1NgTLNghGHC45 a dicv:Property ;
     core:hasLabel "LayerThickness" ;
-    core:hasValue 2.032e+02 ;
+    core:hasValue 2e+02 ;
     core:hasGlobalID "1InbJU1uf1NgTLNghGHC45" .
 
 inst:1InbJU1uf1NgTLNghGHC46 a dicm:Material ;
-    core:hasLabel "Gypsum Wall Board" .
+    core:hasLabel "Damp-proofing" ;
+    core:hasGlobalID "1InbJU1uf1NgTLNghGHC46" .
 
 inst:1InbJU1uf1NgTLNghGHC47 a dicv:Property ;
     core:hasLabel "LayerThickness" ;
-    core:hasValue 1.27e+01 ;
+    core:hasValue 1.25e+01 ;
     core:hasGlobalID "1InbJU1uf1NgTLNghGHC47" .
 
 inst:1JiIoLE5XAvx1zVHUdIyGn a dicm:Layer ;
     dicm:hasMaterial inst:1vYs0UNEb6LB1yYXDqLDIH ;
     dicv:hasProperty inst:1InbJU1uf1NgTLNghGHC45 ;
-    core:hasLabel "Concrete, Lightweight" .
+    core:hasLabel "Concrete, Precast" .
 
 inst:1XVbyL0DzCVOyewmt2whMj a dicv:Property ;
     core:hasLabel "LayerThickness" ;
-    core:hasValue 1.016e+02 ;
+    core:hasValue 2e+02 ;
     core:hasGlobalID "1XVbyL0DzCVOyewmt2whMj" .
 
 inst:1a8Aef4WT5O95P1duyJUJM a dicm:Layer ;
     dicm:hasMaterial inst:29m76ZKSP4n8xpWQ5lKvUQ ;
     dicv:hasProperty inst:1XVbyL0DzCVOyewmt2whMj ;
-    core:hasLabel "Brick, Common" .
+    core:hasLabel "Sand" .
 
 inst:1vYs0UNEb6LB1yYXDqLDIH a dicm:Material ;
-    core:hasLabel "Concrete, Lightweight" .
+    core:hasLabel "Concrete, Precast" ;
+    core:hasGlobalID "1vYs0UNEb6LB1yYXDqLDIH" .
 
 inst:213gwkWvf7bv0837WjMTfN a dicm:Layer ;
     dicm:hasMaterial inst:1InbJU1uf1NgTLNghGHC46 ;
     dicv:hasProperty inst:1InbJU1uf1NgTLNghGHC47 ;
-    core:hasLabel "Gypsum Wall Board" .
+    core:hasLabel "Damp-proofing" .
 
 inst:29m76ZKSP4n8xpWQ5lKvUQ a dicm:Material ;
-    core:hasLabel "Brick, Common" .
+    core:hasLabel "Sand" ;
+    core:hasGlobalID "29m76ZKSP4n8xpWQ5lKvUQ" .
 
 inst:2rvVZuy3X0l9ATwV2NTibB a dicm:LayerSet ;
     dicm:NumberOfLayers 3 ;
     dicm:hasLayer inst:1JiIoLE5XAvx1zVHUdIyGn,
         inst:1a8Aef4WT5O95P1duyJUJM,
         inst:213gwkWvf7bv0837WjMTfN ;
-    core:hasName "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster" .
-
+    core:hasName "Floor:Floor - 200mm Sand + 200mm Concrete + 12.5mm Dampproofing" .
