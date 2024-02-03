@@ -163,6 +163,13 @@ def get_element_layer_info(element, graph_model):
                             DICM_NAMESPACE.Layer,
                         )
                     )
+                    graph_model.add(
+                        (
+                            URIRef(f"{INSTANCE_NAMESPACE}{layer_guid}"),
+                            CORE_NAMESPACE.hasGlobalID,
+                            Literal(layer_guid),
+                        )
+                    )
                     if "Name" in layers[i].get_info():
                         graph_model.add(
                             (

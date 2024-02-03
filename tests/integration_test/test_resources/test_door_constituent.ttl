@@ -3,31 +3,33 @@
 @prefix inst: <https://w3id.org/digitalconstruction/instance#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-inst:2rvVZuy3X0l9ATwUENTjYJ dicm:hasConstituentSet 
-inst:2rvVZuy3X0l9ATwV2NTibB .
+inst:2rvVZuy3X0l9ATwUENTjYJ dicm:hasConstituentSet inst:2rvVZuy3X0l9ATwV2NTibB .
 
 inst:1InbJU1uf1NgTLNghGHC45 a dicm:Material ;
-    core:hasLabel "Aluminum" ;
-    core:hasGlobalID "1InbJU1uf1NgTLNghGHC45" .
+    core:hasGlobalID "1InbJU1uf1NgTLNghGHC45" ;
+    core:hasLabel "Aluminum" .
 
 inst:1InbJU1uf1NgTLNghGHC46 a dicm:Material ;
-    core:hasLabel "Metal - Painted - Grey" ;
-    core:hasGlobalID "1InbJU1uf1NgTLNghGHC46" .
+    core:hasGlobalID "1InbJU1uf1NgTLNghGHC46" ;
+    core:hasLabel "Metal - Painted - Grey" .
 
 inst:1InbJU1uf1NgTLNghGHC47 a dicm:Material ;
-    core:hasLabel "Metal Door - Brindle" ;
-    core:hasGlobalID "1InbJU1uf1NgTLNghGHC47" .
+    core:hasGlobalID "1InbJU1uf1NgTLNghGHC47" ;
+    core:hasLabel "Metal Door - Brindle" .
 
 inst:1JiIoLE5XAvx1zVHUdIyGn a dicm:Constituent ;
     dicm:hasMaterial inst:1InbJU1uf1NgTLNghGHC46 ;
+    core:hasGlobalID "1JiIoLE5XAvx1zVHUdIyGn" ;
     core:hasLabel "Metal - Painted - Grey" .
 
 inst:1a8Aef4WT5O95P1duyJUJM a dicm:Constituent ;
     dicm:hasMaterial inst:1InbJU1uf1NgTLNghGHC45 ;
+    core:hasGlobalID "1a8Aef4WT5O95P1duyJUJM" ;
     core:hasLabel "Aluminum" .
 
 inst:213gwkWvf7bv0837WjMTfN a dicm:Constituent ;
     dicm:hasMaterial inst:1InbJU1uf1NgTLNghGHC47 ;
+    core:hasGlobalID "213gwkWvf7bv0837WjMTfN" ;
     core:hasLabel "Metal Door - Brindle" .
 
 inst:2rvVZuy3X0l9ATwV2NTibB a dicm:ConstituentSet ;
@@ -35,4 +37,5 @@ inst:2rvVZuy3X0l9ATwV2NTibB a dicm:ConstituentSet ;
     dicm:hasConstituent inst:1JiIoLE5XAvx1zVHUdIyGn,
         inst:1a8Aef4WT5O95P1duyJUJM,
         inst:213gwkWvf7bv0837WjMTfN ;
-    core:hasName "MaterialConstituentSet" .
+    core:hasGlobalID "2rvVZuy3X0l9ATwV2NTibB" ;
+    core:hasLabel "MaterialConstituentSet" .

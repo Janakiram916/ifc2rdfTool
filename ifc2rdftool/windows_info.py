@@ -34,11 +34,18 @@ def get_element_material_constituent_info(element, graph_model):
                 DICM_NAMESPACE.ConstituentSet,
             )
         )
+        graph_model.add(
+            (
+                URIRef(f"{INSTANCE_NAMESPACE}{constituent_set_guid}"),
+                CORE_NAMESPACE.hasGlobalID,
+                Literal(constituent_set_guid),
+            )
+        )
         if "Name" in constituent_set.get_info():
             graph_model.add(
                 (
                     URIRef(f"{INSTANCE_NAMESPACE}{constituent_set_guid}"),
-                    CORE_NAMESPACE.hasName,
+                    CORE_NAMESPACE.hasLabel,
                     Literal(constituent_set.get_info()["Name"]),
                 )
             )
@@ -66,6 +73,13 @@ def get_element_material_constituent_info(element, graph_model):
                         URIRef(f"{INSTANCE_NAMESPACE}{constituent_guid}"),
                         RDF.type,
                         DICM_NAMESPACE.Constituent,
+                    )
+                )
+                graph_model.add(
+                    (
+                        URIRef(f"{INSTANCE_NAMESPACE}{constituent_guid}"),
+                        CORE_NAMESPACE.hasGlobalID,
+                        Literal(constituent_guid),
                     )
                 )
                 if "Name" in material_constituents[i].get_info():
