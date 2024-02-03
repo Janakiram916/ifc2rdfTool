@@ -9,7 +9,8 @@ from ifc2rdftool.door_info import add_door_info_to_graph
 from ifc2rdftool.graph_resources import (BEO_NAMESPACE, BOT_NAMESPACE,
                                          CORE_NAMESPACE, DICM_NAMESPACE,
                                          DICV_NAMESPACE, GEO_NAMESPACE,
-                                         INSTANCE_NAMESPACE)
+                                         INSTANCE_NAMESPACE, beo, bot, core,
+                                         dicl, dicm)
 from ifc2rdftool.roof_info import add_roof_info_to_graph
 from ifc2rdftool.site_info import add_site_info_to_graph
 from ifc2rdftool.slab_info import add_slab_info_to_graph
@@ -31,13 +32,22 @@ def initialize_graph() -> Graph:
     return instance_graph
 
 
+def initialize_ontologies() -> Graph:
+    ontologies = Graph()
+    ontologies.parse(source=beo, format="turtle")
+    ontologies.parse(source=bot, format="turtle")
+    ontologies.parse(source=core, format="turtle")
+    ontologies.parse(source=dicl, format="turtle")
+    ontologies.parse(source=dicm, format="turtle")
+    return ontologies
+
+
 def _add_units_info_to_graph(ifc):
     units = ifc.by_type("IfcUnitAssignment")
     ic(units[0].get_info())
 
 
 def add_entity_global_id_and_label_info_to_graph(entity, graph: Graph):
-    # ic(entity.get_info())
     graph.add(
         (
             URIRef(f"{INSTANCE_NAMESPACE}{entity.GlobalId}"),
@@ -109,12 +119,14 @@ def get_all_entity_types_from_project_decomposition(ifc):
 
 def create_rdf_graph_from_ifc(ifc_model):
     rdf_model = initialize_graph()
+    ontologies = initialize_ontologies()
     project = ifc_model.by_type("IfcProject")[0]
     if project:
         add_project_info_to_graph(project, rdf_model)
         ifc_entity_types = get_all_entity_types_from_project_decomposition(ifc_model)
         for entity_type in ifc_entity_types:
             add_entity_info_to_graph(ifc_model, rdf_model, entity_type=entity_type)
+    rdf_model += ontologies
     return rdf_model
 
 
