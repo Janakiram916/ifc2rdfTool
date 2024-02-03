@@ -7,51 +7,54 @@
 inst:3IgqlyNZb9CR1JNQVbt_lX dicm:hasLayerSet inst:2rvVZuy3X0l9ATwV2NTibB .
 
 inst:1InbJU1uf1NgTLNghGHC45 a dicv:Property ;
+    core:hasGlobalID "1InbJU1uf1NgTLNghGHC45" ;
     core:hasLabel "LayerThickness" ;
-    core:hasValue 2e+02 ;
-    core:hasGlobalID "1InbJU1uf1NgTLNghGHC45" .
+    core:hasValue 2e+02 .
 
 inst:1InbJU1uf1NgTLNghGHC46 a dicm:Material ;
-    core:hasLabel "Damp-proofing" ;
-    core:hasGlobalID "1InbJU1uf1NgTLNghGHC46" .
+    core:hasGlobalID "1InbJU1uf1NgTLNghGHC46" ;
+    core:hasLabel "Damp-proofing" .
 
 inst:1InbJU1uf1NgTLNghGHC47 a dicv:Property ;
+    core:hasGlobalID "1InbJU1uf1NgTLNghGHC47" ;
     core:hasLabel "LayerThickness" ;
-    core:hasValue 1.25e+01 ;
-    core:hasGlobalID "1InbJU1uf1NgTLNghGHC47" .
+    core:hasValue 1.25e+01 .
 
 inst:1JiIoLE5XAvx1zVHUdIyGn a dicm:Layer ;
     dicm:hasMaterial inst:1vYs0UNEb6LB1yYXDqLDIH ;
     dicv:hasProperty inst:1InbJU1uf1NgTLNghGHC45 ;
+    core:hasGlobalID "1JiIoLE5XAvx1zVHUdIyGn" ;
     core:hasLabel "Concrete, Precast" .
 
 inst:1XVbyL0DzCVOyewmt2whMj a dicv:Property ;
+    core:hasGlobalID "1XVbyL0DzCVOyewmt2whMj" ;
     core:hasLabel "LayerThickness" ;
-    core:hasValue 2e+02 ;
-    core:hasGlobalID "1XVbyL0DzCVOyewmt2whMj" .
+    core:hasValue 2e+02 .
 
 inst:1a8Aef4WT5O95P1duyJUJM a dicm:Layer ;
     dicm:hasMaterial inst:29m76ZKSP4n8xpWQ5lKvUQ ;
     dicv:hasProperty inst:1XVbyL0DzCVOyewmt2whMj ;
+    core:hasGlobalID "1a8Aef4WT5O95P1duyJUJM" ;
     core:hasLabel "Sand" .
 
 inst:1vYs0UNEb6LB1yYXDqLDIH a dicm:Material ;
-    core:hasLabel "Concrete, Precast" ;
-    core:hasGlobalID "1vYs0UNEb6LB1yYXDqLDIH" .
+    core:hasGlobalID "1vYs0UNEb6LB1yYXDqLDIH" ;
+    core:hasLabel "Concrete, Precast" .
 
 inst:213gwkWvf7bv0837WjMTfN a dicm:Layer ;
     dicm:hasMaterial inst:1InbJU1uf1NgTLNghGHC46 ;
     dicv:hasProperty inst:1InbJU1uf1NgTLNghGHC47 ;
+    core:hasGlobalID "213gwkWvf7bv0837WjMTfN" ;
     core:hasLabel "Damp-proofing" .
 
 inst:29m76ZKSP4n8xpWQ5lKvUQ a dicm:Material ;
-    core:hasLabel "Sand" ;
-    core:hasGlobalID "29m76ZKSP4n8xpWQ5lKvUQ" .
+    core:hasGlobalID "29m76ZKSP4n8xpWQ5lKvUQ" ;
+    core:hasLabel "Sand" .
 
 inst:2rvVZuy3X0l9ATwV2NTibB a dicm:LayerSet ;
     dicm:NumberOfLayers 3 ;
     dicm:hasLayer inst:1JiIoLE5XAvx1zVHUdIyGn,
         inst:1a8Aef4WT5O95P1duyJUJM,
         inst:213gwkWvf7bv0837WjMTfN ;
-    core:hasLabel "Floor:Floor - 200mm Sand + 200mm Concrete + 12.5mm Dampproofing" ;
-    core:hasGlobalID "2rvVZuy3X0l9ATwV2NTibB" .
+    core:hasGlobalID "2rvVZuy3X0l9ATwV2NTibB" ;
+    core:hasLabel "Floor:Floor - 200mm Sand + 200mm Concrete + 12.5mm Dampproofing" .
