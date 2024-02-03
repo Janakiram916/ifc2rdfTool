@@ -53,4 +53,5 @@ inst:2rvVZuy3X0l9ATwV2NTibB a dicm:LayerSet ;
     dicm:hasLayer inst:1JiIoLE5XAvx1zVHUdIyGn,
         inst:1a8Aef4WT5O95P1duyJUJM,
         inst:213gwkWvf7bv0837WjMTfN ;
-    core:hasName "Floor:Floor - 200mm Sand + 200mm Concrete + 12.5mm Dampproofing" .
+    core:hasLabel "Floor:Floor - 200mm Sand + 200mm Concrete + 12.5mm Dampproofing" ;
+    core:hasGlobalID "2rvVZuy3X0l9ATwV2NTibB" .

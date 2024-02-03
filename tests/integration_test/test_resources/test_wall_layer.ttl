@@ -53,4 +53,5 @@ inst:2rvVZuy3X0l9ATwV2NTibB a dicm:LayerSet ;
     dicm:hasLayer inst:1JiIoLE5XAvx1zVHUdIyGn,
         inst:1a8Aef4WT5O95P1duyJUJM,
         inst:213gwkWvf7bv0837WjMTfN ;
-    core:hasName "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster" .
+    core:hasLabel "Basic Wall:Exterior_Wall - 101.6mm Brick + 203.2mm Concrete + 12.7mm Gypsum Plaster" ;
+    core:hasGlobalID "2rvVZuy3X0l9ATwV2NTibB" .

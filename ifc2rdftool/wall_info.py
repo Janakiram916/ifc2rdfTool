@@ -122,11 +122,18 @@ def get_element_layer_info(element, graph_model):
                     DICM_NAMESPACE.LayerSet,
                 )
             )
+            graph_model.add(
+                (
+                    URIRef(f"{INSTANCE_NAMESPACE}{layer_set_guid}"),
+                    CORE_NAMESPACE.hasGlobalID,
+                    Literal(layer_set_guid),
+                )
+            )
             if "LayerSetName" in layer_set.get_info():
                 graph_model.add(
                     (
                         URIRef(f"{INSTANCE_NAMESPACE}{layer_set_guid}"),
-                        CORE_NAMESPACE.hasName,
+                        CORE_NAMESPACE.hasLabel,
                         Literal(layer_set.get_info()["LayerSetName"]),
                     )
                 )
